@@ -9,6 +9,10 @@
 }
 
 @font-face {
+  font-family: "LKanit";
+  src: url("../src/assets/fonts/Kanit/Kanit-Light.ttf");
+}
+@font-face {
   font-family: "semikanit";
   src: url("../src/assets/fonts/Kanit/Kanit-SemiBold.ttf");
 }
@@ -35,6 +39,7 @@
   --footer: #98A2B3;
   --normal-text: #323433;
   --white-normal: #ffffff;
+  --toolbar-bg:#FAFDF9;
 }
 
 /* You can add global styles to this file, and also import other style files */
