@@ -2,7 +2,18 @@
   font-family: "Kanit-bold";
   src: url("../src/assets/fonts/Kanit/Kanit-Black.ttf");
 }
-
+@font-face {
+  font-family: "EKanit";
+  src: url("../src/assets/fonts/Kanit/Kanit-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "semikanit";
+  src: url("../src/assets/fonts/Kanit/Kanit-SemiBold.ttf");
+}
+@font-face {
+  font-family: "regular";
+  src: url("../src/assets/fonts/Kanit/Kanit-Regular.ttf");
+}
 
 :root {
   --primary: #129693;
