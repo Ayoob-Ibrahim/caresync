@@ -1,1 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Kanit";
+    src: url("../src/assets/fonts/Kanit/Kanit-Black.ttf");
+  }
+
+
+:root {
+    --primary: #129693;
+    --background-color: #004558;
+    --toolbar-primary: #667085;
+    --footer: #98A2B3;
+    --normal-text: #323433;
+    --white-normal:#ffffff;
+  }
+  
