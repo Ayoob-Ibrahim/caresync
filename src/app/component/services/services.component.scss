@@ -18,4 +18,47 @@
         color: rgb(125, 133, 151);
     }
 
+
+
+
+    @media (max-width: 859px) {
+        .service-hd-main {
+            font-family: regular;
+            font-size: 2rem;
+        }
+
+        .service-hd-sub {
+            font-family: bold;
+            font-size: 1.5rem;
+        }
+
+        .service-content {
+            font-family: regular;
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width: 560px) {
+        .service-hd-main {
+            font-family: regular;
+            font-size: 1.7rem;
+        }
+
+        .service-hd-sub {
+            font-family: bold;
+            font-size: 1.2rem;
+        }
+
+        .service-content {
+            font-family: regular;
+            font-size: .8rem;
+
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .our-service-container{
+        padding: 0px 10px;
+    }
 }

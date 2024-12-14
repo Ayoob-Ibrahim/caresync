@@ -29,6 +29,7 @@
     .btn-card {
         @include button-style(#129693, white, 10px 20px, 2rem); // Apply mixin
         top: 40%;
+        transition: transform 0.5s ease, box-shadow 0.5s ease;
     }
 
     .btn-learn {
@@ -96,7 +97,7 @@ $speed: 0.5s;
 
     &:hover {
         border-radius: 2rem;
-        
+
 
         &:after {
             opacity: 1;
@@ -143,4 +144,43 @@ $speed: 0.5s;
         transform: translateY(0) rotateX(0);
         border-radius: 2rem;
     }
+}
+
+.btn-card:hover {
+    transform: translateY(-10px);
+}
+
+@media screen and (max-width: 560px) {
+    .card {
+        width: 300px;
+        height: 470px;
+        border: 1px solid rgba(0, 0, 0, 0.208);
+    }
+
+    .card:hover {
+        transform: initial;
+        box-shadow: initial;
+    }
+
+    .card-image {
+        height: 200px;
+    }
+
+    .btn-card {
+        font-size: 15px;
+        @include button-style(#129693, white, 10px 20px, 2rem);
+        top: 42% !important;
+    }
+
+    .title {
+        font-family: medium;
+        font-size: 14px !important;
+    }
+
+    .content {
+        font-family: regular;
+        font-size: .8rem;
+    }
+
+  
 }
