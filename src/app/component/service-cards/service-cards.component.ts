@@ -3,9 +3,10 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import serviceData from '../../json-data/service-card.json'
 import { VerticalCardsComponent } from '../vertical-cards/vertical-cards.component';
 import { serviceCardData } from '../../interface/common.interface';
+import { SvgComponent } from '../svg/svg.component';
 @Component({
   selector: 'app-service-cards',
-  imports: [CommonModule, VerticalCardsComponent],
+  imports: [CommonModule, VerticalCardsComponent,SvgComponent],
   templateUrl: './service-cards.component.html',
   styleUrl: './service-cards.component.scss'
 })

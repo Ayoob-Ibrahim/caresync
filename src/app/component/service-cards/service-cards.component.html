@@ -1,12 +1,21 @@
 <div class="container">
-    <button (click)="scrollLeft_()" class="nav-button">←</button>
+    <button (click)="scrollLeft_()" class="nav-button">
+        <span class="dot">
+            <app-svg [svgType]="'back_arrow_black'"></app-svg>
+        </span>
+    </button>
     <div class="card-list" #scrollContainer (mousedown)="onDragStart($event)" (mousemove)="onDragging($event)"
         (mouseup)="onDragEnd()" (mouseleave)="onDragEnd()">
         <div *ngFor="let card of cards" class="card">
             <ng-container *ngTemplateOutlet="card_vertical; context: { data: card }"></ng-container>
         </div>
     </div>
-    <button (click)="scrollRight()" class="nav-button">→</button>
+    <button (click)="scrollRight()" class="nav-button">
+        <span class="dot">
+            <app-svg [svgType]="'back_arrow_rtl_black'"></app-svg>
+        </span>
+    </button>
+
 </div>
 
 <ng-template #card_vertical let-data="data">

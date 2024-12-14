@@ -13,12 +13,29 @@
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
-    cursor: url(http://findicons.com/files/icons/1840/free_style/128/hand.png) 4 12, auto;
-    ;
+    // cursor: url(http://findicons.com/files/icons/1840/free_style/128/hand.png) 4 12, auto;
+    cursor: pointer;
+    
 
     &.dragging {
-      cursor: url(http://findicons.com/files/icons/1840/free_style/128/hand.png) 4 12, auto;
+      // cursor: url(http://findicons.com/files/icons/1840/free_style/128/hand.png) 4 12, auto;
+      cursor: grabbing;
     }
   }
-
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
+
+.dot {
+  height: 60px;
+  width: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display:flex ;
+  justify-content: center;
+  align-items: center;
+}
+
