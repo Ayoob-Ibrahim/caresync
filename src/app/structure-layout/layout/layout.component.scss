@@ -1,5 +1,18 @@
+$bodywidth: 100vw;
 
-p {
-    background-color: var(--background-color);
-    font-family: 'Kanit';
+.body-content {
+  position: relative;
+
+  header {
+    height: 80px;
+    width: $bodywidth;
   }
+
+  section {
+    height: calc(100vh - 80px);
+    width: $bodywidth;
+  }
+
+  overflow-x: hidden;
+
+}
