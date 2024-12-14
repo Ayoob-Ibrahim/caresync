@@ -7,9 +7,11 @@ module.exports = {
     extend: {
       fontFamily: {
         'kanitb': ['Kanit-bold'],
-        'lightkanit':['EKanit'],
+        'Elightkanit':['EKanit'],
+        'LKanit':['LKanit'],
         'semikanit':['semikanit'],
-        'regular':['regular']
+        'regular':['regular'],
+        
       }
     },
     colors:{
@@ -19,6 +21,7 @@ module.exports = {
       footer: '#98A2B3',
       normaltext: '#323433',
       whitenormal: '#ffffff',
+      toolbarbg:'#FAFDF9'
     }
     
   },

@@ -1,5 +1,27 @@
 <div class="h-[30px] w-screen bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal text-[14px]">
-    Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877  <div class="ml-5 font-lightkanit">
+    Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877  <div class="ml-5 font-Elightkanit">
          We are here to help 24/7.
     </div>
+</div>
+<div class="h-[80px] bg-toolbarbg w-screen flex items-center justify-evenly">
+
+    <img class="h-[44px] w-[128px]" src="../../../assets/toolbar/image 14.png" alt="">
+
+    <nav>
+        <ul class="menu ">
+          <li *ngFor="let item of menu" class="menu-item">
+            <a *ngIf="!item.children" [href]="item.url">{{ item.title }}</a>
+            <div *ngIf="item.children" class="dropdown  ">
+             <div class="flex items-center">
+              <a href="#" class="dropbtn">{{ item.title }}</a>
+              <i class="bi bi-chevron-down arrow-icon"></i>
+             </div>
+              <div class="dropdown-content">
+                <a *ngFor="let child of item.children" [href]="child.url">{{ child.title }}</a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    
 </div>
