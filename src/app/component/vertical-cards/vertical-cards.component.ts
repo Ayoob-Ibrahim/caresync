@@ -1,5 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { serviceCardData } from '../../interface/common.interface';
+ 
+
 
 @Component({
   selector: 'app-vertical-cards',
