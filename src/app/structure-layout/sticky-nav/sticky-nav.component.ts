@@ -1,29 +1,33 @@
 import { CommonModule } from '@angular/common';
-import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
-import { NavbarComponent } from '../../structure-layout/navbar/navbar.component';
-import menujson from '../../json-data/menu-json.json'
+import { Component, HostListener } from '@angular/core';
+import { NavbarComponent } from '../navbar/navbar.component';
 import { RouterModule } from '@angular/router';
+import menujson from '../../json-data/menu-json.json'
 @Component({
-  selector: 'app-test',
+  selector: 'app-sticky-nav',
   imports: [CommonModule, NavbarComponent, RouterModule],
-  templateUrl: './test.component.html',
-  styleUrl: './test.component.scss'
+  templateUrl: './sticky-nav.component.html',
+  styleUrl: './sticky-nav.component.scss'
 })
-export class TestComponent {
+export class StickyNavComponent {
   isSticky: boolean = false;
   stickyTop: number = 0;
 
   ngOnInit() {
-    // Get the offset of the sticky element when the component is initialized
     const stickyElement = document.querySelector('.sticky') as HTMLElement;
     if (stickyElement) {
       this.stickyTop = stickyElement.offsetTop;
     }
+
+    // setInterval(() => {
+    //   console.warn(this.isSticky)
+    // }, 5000);
+
+
   }
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {
-    // Update sticky state based on scroll position
     if (window.scrollY >= this.stickyTop) {
       this.isSticky = true;
     } else {

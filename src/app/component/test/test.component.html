@@ -1,1 +1,127 @@
- 
+<div class="top">
+    <div
+        class="h-[30px] w-[100%] bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal text-[14px]">
+        Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877
+        <div class="ml-5 font-Elightkanit">We are here to help 24/7.</div>
+    </div>
+    <div [class.fixed]="isSticky" class="sticky">
+        <div class="h-[80px] bg-toolbarbg w-[100%] flex items-center justify-evenly sticky-header">
+            <img class="h-[44px] w-[128px]" src="../../../assets/toolbar/image 14.png" alt="Logo">
+
+            <nav>
+                <ul class="menu">
+                    <li *ngFor="let item of menu" routerLinkActive="active-link"
+                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="item.url"
+                        class="menu-item {{ item.children ? '':'underline-link'}}">
+                        <a routerLinkActive="markasactive" [routerLinkActiveOptions]="{exact:true}"
+                            *ngIf="!item.children">{{ item.title }}</a>
+                        <div *ngIf="item.children" class="dropdown" (mouseover)="isHoverDropDown = true"
+                            (mouseout)="isHoverDropDown = false">
+                            <div class="flex items-center {{ item.children ? '':'underline-link'}}">
+                                <a href="#" class="dropbtn">{{ item.title }}</a>
+                                <i class="bi bi-chevron-down arrow-icon text-[18px]"></i>
+
+                            </div>
+
+                            <div class="dropdown-content">
+                                <div class="grid grid-cols-2 grid-rows-3">
+                                    <div class="h-[80px] " *ngFor="let child of item.children">
+                                        <div class="flex items-center bbb h-[60px] m-[10px] list-data">
+                                            <img class="h-[50px] ml-[5px] w-[50px]" [src]="child.img" alt="">
+                                            <div class="titlelist h-[70px]">
+                                                <div class="flex">
+                                                    <a class="title">{{ child.title }}</a>
+                                                    <i class="bi bi-chevron-right arrow-icon-right text-[14px]"></i>
+                                                </div>
+                                                <a class="!text-[10px] title   !text-backgroundcolor">{{ child.topics
+                                                    }}</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="bg-primary h-[44px] w-[115px] rounded-[45px]	flex justify-center items-center">
+                <a class="text-whitenormal font-semikanit "> Contact Us</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam ad porro inventore quasi
+        temporibus nostrum sapiente possimus explicabo officiis iure nemo dolorum voluptatum similique, pariatur nulla
+        doloribus voluptatem, aut nesciunt sequi laudantium ab, adipisci deserunt! Quod cumque autem officiis corporis
+        iste, amet enim neque! Corporis beatae vero, eum nesciunt, aperiam animi cupiditate voluptas distinctio
+        perferendis a amet. Similique laborum ex ipsa minima maiores odio consequatur, itaque ut impedit minus nostrum
+        corrupti adipisci architecto voluptatem, eveniet accusamus. Perferendis corporis tempora possimus mollitia
+        praesentium exercitationem hic nobis cumque ratione aut, pariatur commodi saepe, quaerat velit deleniti
+        reiciendis vero quod ducimus maxime voluptatum? Atque dolores vel hic ducimus minima sequi! Perferendis nostrum,
+        doloremque cupiditate delectus, illum vero aspernatur sapiente neque qui eveniet ducimus laudantium asperiores
+        necessitatibus quasi voluptatibus maxime temporibus minima adipisci. Porro eos reprehenderit asperiores neque
+        facilis animi, ea officia soluta quidem accusamus eum officiis corrupti, eius necessitatibus ab libero dicta
+        unde fuga atque, velit ut adipisci. Molestias repudiandae inventore quisquam! Modi reiciendis maxime voluptate
+        ipsum accusamus voluptatem velit suscipit deserunt delectus, dignissimos blanditiis. Rem placeat quisquam
+        cupiditate ducimus eius asperiores alias quaerat minima omnis quibusdam deserunt ipsam error modi rerum enim
+        reiciendis similique, dolore, suscipit odit, nemo nisi non maxime. Repellat, dolores nostrum! Voluptates earum
+        dolorem sunt aperiam culpa mollitia illo temporibus ab, incidunt ullam veritatis quae suscipit maiores, in
+        repellendus voluptatum consequatur autem esse quas tempora vel nihil enim delectus? Cumque ipsam nulla
+        consectetur accusantium molestias deleniti vitae excepturi reiciendis quas blanditiis velit, nesciunt illo ab
+        est aliquam sapiente, delectus beatae tenetur quo optio, voluptatem dignissimos deserunt? Quasi tempore labore
+        vero accusamus doloribus culpa a. Nam tempore corrupti eligendi velit quo tenetur at minima incidunt quae
+        laborum? Minima, nihil. Eaque quas illo laudantium quasi obcaecati dolorum deleniti hic assumenda esse ipsum?
+        Maxime error repellendus rerum tempora. Ab inventore delectus facilis temporibus dolorem eveniet fuga vero
+        dignissimos ratione, unde ipsam enim nam ipsa, quae impedit. Provident, consequuntur fuga incidunt dignissimos
+        id soluta? Quo rerum enim quisquam quas nemo culpa illo deserunt? Vitae, blanditiis assumenda harum saepe
+        laborum reprehenderit inventore dicta, minima in at est aliquam quos expedita molestias optio culpa iusto eius
+        natus rem et non totam. Ipsa neque consectetur non harum nostrum distinctio illo quos totam explicabo sequi
+        ipsam, sit nam quam architecto eum a reprehenderit accusamus corrupti quae. Numquam, iusto dolor quod excepturi
+        porro saepe rem praesentium, vero ut consectetur reiciendis inventore cupiditate ad sit unde modi alias rerum
+        recusandae! Officiis molestiae eveniet aliquid, quaerat at itaque reiciendis ab ea, quos vel soluta minus ipsam
+        incidunt. Laboriosam inventore ut cum aspernatur totam. Perspiciatis sed vitae placeat porro doloribus nihil
+        quibusdam laborum neque assumenda sint ratione pariatur facere ipsa odio eos, maxime excepturi laboriosam hic!
+        Provident at aut eum voluptas quod reprehenderit cupiditate dolores blanditiis voluptates nam, suscipit ab nulla
+        quaerat repellendus, deleniti accusantium harum non quam. Modi, totam, tempore tempora, ab explicabo eius veniam
+        accusamus animi quibusdam amet nisi aspernatur. Unde delectus exercitationem dolorem rem ut quas numquam nemo
+        esse, ratione ab, corrupti cum odit ipsa! Rem, sequi laudantium.</div>
+    <div class="bottom">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat provident molestiae doloremque
+        atque non numquam, officia ipsam doloribus quisquam voluptate dignissimos consequuntur saepe veritatis
+        laboriosam, dolor consectetur magnam id iure, illum tempore sapiente assumenda cumque. Eos odit, distinctio unde
+        libero culpa vitae ab ut maxime, consequuntur fugiat corporis doloremque fuga facilis id provident assumenda,
+        nihil repellendus. Dolore nemo magni reiciendis quis cumque aut in voluptates illo debitis quod est tempora,
+        fugit temporibus perferendis vero accusamus ex delectus veniam accusantium asperiores vitae quam! Laudantium
+        ducimus blanditiis mollitia. At cum quis quaerat consectetur aut natus molestiae iure magnam reprehenderit nobis
+        accusamus omnis quod odio corrupti, quasi sit laboriosam quia dolorum enim odit, fuga fugiat doloremque, dolores
+        aspernatur! Et eius, impedit praesentium consequuntur corrupti velit placeat doloremque nobis assumenda dolores
+        dolore nesciunt saepe nihil soluta cupiditate distinctio deserunt? Non eum nostrum, modi exercitationem enim
+        natus. Odit provident veniam asperiores reiciendis, voluptatem, dicta, autem sit ullam doloremque accusamus
+        rerum? Error doloremque dolores debitis, autem, eum aliquid corporis non laborum architecto ex ipsam nam hic id
+        alias quae fugit in consectetur nihil, temporibus quia exercitationem laboriosam minima soluta. Consequatur
+        similique expedita soluta illum itaque accusantium perspiciatis, aut quasi ex cumque pariatur. Praesentium
+        voluptatibus illum animi tenetur ipsa deserunt consectetur architecto officiis ex? Voluptate, libero! Asperiores
+        iure accusantium perferendis harum nisi a atque voluptatem voluptatum vel, pariatur odio et porro officia
+        praesentium. Non earum laudantium aliquid? Illo sit voluptas a! Nobis hic doloremque illo nesciunt, vero
+        aperiam, quos neque blanditiis fugit non possimus eos maxime. Perferendis voluptatibus ipsum quae, et, tempora
+        hic nihil beatae sunt ipsam unde magnam nam deleniti expedita quasi similique minima adipisci illum provident
+        neque doloremque culpa magni aliquam laudantium. Eveniet rem atque harum omnis necessitatibus accusantium,
+        dolores quas ipsum deleniti debitis soluta error ipsam corporis suscipit deserunt doloremque. Asperiores beatae
+        architecto blanditiis corrupti ducimus, at quidem ut, nobis sequi quasi aperiam vel vitae impedit voluptate fuga
+        dicta voluptatibus. Ea sint officiis, praesentium explicabo architecto, aliquid repellat, qui iusto fugit quae
+        dolorem nobis quaerat assumenda laudantium placeat veritatis! Debitis impedit dignissimos corrupti incidunt odit
+        qui mollitia, harum ratione quam voluptatibus, perspiciatis ipsam nulla! Aperiam, vel. Odio officiis explicabo
+        et id eaque quaerat numquam, quidem, pariatur adipisci totam iure, minus dolorem voluptatem doloribus impedit
+        temporibus quisquam facilis molestiae asperiores nihil atque? Architecto facilis natus quo aliquam quas amet
+        fuga unde voluptas illo. Natus nam non suscipit, pariatur asperiores consequuntur libero ducimus, veniam sunt
+        nostrum tenetur, cumque optio. Ipsum tenetur nostrum itaque? Facere illum vitae corrupti assumenda, minus quia
+        facilis, ut ab laudantium inventore nesciunt dolore praesentium. Quos corporis, recusandae rerum natus ratione
+        autem ipsa suscipit molestias totam ex voluptatum, ad unde, eos odit harum eius doloremque nobis quia excepturi
+        culpa explicabo. Nostrum vero quae natus ipsum. Natus enim quisquam iure? Architecto cumque assumenda nulla
+        aliquid ea voluptas excepturi nihil hic itaque, vero blanditiis repellendus commodi quibusdam! In mollitia
+        dolore voluptates corrupti quis cum animi hic aspernatur eaque at, maxime deserunt eius ipsam, tempora aliquid.
+        Itaque libero nostrum nesciunt aliquam magnam laborum, error eligendi molestias?</div>
+    <div class="bottom">By: Felipe Martinin</div>
