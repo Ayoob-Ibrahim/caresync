@@ -1,5 +1,104 @@
+$bodywidth: 100vw;
 
 p {
     background-color: var(--background-color);
     font-family: 'Kanit';
   }
+.body-content {
+  position: relative;
+
+  header {
+    height: 80px;
+    width: $bodywidth;
+  }
+
+  section {
+    height: calc(100vh - 80px);
+    width: $bodywidth;
+  }
+
+  overflow-x: hidden;
+
+}
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px #004558;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #004558;
+}
+
+div.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+
+  #container {
+  margin-top: 20px;
+  margin-left: 30px;
+  position: relative;
+  background: #45453f;
+}
+
+.pulse {
+  width: 100px;
+  height: 100px;
+  border: 0px solid #f7f14c;
+  border-radius: 50%; /* Simplified border radius */
+  background-color: #716f42;
+  z-index: 10;
+  position: absolute;
+  display: none; /* Ensure this is toggled dynamically */
+}
+
+.dot {
+  border: 2px solid #23a4e6;
+  background: transparent;
+  border-radius: 50%; /* Simplified border radius */
+  height: 100px;
+  width: 100px;
+  animation: pulse 2s ease-out infinite;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  z-index: 1;
+  opacity: 0;
+}
+
+/* Standard keyframes */
+@keyframes pulse {
+  0% {
+    transform: scale(0);
+    opacity: 0.0;
+  }
+  25% {
+    transform: scale(0.1);
+    opacity: 0.1;
+  }
+  50% {
+    transform: scale(0.5);
+    opacity: 0.3;
+  }
+  75% {
+    transform: scale(0.8);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0.0;
+  }
+}
+
+  
+}

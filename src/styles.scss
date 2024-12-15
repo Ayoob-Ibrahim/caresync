@@ -2,10 +2,12 @@
   font-family: "Kanit-bold";
   src: url("../src/assets/fonts/Kanit/Kanit-Black.ttf");
 }
+
 @font-face {
   font-family: "EKanit";
   src: url("../src/assets/fonts/Kanit/Kanit-ExtraLight.ttf");
 }
+
 @font-face {
   font-family: "LKanit";
   src: url("../src/assets/fonts/Kanit/Kanit-Light.ttf");
@@ -14,9 +16,20 @@
   font-family: "semikanit";
   src: url("../src/assets/fonts/Kanit/Kanit-SemiBold.ttf");
 }
+
 @font-face {
   font-family: "regular";
   src: url("../src/assets/fonts/Kanit/Kanit-Regular.ttf");
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("../src/assets/fonts/Kanit/Kanit-Bold.ttf");
+}
+
+@font-face {
+  font-family: "medium";
+  src: url("../src/assets/fonts/Kanit/Kanit-Medium.ttf");
 }
 
 :root {
