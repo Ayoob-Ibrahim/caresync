@@ -2,10 +2,11 @@ import { Component, HostListener } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { CommonModule } from '@angular/common';
+import { StickyNavComponent } from '../sticky-nav/sticky-nav.component';
 
 @Component({
   selector: 'app-layout',
-  imports: [RouterOutlet, NavbarComponent,CommonModule],
+  imports: [RouterOutlet, NavbarComponent,CommonModule,StickyNavComponent],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.scss'
 })

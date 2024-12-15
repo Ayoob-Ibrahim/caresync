@@ -20,7 +20,7 @@ export class StickyNavComponent {
     }
 
     // setInterval(() => {
-    //   console.warn(this.isSticky)
+    //   this.isSticky = !this.isSticky
     // }, 5000);
 
 

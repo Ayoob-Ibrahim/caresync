@@ -8,6 +8,7 @@
     color: white;
     text-align: center;
     transition: .32s;
+    z-index: 100;
 }
 
 .fixed {
@@ -20,16 +21,11 @@
 
 .top {
     text-align: center;
-    background: #2980b9;
+
     color: #fff;
 }
 
-.bottom {
-    padding: 5em 0;
-    background: #2980b9;
-    color: white;
-    text-align: center;
-}
+
 
 body {
     margin: 0;
@@ -84,6 +80,13 @@ body {
     font-size: 16px;
     padding: 10px;
     display: block;
+}
+
+.transparent-bg {
+    background-color:rgb(255, 255, 255);
+    opacity: 1;
+    z-index: 1000;
+    /* Transparent background when sticky */
 }
 
 .dropdown-content {
