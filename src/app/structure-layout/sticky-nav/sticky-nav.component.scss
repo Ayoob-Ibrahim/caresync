@@ -216,3 +216,13 @@ body {
   -webkit-backdrop-filter: blur(10px);
   transition: .25s;
 }
+
+.sticky-nav-bar {
+  &.fixed-nav-bar {
+    .dropdown-content {
+      
+      top: 80px;
+      
+    }
+  }
+}
