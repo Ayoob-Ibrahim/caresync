@@ -1,57 +1,56 @@
-<div class="top">
-    <div
-        class="h-[30px] w-[100%] bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal text-[14px]">
-        Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877
-        <div class="ml-5 font-Elightkanit">We are here to help 24/7.</div>
-    </div>
-    <div [class.fixed]="isSticky" class="sticky">
-        <div class="h-[80px]   w-[100%] flex items-center justify-evenly sticky-header"
-            [ngClass]="{'bg-toolbarbg': isSticky, 'transparent-bg': isSticky}">
-            <img class="h-[44px] w-[128px]" src="../../../assets/toolbar/image 14.png" alt="Logo">
-
-            <nav>
-                <ul class="menu">
-                    <li *ngFor="let item of menu" routerLinkActive="active-link"
-                        [routerLinkActiveOptions]="{ exact: true }" [routerLink]="item.url"
-                        class="menu-item {{ item.children ? '':'underline-link'}}">
-                        <a routerLinkActive="markasactive" [routerLinkActiveOptions]="{exact:true}"
-                            *ngIf="!item.children">{{ item.title }}</a>
-                        <div *ngIf="item.children" class="dropdown" (mouseover)="isHoverDropDown = true"
-                            (mouseout)="isHoverDropDown = false">
-                            <div class="flex items-center {{ item.children ? '':'underline-link'}}">
-                                <a href="#" class="dropbtn">{{ item.title }}</a>
-                                <i class="bi bi-chevron-down arrow-icon text-[18px]"></i>
-
-                            </div>
-
-                            <div class="dropdown-content">
-                                <div class="grid grid-cols-2 grid-rows-3">
-                                    <div class="h-[80px] " *ngFor="let child of item.children">
-                                        <div class="flex items-center bbb h-[60px] m-[10px] list-data">
-                                            <img class="h-[50px] ml-[5px] w-[50px]" [src]="child.img" alt="">
-                                            <div class="titlelist h-[70px]">
-                                                <div class="flex">
-                                                    <a class="title">{{ child.title }}</a>
-                                                    <i class="bi bi-chevron-right arrow-icon-right text-[14px]"></i>
-                                                </div>
-                                                <a class="!text-[10px] title   !text-backgroundcolor">{{ child.topics
-                                                    }}</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="bg-primary h-[44px] w-[115px] rounded-[45px]	flex justify-center items-center">
-                <a class="text-whitenormal font-semikanit "> Contact Us</a>
+<div class="h-[30px] w-[100%] bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal text-[14px]">
+    Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877  
+    <div class="ml-5 font-Elightkanit">We are here to help 24/7.</div>
+  </div>
+  
+  <div class="h-[80px] bg-toolbarbg w-[100%] flex items-center justify-evenly sticky-nav-bar " [class.fixed-nav-bar]="isSticky" >
+    <img class="h-[44px] w-[128px]" src="../../../assets/toolbar/image 14.png" alt="Logo">
+  
+    <nav>
+      <ul class="menu">
+        <li *ngFor="let item of menu" 
+            routerLinkActive="active-link" 
+            [routerLinkActiveOptions]="{ exact: true }" 
+            [routerLink]="item.url" 
+            class="menu-item {{ item.children ? '':'underline-link'}}">
+          <a  routerLinkActive="markasactive"  [routerLinkActiveOptions]="{exact:true}" *ngIf="!item.children">{{ item.title }}</a>
+          <div *ngIf="item.children" class="dropdown"  (mouseover)="isHoverDropDown = true" (mouseout)="isHoverDropDown = false">
+            <div class="flex items-center {{ item.children ? '':'underline-link'}}">
+              <a  href="#" class="dropbtn">{{ item.title }}</a>
+              <i class="bi bi-chevron-down arrow-icon text-[18px]"></i>
+            
             </div>
-
-        </div>
+          
+              <div  class="dropdown-content">
+            <div class="grid grid-cols-2 grid-rows-3" >
+             <div class="h-[80px] " *ngFor="let child of item.children">
+              <div class="flex items-center bbb h-[60px] m-[10px] list-data">
+               <img class="h-[50px] ml-[5px] w-[50px]" [src]="child.img" alt="">
+               <div class="titlelist h-[70px]">
+              <div class="flex">
+               <a class="title">{{ child.title }}</a>
+               <i class="bi bi-chevron-right arrow-icon-right text-[14px]"></i>
+              </div>
+               <a class="!text-[10px] title   !text-backgroundcolor">{{ child.topics }}</a>
+               </div>
+              </div>
+             </div>
+            
+            </div>
+           </div>
+        
+          </div>
+        
+        </li>
+      </ul>
+    </nav>
+  
+    <div class="bg-primary h-[44px] w-[115px] rounded-[45px]	flex justify-center items-center">
+    <a class="text-whitenormal font-semikanit "> Contact Us</a>
     </div>
+  
+  </div>
+  <div  class="line" 
+  [class.visible]="isHoverDropDown">
+  
+  </div>

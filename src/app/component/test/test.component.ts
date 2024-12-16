@@ -3,37 +3,17 @@ import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { NavbarComponent } from '../../structure-layout/navbar/navbar.component';
 import menujson from '../../json-data/menu-json.json'
 import { RouterModule } from '@angular/router';
+import { HomeComponent } from '../../page/home/home.component';
 @Component({
   selector: 'app-test',
-  imports: [CommonModule, NavbarComponent, RouterModule],
+  imports: [CommonModule, NavbarComponent, RouterModule, HomeComponent],
   templateUrl: './test.component.html',
   styleUrl: './test.component.scss'
 })
 export class TestComponent {
-  isSticky: boolean = false;
+  @ViewChild('stickyNav') stickyNav!: ElementRef<HTMLElement>;
+  isSticky: boolean = !false;
   stickyTop: number = 0;
+ 
 
-  ngOnInit() {
-    // Get the offset of the sticky element when the component is initialized
-    const stickyElement = document.querySelector('.sticky') as HTMLElement;
-    if (stickyElement) {
-      this.stickyTop = stickyElement.offsetTop;
-    }
-  }
-
-  @HostListener('window:scroll', ['$event'])
-  onScroll() {
-    // Update sticky state based on scroll position
-    if (window.scrollY >= this.stickyTop) {
-      this.isSticky = true;
-    } else {
-      this.isSticky = false;
-    }
-  }
-
-
-
-
-  menu = menujson;
-  isHoverDropDown = false;
 }
