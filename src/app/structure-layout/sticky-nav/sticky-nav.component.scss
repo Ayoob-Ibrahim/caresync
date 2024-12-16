@@ -109,11 +109,8 @@ body {
 
 .menu-item:hover .dropdown-content {
   opacity: 1;
-  /* Fully visible */
   transform: translateX(-50%) translateY(0);
-  /* Move to original position */
   visibility: visible;
-  /* Make interactable */
 }
 
 
@@ -183,7 +180,7 @@ body {
 .line::before {
   content: '';
   position: absolute;
-  bottom: 11px;
+  // bottom: 11px;
   left: 0;
   width: 0%;
   /* Start with width 0% */
@@ -220,9 +217,28 @@ body {
 .sticky-nav-bar {
   &.fixed-nav-bar {
     .dropdown-content {
-      
+
       top: 80px;
-      
+
     }
   }
+}
+
+.underline-css-nav {
+  position: relative;
+}
+
+.underline-css-nav::before {
+  content: '';
+  position: absolute;
+  // bottom: 10%;
+  // bottom: 100px;
+  top: 5px;
+  left: 0;
+  // width: 0%;
+  height: 2.6px;
+  background-color: var(--primary);
+  transition: width 0.3s ease-in-out;
+  border-radius: 2px;
+  width: 100%;
 }
