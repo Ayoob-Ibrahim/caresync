@@ -11,9 +11,5 @@ import { HomeComponent } from '../../page/home/home.component';
   styleUrl: './test.component.scss'
 })
 export class TestComponent {
-  @ViewChild('stickyNav') stickyNav!: ElementRef<HTMLElement>;
-  isSticky: boolean = !false;
-  stickyTop: number = 0;
  
-
 }
