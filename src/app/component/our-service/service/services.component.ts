@@ -1,8 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, ViewChild } from '@angular/core';
-import { TestComponent } from '../test/test.component';
-import { ServiceCardsComponent } from './service-cards/service-cards.component';
-
+import { ServiceCardsComponent } from '../service-cards/service-cards.component';
 
 @Component({
   selector: 'app-services',

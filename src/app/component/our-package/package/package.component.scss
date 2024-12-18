@@ -1,0 +1,56 @@
+.package-container {
+    padding: 5rem 2rem;
+
+
+    .package-head {
+        font-family: regular;
+        font-size: 2.5rem;
+        color: #aafbeb;
+        
+    }
+
+    .package-hd-sub {
+        font-family: bold;
+        font-size: 2rem;
+        color: white;
+        margin-top: 2rem;
+    }
+
+    .package-content {
+        font-family: regular;
+        font-size: 1.1rem;
+        color: #fafdf9;
+        margin-top: 1rem;
+    }
+
+    .sub-container {
+        display: flex;
+        width: 100%;
+        margin-top: 1rem;
+
+        .left,
+        .right {
+            flex: 1;
+            height: 900px;
+
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                /* Allows wrapping */
+                gap: 10px;
+                /* Adds spacing between items */
+                width: 300px;
+                /* Set a width to observe wrapping */
+                border: 1px solid #ccc;
+            }
+
+            .box {
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,41 @@
+@mixin button-style($background-color, $text-color, $padding, $border-radius, $border-color: none) {
+    background-color: $background-color;
+    color: $text-color;
+    padding: $padding;
+    border-radius: $border-radius;
+    font-family: medium;
+    border: $border-color;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 7%;
+    bottom: 10%;
+}
+
+
+
+.package-card {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    padding: 1rem;
+
+    h2 {
+        color: #129693;
+        font-family: bold;
+        font-size: 1.1rem;
+    }
+
+    p {
+        color: black;
+        font-family: regular;
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .btn-learn {
+        @include button-style(transparent, black, 9px 30px, 2rem, #129693);
+        border: 1px solid rgba(128, 128, 128, 0.471);
+    }
+
+}
