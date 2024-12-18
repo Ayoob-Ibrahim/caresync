@@ -1,26 +1,26 @@
 .package-container {
-    padding: 5rem 2rem;
+    padding: 5rem 5rem;
 
 
     .package-head {
         font-family: regular;
         font-size: 2.5rem;
         color: #aafbeb;
-        
+
     }
 
     .package-hd-sub {
         font-family: bold;
         font-size: 2rem;
-        color: white;
-        margin-top: 2rem;
+        color: #fafdf9;
+
     }
 
     .package-content {
         font-family: regular;
         font-size: 1.1rem;
         color: #fafdf9;
-        margin-top: 1rem;
+
     }
 
     .sub-container {
@@ -52,5 +52,83 @@
             }
 
         }
+    }
+
+
+}
+
+@media (max-width: 859px) {
+
+    .package-container {
+        padding: 30px 10px;
+
+        .package-head {
+            font-family: regular;
+            font-size: 2rem;
+        }
+
+        .package-hd-sub {
+            font-family: bold;
+            font-size: 1.5rem;
+        }
+
+        .package-content {
+            font-family: regular;
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .package-container {
+        padding: 3rem 10px;
+
+        .package-head {
+            font-family: regular;
+            font-size: 1.7rem;
+        }
+
+        .package-hd-sub {
+            font-family: bold;
+            font-size: 1.1rem;
+            color: #f9f9f9;
+        }
+
+        .package-content {
+            font-family: regular;
+            font-size: .8rem;
+        }
+
+        .sub-container {
+            display: flex;
+            justify-self: center;
+        }
+    }
+
+}
+
+@media (min-width: 200px) and (max-width: 1412px) {
+    .image-class {
+        img {
+            display: none;
+        }
+    }
+
+    .right {
+        display: none;
+    }
+
+    .package-container {
+        height: 2800px;
+
+        .sub-container {
+            .left .grid .flex {
+                margin: auto;
+                margin-bottom: 10px;
+            }
+
+        }
+
     }
 }

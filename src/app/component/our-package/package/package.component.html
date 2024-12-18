@@ -1,4 +1,4 @@
-<div class="bg-[#004558] h-[1400px] w-[100vw] package-container">
+<div class="bg-[#004558] h-[1300px] w-[100vw] package-container">
     <h2 class="font-regular package-head">Our Packages</h2>
     <h5 class="package-hd-sub">
         Start Your Healthcare Business with Assurance
@@ -10,10 +10,10 @@
     </p>
 
     <div class="sub-container">
-        <div class="left" >
+        <div class="left">
             <ng-container *ngTemplateOutlet="card_container"></ng-container>
         </div>
-        <div class="right" >
+        <div class="right">
             <ng-container *ngTemplateOutlet="image_container"></ng-container>
         </div>
     </div>
@@ -21,10 +21,10 @@
 
 
 <ng-template #card_container>
-    <div class="grid grid-cols-2 gap-1 h-[400px]">
+    <div class="grid grid-cols-1 gap-1 sm:grid-cols-2 ">
         <ng-container *ngFor="let item of list_package">
             <div class="flex mt-2">
-                <app-package-card ngSkipHydration [height]="item.height" >
+                <app-package-card ngSkipHydration [height]="item.height">
                     <h2 slot="header" class="text-[#129693] font-bold text-[1.1rem]">
                         {{item.title}}
                     </h2>
@@ -34,11 +34,15 @@
                 </app-package-card>
             </div>
         </ng-container>
+        <!-- <div  class="hidden sm:block">
+            <ng-container *ngTemplateOutlet="image_container"></ng-container>
+        </div> -->
     </div>
 </ng-template>
 
 <ng-template #image_container>
-    <div class="mt-2">
-        <img src="https://caresyncexperts.com/wp-content/uploads/2024/12/Variant2.png" alt="" style="width: 90%;height: 100%;">
+    <div class="mt-2 image-class">
+        <img src="https://caresyncexperts.com/wp-content/uploads/2024/12/Variant2.png" alt=""
+            style="width: 90%;height: 915px;">
     </div>
 </ng-template>
