@@ -1,0 +1,10 @@
+<div class="grid  gap-4 h-[500px] grid-cols-1 sm:grid-cols-2">
+    <div class="bg-blue-500  ">
+        <app-getstartedcard (hoverEvent)="selectedImages($event)" style="display: flex; justify-content: center; margin: 10px;"  *ngFor="let a of getstartedData;let i = index" [data]="{'item':a,'index':i}"></app-getstartedcard>
+    </div>
+    <div class="bg-red-500 p-4">
+        <app-tilt [selectedImage]="imagesforTilt[selectedImage]"></app-tilt>
+    </div>
+
+  </div>
+  

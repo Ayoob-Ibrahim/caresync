@@ -20,10 +20,10 @@ export class StickyNavComponent implements OnInit {
   stickyTop: number = 0;
 
   ngOnInit() {
-    const stickyElement = document.querySelector('.sticky') as HTMLElement;
-    if (stickyElement) {
-      this.stickyTop = stickyElement.offsetTop;
-    }
+    // const stickyElement = document.querySelector('.sticky') as HTMLElement;
+    // if (stickyElement) {
+    //   this.stickyTop = stickyElement.offsetTop;
+    // }
 
   }
 
