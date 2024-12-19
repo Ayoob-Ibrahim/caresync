@@ -1,4 +1,4 @@
-<div class="grid  gap-4 h-[1000px] grid-cols-1 sm:grid-cols-2 image-selector"  >
+<div class="grid  gap-4 h-[800px] grid-cols-1 sm:grid-cols-2 image-selector"  >
     <div class="bg-blue-500  ">
         <app-getstartedcard (hoverEvent)="selectedImages($event)" style="display: flex; justify-content: center; margin: 10px;"  *ngFor="let a of getstartedData;let i = index" [data]="{'item':a,'index':i}"></app-getstartedcard>
     </div>
