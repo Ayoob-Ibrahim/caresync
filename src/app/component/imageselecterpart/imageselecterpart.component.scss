@@ -31,6 +31,12 @@
         display: flex;
         flex-direction: column;
         width: 50%;
+
+        .selector-class {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+        }
     }
 
     .tilt-image {
@@ -55,10 +61,16 @@
             display: flex;
             flex-direction: column;
             width: 100%;
+
+            .selector-class {
+                margin-top: 10px;
+                display: flex;
+                justify-content: center;
+            }
         }
 
         .tilt-image {
-            margin-top: 40px;
+            margin-top: 30px;
             width: 95%;
             margin-left: 0%;
         }

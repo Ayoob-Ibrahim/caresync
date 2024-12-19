@@ -14,8 +14,8 @@
 
 <div class="image-selector-cont">
     <div class="get-started">
-        <app-getstartedcard (hoverEvent)="selectedImages($event)"
-            style="display: flex; justify-content: center; margin-top: 40px;" *ngFor="let a of getstartedData;let i = index"
+        <app-getstartedcard (hoverEvent)="selectedImages($event)" class="selector-class"
+             *ngFor="let a of getstartedData;let i = index"
             [data]="{'item':a,'index':i}"></app-getstartedcard>
     </div>
     <div class="tilt-image">

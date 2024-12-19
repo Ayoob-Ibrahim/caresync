@@ -1,7 +1,7 @@
 .our-service-container {
-    padding: 8rem 5rem;
-    height: 750px;
-
+    padding: 3rem 5rem 0rem;
+    height: 800px;
+ 
     .service-hd-main {
         font-family: regular;
         font-size: 2.5rem;
@@ -60,5 +60,7 @@
 @media screen and (max-width: 560px) {
     .our-service-container{
         padding: 0px 10px;
+
+        height: 700px;
     }
 }
