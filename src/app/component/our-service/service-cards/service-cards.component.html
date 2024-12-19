@@ -1,5 +1,5 @@
 <div class="container">
-    <button (click)="scrollLeft_()" class="nav-button">
+    <button (click)="scrollLeft_()" class="nav-button" style="left: -.5%">
         <span class="dot">
             <app-svg [svgType]="'back_arrow_black'"></app-svg>
         </span>
@@ -10,7 +10,7 @@
             <ng-container *ngTemplateOutlet="card_vertical; context: { data: card }"></ng-container>
         </div>
     </div>
-    <button (click)="scrollRight()" class="nav-button">
+    <button (click)="scrollRight()" class="nav-button"  style="right: 0%;">
         <span class="dot">
             <app-svg [svgType]="'back_arrow_rtl_black'"></app-svg>
         </span>

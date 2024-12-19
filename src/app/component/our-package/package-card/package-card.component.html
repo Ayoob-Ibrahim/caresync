@@ -1,0 +1,11 @@
+<div [ngStyle]="{ 'height': height }" class="w-[300px] package-card">
+    <h2>
+        <ng-content select="[slot='header']"></ng-content>
+    </h2>
+    <p>
+        <ng-content select="[slot='content']"></ng-content>
+    </p>
+    <button class="btn-learn raise">
+        Learn More
+    </button>
+</div>

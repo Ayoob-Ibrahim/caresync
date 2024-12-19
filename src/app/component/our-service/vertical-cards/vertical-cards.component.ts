@@ -1,6 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { serviceCardData } from '../../interface/common.interface';
- 
+import { serviceCardData } from '../../../interface/common.interface';
+
+
 
 
 @Component({
