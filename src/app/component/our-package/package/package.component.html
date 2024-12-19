@@ -21,23 +21,18 @@
 
 
 <ng-template #card_container>
-    <div class="grid grid-cols-1 gap-1 sm:grid-cols-2 ">
-        <ng-container *ngFor="let item of list_package">
-            <div class="flex mt-2">
-                <app-package-card ngSkipHydration [height]="item.height">
-                    <h2 slot="header" class="text-[#129693] font-bold text-[1.1rem]">
-                        {{item.title}}
-                    </h2>
-                    <p slot="content" class="text-black font-medium text-[1rem] mt-2">
-                        {{item.content}}
-                    </p>
-                </app-package-card>
-            </div>
-        </ng-container>
-        <!-- <div  class="hidden sm:block">
-            <ng-container *ngTemplateOutlet="image_container"></ng-container>
-        </div> -->
-    </div>
+    <ng-container *ngFor="let item of list_package">
+        <div>
+            <app-package-card ngSkipHydration [height]="item.height">
+                <h2 slot="header" class="text-[#129693] font-bold text-[1.1rem]">
+                    {{item.title}}
+                </h2>
+                <p slot="content" class="text-black font-medium text-[1rem] mt-2">
+                    {{item.content}}
+                </p>
+            </app-package-card>
+        </div>
+    </ng-container>
 </ng-template>
 
 <ng-template #image_container>
