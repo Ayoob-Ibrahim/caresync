@@ -11,3 +11,8 @@ export interface PackageInfo {
     content: string;
     height: string;
 }
+
+export interface CarePackage {
+    image: string;
+    title: string;
+}

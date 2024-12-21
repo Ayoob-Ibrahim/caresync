@@ -1,0 +1,10 @@
+<div class="menu" #menu>
+    <div class="menu--wrapper">
+      <div class="menu--item" *ngFor="let item of items">
+        <figure>
+          <img [src]="item.image" [alt]="item.title" />
+        </figure>
+      </div>
+    </div>
+  </div>
+  
