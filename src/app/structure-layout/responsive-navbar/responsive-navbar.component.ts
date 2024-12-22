@@ -2,15 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import menujson from '../../json-data/menu-json.json'
-export const menu = [
-  { label: 'DashBoard', url: "/dashboard", icon: 'bi bi-house-check-fill' },
-  { label: 'GridView', url: "/gridview", icon: 'bi bi-grid-3x3-gap' },
-  { label: 'TrackRecord', url: "/trackhistory", icon: 'bi bi-clock-history' },
-  { label: 'MapView', url: "/mapview", icon: 'bi bi-map-fill' },
-  { label: 'Warning', url: "/alerts", icon: 'bi bi-exclamation-triangle-fill' },
-  { label: 'logOut', url: "/login", icon: 'bi bi-box-arrow-right' },
-
-]
+ 
 @Component({
   selector: 'app-responsive-navbar',
   imports: [CommonModule, RouterModule],
