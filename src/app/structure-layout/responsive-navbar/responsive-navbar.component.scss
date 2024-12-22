@@ -1,0 +1,316 @@
+ $primaryclr: #04AA6D;
+
+ .nav-container {
+     display: flex;
+     flex-direction: column;
+ }
+
+ nav {
+     background: white;
+     height: 65px;
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     position: sticky;
+     top: 0;
+     z-index: 100;
+ }
+
+ .fixed {
+     position: fixed;
+     background: white;
+ }
+
+ label.logo {
+     color: $primaryclr;
+     font-size: 22px;
+     line-height: 65px;
+     padding: 0 50px;
+     font-weight: bold;
+     font-family: Monstrate;
+ }
+
+ nav ul {
+
+     margin-right: 20px;
+ }
+
+ nav ul li {
+     display: inline-block;
+     line-height: 65px;
+     margin: 0 7px;
+ }
+
+ nav ul li a {
+     color: rgba(0, 0, 0, 0.578);
+     padding: 7px 13px;
+     border-radius: 3px;
+     font-size: 16px;
+     font-family: "LKanit";
+     position: relative;
+     width: max-content;
+     font-weight: 600;
+ }
+
+ nav ul li a.no-hover-effect {
+     position: static;
+ }
+
+ .arrow-icon {
+     transition: transform 0.3s ease; // Smooth rotation animation
+ }
+
+ /* Rotate the icon when the parent menu item or child elements are hovered */
+ .list-parent-collapse:hover .arrow-icon,
+ .list-parent-collapse .collapse-menu:hover~.arrow-icon {
+     transform: rotate(90deg); // Rotate 180 degrees
+ }
+
+
+
+ a::after {
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: 0;
+     width: 0;
+     height: 2px;
+     background-color: var(--primary);
+     transition: width 0.3s ease;
+ }
+
+ a:hover::after {
+     width: 100%;
+     transition: .5s;
+ }
+
+
+
+
+ a.active::after {
+     width: 100%;
+     background-color: var(--primary);
+ }
+
+
+ a.active {
+     color: rgba(0, 0, 0, 0.989) !important;
+ }
+
+
+
+
+ .button-1 {
+     background-color: transparent;
+     border: 3px solid #00d7c3;
+     border-radius: 50px;
+     -webkit-transition: all .15s ease-in-out;
+     transition: all .15s ease-in-out;
+     color: #00d7c3;
+ }
+
+ .button-1:hover {
+     box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+     border: 3px solid #00d7c3;
+ }
+
+
+
+
+
+
+ .checkbtn {
+     font-size: 22px;
+     color: white;
+     float: right;
+     line-height: 65px;
+     margin-right: 30px;
+     cursor: pointer;
+     display: none;
+     font-weight: 700;
+ }
+
+ #check {
+     display: none;
+ }
+
+ //  @media (max-width: 1050px) {
+ //      label.logo {
+ //          padding-left: 30px;
+ //      }
+
+ //      nav ul li a {
+ //          font-size: 13px;
+ //          padding: 7px 10px;
+ //      }
+ //  }
+
+ @media (max-width: 1284px) {
+     .nav-container {
+         display: flex;
+         flex-direction: column-reverse;
+
+         .nav-title {
+             height: 60px;
+             font-size: 10px;
+         }
+
+         nav {
+             justify-content: start;
+         }
+     }
+
+     .checkbtn {
+         display: block;
+     }
+
+     label.logo {
+         font-size: 18px;
+     }
+
+     ul {
+         position: fixed;
+         width: 100%;
+         height: 100vh;
+         background: #2c3e50;
+         top: 65px;
+         left: -100%;
+         text-align: center;
+         transition: 1s ease-in-out;
+         z-index: 1000;
+     }
+
+     nav ul li {
+         display: block;
+         margin: 50px 0;
+         line-height: 30px;
+     }
+
+     nav ul li a {
+         font-size: 20px;
+     }
+
+     .nav-container {
+         .contact-btn {
+             display: none;
+         }
+     }
+
+     a:hover,
+     a.active {
+         background: $primaryclr;
+         color: #0082e6;
+     }
+
+     #check:checked~ul {
+         left: 0;
+         transition: 1s ease-in-out;
+     }
+ }
+
+
+ .collapse-menu {
+     position: absolute;
+     width: 50%;
+     max-height: 250px;
+     left: 22%;
+     display: none;
+     overflow-y: auto;
+     transition: all .5s ease;
+     background-color: white;
+     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+     border-radius: .3rem;
+     z-index: 100;
+     transition: opacity 0.3s ease, transform 0.3s ease;
+     display: block;
+     opacity: 0;
+     visibility: hidden;
+
+     .title {
+         padding: 0px !important;
+     }
+ }
+
+ ::-webkit-scrollbar {
+     width: 10px;
+ }
+
+
+ ::-webkit-scrollbar-track {
+     box-shadow: inset 0 0 5px grey;
+     border-radius: 10px;
+ }
+
+
+ ::-webkit-scrollbar-thumb {
+     background: #004558;
+     border-radius: 10px;
+ }
+
+
+ ::-webkit-scrollbar-thumb:hover {
+     background: #004558;
+ }
+
+ .list-parent-collapse:hover {
+     .collapse-menu {
+         opacity: 1;
+         /* Fully visible */
+         transform: translateX(5%) translateY(0);
+         /* Move to original position */
+         visibility: visible;
+         /* Make interactable */
+
+     }
+ }
+
+
+ .dropbtn {
+     background-color: #4CAF50;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+ }
+
+ /* The container <div> - needed to position the dropdown content */
+ .dropdown {
+     position: relative;
+     display: inline-block;
+ }
+
+ /* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+ }
+
+ /* Links inside the dropdown */
+ .dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+ }
+
+ /* Change color of dropdown links on hover */
+ .dropdown-content a:hover {
+     background-color: #f1f1f1
+ }
+
+ /* Show the dropdown menu on hover */
+ .dropdown:hover .dropdown-content {
+     display: block;
+ }
+
+ /* Change the background color of the dropdown button when the dropdown content is shown */
+ .dropdown:hover .dropbtn {
+     background-color: #3e8e41;
+ }
+ 

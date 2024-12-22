@@ -20,16 +20,10 @@ export class StickyNavComponent implements OnInit {
   stickyTop: number = 0;
 
   ngOnInit() {
-    // const stickyElement = document.querySelector('.sticky') as HTMLElement;
-    // if (stickyElement) {
-    //   this.stickyTop = stickyElement.offsetTop;
-    // }
-
   }
 
   @HostListener('window:scroll', ['$event'])
   onScroll() {
-    console.log('scroll events', window.scrollY >= this.stickyTop, this.stickyTop, window.scrollY)
     this.isSticky = window.scrollY > this.stickyTop;
   }
 

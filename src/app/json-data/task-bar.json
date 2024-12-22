@@ -1,0 +1,23 @@
+[
+    {
+        "svgType": "phone_fill",
+        "text": "Phone",
+        "bgClass": "bg-[#004558] text-white",
+        "textClass": "text-white font-regular",
+        "color":"#004558"
+    },
+    {
+        "svgType": "mail",
+        "text": "Mail",
+        "bgClass": "bg-[#004558] text-white",
+        "textClass": "text-white font-regular",
+        "color":"#004558"
+    },
+    {
+        "svgType": "menu",
+        "text": "Menu",
+        "bgClass": "bg-white text-black",
+        "textClass": "text-black font-regular",
+        "color":"#ffffff"
+    }
+]

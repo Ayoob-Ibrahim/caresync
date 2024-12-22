@@ -16,3 +16,11 @@ export interface CarePackage {
     image: string;
     title: string;
 }
+
+export interface MenuItem {
+    svgType: string;
+    text: string;
+    bgClass: string;
+    textClass: string;
+    color: string;
+}

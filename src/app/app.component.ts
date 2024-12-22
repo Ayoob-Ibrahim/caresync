@@ -3,16 +3,17 @@ import { RouterOutlet } from '@angular/router';
 import { TestComponent } from './component/test/test.component';
 import { TweenMax } from 'gsap';
 import { InfiniteCarouselComponent } from './component/infinite-carousel/infinite-carousel.component';
+import { ResponsiveNavbarComponent } from './structure-layout/responsive-navbar/responsive-navbar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, TestComponent,InfiniteCarouselComponent],
+  imports: [RouterOutlet, TestComponent, ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
   title = 'caresync';
-  
+
   $bigBall: HTMLElement;
   $smallBall: HTMLElement;
   $hoverables: NodeListOf<HTMLElement>;

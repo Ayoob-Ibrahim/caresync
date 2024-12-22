@@ -1,101 +1,159 @@
 [
-    {
-      "title": "Home",
-      "url": "/home"
-    },
-    {
-      "title": "About Us",
-      "url": "/aboutus"
-    },
-    {
-      "title": "Our Services",
-      "children": [
-        {
-          "title": "Success Stories",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873328.svg",
-          "topics": "Living plus caring services ltd successfully secured six out of seven tenders"
-        },
-        {
-          "title": "Videos",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873327.svg",
-          "topics": "Explore our curated video library to stay informed about the last trends"
-        },
-        {
-          "title": "Brochures",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330.svg",
-          "topics": "Explore our exclusive brochures to learn valuable insights about our services"
-        },
-        {
-          "title": "Ebooks",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-1.svg",
-          "topics": "Our ebooks serve as in-depth guides to CQC, RQIA, CIW, and Ofsted"
-        },
-        {
-          "title": "Blogs",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873332.svg",
-          "topics": "Stay informed with our expert blogs covering the latest updates and tips"
-        },
-        {
-          "title": "FAQ",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-2.svg",
-          "topics": "Read our most frequently asked questions"
-        }
-      ]
-    },
-    {
-      "title": "Our Packages",
-      "children": [
-        {
-          "title": "Success Stories",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873328.svg",
-          "topics": "Living plus caring services ltd successfully secured six out of seven tenders"
-        },
-        {
-          "title": "Videos",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873327.svg",
-          "topics": "Explore our curated video library to stay informed about the latest trends"
-        },
-        {
-          "title": "Brochures",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330.svg",
-          "topics": "Explore our exclusive brochures to learn valuable insights about our services"
-        },
-        {
-          "title": "Ebooks",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-1.svg",
-          "topics": "Our ebooks serve as in-depth guides to CQC, RQIA, CIW, and Ofsted"
-        },
-        {
-          "title": "Blogs",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873332.svg",
-          "topics": "Stay informed with our expert blogs covering the latest updates and tips"
-        },
-        {
-          "title": "FAQ1",
-          "url": "",
-          "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-2.svg",
-          "topics": "Read our most frequently asked questions"
-        }
-      ]
-    },
-    {
-      "title": "Tenders",
-      "url": ""
-    },
-    {
-      "title": "Elevate Your Care Services",
-      "url": ""
-    }
-  ]
-  
+  {
+    "title": "Home",
+    "url": "/home"
+  },
+  {
+    "title": "About Us",
+    "url": "/aboutus"
+  },
+  {
+    "title": "Our Services",
+    "children": [
+      {
+        "title": "Marketing Support",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873328.svg",
+        "topics": "Living plus caring services ltd successfully secured six out of seven tenders"
+      },
+      {
+        "title": "Comprehensive Training",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873327.svg",
+        "topics": "Explore our curated video library to stay informed about the last trends"
+      },
+      {
+        "title": "Tender Writing",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330.svg",
+        "topics": "Explore our exclusive brochures to learn valuable insights about our services"
+      },
+      {
+        "title": "Ofsted Related Services",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-1.svg",
+        "topics": "Our ebooks serve as in-depth guides to CQC, RQIA, CIW, and Ofsted"
+      },
+      {
+        "title": "PIR Writing",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873332.svg",
+        "topics": "Stay informed with our expert blogs covering the latest updates and tips"
+      },
+      {
+        "title": "Business Setup",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-2.svg",
+        "topics": "Read our most frequently asked questions"
+      },
+      {
+        "title": "Compliance Management",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330.svg",
+        "topics": "Explore our exclusive brochures to learn valuable insights about our services"
+      },
+      {
+        "title": "Client Acquisition",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-1.svg",
+        "topics": "Our ebooks serve as in-depth guides to CQC, RQIA, CIW, and Ofsted"
+      },
+      {
+        "title": "Branding",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873332.svg",
+        "topics": "Stay informed with our expert blogs covering the latest updates and tips"
+      },
+      {
+        "title": "CIW Domiciliary Care",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-2.svg",
+        "topics": "Read our most frequently asked questions"
+      },
+      {
+        "title": "RQIA Domiciliary Care",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-2.svg",
+        "topics": "Read our most frequently asked questions"
+      }
+    ]
+  },
+  {
+    "title": "Our Packages",
+    "children": [
+      {
+        "title": "Domiciliary Carev",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873328.svg",
+        "topics": "Living plus caring services ltd successfully secured six out of seven tenders"
+      },
+      {
+        "title": "Temporary Staffing",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873327.svg",
+        "topics": "Explore our curated video library to stay informed about the latest trends"
+      },
+      {
+        "title": "Combined Care Agency",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330.svg",
+        "topics": "Explore our exclusive brochures to learn valuable insights about our services"
+      },
+      {
+        "title": "Supported Living",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-1.svg",
+        "topics": "Our ebooks serve as in-depth guides to CQC, RQIA, CIW, and Ofsted"
+      },
+      {
+        "title": "CIW Domiciliary Care Agency",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873332.svg",
+        "topics": "Stay informed with our expert blogs covering the latest updates and tips"
+      },
+      {
+        "title": "RQIA Domiciliary Care Agency",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-2.svg",
+        "topics": "Read our most frequently asked questions"
+      }
+    ]
+  },
+  {
+    "title": "Tenders",
+    "url": "/tender"
+  },
+  {
+    "title": "Elevate Your Care Services",
+    "children": [
+      {
+        "title": "Website Development",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873328.svg",
+        "topics": "Living plus caring services ltd successfully secured six out of seven tenders"
+      },
+      {
+        "title": "Tender Writing",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873327.svg",
+        "topics": "Explore our curated video library to stay informed about the latest trends"
+      },
+      {
+        "title": "Business Training",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330.svg",
+        "topics": "Explore our exclusive brochures to learn valuable insights about our services"
+      },
+      {
+        "title": "Guidance",
+        "url": "",
+        "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873330-1.svg",
+        "topics": "Our ebooks serve as in-depth guides to CQC, RQIA, CIW, and Ofsted"
+      } 
+    ]
+  },
+  {
+    "title": "Success Stories",
+    "url": "/tender"
+  }
+]

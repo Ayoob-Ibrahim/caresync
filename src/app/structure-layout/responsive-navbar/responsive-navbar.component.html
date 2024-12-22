@@ -1,0 +1,42 @@
+<div class="nav-container">
+    <div
+        class="h-[30px] w-[100%] bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal text-[14px] nav-title">
+        Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877
+        <div class="ml-5 font-Elightkanit">We are here to help 24/7.</div>
+    </div>
+    <nav [class.fixed]="isSticky">
+        
+        <img class="h-[44px] w-[128px]" src="../../../assets/toolbar/image 14.png" alt="Logo">
+        <ul>
+            <ng-container *ngFor="let data of menu">
+                <li [ngClass]="{'list-parent-collapse': data.children}">
+                    <a [routerLink]="data.url" routerLinkActive="active" [ngClass]="{'no-hover-effect': data.children}">
+                        {{data.title }}
+                        <ng-container *ngIf="data.children">
+                            <i class="bi bi-chevron-down arrow-icon text-[12px] font-bold  "></i>
+                        </ng-container>
+                    </a>
+                    <ng-container *ngIf="data.children">
+                        <div class="collapse-menu" aria-haspopup="true">
+                            <div class="grid grid-cols-2  ">
+                                <ng-container *ngFor="let child of data.children">
+                                    <div class="flex items-center   h-[60px]   w-[100%] ">
+                                        <img class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]" [src]="child.img"
+                                            alt="">
+                                        <span>{{ child.title }}</span>
+                                    </div>
+                                </ng-container>
+                            </div>
+                        </div>
+                    </ng-container>
+                </li>
+
+
+            </ng-container>
+        </ul>
+        <div class="bg-primary h-[44px] w-[115px] rounded-[45px]	flex justify-center items-center contact-btn">
+            <div class="text-whitenormal font-semikanit "> Contact Us</div>
+        </div>
+
+    </nav>
+</div>
