@@ -1,6 +1,6 @@
 <div class="bg-[#004558] h-max w-[100vw] package-container">
-  
-    <div class="ml-[20px]">
+
+    <div >
         <h2 class="font-regular package-head">Our Packages</h2>
         <h5 class="package-hd-sub">
             Start Your Healthcare Business with Assurance
@@ -24,23 +24,29 @@
 
 
 <ng-template #card_container>
-    <ng-container *ngFor="let item of list_package">
-        <div>
-            <app-package-card ngSkipHydration [height]="item.height">
-                <h2 slot="header" class="text-[#129693] font-bold text-[1.1rem]">
-                    {{item.title}}
-                </h2>
-                <p slot="content" class="text-black font-medium text-[15px] mt-2">
-                    {{item.content}}
-                </p>
-            </app-package-card>
-        </div>
-    </ng-container>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-[95%] mx-auto">
+        <ng-container *ngFor="let item of list_package">
+          <app-package-card ngSkipHydration [height]="item.height" class="col-span-1">
+            <h2 slot="header" class="text-[#129693] font-bold text-[1.1rem]">
+              {{item.title}}
+            </h2>
+            <p slot="content" class="text-black font-medium text-[15px] mt-2">
+              {{item.content}}
+            </p>
+          </app-package-card>
+        </ng-container>
+      </div>
+      
+      
+
+
+
 </ng-template>
 
 <ng-template #image_container>
     <figure class="image-class carousel">
-        <div  class="item" *ngFor="let item of imageUrls; let i = index" [class.active]="currentSlideIndex == i">
+        <div class="item" *ngFor="let item of imageUrls; let i = index" [class.active]="currentSlideIndex == i">
             <img [src]="item.image" alt="Carousel Image">
         </div>
         <div class="image-caption">

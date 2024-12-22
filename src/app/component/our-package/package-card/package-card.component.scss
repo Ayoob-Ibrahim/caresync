@@ -61,22 +61,14 @@ button {
 
 @media only screen and (max-width: 560px) {
     .package-card {
-        // width: 340px;
-        height: auto  ;
-        width: 284px;
-        // .btn-learn{
-        //     position: relative;
-        // }
+        height: auto;
     }
 }
 
 
 @media only screen and (min-width: 600px) {
     .package-card {
-        // width: 320px;
-        height: auto  ;
-        // .btn-learn{
-        //     position: relative;
-        // }
+        height: auto;
+
     }
 }
