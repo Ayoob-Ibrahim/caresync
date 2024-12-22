@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { PackageCardComponent } from '../package-card/package-card.component';
 import { CommonModule } from '@angular/common';
 import { CarePackage, PackageInfo } from '../../../interface/common.interface';
@@ -11,7 +11,7 @@ import portrait_image from '../../../json-data/portrait-carousel.json'
   templateUrl: './package.component.html',
   styleUrl: './package.component.scss'
 })
-export class PackageComponent {
+export class PackageComponent implements OnInit {
   list_package: PackageInfo[] = packageJson
   imageUrls: CarePackage[] = portrait_image;
 
@@ -26,4 +26,10 @@ export class PackageComponent {
   currentSlideIndex: number = 0;
 
   constructor() { }
+  
+  ngOnInit(){
+    setInterval(()=>{
+      this.nextSlide()
+    },5000)
+  }
 }

@@ -1,5 +1,5 @@
 .package-container {
-    padding: 5rem 5rem;
+    padding: 5rem 3rem;
 
 
     .package-head {
@@ -188,7 +188,7 @@
 
     .package-container {
         padding: 3rem 10px;
-        height: 2600px;
+        height: max-content;
 
         .package-head {
             font-family: regular;

@@ -1,0 +1,41 @@
+.card-accord{
+    background-color: #129693;
+    border: 2px solid #adffeb;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.header{
+    font-family: bold, sans-serif !important;
+    color: #fff;
+    margin: 0;
+
+    font-size: larger;
+}
+.active-accord{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.active-header{
+    font-family: bold, sans-serif !important;
+    color: var(--primary);
+    margin: 0;
+ 
+    font-size: larger;
+}
+.icon{
+    -webkit-text-stroke: 2px;
+     font-size: 20px;
+     color: white;
+}
+
+.icon-active{
+    -webkit-text-stroke: 2px;
+    font-size: 20px;
+    color: var(--primary);
+}
