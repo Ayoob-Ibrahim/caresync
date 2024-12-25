@@ -20,17 +20,17 @@
                         <div class="collapse-menu" aria-haspopup="true">
                             <div class="grid grid-cols-2  ">
                                 <ng-container *ngFor="let child of data.children">
-                                    <div class="flex items-center   h-[60px]   w-[100%] child-hover">
-                                        <img class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]" [src]="child.img"
-                                            alt="">
-                                            <div>
-                                                <span >{{ child.title }}</span>
-                                                <!-- <span >{{child.topics}}</span> -->
-                                            </div>
-                                       
+                                    <div class="flex items-center h-[60px] w-[100%] child-hover relative group">
+                                      <img class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]" [src]="child.img" alt="">
+                                      <span class="flex items-center" style="color: #129693; font-size: 14px; font-family: medium;">
+                                        {{ child.title }}
+                                        <i
+                                          class="ps-2 bi bi-chevron-right arrow-icon-right text-[12px] transform -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
+                                        </i>
+                                      </span>
                                     </div>
+                                  </ng-container>
                                   
-                                </ng-container>
                             </div>
                         </div>
                     </ng-container>
