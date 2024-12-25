@@ -2,8 +2,11 @@
     background-color: #129693;
     border: 2px solid #adffeb;
     border-radius: 12px;
-    padding: 1rem;
+    padding: 1% 1rem;
+ 
+    height: max-content;
     margin-bottom: 1.5rem;
+  
 }
 
 .header{
@@ -14,11 +17,15 @@
     font-size: larger;
 }
 .active-accord{
+   
     background-color: #fff;
     border: 2px solid #fff;
     border-radius: 12px;
     padding: 1rem;
     margin-bottom: 1.5rem;
+    // height: 70%;
+    // transition: padding 7s;
+   
 }
 
 .active-header{
@@ -38,4 +45,52 @@
     -webkit-text-stroke: 2px;
     font-size: 20px;
     color: var(--primary);
+}
+
+.active-content{
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    color: var(--toolbar-primary);
+    font-family: 'semikanit';
+    // margin-bottom: 1.5rem;
+}
+.content{
+    background-color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 12px;
+    padding: 1rem;
+    color: var(--toolbar-primary);
+    font-family: 'semikanit'; 
+}
+
+
+@media screen and (max-width: 768px) {
+    .active-accord{
+        padding: 0%;
+        background-color: #fff;
+        border: 2px solid #fff;
+        border-radius: 12px;
+        // padding: 1rem;
+        margin-bottom: 1.5rem;
+       
+       
+       
+    }
+    .card-accord{
+      
+       padding: 0%;
+      
+       
+    }
+
+    .active-header{
+        font-size: medium;
+    }
+    .header{
+      
+    
+        font-size: medium;
+    }
 }
