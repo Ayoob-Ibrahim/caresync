@@ -20,11 +20,16 @@
                         <div class="collapse-menu" aria-haspopup="true">
                             <div class="grid grid-cols-2  ">
                                 <ng-container *ngFor="let child of data.children">
-                                    <div class="flex items-center   h-[60px]   w-[100%] ">
+                                    <div class="flex items-center   h-[60px]   w-[100%] child-hover">
                                         <img class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]" [src]="child.img"
                                             alt="">
-                                        <span>{{ child.title }}</span>
+                                            <div>
+                                                <span >{{ child.title }}</span>
+                                                <!-- <span >{{child.topics}}</span> -->
+                                            </div>
+                                       
                                     </div>
+                                  
                                 </ng-container>
                             </div>
                         </div>

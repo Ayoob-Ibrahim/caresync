@@ -1,0 +1,84 @@
+.grow-buisness {
+    padding: 5rem 3rem 5rem 4rem;
+
+    .header {
+        font-family: medium;
+        font-size: 2.1rem;
+        margin-left: 2.8rem;
+    }
+
+    .header-content {
+        display: flex;
+        margin-top: 1rem;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .header-data {
+            width: 42%;
+            margin: auto;
+
+            .text-medium {
+                font-family: medium;
+                font-size: 1.3rem;
+                color: #333;
+            }
+
+            .text-regular {
+                font-family: regular;
+                font-size: 1rem;
+                color: #555;
+                margin-left: 2.6rem;
+            }
+
+        }
+
+        .grow-image {
+            width: 100%;
+            height: 620px;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grow-buisness {
+        padding: 15px 10px;
+
+        .header {
+            font-size: 1.8rem;
+            margin-left: 0px;
+
+        }
+
+        .header-content .header-data {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 20px;
+
+            .text-medium {
+                font-size: 1.2rem;
+            }
+
+            .text-regular {
+                font-size: .8rem;
+            }
+
+           
+        }
+
+        .header-content .grow-image {
+            width: 100%;
+            height: 200px;
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            img{
+                border-radius: .3rem;
+            }
+
+        }
+    }
+}

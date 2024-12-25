@@ -146,6 +146,13 @@
  //      }
  //  }
 
+ .flex.child-hover:hover {
+    cursor: pointer;
+
+    background-color: #ddd !important;
+ }
+
+
  @media (max-width: 480px) {
      .nav-container {
          display: flex;
@@ -313,4 +320,3 @@
  .dropdown:hover .dropbtn {
      background-color: #3e8e41;
  }
- 
