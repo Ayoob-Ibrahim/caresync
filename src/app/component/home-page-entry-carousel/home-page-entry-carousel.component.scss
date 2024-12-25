@@ -15,6 +15,20 @@
     justify-content: flex-start;
     align-items: flex-start;
 
+    .rounded-corner-div {
+      background-color: white;
+      color: black;
+      display: flex;
+      padding: 10px 20px;
+      font-family: regular;
+      justify-content: space-between;
+      border-radius: 2rem;
+      margin-top: 10px;
+      img{
+        height: 30px;
+      }
+    }
+
     .overlay-title {
       font-family: regular;
       color: #aeffef;
@@ -154,7 +168,7 @@
     }
 
     .overlay-text-swiper {
-      top: 1%;
+      top: -3%;
       left: 3%;
       width: 100%;
 
@@ -164,6 +178,21 @@
 
       .overlay-description {
         font-size: 1rem;
+      }
+
+      .rounded-corner-div{
+        background-color: white;
+        color: black;
+        display: flex;
+        padding: 5px 10px;
+        font-family: regular;
+        justify-content: space-between;
+        border-radius: 2rem;
+        margin-top: 5px; 
+        font-size: 12px;
+        img{
+          height: 20px;
+        }
       }
 
     }
