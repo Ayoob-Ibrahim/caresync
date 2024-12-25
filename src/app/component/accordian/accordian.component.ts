@@ -1,4 +1,10 @@
-import { animate, state, style, transition, trigger } from '@angular/animations';
+import {
+  animate,
+  state,
+  style,
+  transition,
+  trigger,
+} from '@angular/animations';
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
@@ -8,42 +14,42 @@ import { Component, Input } from '@angular/core';
   templateUrl: './accordian.component.html',
   styleUrl: './accordian.component.scss',
   animations: [
-    trigger('contentAnimation', [
-      state('hidden', style({
-        height: '0px',
-        opacity: 0,
-        padding: '0',
-      })),
-      state('visible', style({
-        height: '*',
-        opacity: 1,
-        padding: '1rem',
-      })),
-      transition('hidden <=> visible', [
-        animate('0.3s')
-      ]),
-    ])
-  ]
+    trigger('accordionState', [
+      state(
+        'closed',
+        style({
+          height: '0px',
+          overflow: 'hidden',
+          padding: '0px',
+          visibility: 'hidden',
+        })
+      ),
+      state(
+        'open',
+        style({
+          height: '*', // Automatically calculates height
+          overflow: 'hidden',
+          padding: '1rem',
+          visibility: 'visible',
+        })
+      ),
+      transition('closed <=> open', [animate('300ms ease-in-out')]),
+    ]),
+  ],
 })
 export class AccordianComponent {
-@Input() accordData;
+  @Input() accordData;
 
+  selectIndex(index, event) {
+    console.log(index, 'asas');
+    //  setTimeout(()=>{
+    if (index == this.accordData.selectedIndex()) {
+      this.accordData.selectedIndex.set(null);
+    } else {
+      this.accordData.selectedIndex.set(index);
+    }
 
-selectIndex(index,event){
-
-
-
-console.log(index,"asas")
-//  setTimeout(()=>{
-  if(index == this.accordData.selectedIndex()){
-    this.accordData.selectedIndex.set(null);
-  }else{
-    this.accordData.selectedIndex.set(index);
+    //  },500)
+    // console.log(index,this.accordData.selectedIndex(),"after")
   }
-
-  // event.stopPropagation(); // Stops the click event from bubbling up to the parent
-
-//  },500)
-  // console.log(index,this.accordData.selectedIndex(),"after")
-}
 }

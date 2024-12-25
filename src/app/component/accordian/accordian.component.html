@@ -1,5 +1,5 @@
-<div    class="{{accordData.selectedIndex() != accordData.indexes ? 'card-accord':'active-accord'}}">
-    <div class="flex justify-between" (click)="selectIndex(accordData.indexes,$event)">
+<div (click)="selectIndex(accordData.indexes,$event)"   class="{{accordData.selectedIndex() != accordData.indexes ? 'card-accord':'active-accord'}}">
+    <div class="flex justify-between">
         <h6 class="{{accordData.selectedIndex() != accordData.indexes ? 'header':'active-header'}} p-3">
             {{accordData.data.header}}
         </h6>
@@ -8,7 +8,8 @@
             <i   class="{{accordData.selectedIndex() != accordData.indexes ? 'header bi bi-plus-lg':'active-header bi bi-dash-lg'}}"></i>
         </div>
     </div>
-    <div [@contentAnimation]="accordData.selectedIndex() == accordData.indexes ? 'visible' : 'hidden'"  class="{{accordData.selectedIndex() == accordData.indexes ? 'active-content':'content'}} ">
+    <div   [@accordionState]="accordData.selectedIndex() === accordData.indexes ? 'open' : 'closed'"
+    class="accordion-content"   class="{{accordData.selectedIndex() == accordData.indexes ? 'active-content':'content'}}   ">
         {{accordData.data.content}}
     </div>
 </div>

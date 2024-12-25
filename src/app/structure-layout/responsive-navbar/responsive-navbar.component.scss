@@ -67,6 +67,12 @@
      transform: rotate(90deg); // Rotate 180 degrees
  }
 
+ .flex.child-hover:hover {
+     cursor: pointer;
+
+     background-color: #ddd !important;
+ }
+
 
 
  a::after {
@@ -79,7 +85,6 @@
      background-color: var(--primary);
      transition: width 0.3s ease;
  }
- 
 
  a:hover::after {
      width: 100%;
@@ -146,13 +151,6 @@
  //          padding: 7px 10px;
  //      }
  //  }
-
- .flex.child-hover:hover {
-    cursor: pointer;
-
-    background-color: #ddd !important;
- }
-
 
  @media (max-width: 480px) {
      .nav-container {
