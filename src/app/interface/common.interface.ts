@@ -24,3 +24,10 @@ export interface MenuItem {
     textClass: string;
     color: string;
 }
+
+
+export interface CarouselItem {
+    image: string;
+    title: string;
+    description: string;
+}

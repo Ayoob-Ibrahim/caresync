@@ -4,9 +4,17 @@ import { ImageselecterpartComponent } from '../../component/imageselecterpart/im
 import { ServicesComponent } from '../../component/our-service/service/services.component';
 import { PackageComponent } from '../../component/our-package/package/package.component';
 import { GrowingMarketComponent } from '../../component/growing-market/growing-market.component';
+import { HomePageEntryCarouselComponent } from '../../component/home-page-entry-carousel/home-page-entry-carousel.component';
 @Component({
   selector: 'app-home',
-  imports: [ServicesComponent, ImageselecterpartComponent,  PackageComponent,GrowingMarketComponent],
+  imports: [
+    ServicesComponent,
+    ImageselecterpartComponent,
+    PackageComponent,
+    GrowingMarketComponent,
+    TestComponent,
+    HomePageEntryCarouselComponent
+  ],
 
 
 
