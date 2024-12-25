@@ -51,3 +51,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* In styles.css or global.scss */
+@media (max-width: 768px) {
+
+  body,
+  * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  body::-webkit-scrollbar,
+  *::-webkit-scrollbar {
+    display: none;
+  }
+}
