@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { AccordianComponent } from '../accordian/accordian.component';
 import { CommonModule } from '@angular/common';
+import { TiltComponent } from '../tilt/tilt.component';
 
 @Component({
   selector: 'app-growing-market',
-  imports: [AccordianComponent, CommonModule],
+  imports: [AccordianComponent, CommonModule, TiltComponent],
   templateUrl: './growing-market.component.html',
   styleUrl: './growing-market.component.scss',
 })
