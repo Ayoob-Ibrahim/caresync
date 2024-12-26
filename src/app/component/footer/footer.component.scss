@@ -1,0 +1,49 @@
+.iconsc{
+    color: var( --toolbar-bg);
+    font-size: 30px;
+}
+
+.inputtheme{
+    border: 1px solid #9C9B99;
+    display: block;
+    width: 100%;
+    padding: .4rem .5rem;
+    border-radius: .25rem;
+    font-size: 1em;
+}
+
+input::placeholder{
+    color: #495057;
+}
+
+input{
+    color: #495057;
+}
+
+.underline-link {
+    position: relative;
+    text-decoration: none;
+    // font-size: 24px;
+    line-height: 20px;
+    color: black;
+    padding: 5px
+  }
+
+    /* Underline effect (transitioning left to right) */
+    .underline-link::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: #adffeb;
+        transition: width 0.3s ease-in-out;
+        border-radius: 2px; /* This gives the underline rounded corners */
+      }
+      
+      /* On hover, the underline will grow from left to right */
+      .underline-link:hover::before {
+        width: 50%;
+      }
+      

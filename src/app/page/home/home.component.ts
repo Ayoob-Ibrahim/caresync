@@ -8,6 +8,7 @@ import { HomePageEntryCarouselComponent } from '../../component/home-page-entry-
 import { GrowCareBuisnessComponent } from '../../component/grow-care-buisness/grow-care-buisness.component';
 import { ImageCarouselComponent } from '../../component/image-carousel/image-carousel.component';
 import { InfiniteCarouselComponent } from '../../component/infinite-carousel/infinite-carousel.component';
+import { FooterComponent } from '../../component/footer/footer.component';
 @Component({
   selector: 'app-home',
   imports: [
@@ -19,15 +20,11 @@ import { InfiniteCarouselComponent } from '../../component/infinite-carousel/inf
     HomePageEntryCarouselComponent,
     GrowCareBuisnessComponent,
     ImageCarouselComponent,
-    InfiniteCarouselComponent
+    InfiniteCarouselComponent,
+    FooterComponent,
   ],
 
-
-
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
-export class HomeComponent {
-
-
-}
+export class HomeComponent {}
