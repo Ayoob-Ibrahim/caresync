@@ -6,6 +6,8 @@ import { PackageComponent } from '../../component/our-package/package/package.co
 import { GrowingMarketComponent } from '../../component/growing-market/growing-market.component';
 import { HomePageEntryCarouselComponent } from '../../component/home-page-entry-carousel/home-page-entry-carousel.component';
 import { GrowCareBuisnessComponent } from '../../component/grow-care-buisness/grow-care-buisness.component';
+import { ImageCarouselComponent } from '../../component/image-carousel/image-carousel.component';
+import { InfiniteCarouselComponent } from '../../component/infinite-carousel/infinite-carousel.component';
 @Component({
   selector: 'app-home',
   imports: [
@@ -15,7 +17,9 @@ import { GrowCareBuisnessComponent } from '../../component/grow-care-buisness/gr
     GrowingMarketComponent,
     TestComponent,
     HomePageEntryCarouselComponent,
-    GrowCareBuisnessComponent
+    GrowCareBuisnessComponent,
+    ImageCarouselComponent,
+    InfiniteCarouselComponent
   ],
 
 

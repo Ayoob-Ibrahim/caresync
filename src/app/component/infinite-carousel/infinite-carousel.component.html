@@ -1,10 +1,9 @@
-<div class="menu" #menu>
-    <div class="menu--wrapper">
-      <div class="menu--item" *ngFor="let item of items">
-        <figure>
-          <img [src]="item.image" [alt]="item.title" />
-        </figure>
+<div>
+  <div #owlCarousel class="owl-carousel owl-theme">
+    <ng-container *ngFor="let item of carousel">
+      <div class="item">
+        <img [src]="item" alt="">
       </div>
-    </div>
+    </ng-container>
   </div>
-  
+</div>
