@@ -1,0 +1,133 @@
+.card-container {
+    width: 90%;
+    margin: 2rem auto;
+
+    .card {
+        display: flex;
+        background: url('https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869759.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        height: 260px;
+
+
+        .left-side {
+            width: 50%;
+            height: 100%;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            margin-left: 20px;
+
+            .content {
+                text-align: left;
+                color: white;
+
+                h2 {
+                    font-size: 2rem;
+                    font-family: bold;
+                    margin-bottom: 0.5rem;
+                }
+
+                p {
+                    font-family: regular;
+                }
+            }
+        }
+
+        .right-side {
+            width: 50%;
+            height: 100%;
+            padding: 2rem;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .text-white {
+                color: white;
+                font-family: regular;
+
+                h3 {
+                    font-size: 1.125rem;
+                    font-weight: 600;
+                }
+
+                p {
+                    margin-top: 0.5rem;
+                }
+
+                button {
+                    background-color: #aeffef;
+                    color: #03485b;
+                    padding: 6px 14px;
+                    border-radius: 1.3rem;
+                    font-family: semikanit;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .card-container {
+        width: 90%;
+        margin: 2rem auto 5rem;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: 310px;
+            .left-side,
+            .right-side {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                padding: 12px;
+                margin-left: 20px;
+            }
+
+
+            .left-side .content {
+                text-align: left;
+                color: white;
+
+                h2 {
+                    font-size: 1.5rem;
+                    font-family: bold;
+                    margin-bottom: 0.5rem;
+                }
+
+                p {
+                    font-family: regular;
+                    padding-right: 5px;
+                }
+            }
+
+
+            .right-side .text-white {
+                p {
+                    margin-top: 0.5rem;
+                }
+
+                button {
+                    background-color: #aeffef;
+                    color: #03485b;
+                    padding: 6px 14px;
+                    border-radius: 1.3rem;
+                    font-family: semikanit;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+    }
+}

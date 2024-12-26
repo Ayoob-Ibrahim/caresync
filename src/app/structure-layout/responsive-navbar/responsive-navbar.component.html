@@ -5,7 +5,7 @@
         <div class="ml-5 font-Elightkanit text-[#aeffef]">We are here to help 24/7.</div>
     </div>
     <nav [class.fixed]="isSticky">
-        
+
         <img class="h-[44px] w-[128px]" src="../../../assets/toolbar/image 14.png" alt="Logo">
         <ul>
             <ng-container *ngFor="let data of menu">
@@ -20,10 +20,16 @@
                         <div class="collapse-menu" aria-haspopup="true">
                             <div class="grid grid-cols-2  ">
                                 <ng-container *ngFor="let child of data.children">
-                                    <div class="flex items-center   h-[60px]   w-[100%] ">
+                                    <div class="flex items-center   h-[60px]   w-[100%] child-hover relative group">
                                         <img class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]" [src]="child.img"
                                             alt="">
-                                        <span>{{ child.title }}</span>
+                                        <span class="flex items-center"
+                                            style="color: #129693; font-size: 14px; font-family: medium;">
+                                            {{ child.title }}
+                                            <i
+                                                class="ps-2 bi bi-chevron-right arrow-icon-right text-[12px] transform -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
+                                            </i>
+                                        </span>
                                     </div>
                                 </ng-container>
                             </div>
