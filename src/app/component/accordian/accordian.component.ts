@@ -22,6 +22,7 @@ import { Component, Input } from '@angular/core';
           overflow: 'hidden',
           padding: '0px',
           visibility: 'hidden',
+          opacity: '0',
         })
       ),
       state(
@@ -31,6 +32,7 @@ import { Component, Input } from '@angular/core';
           overflow: 'hidden',
           padding: '1rem',
           visibility: 'visible',
+          opacity: '1',
         })
       ),
       transition('closed <=> open', [animate('300ms ease-in-out')]),
