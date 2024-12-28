@@ -1,44 +1,48 @@
-import { Component, ElementRef, HostListener, signal, ViewChild } from '@angular/core';
+import {
+  Component,
+  ElementRef,
+  HostListener,
+  signal,
+  ViewChild,
+} from '@angular/core';
 import { SvgComponent } from '../../component/svg/svg.component';
-import taskbar from '../../json-data/task-bar.json'
+import taskbar from '../../json-data/task-bar.json';
 import { MenuItem } from '../../interface/common.interface';
 import { CommonModule } from '@angular/common';
-import mainMenu from '../../json-data/menu-json.json'
+import mainMenu from '../../json-data/menu-json.json';
 import { menuDropDownAnimation } from '../../animation/common-animation';
 import { RouterModule } from '@angular/router';
 @Component({
   selector: 'app-task-bar',
-  imports: [SvgComponent, CommonModule,RouterModule],
+  imports: [SvgComponent, CommonModule, RouterModule],
   templateUrl: './task-bar.component.html',
   styleUrl: './task-bar.component.scss',
   animations: menuDropDownAnimation,
 })
 export class TaskBarComponent {
-  menuItems: MenuItem[] = taskbar
+  menuItems: MenuItem[] = taskbar;
   isMobile: boolean = false;
   menu = signal(mainMenu);
   constructor() {
     this.checkIfMobile(window.innerWidth);
   }
 
-
   @HostListener('window:resize', ['$event'])
   onResize(event: any) {
     this.checkIfMobile(event.target.innerWidth);
   }
 
-
   checkIfMobile(width: number) {
     this.isMobile = width < 1280;
   }
-
 
   @ViewChild('mySidenav') sidenav: ElementRef | undefined;
 
   toggleNav() {
     if (this.sidenav) {
       const currentWidth = this.sidenav.nativeElement.style.width;
-      this.sidenav.nativeElement.style.width = currentWidth === '100%' ? '0' : '100%';
+      this.sidenav.nativeElement.style.width =
+        currentWidth === '100%' ? '0' : '100%';
     }
   }
 

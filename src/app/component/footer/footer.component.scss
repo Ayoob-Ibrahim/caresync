@@ -47,3 +47,24 @@ input{
         width: 50%;
       }
       
+      @media screen and (max-width: 560px) {
+        .underline-link::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: auto;
+          right: auto;
+          width: 0;
+          height: 2px;
+          background-color: #adffeb;
+          transition: width 0.3s ease-in-out;
+          border-radius: 2px; /* This gives the underline rounded corners */
+        }
+        
+        /* On hover, the underline will grow from left to right */
+        .underline-link:hover::before {
+          width: 50%;
+        }
+        
+    }
+    
