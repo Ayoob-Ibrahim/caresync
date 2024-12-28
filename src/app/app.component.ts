@@ -18,10 +18,10 @@ export class AppComponent {
   $bigBall: HTMLElement;
   $smallBall: HTMLElement;
   $hoverables: NodeListOf<HTMLElement>;
-  private data_service: HttpService = inject(HttpService)
+  // private data_service: HttpService = inject(HttpService)
   ngOnInit(): void {
 
-    this.data_service.setpackagesJson();
+    // this.data_service.setpackagesJson();
     // this.$bigBall = document.querySelector('.cursor__ball--big') as HTMLElement;
     // this.$smallBall = document.querySelector('.cursor__ball--small') as HTMLElement;
     // this.$hoverables = document.querySelectorAll('.hoverable');
