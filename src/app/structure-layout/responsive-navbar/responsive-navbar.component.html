@@ -17,10 +17,10 @@
                         </ng-container>
                     </a>
                     <ng-container *ngIf="data.children">
-                        <div class="collapse-menu" aria-haspopup="true">
+                        <div class="collapse-menu" aria-haspopup="true" >
                             <div class="grid grid-cols-2  ">
                                 <ng-container *ngFor="let child of data.children">
-                                    <div class="flex items-center   h-[60px]   w-[100%] child-hover relative group">
+                                    <div class="flex items-center   h-[60px]   w-[100%] child-hover relative group" (click)="menuChanger(child)">
                                         <img class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]" [src]="child.img"
                                             alt="">
                                         <span class="flex items-center"

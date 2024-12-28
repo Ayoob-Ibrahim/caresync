@@ -14,8 +14,12 @@ export class NavbarComponent {
   }
 
   ngOnInit() {
-    console.log(this.route)
+   
   }
   menu = menujson;
   isHoverDropDown = false;
+
+
+  
+
 }

@@ -16,6 +16,11 @@ export const routes: Routes = [
                 loadComponent: () =>
                     import('./page/aboutus/aboutus.component').then((m) => m.AboutusComponent),
             },
+            {
+                path: 'packages/:id', // Mandatory route parameter
+                loadComponent: () =>
+                    import('./page/packages-menu/packages-menu.component').then((m) => m.PackagesMenuComponent),
+            }
         ]
 
     },

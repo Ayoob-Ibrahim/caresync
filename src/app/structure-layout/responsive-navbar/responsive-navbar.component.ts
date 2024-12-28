@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
-import { Component, ElementRef, HostListener, ViewChild } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Component, ElementRef, HostListener, inject, ViewChild } from '@angular/core';
+import { Router, RouterModule } from '@angular/router';
 import menujson from '../../json-data/menu-json.json'
- 
+
 @Component({
   selector: 'app-responsive-navbar',
   imports: [CommonModule, RouterModule],
@@ -19,7 +19,7 @@ export class ResponsiveNavbarComponent {
 
   isSticky: boolean = false;
   stickyTop: number = 0;
-
+  private router: Router = inject(Router)
   ngOnInit() {
   }
 
@@ -28,4 +28,8 @@ export class ResponsiveNavbarComponent {
     this.isSticky = window.scrollY > this.stickyTop;
   }
 
+
+  menuChanger(data) {
+    this.router.navigate(['/packages', data.url]);
+  }
 }
