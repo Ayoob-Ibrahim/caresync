@@ -157,14 +157,24 @@
   align-items: center;
   padding: 2rem;
 
+
   .header {
     font-family: medium;
     color: #129693;
+    border: 1px solid #129693;
+    padding: 10px;
+    border-radius: .3rem;
+
+    // background-color: #f9f9f9;
+  
   }
 
   h2 {
     font-size: 2rem;
     font-family: semikanit;
+    .highlight {
+      color: #129693 !important;
+    }
   }
 
   .content {

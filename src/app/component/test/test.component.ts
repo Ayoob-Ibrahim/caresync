@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, HostListener, OnDestroy, OnInit, Renderer2, ViewChild } from '@angular/core';
+import { AfterViewInit, ChangeDetectorRef, Component, ElementRef, HostListener, Input, OnDestroy, OnInit, Renderer2, signal, ViewChild } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 import { menuDropDownAnimation } from '../../animation/common-animation';
 import Swiper from 'swiper';
 import SwiperCore, { Navigation, Pagination, Thumbs } from 'swiper';
 import { CarouselItem } from '../../interface/common.interface';
 import carousel_data from '../../json-data/home-entry-carousel.json'
+import { interval, takeWhile } from 'rxjs';
 SwiperCore.use([Navigation, Pagination, Thumbs]);
 @Component({
   selector: 'app-test',
@@ -14,29 +15,33 @@ SwiperCore.use([Navigation, Pagination, Thumbs]);
   styleUrl: './test.component.scss',
   animations: menuDropDownAnimation,
 })
-export class TestComponent implements AfterViewInit {
-  data: CarouselItem[] = carousel_data;
+export class TestComponent {
+  private start: number = 4800;
+  private end: number = 5000;
+  private duration: number = 2000; // duration in milliseconds
+  private frameRate: number = 60; // frames per second
 
-  constructor(private cdRef: ChangeDetectorRef) { }
+  currentCount = signal<number>(this.start);
 
-  ngAfterViewInit() {
-    new Swiper('.swiper-container', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      loop: true, // Enable infinite loop
-      effect: 'fade',  // Apply fade transition effect
-      speed: 800,      // Set transition speed (in ms)
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
+  constructor() {
+    this.startCounting();
+  }
 
-    // Trigger change detection manually after Swiper setup
-    this.cdRef.detectChanges();
+  startCounting() {
+    const totalFrames = (this.duration / 1000) * this.frameRate;
+    const increment = (this.end - this.start) / totalFrames;
+    let currentFrame = 0;
+
+    const updateCount = () => {
+      if (currentFrame < totalFrames) {
+        this.currentCount.update(value => Math.floor(value + increment));
+        currentFrame++;
+        requestAnimationFrame(updateCount);
+      } else {
+        this.currentCount.set(this.end); // Ensure it ends exactly at the end value
+      }
+    };
+
+    requestAnimationFrame(updateCount);
   }
 }

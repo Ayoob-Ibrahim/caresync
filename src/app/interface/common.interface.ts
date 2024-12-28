@@ -37,4 +37,5 @@ export interface Testimonial {
     client: string;
     logo_url: string;
     testimonial: string;
+    asset: string;
 }

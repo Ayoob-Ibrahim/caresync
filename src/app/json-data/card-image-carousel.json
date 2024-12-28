@@ -3,41 +3,49 @@
         {
             "client": "Zoe Life Care",
             "logo_url": "https://caresyncexperts.co.uk/images/clients/zoe-life-care-logo.png",
+            "asset":"../../../assets/image-carousel-footer-home/zoe-life-care-logo",
             "testimonial": "We recently started a new company in Northern Ireland and needed help with everything, from RQIA registration to setting up a website, creating a logo, developing a business plan, and designing marketing materials. Care Sync Experts made the whole process easy and stress free. They handled all the paperwork, built a great website, created a professional logo, and even crafted a solid business plan. Their team was professional, friendly, and always ready to help. I highly recommend Care Sync Experts to anyone starting a healthcare business."
         },
         {
             "client": "Living Plus Care Services",
             "logo_url": "https://caresyncexperts.co.uk/images/clients/lpc-logo.png",
+            "asset":"../../../assets/image-carousel-footer-home/lpc-logo",
             "testimonial": "After much debate on whether we should utilise a consultancy service, we made the decision to enquire with Care Sync Experts and within the first consultation we were sold. Our allocated consultant maintained regular communication which was always reassuring and was open to all questions we had. They did everything we needed and more. From providing us with personalised marketing materials, and relatively all the documentation we needed to make sure our client files were in order and CQC ready."
         },
         {
             "client": "EveBlue Healthcare",
             "logo_url": "https://caresyncexperts.co.uk/images/clients/eve-blue-logo.png",
+            "asset":"../../../assets/image-carousel-footer-home/eve-blue-logo",
             "testimonial": "Care Sync Experts helped me set up my company from the ground up. They handled everything from company registration to CQC registration and even prepared me for my CQC interview. They created all my marketing materials and provided customised policies. I highly recommend their services."
         },
         {
             "client": "Care and Grace",
             "logo_url": "https://caresyncexperts.co.uk/images/clients/care-grace-logo.png",
+            "asset":"../../../assets/image-carousel-footer-home/care-grace-logo",
             "testimonial": "I have had the opportunity to work with several consultants in the past, but this company is truly exceptional. Unlike other companies, their primary focus is not just on monetary gains, but on the growth and success of your company. Their commitment and dedication are truly commendable. They consistently deliver results on time and are always available whenever you need their support. From handling my website to managing tenders, marketing, and even setting up my telephone system, they take care of every aspect of my business."
         },
         {
             "client": "Light Health Care",
             "logo_url": "https://caresyncexperts.co.uk/images/clients/light-health-care-logo.png",
+            "asset":"../../../assets/image-carousel-footer-home/light-health-care-logo",
             "testimonial": "I have known the company for a couple of months but they are absolutely superb. Always deliver on time and are there anytime l need assistance even with things that l just need advise with. The service is professional, swift and delivered in a timely manner. l can trust them to deliver at any time. Thank you so much Collins for making my job easy because when l give you work to do l don't have to do anything as l know you will deliver. Also thank you for all the times l called on you on things l as struggling with in the business and helped me with at no cost at all. I truly appreciate you."
         },
         {
             "client": "Comfort Support Services",
             "logo_url": "https://caresyncexperts.co.uk/images/clients/comfort-support-services-logo.png",
+            "asset":"../../../assets/image-carousel-footer-home/comfort-support-services-logo",
             "testimonial": "The team at Care Sync Experts truly came through for me when I needed help with a last-minute tender application. Despite the tight deadline, they worked closely with me and took care of the entire application process. Being a newly opened business, I didn't have much hope, but to my surprise, I received the tender and couldn't be happier! I can't recommend this company enough for their exceptional service. A heartfelt thank you to the entire team for their support and expertise!"
         },
         {
             "client": "Ravdon Healthcare",
             "logo_url": "https://caresyncexperts.co.uk/images/clients/ravdon-healthcare-logo.png",
+            "asset":"../../../assets/image-carousel-footer-home/ravdon-healthcare-logo",
             "testimonial": "Very very impressed with the support received whenever they're called upon. Very knowledgeable in anything social care. Will highly recommend."
         },
         {
             "client": "Hallowed Care",
             "logo_url": "https://caresyncexperts.co.uk/images/clients/hallowed-care-logo.png",
+            "asset":"../../../assets/image-carousel-footer-home/hallowed-care-logo",
             "testimonial": "Care Sync Experts provided exceptional guidance in setting up my temporary staffing services. They supported me every step of the way, from creating effective marketing materials to offering detailed training on securing contracts with care homes and hospitals. Their expertise made the entire process seamless, and I couldn’t be more grateful. Highly recommend their services thank you so much!"
         }
     ]
