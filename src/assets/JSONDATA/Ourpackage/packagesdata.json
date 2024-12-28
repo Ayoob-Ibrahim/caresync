@@ -1,0 +1,32 @@
+{
+  "packageName": "Premium Package",
+  "version": "1.0.0",
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A",
+      "description": "This is a description for Product A",
+      "price": 25.99,
+      "availability": true
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "description": "This is a description for Product B",
+      "price": 40.00,
+      "availability": false
+    },
+    {
+      "id": 3,
+      "name": "Product C",
+      "description": "This is a description for Product C",
+      "price": 15.50,
+      "availability": true
+    }
+  ],
+  "contact": {
+    "email": "support@example.com",
+    "phone": "+1234567890"
+  },
+  "lastUpdated": "2024-12-28"
+}

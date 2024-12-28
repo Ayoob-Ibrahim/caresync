@@ -11,7 +11,7 @@ export class HttpService {
 
 
   setpackagesJson(): void {
-    this.GetJson('Ourpackage/domiciliarycare.json').subscribe({
+    this.GetJson('Ourpackage/packagesdata.json').subscribe({
       next: (data) => { this.our_packages = data },
       error: (error) => console.error('Error:', error),
     })
