@@ -1,5 +1,15 @@
 {
-  "DomiciliaryCare":{
-
+  "DomiciliaryCare": {
+    "structure": [
+      "FullImgCardOnBottomComponent",
+      "FourCardsRowWithZoomOptionComponent",
+      "CyanWhiteCardRowLayoutComponent",
+      "AccordinListComponent",
+      "FullImgWithDataOnTopComponent",
+      "LiteBlueCardWithColsDataComponent",
+      "ThreeColsLayoutDataWithImgComponent",
+      "ThreeColsLayoutDataWithLiteBlueBgComponent",
+      "GetStartedBlueCardComponent"
+    ]
   }
-}  
+}
