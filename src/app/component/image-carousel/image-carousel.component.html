@@ -1,74 +1,90 @@
-<!-- <div class="card-container">
-    <div class="card">
-        <div class="left-side">
-            <div class="content">
-                <h2>Get in Touch</h2>
-                <p>Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart
-                    your path to success with Care Sync Experts.</p>
-            </div>
-        </div>
+<ng-container *ngTemplateOutlet="card_carousel"></ng-container>
+<ng-container *ngTemplateOutlet="bottom_card"></ng-container>
 
-        <div class="right-side">
-            <div class="text-white">
-                <p>{{'Email: hello@caresyncexperts.co.uk'}}</p>
-                <p>Phone: 0333 577 0877</p>
-                <button>Contact Us</button>
+
+<ng-template #card_carousel>
+    <div class="client-container ">
+        <p class="header">WHAT OUR CUSTOMERS SAY</p>
+        <h2>
+            Client Feedback
+        </h2>
+        <p class="content">
+            Establishing a home care business became more manageable with the assistance of Care Sync Experts. Their
+            guidance and support were invaluable.
+        </p>
+    </div>
+
+    <body>
+
+
+        <ng-container *ngFor="let item of testimonials;let i =index">
+            <input type="radio" name="position" [id]="'pos'+i+1" [value]="'pos' + (i + 1)"
+                [(ngModel)]="selectedPosition" />
+        </ng-container>
+
+
+        <button class="nav-button left">
+            <span class="dot" (click)="move(false,selectedPosition)">
+                <i class="bi bi-arrow-left-short" style="font-size: 30px; color: #1abc9c;"></i>
+            </span>
+        </button>
+        <main id="carousel">
+
+            <ng-container *ngFor="let item of testimonials;let i =index">
+                <div class="item">
+                    <ng-container *ngIf="selectedPosition=='pos' + (i + 1)">
+
+                        <div class="card-data">
+                            <img [src]="item.logo_url" alt="">
+                            <h6>
+                                {{item.client}}
+                            </h6>
+                            <p>
+                                {{item.testimonial}}
+                            </p>
+                        </div>
+
+                    </ng-container>
+                </div>
+            </ng-container>
+
+        </main>
+        <button class="nav-button right">
+            <span class="dot" (click)="move(true,selectedPosition)">
+                <i class="bi bi-arrow-right-short" style="font-size: 30px; color: #1abc9c;"></i>
+            </span>
+        </button>
+    </body>
+
+
+
+</ng-template>
+
+
+
+
+
+
+
+<ng-template #bottom_card>
+    <div class="card-container">
+        <div class="card">
+            <div class="left-side">
+                <div class="content">
+                    <h2>Get in Touch</h2>
+                    <p>Ready to progress in your care business journey? Reach out to us today for a consultation.
+                        Kickstart
+                        your path to success with Care Sync Experts.</p>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="text-white">
+                    <p>{{'Email: hello@caresyncexperts.co.uk'}}</p>
+                    <p>Phone: 0333 577 0877</p>
+                    <button>Contact Us</button>
+                </div>
             </div>
         </div>
     </div>
-</div> -->
-
-
-<div class="testimonial-container">
-    <h2 class="heading">Valuable <span>Testimonial</span></h2>
-    <div class="testimonial-wrapper">
-        <div class="testimonial-box mySwiper">
-            <div class="testimonial-content swiper-wrapper">
-                <div class="testimonial-slide swiper-slide">
-                    <img src="https://caresyncexperts.com/wp-content/uploads/2024/09/testi-1@2x-41.jpg" alt="" style="width: 150px;
-                    height: 150px;">
-                    <h3>Jacksonk </h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi cupiditate est error ea
-                        officia dignissimos asperiores aut, debitis suscipit ut facilis modi excepturi possimus
-                        minus maxime eum vitae ipsam quisquam sint nihil ducimus illo quas! Sequi enim officia
-                        laudantium magnam. Repudiandae aspernatur voluptates repellendus possimus architecto quis.
-                        Esse, iusto nesciunt.</p>
-                </div>
-                <div class="testimonial-slide swiper-slide">
-                    <img src="https://caresyncexperts.com/wp-content/uploads/2024/09/testi-1@2x-41.jpg" alt="" style="width: 150px;
-                    height: 150px;">
-                    <h3>Jacksonk </h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi cupiditate est error ea
-                        officia dignissimos asperiores aut, debitis suscipit ut facilis modi excepturi possimus
-                        minus maxime eum vitae ipsam quisquam sint nihil ducimus illo quas! Sequi enim officia
-                        laudantium magnam. Repudiandae aspernatur voluptates repellendus possimus architecto quis.
-                        Esse, iusto nesciunt.</p>
-                </div>
-                <div class="testimonial-slide swiper-slide">
-                    <img src="https://caresyncexperts.com/wp-content/uploads/2024/09/testi-1@2x-41.jpg" alt="" style="width: 150px;
-                    height: 150px;">
-                    <h3>Jacksonk </h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi cupiditate est error ea
-                        officia dignissimos asperiores aut, debitis suscipit ut facilis modi excepturi possimus
-                        minus maxime eum vitae ipsam quisquam sint nihil ducimus illo quas! Sequi enim officia
-                        laudantium magnam. Repudiandae aspernatur voluptates repellendus possimus architecto quis.
-                        Esse, iusto nesciunt.</p>
-                </div>
-                <div class="testimonial-slide swiper-slide">
-                    <img src="https://caresyncexperts.com/wp-content/uploads/2024/09/testi-1@2x-41.jpg" alt="" style="width: 150px;
-                    height: 150px;">
-                    <h3>Jacksonk </h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi cupiditate est error ea
-                        officia dignissimos asperiores aut, debitis suscipit ut facilis modi excepturi possimus
-                        minus maxime eum vitae ipsam quisquam sint nihil ducimus illo quas! Sequi enim officia
-                        laudantium magnam. Repudiandae aspernatur voluptates repellendus possimus architecto quis.
-                        Esse, iusto nesciunt.</p>
-                </div>
-            </div>
-
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
-        </div>
-    </div>
-</div>
+</ng-template>

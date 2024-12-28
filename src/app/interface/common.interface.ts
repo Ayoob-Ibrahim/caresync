@@ -31,3 +31,10 @@ export interface CarouselItem {
     title: string;
     description: string;
 }
+
+
+export interface Testimonial {
+    client: string;
+    logo_url: string;
+    testimonial: string;
+}
