@@ -110,11 +110,11 @@
 @media screen and (max-width: 768px) {
   .over-all-container {
     margin-top: 2rem;
-    height: 90dvh;
-
+    height: max-content;
+    
     .custom-card {
       // bottom: 0%;
-      top: 64%;
+      top: 70%;
       width: 90%;
       display: flex;
       flex-direction: column-reverse;
@@ -146,8 +146,9 @@
 
 
         img {
-          height: 161%;
+          height: 130%;
           bottom: 25% !important;
+          // position: fixed;
           
         }
       }
