@@ -12,11 +12,11 @@
         </p>
     </div>
 
-    <div class="sub-container">
-        <div class="left">
+    <div class="sub-container flex flex-wrap  justify-center md:gap-y-[10px]">
+        <div class="left lg:basis-[50%] md:basis-[100%] sm:basis-[100%]">
             <ng-container *ngTemplateOutlet="card_container"></ng-container>
         </div>
-        <div class="right">
+        <div class="right flex justify-center lg:basis-[50%] md:basis-[100%] sm:basis-[100%]">
             <ng-container *ngTemplateOutlet="image_container"></ng-container>
         </div>
     </div>
@@ -25,9 +25,9 @@
 
 <ng-template #card_container>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-[95%] mx-auto">
+    <div class="flex flex-wrap   justify-evenly gap-y-[10px]">
         <ng-container *ngFor="let item of list_package">
-          <app-package-card ngSkipHydration [height]="item.height" class="col-span-1">
+          <app-package-card ngSkipHydration [height]="item.height" class=" lg:basis-[48%] sm:basis-[90%] md:basis-[48%] justify-center">
             <h2 slot="header" class="text-[#129693] font-bold text-[1.1rem]">
               {{item.title}}
             </h2>
@@ -45,7 +45,7 @@
 </ng-template>
 
 <ng-template #image_container>
-    <figure class="image-class carousel">
+    <figure class="image-class carousel flex justify-center w-[98%]">
         <div class="item" *ngFor="let item of imageUrls; let i = index" [class.active]="currentSlideIndex == i">
             <img [src]="item.image" alt="Carousel Image">
         </div>
