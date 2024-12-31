@@ -132,7 +132,19 @@
 
     /* Mobile */
     @media (max-width: 32rem) {
-        height: 200px;
+        height: auto;
+        // bottom: 15%;
+
+        h3 {
+            font-size: 1.4rem;
+        }
+
+        p {
+            font-size: .8rem;
+            font-family: regular;
+            padding-top: 10px;
+        }
+
     }
 
     /* Tablet */

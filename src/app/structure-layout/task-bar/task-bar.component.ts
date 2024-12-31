@@ -2,6 +2,7 @@ import {
   Component,
   ElementRef,
   HostListener,
+  inject,
   signal,
   ViewChild,
 } from '@angular/core';
@@ -11,7 +12,7 @@ import { MenuItem } from '../../interface/common.interface';
 import { CommonModule } from '@angular/common';
 import mainMenu from '../../json-data/menu-json.json';
 import { menuDropDownAnimation } from '../../animation/common-animation';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 @Component({
   selector: 'app-task-bar',
   imports: [SvgComponent, CommonModule, RouterModule],
@@ -23,6 +24,7 @@ export class TaskBarComponent {
   menuItems: MenuItem[] = taskbar;
   isMobile: boolean = false;
   menu = signal(mainMenu);
+  private router: Router = inject(Router)
   constructor() {
     this.checkIfMobile(window.innerWidth);
   }
@@ -50,5 +52,9 @@ export class TaskBarComponent {
     const currentMenu = this.menu();
     currentMenu[index].collapse = !currentMenu[index].collapse;
     this.menu.set(currentMenu);
+  }
+
+  menuChanger(data) {
+    this.router.navigate(['/packages', data.url]);
   }
 }
