@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './full-image-with-card-bottom.component.scss'
 })
 export class FullImageWithCardBottomComponent {
+  public backgroundImage: string =
+  '../../../assets/our-packages/DomiciliaryCare/DomiciliaryCare.jpeg';
 
 }

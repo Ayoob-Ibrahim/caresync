@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { FullImgCardOnBottomComponent } from '../../widgets/full-img-card-on-bottom/full-img-card-on-bottom.component';
 import { SHARED_WIDGETS_PACKAGE } from './packages-widgets-imports';
+import { FullImageWithCardBottomComponent } from '../../widgets/full-image-with-card-bottom/full-image-with-card-bottom.component';
 
 @Component({
   selector: 'app-packages-menu',
@@ -21,7 +21,7 @@ export class PackagesMenuComponent implements OnInit {
 
   componentList = {
     'DomiciliaryCare': [
-      FullImgCardOnBottomComponent,
+      FullImageWithCardBottomComponent,
     ]
   }
 
