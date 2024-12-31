@@ -15,8 +15,12 @@ declare var $: any;
 export class ImageCarouselComponent {
   testimonials: Testimonial[] = carosuel_data.testimonials
   selectedPosition: string = 'pos1'
+  constructor() {
+    console.log(this.testimonials)
+  }
 
   move(inc: boolean, data) {
+
     data = Number(data.split('pos')[1])
     if (
       (data == 1 && !inc) ||

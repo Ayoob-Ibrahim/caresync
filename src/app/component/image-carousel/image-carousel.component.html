@@ -35,10 +35,10 @@
                     <ng-container *ngIf="selectedPosition=='pos' + (i + 1)">
 
                         <div class="card-data">
-                            <img [src]="item.logo_url" alt="">
+                            <!-- <img [src]="item.logo_url" alt=""> -->
                              <!-- <img src='../../../assets/image-carousel-footer-home/zoe-life-care-logo.webp' alt="">
                              {{item.asset}} -->
-                             <!-- <img src='../../../assets/image-carousel-footer-home/care-grace-logo.webp' alt=""> -->
+                             <img [src]="'../../../assets/image-carousel-footer-home/'+item.asset" alt="">
                             <h6>
                                 {{item.client}}
                             </h6>
