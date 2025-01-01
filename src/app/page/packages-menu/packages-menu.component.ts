@@ -25,7 +25,13 @@ export class PackagesMenuComponent implements OnInit {
     ],
     'SupportedLiving': [
       FullImageWithCardBottomComponent,
-    ]
+    ],
+    'ciwDomiciliaryCare': [
+      FullImageWithCardBottomComponent,
+    ],
+    'rqiaDomiciliaryCare': [
+      FullImageWithCardBottomComponent,
+    ],
   };
 
 
