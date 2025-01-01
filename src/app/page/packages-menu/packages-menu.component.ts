@@ -32,6 +32,9 @@ export class PackagesMenuComponent implements OnInit {
     'rqiaDomiciliaryCare': [
       FullImageWithCardBottomComponent,
     ],
+    'CombinedCareAgency': [
+      FullImageWithCardBottomComponent,
+    ],
   };
 
 
