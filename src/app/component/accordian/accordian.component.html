@@ -8,9 +8,16 @@
             <i   class="{{accordData.selectedIndex() != accordData.indexes ? 'header bi bi-plus-lg':'active-header bi bi-dash-lg'}}"></i>
         </div>
     </div>
-    <div   [@accordionState]="accordData.selectedIndex() === accordData.indexes ? 'open' : 'closed'"
+    <div  *ngIf="accordData.data.content;else elseBlock" [@accordionState]="accordData.selectedIndex() === accordData.indexes ? 'open' : 'closed'"
     class="accordion-content"   class="{{accordData.selectedIndex() == accordData.indexes ? 'active-content':'content'}}   ">
         {{accordData.data.content}}
     </div>
+    
 </div>
 
+<ng-template #elseBlock>
+    <div   [@accordionState]="accordData.selectedIndex() === accordData.indexes ? 'open' : 'closed'"
+    class="accordion-content"   class="{{accordData.selectedIndex() == accordData.indexes ? 'active-content':'content'}}   ">
+     {{accordData.data.content1}} <a class="text-primary hover:text-[#024349]" [href]="accordData.data.url" target="_blank" >{{accordData.data.name}}</a>{{accordData.data.content2}} 
+    </div>
+  </ng-template>

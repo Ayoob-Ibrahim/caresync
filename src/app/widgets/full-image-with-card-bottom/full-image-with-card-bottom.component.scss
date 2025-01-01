@@ -108,10 +108,8 @@
 
 /* Bottom Card Styling */
 .bottom-card {
-    position: absolute;
-    bottom: 0%;
-    left: 50%;
-    transform: translateX(-50%);
+ 
+   margin-top: -4rem;
     width: 80%;
     background: white;
     color: black;
@@ -119,7 +117,7 @@
     border-radius: 10px;
     box-shadow: #129693 0px 5px 15px;
     text-align: left;
-    height: 250px;
+    height: max-content;
 
     h3 {
         font-size: 1.5rem;
@@ -150,13 +148,5 @@
 
     }
 
-    /* Tablet */
-    @media (min-width: 32rem) and (max-width: 48rem) {
-        height: 220px;
-    }
 
-    /* Desktop */
-    @media (min-width: 48rem) {
-        height: 220px;
-    }
 }

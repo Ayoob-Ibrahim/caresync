@@ -1,4 +1,4 @@
-<div class="relative h-[100vh] mb-[5rem] over-all-container">
+<div class=" h-[100vh] mb-[5rem] over-all-container">
   <div class="swiper-container relative">
     <div class="swiper-wrapper">
       <div class="swiper-slide relative" *ngFor="let image of data">
@@ -16,6 +16,7 @@
     <!-- <div class="swiper-pagination"></div> -->
   </div>
 
+ <div class="flex justify-center">
   <div class="custom-card ">
     <div class="w-2/3 p-[4rem]">
       <h2 class="custom-heading">At Care Sync
@@ -30,6 +31,7 @@
         alt="Doctor" class="object-contain rounded-lg" />
     </div>
   </div>
+ </div>
 </div>
 
 <ng-template #contentTemplate let-content="content">

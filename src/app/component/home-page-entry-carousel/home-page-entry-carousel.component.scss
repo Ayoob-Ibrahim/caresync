@@ -70,13 +70,13 @@
 }
 
 
-.over-all-container .custom-card {
-  position: absolute;
-  bottom: -3%;
-  left: 50%;
-  transform: translateX(-50%);
+.custom-card {
+
+  margin-top: -12rem;
   width: 80%;
-  height: 350px;
+  height: max-content;
+  // position: relative;
+
   background-color: #0e4c5c;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -115,12 +115,12 @@
     height: max-content;
 
     .custom-card {
+      position: relative;
       // bottom: 0%;
-      top: 70%;
-      width: 90%;
+      margin-top: -20rem;
       display: flex;
       flex-direction: column-reverse;
-      height: 500px;
+    
       border-radius: 10px;
 
       div:nth-child(1) {
