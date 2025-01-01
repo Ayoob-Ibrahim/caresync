@@ -43,6 +43,7 @@ export class PackagesMenuComponent implements OnInit {
       if (id) {
         const data = this.serviceData.GetPackagesData()[id];
         this.customInjector.set(data);
+        console.log(data);
       }
     });
   }
