@@ -17,7 +17,7 @@ export const routes: Routes = [
                     import('./page/aboutus/aboutus.component').then((m) => m.AboutusComponent),
             },
             {
-                path: 'packages/:id', // Mandatory route parameter
+                path: 'packages/:id', 
                 loadComponent: () =>
                     import('./page/packages-menu/packages-menu.component').then((m) => m.PackagesMenuComponent),
             }
