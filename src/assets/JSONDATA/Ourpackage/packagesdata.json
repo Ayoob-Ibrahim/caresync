@@ -1,15 +1,47 @@
 {
   "DomiciliaryCare": {
-    "structure": [
-      "FullImgCardOnBottomComponent",
-      "FourCardsRowWithZoomOptionComponent",
-      "CyanWhiteCardRowLayoutComponent",
-      "AccordinListComponent",
-      "FullImgWithDataOnTopComponent",
-      "LiteBlueCardWithColsDataComponent",
-      "ThreeColsLayoutDataWithImgComponent",
-      "ThreeColsLayoutDataWithLiteBlueBgComponent",
-      "GetStartedBlueCardComponent"
-    ]
+    "compStructure": [
+      "FullImageWithCardBottomComponent"
+    ],
+    "FullImageWithCardBottomComponent": {
+      "title": "DOMICILIARY CARE",
+      "sub": "Start Your Home Care Business with Our All Inclusive Support Package.",
+      "content": "Transform your vision of running a successful home care agency into reality with Care Sync Experts.",
+      "img": "../../../assets/our-packages/DomiciliaryCare/headerFullimage.jpeg",
+      "card": {
+        "title": "What is Domiciliary Care?",
+        "content1": "Domiciliary care, also referred to as Home care provides vital personal and practical assistance to individuals within the comfort of their own homes. Care Sync Experts specialises in guiding entrepreneurs and providers through the process of establishing successful domiciliary care agencies.",
+        "content2": "This service is crucial for meeting the needs of elderly individuals, people with disabilities, those recovering from illness or surgery, and others requiring assistance with daily living activities."
+      }
+    }
+  }, 
+  "TemporaryStaffing": {
+    "compStructure": [
+      "FullImageWithCardBottomComponent"
+    ],
+    "FullImageWithCardBottomComponent": {
+      "title": "TEMPORARY STAFFING AGENCY",
+      "sub": "Launch and Grow Your Temporary Staffing Agency with Confidence",
+      "content": "We provide a package for Temporary Staffing that is tailored to support you in setting up a temporary staffing agency within the social care field. Our experience guarantees that you can effectively handle the complexities of the sector and establish a business centred on delivering notch adaptable staffing solutions.",
+      "img": "../../../assets/our-packages/TemporaryStaffing/headerFullimage.webp"
+      
+   
+    }
+  },
+  "SupportedLiving": {
+    "compStructure": [
+      "FullImageWithCardBottomComponent"
+    ],
+    "FullImageWithCardBottomComponent": {
+      "title": "SUPPORTED LIVING",
+      "sub": "Your Blueprint for Establishing and Running a Thriving Supported Living Service",
+      "content": "Unlock Success in Supported Living",
+      "img": "../../../assets/our-packages/SupportedLiving/headerFullimage.webp",
+      "card": {
+        "title": "Empower Lives with Our Expertly Crafted Supported Living Solutions",
+        "content1": "Setting up a successful Supported Living service is more than just a business. It involves nurturing an environment where individuals can flourish. Care Sync Experts offers a plan to help you establish and oversee a service that prioritises independence, dignity and quality of life. Our customised package provides you with the knowledge and resources to surpass industry expectations and contribute meaningfully to the healthcare sector."
+        
+      }
+    }
   }
 }

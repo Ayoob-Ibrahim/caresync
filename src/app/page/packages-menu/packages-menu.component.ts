@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { Component, computed, effect, inject, OnInit, signal } from '@angular/core';
+import { ActivatedRoute, ParamMap } from '@angular/router';
 import { SHARED_WIDGETS_PACKAGE } from './packages-widgets-imports';
 import { FullImageWithCardBottomComponent } from '../../widgets/full-image-with-card-bottom/full-image-with-card-bottom.component';
+import { HttpService } from '../../service/http.service';
 
 @Component({
   selector: 'app-packages-menu',
@@ -10,19 +11,42 @@ import { FullImageWithCardBottomComponent } from '../../widgets/full-image-with-
   styleUrl: './packages-menu.component.scss'
 })
 export class PackagesMenuComponent implements OnInit {
-  public packageId: string | null = null;
 
-  constructor(private route: ActivatedRoute) { }
-
-  ngOnInit(): void {
-    this.packageId = this.route.snapshot.paramMap.get('id');
-  }
+  packageId = signal<string | null>(null);
+  customInjector = signal<any>({});
 
 
   componentList = {
     'DomiciliaryCare': [
       FullImageWithCardBottomComponent,
+    ],
+    'TemporaryStaffing': [
+      FullImageWithCardBottomComponent,
+    ],
+    'SupportedLiving': [
+      FullImageWithCardBottomComponent,
     ]
+  };
+
+
+  private serviceData = inject(HttpService);
+  private route = inject(ActivatedRoute);
+
+  constructor() {
+
+    effect(() => {
+      const id = this.packageId();
+      if (id) {
+        const data = this.serviceData.GetPackagesData()[id];
+        this.customInjector.set(data);
+      }
+    });
   }
 
+  ngOnInit(): void {
+
+    this.route.paramMap.subscribe((params: ParamMap) => {
+      this.packageId.set(params.get('id'));
+    });
+  }
 }

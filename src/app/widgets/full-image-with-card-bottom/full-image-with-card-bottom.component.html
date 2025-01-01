@@ -1,29 +1,29 @@
-<div class="relative h-[100vh]">
-    <div class="main-container" [style.background-image]="'url(' + backgroundImage + ')'">
+<div class="  h-[100vh]">
+    <div class="main-container" [style.background-image]="'url(' + dataProperty?.img + ')'">
         <figure>
             <figcaption>
-                <h2>DOMICILIARY CARE</h2>
-                <h6>Start Your Home Care Business with Our All Inclusive Support Package.</h6>
+                <h2>{{dataProperty?.title}}</h2>
+                <h6>{{dataProperty?.sub}}</h6>
                 <p>
-                    Transform your vision of running a successful home care agency into reality with Care Sync Experts.
+                    {{dataProperty?.content}}
                 </p>
             </figcaption>
         </figure>
+
+        <ng-container *ngIf="dataProperty?.card">
+            <div class="bottom-card">
+                <h3>
+                    {{dataProperty?.card?.title}}
+                </h3>
+                <p>
+                    {{dataProperty?.card?.content1}}
+                </p>
+                <p>
+                    {{dataProperty?.card?.content2}}
+                </p>
+
+            </div>
+        </ng-container>
     </div>
-    <div class="bottom-card">
-        <h3>
-            What is Domiciliary Care?
-        </h3>
-        <p>
-            Domiciliary care, also referred to as Home care provides vital personal and practical assistance to
-            individuals within the comfort of their own homes. Care Sync Experts specialises in guiding entrepreneurs
-            and providers through the process of establishing successful domiciliary care agencies.
-        </p>
-        <p>
-            This service is crucial for meeting the needs of elderly individuals, people with disabilities, those
-            recovering from illness or surgery, and others requiring assistance with daily living activities. 
-            
-        </p>
-        
-    </div>
+
 </div>
