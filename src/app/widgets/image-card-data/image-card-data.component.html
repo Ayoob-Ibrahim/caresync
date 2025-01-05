@@ -1,6 +1,6 @@
 <div class="card-data-container  ">
-    <p>
-        With our expertise, you can confidently set up a domiciliary care agency that offers services such as:
+    <p *ngIf="dataProperty?.heading">
+       {{dataProperty?.heading}}
     </p>
     <section class="portfolio mt-[2rem]" id="portfolio">
         <div class="portfolio-container">
@@ -13,9 +13,7 @@
             </div>
         </div>
     </section>
-    <article>
-        We aim to assist you in establishing a care agency that promotes independence, enhances quality of life, and
-        allows individuals to receive the support they need in the comfort of their own homes. Our consultancy services
-        that cover every aspect of starting and running a domiciliary care business, ensuring your success from day one.
+    <article *ngIf="dataProperty?.content">
+        {{dataProperty?.content}}
     </article>
 </div>

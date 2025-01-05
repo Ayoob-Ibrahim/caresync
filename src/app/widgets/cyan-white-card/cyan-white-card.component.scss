@@ -1,0 +1,111 @@
+.main-container {
+    .sub-container {
+        height: 300px;
+        background-color: #129693;
+        display: flex;
+        justify-content: space-around;
+
+
+        .side {
+            height: 100%;
+            width: 50%;
+
+
+            p {
+                font-family: regular;
+            }
+
+            h1 {
+                font-family: medium;
+                font-size: 2rem;
+            }
+
+            h6 {
+                font-family: regular;
+            }
+        }
+
+        .side.right {
+            div {
+                width: 75%;
+                height: 100%;
+                background-color: white;
+                padding-top: 10%;
+                padding-left: 5%;
+
+                button {
+                    margin-top: 1rem;
+                }
+            }
+        }
+
+        .side.left {
+            padding-top: 5%;
+            padding-left: 10%;
+            color: white;
+
+            h1 {
+                color: #adffeb;
+            }
+        }
+
+
+    }
+}
+
+.solo-tag {
+    font-family: regular;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+
+    .solo-tag{
+        font-size: 1.5rem !important;
+    }
+    .side {
+        width: 100% !important;
+        padding: 10px;
+
+        h1 {
+            font-size: 1.7rem !important;
+            font-family: medium !important;
+        }
+    }
+
+    .sub-container {
+        flex-direction: column !important;
+        justify-content: center;
+        height: auto !important;
+    }
+
+
+    .side.right {
+        div {
+            width: 100% !important;
+            height: 200px !important;
+            background-color: white;
+            padding-top: 0% !important;
+            padding-left: 5%;
+            border-radius: .3rem;
+
+            button {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    .side.left {
+        padding-top: 5%;
+        padding-left: 5% !important;
+        color: white;
+        text-align: center;
+
+        h1 {
+            color: #adffeb;
+        }
+    }
+
+}

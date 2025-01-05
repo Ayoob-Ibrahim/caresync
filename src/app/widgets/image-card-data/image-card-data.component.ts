@@ -7,12 +7,7 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
   templateUrl: './image-card-data.component.html',
   styleUrl: './image-card-data.component.scss'
 })
-export class ImageCardDataComponent implements OnChanges {
-  ngOnChanges(changes: SimpleChanges): void {
-    setTimeout(() => {
-      console.warn(this.dataProperty,'carda')
-    }, 0);
-  }
+export class ImageCardDataComponent {
   @Input() dataProperty: any;
 
 }

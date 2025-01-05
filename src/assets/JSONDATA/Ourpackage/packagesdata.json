@@ -3,6 +3,7 @@
     "compStructure": [
       "FullImageWithCardBottomComponent",
       "ImageCardDataComponent",
+      "CyanWhiteCardComponent",
       "ourPackagesaccordiangroup"
     ],
     "ourPackagesaccordiangroup": [
@@ -116,6 +117,27 @@
           ]
         }
       }
+    },
+    "CyanWhiteCardComponent": {
+      "mainContainer": {
+        "subContainer": {
+          "leftSide": {
+            "heading": "Our Comprehensive Package",
+            "priceRange": "Prices Range from £500 to £6,000",
+            "taxInfo": "EXCL VAT"
+          },
+          "rightSide": {
+            "heading": "DO YOU PREFER OFFLINE READING?",
+            "description": "Download a PDF version of our Domiciliary Care Agency Package",
+            "button": {
+              "text": "Download PDF Here",
+              "action": "openPdf",
+              "pdfUrl": "https://caresyncexperts.co.uk/domiciliary-care-package-brochure-download"
+            }
+          }
+        }
+      },
+      "solobottom": " What’s Included in Our Comprehensive Package:"
     }
   },
   "TemporaryStaffing": {

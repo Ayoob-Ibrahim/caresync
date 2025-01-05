@@ -12,6 +12,7 @@ import { FullImageWithCardBottomComponent } from '../../widgets/full-image-with-
 import { HttpService } from '../../service/http.service';
 import { OurpackagesAccorianGroupComponent } from '../../component/ourpackages-accorian-group/ourpackages-accorian-group.component';
 import { ImageCardDataComponent } from '../../widgets/image-card-data/image-card-data.component';
+import { CyanWhiteCardComponent } from '../../widgets/cyan-white-card/cyan-white-card.component';
 
 @Component({
   selector: 'app-packages-menu',
@@ -25,8 +26,8 @@ export class PackagesMenuComponent implements OnInit {
 
   componentList = {
     DomiciliaryCare: [
-      FullImageWithCardBottomComponent,  ImageCardDataComponent,
-      OurpackagesAccorianGroupComponent,    
+      FullImageWithCardBottomComponent, ImageCardDataComponent, CyanWhiteCardComponent,
+      OurpackagesAccorianGroupComponent,
     ],
     TemporaryStaffing: [FullImageWithCardBottomComponent],
     SupportedLiving: [FullImageWithCardBottomComponent],
