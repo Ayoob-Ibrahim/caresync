@@ -65,6 +65,56 @@
         "content1": "Domiciliary care, also referred to as Home care provides vital personal and practical assistance to individuals within the comfort of their own homes. Care Sync Experts specialises in guiding entrepreneurs and providers through the process of establishing successful domiciliary care agencies.",
         "content2": "This service is crucial for meeting the needs of elderly individuals, people with disabilities, those recovering from illness or surgery, and others requiring assistance with daily living activities."
       }
+    },
+    "ImageCardDataComponent": {
+      "heading": " With our expertise, you can confidently set up a domiciliary care agency that offers services such as:",
+      "content": "We aim to assist you in establishing a care agency that promotes independence, enhances quality of life, and allows individuals to receive the support they need in the comfort of their own homes. Our consultancy services that cover every aspect of starting and running a domiciliary care business, ensuring your success from day one.",
+      "cardData": {
+        "container": {
+          "items": [
+            {
+              "image": {
+                "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-personal-care.jpg",
+                "alt": "Personal care"
+              },
+              "layer": {
+                "title": "Personal care",
+                "description": "Assistance with bathing, dressing, and daily hygiene."
+              }
+            },
+            {
+              "image": {
+                "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-household-tasks.jpg",
+                "alt": "Household tasks"
+              },
+              "layer": {
+                "title": "Household tasks",
+                "description": "Support with cleaning, cooking, and household management."
+              }
+            },
+            {
+              "image": {
+                "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-medical-support.jpg",
+                "alt": "Medical support"
+              },
+              "layer": {
+                "title": "Medical support",
+                "description": "Administering medication and monitoring health conditions."
+              }
+            },
+            {
+              "image": {
+                "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-companionship.jpg",
+                "alt": "Companionship"
+              },
+              "layer": {
+                "title": "Companionship",
+                "description": "Providing emotional and social support to clients."
+              }
+            }
+          ]
+        }
+      }
     }
   },
   "TemporaryStaffing": {
