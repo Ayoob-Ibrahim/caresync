@@ -11,6 +11,7 @@ import { SHARED_WIDGETS_PACKAGE } from './packages-widgets-imports';
 import { FullImageWithCardBottomComponent } from '../../widgets/full-image-with-card-bottom/full-image-with-card-bottom.component';
 import { HttpService } from '../../service/http.service';
 import { OurpackagesAccorianGroupComponent } from '../../component/ourpackages-accorian-group/ourpackages-accorian-group.component';
+import { ImageCardDataComponent } from '../../widgets/image-card-data/image-card-data.component';
 
 @Component({
   selector: 'app-packages-menu',
@@ -25,6 +26,7 @@ export class PackagesMenuComponent implements OnInit {
   componentList = {
     DomiciliaryCare: [
       FullImageWithCardBottomComponent,
+      ImageCardDataComponent,
       OurpackagesAccorianGroupComponent,
     ],
     TemporaryStaffing: [FullImageWithCardBottomComponent],
