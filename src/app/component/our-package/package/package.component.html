@@ -49,7 +49,8 @@
         <div class="item" *ngFor="let item of imageUrls; let i = index" [class.active]="currentSlideIndex == i">
             <img [src]="item.image" alt="Carousel Image">
         </div>
-        <div class="image-caption">
+        <div class="
+        ">
             <button class="nav-button me-2" (click)="prevSlide()">
                 <span class="dot">
                     <app-svg [svgType]="'back_arrow_black'"></app-svg>
