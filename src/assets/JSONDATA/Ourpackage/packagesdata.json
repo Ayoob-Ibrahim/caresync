@@ -2,9 +2,10 @@
   "DomiciliaryCare": {
     "compStructure": [
       "FullImageWithCardBottomComponent",
-      "ImageCardDataComponent",
+      "ImageCardDataComponent_four",
       "CyanWhiteCardComponent",
-      "ourPackagesaccordiangroup"
+      "ourPackagesaccordiangroup",
+      "ImageCardDataComponent_three"
     ],
     "ourPackagesaccordiangroup": [
       {
@@ -68,53 +69,55 @@
         "content2": "This service is crucial for meeting the needs of elderly individuals, people with disabilities, those recovering from illness or surgery, and others requiring assistance with daily living activities."
       }
     },
-    "ImageCardDataComponent": {
-      "heading": " With our expertise, you can confidently set up a domiciliary care agency that offers services such as:",
-      "content": "We aim to assist you in establishing a care agency that promotes independence, enhances quality of life, and allows individuals to receive the support they need in the comfort of their own homes. Our consultancy services that cover every aspect of starting and running a domiciliary care business, ensuring your success from day one.",
-      "cardData": {
-        "container": {
-          "items": [
-            {
-              "image": {
-                "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-personal-care.jpg",
-                "alt": "Personal care"
+    "ImageCardDataComponent_four": {
+      "fourCard_data": {
+        "heading": " With our expertise, you can confidently set up a domiciliary care agency that offers services such as:",
+        "content": "We aim to assist you in establishing a care agency that promotes independence, enhances quality of life, and allows individuals to receive the support they need in the comfort of their own homes. Our consultancy services that cover every aspect of starting and running a domiciliary care business, ensuring your success from day one.",
+        "cardData": {
+          "container": {
+            "items": [
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-personal-care.jpg",
+                  "alt": "Personal care"
+                },
+                "layer": {
+                  "title": "Personal care",
+                  "description": "Assistance with bathing, dressing, and daily hygiene."
+                }
               },
-              "layer": {
-                "title": "Personal care",
-                "description": "Assistance with bathing, dressing, and daily hygiene."
-              }
-            },
-            {
-              "image": {
-                "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-household-tasks.jpg",
-                "alt": "Household tasks"
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-household-tasks.jpg",
+                  "alt": "Household tasks"
+                },
+                "layer": {
+                  "title": "Household tasks",
+                  "description": "Support with cleaning, cooking, and household management."
+                }
               },
-              "layer": {
-                "title": "Household tasks",
-                "description": "Support with cleaning, cooking, and household management."
-              }
-            },
-            {
-              "image": {
-                "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-medical-support.jpg",
-                "alt": "Medical support"
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-medical-support.jpg",
+                  "alt": "Medical support"
+                },
+                "layer": {
+                  "title": "Medical support",
+                  "description": "Administering medication and monitoring health conditions."
+                }
               },
-              "layer": {
-                "title": "Medical support",
-                "description": "Administering medication and monitoring health conditions."
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-companionship.jpg",
+                  "alt": "Companionship"
+                },
+                "layer": {
+                  "title": "Companionship",
+                  "description": "Providing emotional and social support to clients."
+                }
               }
-            },
-            {
-              "image": {
-                "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-companionship.jpg",
-                "alt": "Companionship"
-              },
-              "layer": {
-                "title": "Companionship",
-                "description": "Providing emotional and social support to clients."
-              }
-            }
-          ]
+            ]
+          }
         }
       }
     },
@@ -138,6 +141,68 @@
         }
       },
       "solobottom": " What’s Included in Our Comprehensive Package:"
+    },
+    "ImageCardDataComponent_three": {
+      "three_card": {
+        "heading": " Building Your Vision, One Step at a Time",
+        "content": "Partner with Care Sync Experts to establish your care business in one of the most robust sectors.With our tailored support and industry expertise, we provide everything you need to build and grow a successful care agency.",
+        "cardData": {
+          "container": {
+            "items": [
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/supported-living-package-thumbnail.jpg",
+                  "alt": "Supported Living"
+                },
+                "layer": {
+                  "title": "Supported Living",
+                  "description": "Create communities where independence and quality of life are the top priorities."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/temporary-staffing-package-thumbnail.jpg",
+                  "alt": "Temporary Staffing Agency"
+                },
+                "layer": {
+                  "title": "Temporary Staffing Agency",
+                  "description": "Ensure top tier care with a reliable, expertly trained workforce on demand."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/ciw-package-thumbnail.jpg",
+                  "alt": "CIW Domiciliary Care Agency"
+                },
+                "layer": {
+                  "title": "CIW Domiciliary Care Agency",
+                  "description": "Navigate CIW regulations and establish a high quality care agency in Wales."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/combined-agency-package-thumbnail.jpg",
+                  "alt": "Combined Care Agency"
+                },
+                "layer": {
+                  "title": "Combined Care Agency",
+                  "description": "Integrate care and staffing for seamless operations and unparalleled service."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/rqia-domiciliary-care-package-thumbnail.jpg",
+                  "alt": "RQIA Domiciliary Care Agency"
+                },
+                "layer": {
+                  "title": "RQIA Domiciliary Care Agency",
+                  "description": "Launch with confidence, meeting and exceeding RQIA standards from the start."
+                }
+              }
+            ]
+          }
+        }
+      }
     }
   },
   "TemporaryStaffing": {

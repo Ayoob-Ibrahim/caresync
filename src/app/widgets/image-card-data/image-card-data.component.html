@@ -1,19 +1,47 @@
-<div class="card-data-container  ">
-    <p *ngIf="dataProperty?.heading">
-       {{dataProperty?.heading}}
-    </p>
-    <section class="portfolio mt-[2rem]" id="portfolio">
-        <div class="portfolio-container">
-            <div class="portfolio-box" *ngFor="let item of dataProperty?.cardData?.container?.items">
-                <img [src]="item.image.src" [alt]="item.image.alt">
-                <div class="portfolio-layer">
-                    <h4>{{ item.layer.title }}</h4>
-                    <p>{{ item.layer.description }}</p>
+<ng-container *ngTemplateOutlet="dataProperty?.fourCard_data ? four_card : three_card"></ng-container>
+
+<ng-template #four_card>
+    <div class="card-data-container">
+        <p *ngIf="dataProperty?.fourCard_data?.heading">
+            {{dataProperty?.fourCard_data?.heading}}
+        </p>
+        <section class="portfolio mt-[2rem]" id="portfolio">
+            <div class="portfolio-container">
+                <div class="portfolio-box" *ngFor="let item of dataProperty?.fourCard_data?.cardData?.container?.items">
+                    <img [src]="item.image.src" [alt]="item.image.alt">
+                    <div class="portfolio-layer">
+                        <h4>{{ item.layer.title }}</h4>
+                        <p>{{ item.layer.description }}</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <article *ngIf="dataProperty?.content">
-        {{dataProperty?.content}}
-    </article>
-</div>
+        </section>
+        <article *ngIf="dataProperty?.fourCard_data.content">
+            {{dataProperty?.fourCard_data?.content}}
+        </article>
+    </div>
+</ng-template>
+
+<ng-template #three_card>
+    <div class="card-data-container three-card ">
+        <section class="portfolio mt-[2rem]" id="portfolio">
+            <div class="portfolio-container">
+                <div class="first-card">
+                    <p *ngIf="dataProperty?.three_card?.heading" style="width: 100%;">
+                        {{dataProperty?.three_card?.heading}}
+                    </p>
+                    <article *ngIf="dataProperty?.three_card.content">
+                        {{dataProperty?.three_card?.content}}
+                    </article>
+                </div>
+                <div class="portfolio-box" *ngFor="let item of dataProperty?.three_card?.cardData?.container?.items">
+                    <img [src]="item.image.src" [alt]="item.image.alt">
+                    <div class="portfolio-layer">
+                        <h4>{{ item.layer.title }}</h4>
+                        <p>{{ item.layer.description }}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</ng-template>
