@@ -1,13 +1,11 @@
 <div class="mt-8 sm:mt-0">
-    <ng-container *ngIf="packageId() && componentList[packageId()]; else noData">
-      <ng-container *ngFor="let comp of componentList[packageId()]; let i = index;">
-        <ng-template
-          *ngComponentOutlet="comp; inputs: { dataProperty: customInjector()[customInjector()['compStructure'][i]] }"
-        />
-      </ng-container>
+  <ng-container *ngIf="packageId() && componentList[packageId()]; else noData">
+    <ng-container *ngFor="let comp of componentList[packageId()]; let i = index;">
+      <ng-template
+        *ngComponentOutlet="comp; inputs: { dataProperty: customInjector()[customInjector()['compStructure'][i]] }" />
     </ng-container>
-    <ng-template #noData>
-      <p>No components available for the selected package.</p>
-    </ng-template>
-  </div>
-  
+  </ng-container>
+  <ng-template #noData>
+    <p>No components available for the selected package.</p>
+  </ng-template>
+</div>

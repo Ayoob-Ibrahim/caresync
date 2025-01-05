@@ -27,6 +27,7 @@ export class PackagesMenuComponent implements OnInit {
     DomiciliaryCare: [
       FullImageWithCardBottomComponent,
       OurpackagesAccorianGroupComponent,
+      ImageCardDataComponent
     ],
     TemporaryStaffing: [FullImageWithCardBottomComponent],
     SupportedLiving: [FullImageWithCardBottomComponent],
@@ -44,7 +45,7 @@ export class PackagesMenuComponent implements OnInit {
       if (id) {
         const data = this.serviceData.GetPackagesData()[id];
         this.customInjector.set(data);
-        console.log(data);
+        console.log(this.customInjector());
       }
     });
   }

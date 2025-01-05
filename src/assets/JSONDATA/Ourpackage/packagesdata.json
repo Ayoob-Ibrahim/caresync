@@ -4,7 +4,7 @@
       "FullImageWithCardBottomComponent",
       "ourPackagesaccordiangroup"
     ],
-    "ourPackagesaccordiangroup":[
+    "ourPackagesaccordiangroup": [
       {
         "header": "Business Plan",
         "content": "Work with our team to develop a detailed business plan tailored to your care agency, including cash flow forecasts and profit and loss statements to ensure financial stability and growth.<a href='https://example.com/business-plan' target='_blank'>"
@@ -55,7 +55,6 @@
         "url": "https://ico.org.uk/"
       }
     ],
-    
     "FullImageWithCardBottomComponent": {
       "title": "DOMICILIARY CARE",
       "sub": "Start Your Home Care Business with Our All Inclusive Support Package.",
@@ -125,7 +124,6 @@
       "sub": "Unite Domiciliary Care and Temporary Staffing for Unmatched Flexibility and Quality",
       "content": "Elevate Your Care Agency with Our Combined Package",
       "img": "../../../assets/our-packages/CombinedCareAgency/headerFullimage.webp"
-      
     }
   }
 }

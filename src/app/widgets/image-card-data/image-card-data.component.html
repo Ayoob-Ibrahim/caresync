@@ -1,1 +1,21 @@
-<p>image-card-data works!</p>
+<div class="card-data-container mt-[3rem]">
+    <p>
+        With our expertise, you can confidently set up a domiciliary care agency that offers services such as:
+    </p>
+
+
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-container">
+            <div class="portfolio-box" *ngFor="let item of cardData.container.items">
+                <img [src]="item.image.src" [alt]="item.image.alt">
+                <div class="portfolio-layer">
+                    <h4>{{ item.layer.title }}</h4>
+                    <p>{{ item.layer.description }}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</div>
