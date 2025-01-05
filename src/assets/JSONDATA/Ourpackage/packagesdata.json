@@ -3,59 +3,97 @@
     "compStructure": [
       "FullImageWithCardBottomComponent",
       "ImageCardDataComponent",
-      "ourPackagesaccordiangroup"
+      "ourPackagesaccordiangroup",
+      "throutsupprtCQC"
     ],
-    "ourPackagesaccordiangroup": [
-      {
-        "header": "Business Plan",
-        "content": "Work with our team to develop a detailed business plan tailored to your care agency, including cash flow forecasts and profit and loss statements to ensure financial stability and growth.<a href='https://example.com/business-plan' target='_blank'>"
-      },
-      {
-        "header": "Name Creation",
-        "content": "We assist in brainstorming and selecting a business name that is memorable, marketable, and perfectly suited to your agency's mission and services."
-      },
-      {
-        "header": "Company Registration",
-        "content1": "We handle the entire registration process with ",
-        "content2": ", providing you with all necessary legal documents, both digitally and by post.",
-        "name": "Companies House",
-        "url": "https://www.gov.uk/limited-company-formation/register-your-company"
-      },
-      {
-        "header": "Business Registration",
-        "content1": "We’ll ",
-        "content2": "your company as an official employer, ensuring compliance with all employment regulations, including PAYE setup.",
-        "name": "register ",
-        "url": "https://www.gov.uk/set-up-limited-company"
-      },
-      {
-        "header": "IT Setup Assistance",
-        "content": "Get expert guidance on the necessary technology, tools, and systems to efficiently run your care agency from day one."
-      },
-      {
-        "header": "Office Space Assistance",
-        "content": "Our team assists you in identifying and securing the ideal office location that meets your operational needs."
-      },
-      {
-        "header": "VAT Registration",
-        "content": "We manage the VAT registration process for your company, ensuring all tax obligations are met from the start."
-      },
-      {
-        "header": "Virtual Telephone Setup",
-        "content": "Enhance your communication with a virtual telephone number, professionally set up to manage client and partner calls."
-      },
-      {
-        "header": "Corporation Tax Enrollment",
-        "content": "Automatically register for corporation tax with HMRC during company formation, ensuring your business meets all tax obligations."
-      },
-      {
-        "header": "Data Protection Registration",
-        "content1": "We ensure your agency meets legal data protection requirements by registering with the ",
-        "content2": "and covering your first year’s fee.",
-        "name": "Information Commissioner’s Office (ICO) ",
-        "url": "https://ico.org.uk/"
-      }
-    ],
+    "throutsupprtCQC":{
+      "mastertitle": "2. Thorough Support for CQC Registration",
+      "mastercontent": "Assistance with CQC Registration Interview and Preparing for the Process",
+      "imagetitle": "",
+      "imagecontent1": "Getting through the registration process of the",
+      "imagecontent2": "can be quite tricky and time-consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager, ensuring that everything is done accurately and in line with CQC regulations.",
+      "linktext": "Care Quality Commission (CQC)",
+      "imagecontentlinkurl": "https://www.cqc.org.uk/",
+      "subcard": [
+        {
+          "title": "Application Form Assistance",
+          "icon": "flash",
+          "content": "Our team is here to support you in completing the application forms both for the provider and the registered manager. We make sure that all details are accurately filled in and that your application is well prepared for submission."
+        },
+        {
+          "title": "Statement of Purpose Preparation",
+          "icon": "file",
+          "content": "We help create a statement of purpose that outlines your service goals, objectives, and the range of services you plan to offer. This document plays a role in showing the CQC your agency's dedication to delivering top-notch care."
+        },
+        {
+          "title": "Reviewing CVs for Compliance",
+          "icon": "flash",
+          "content": "We carefully assess the CVs of your Registered Manager and Nominated Individual to ensure they align with CQC standards. This involves verifying their credentials, experience, and suitability for their roles within your agency."
+        },
+        {
+          "title": "Liaison with CQC",
+          "icon": "file",
+          "url": "https://www.cqc.org.uk/",
+          "urltext": "Care Quality Commission (CQC)",
+          "content1": "Our team engages directly with the",
+          "content2": "on your behalf, handling any requirements and providing supporting documents. We manage all communication to ensure a smooth registration process."
+        }
+      ]
+    },    
+    "ourPackagesaccordiangroup":{
+      "title":"1. Set-up, Registration & Information",
+      "data": [
+        {
+          "header": "Business Plan",
+          "content": "Work with our team to develop a detailed business plan tailored to your care agency, including cash flow forecasts and profit and loss statements to ensure financial stability and growth.>"
+        },
+        {
+          "header": "Name Creation",
+          "content": "We assist in brainstorming and selecting a business name that is memorable, marketable, and perfectly suited to your agency's mission and services."
+        },
+        {
+          "header": "Company Registration",
+          "content1": "We handle the entire registration process with ",
+          "content2": ", providing you with all necessary legal documents, both digitally and by post.",
+          "name": "Companies House",
+          "url": "https://www.gov.uk/limited-company-formation/register-your-company"
+        },
+        {
+          "header": "Business Registration",
+          "content1": "We’ll ",
+          "content2": "your company as an official employer, ensuring compliance with all employment regulations, including PAYE setup.",
+          "name": "register ",
+          "url": "https://www.gov.uk/set-up-limited-company"
+        },
+        {
+          "header": "IT Setup Assistance",
+          "content": "Get expert guidance on the necessary technology, tools, and systems to efficiently run your care agency from day one."
+        },
+        {
+          "header": "Office Space Assistance",
+          "content": "Our team assists you in identifying and securing the ideal office location that meets your operational needs."
+        },
+        {
+          "header": "VAT Registration",
+          "content": "We manage the VAT registration process for your company, ensuring all tax obligations are met from the start."
+        },
+        {
+          "header": "Virtual Telephone Setup",
+          "content": "Enhance your communication with a virtual telephone number, professionally set up to manage client and partner calls."
+        },
+        {
+          "header": "Corporation Tax Enrollment",
+          "content": "Automatically register for corporation tax with HMRC during company formation, ensuring your business meets all tax obligations."
+        },
+        {
+          "header": "Data Protection Registration",
+          "content1": "We ensure your agency meets legal data protection requirements by registering with the ",
+          "content2": "and covering your first year’s fee.",
+          "name": "Information Commissioner’s Office (ICO) ",
+          "url": "https://ico.org.uk/"
+        }
+      ]
+    },
     "FullImageWithCardBottomComponent": {
       "title": "DOMICILIARY CARE",
       "sub": "Start Your Home Care Business with Our All Inclusive Support Package.",
