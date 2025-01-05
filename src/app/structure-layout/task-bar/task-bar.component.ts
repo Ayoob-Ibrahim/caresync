@@ -56,5 +56,8 @@ export class TaskBarComponent {
 
   menuChanger(data) {
     this.router.navigate(['/packages', data.url]);
+    setTimeout(() => {
+      this.toggleNav()
+    }, 400);
   }
 }

@@ -13,7 +13,7 @@
 <div #mySidenav class="sidenav-bar-slide">
   <ng-container *ngFor="let data of menu(); let i = index">
     <div class="flex justify-between p-[5px] border-b border-[#12969421] items-center "
-      (click)="data.children ? collapse(i) : null" [routerLink]="data.url" routerLinkActive="active">
+      (click)="data.children ? collapse(i) :  this.toggleNav()" [routerLink]="data.url" routerLinkActive="active">
       <a>{{ data.title }}</a>
       <ng-container *ngIf="data.children">
         <i class="bi bi-caret-down-fill arrow-icon text-[12px] font-bold me-[2rem] text-[17px]"></i>
