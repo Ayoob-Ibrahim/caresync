@@ -69,22 +69,27 @@
         padding: 10px;
     }
 
-   
+
     @media (max-width: 1024px) {
+
         .portfolio .portfolio-container {
             grid-template-columns: repeat(2, 1fr);
         }
     }
 
-   
+
     @media (max-width: 768px) {
+        .card-data-container {
+            margin: 10px auto;
+        }
+
         .portfolio .portfolio-container {
-            grid-template-columns: 1fr;  
+            grid-template-columns: 1fr;
         }
 
         p {
-            width: 100%;  
-            font-size: 1.5rem; 
+            width: 100%;
+            font-size: 1.5rem;
         }
     }
 }
