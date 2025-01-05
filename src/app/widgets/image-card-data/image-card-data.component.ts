@@ -10,9 +10,9 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
 export class ImageCardDataComponent implements OnChanges {
   ngOnChanges(changes: SimpleChanges): void {
     setTimeout(() => {
-      console.warn(this.cardData,'carda')
+      console.warn(this.dataProperty,'carda')
     }, 0);
   }
-  @Input() cardData: any;
+  @Input() dataProperty: any;
 
 }

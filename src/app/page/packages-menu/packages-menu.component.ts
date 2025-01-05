@@ -25,8 +25,8 @@ export class PackagesMenuComponent implements OnInit {
 
   componentList = {
     DomiciliaryCare: [
-      FullImageWithCardBottomComponent,
-      OurpackagesAccorianGroupComponent
+      FullImageWithCardBottomComponent,  ImageCardDataComponent,
+      OurpackagesAccorianGroupComponent,    
     ],
     TemporaryStaffing: [FullImageWithCardBottomComponent],
     SupportedLiving: [FullImageWithCardBottomComponent],

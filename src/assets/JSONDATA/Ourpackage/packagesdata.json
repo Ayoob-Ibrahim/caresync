@@ -2,6 +2,7 @@
   "DomiciliaryCare": {
     "compStructure": [
       "FullImageWithCardBottomComponent",
+      "ImageCardDataComponent",
       "ourPackagesaccordiangroup"
     ],
     "ourPackagesaccordiangroup": [

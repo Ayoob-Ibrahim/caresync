@@ -21,7 +21,7 @@ export class AppComponent {
   $hoverables: NodeListOf<HTMLElement>;
    private router: Router = inject(Router)
   ngOnInit(): void {
-    this.router.navigate(['/packages']);
+    // this.router.navigate(['/packages']);
     // this.$bigBall = document.querySelector('.cursor__ball--big') as HTMLElement;
     // this.$smallBall = document.querySelector('.cursor__ball--small') as HTMLElement;
     // this.$hoverables = document.querySelectorAll('.hoverable');
