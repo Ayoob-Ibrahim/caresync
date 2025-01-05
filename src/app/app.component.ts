@@ -1,10 +1,11 @@
 import { Component, HostListener, inject } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Route, Router, RouterOutlet } from '@angular/router';
 import { TestComponent } from './component/test/test.component';
 import { TweenMax } from 'gsap';
 import { InfiniteCarouselComponent } from './component/infinite-carousel/infinite-carousel.component';
 import { ResponsiveNavbarComponent } from './structure-layout/responsive-navbar/responsive-navbar.component';
 import { HttpService } from './service/http.service';
+ 
 
 @Component({
   selector: 'app-root',
@@ -18,8 +19,9 @@ export class AppComponent {
   $bigBall: HTMLElement;
   $smallBall: HTMLElement;
   $hoverables: NodeListOf<HTMLElement>;
+   private router: Router = inject(Router)
   ngOnInit(): void {
-
+    this.router.navigate(['/packages']);
     // this.$bigBall = document.querySelector('.cursor__ball--big') as HTMLElement;
     // this.$smallBall = document.querySelector('.cursor__ball--small') as HTMLElement;
     // this.$hoverables = document.querySelectorAll('.hoverable');
