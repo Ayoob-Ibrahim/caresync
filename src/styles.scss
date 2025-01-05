@@ -66,3 +66,17 @@
     display: none;
   }
 }
+
+.common-button {
+  background-color: var(--primary);
+  padding: 8px 25px;
+  color: white;
+  border-radius: 2rem;
+  font-family: regular;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.common-button:hover{
+  background-color: var( --background-color);
+}

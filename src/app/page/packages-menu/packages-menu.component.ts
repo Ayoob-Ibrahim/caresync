@@ -13,6 +13,7 @@ import { HttpService } from '../../service/http.service';
 import { OurpackagesAccorianGroupComponent } from '../../component/ourpackages-accorian-group/ourpackages-accorian-group.component';
 import { ImageCardDataComponent } from '../../widgets/image-card-data/image-card-data.component';
 import { ThoroughSupportforCqcRegistrationComponent } from '../../widgets/thorough-supportfor-cqc-registration/thorough-supportfor-cqc-registration.component';
+import { CyanWhiteCardComponent } from '../../widgets/cyan-white-card/cyan-white-card.component';
 
 @Component({
   selector: 'app-packages-menu',
@@ -28,8 +29,10 @@ export class PackagesMenuComponent implements OnInit {
     DomiciliaryCare: [
       FullImageWithCardBottomComponent,
       ImageCardDataComponent,
-      OurpackagesAccorianGroupComponent,
+      CyanWhiteCardComponent,
       ThoroughSupportforCqcRegistrationComponent,
+      OurpackagesAccorianGroupComponent,
+      ImageCardDataComponent,
     ],
     TemporaryStaffing: [FullImageWithCardBottomComponent],
     SupportedLiving: [FullImageWithCardBottomComponent],

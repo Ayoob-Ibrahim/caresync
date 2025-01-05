@@ -1,0 +1,22 @@
+<div class="main-container">
+    <div class="sub-container mt-5">
+        <div class="side left" *ngIf="dataProperty.mainContainer.subContainer.leftSide">
+            <p>{{ dataProperty.mainContainer.subContainer.leftSide.heading }}</p>
+            <h1>{{ dataProperty.mainContainer.subContainer.leftSide.priceRange }}</h1>
+            <h6>{{ dataProperty.mainContainer.subContainer.leftSide.taxInfo }}</h6>
+        </div>
+        <div class="side right" *ngIf="dataProperty.mainContainer.subContainer.rightSide">
+            <div>
+                <h1>{{ dataProperty.mainContainer.subContainer.rightSide.heading }}</h1>
+                <p>{{ dataProperty.mainContainer.subContainer.rightSide.description }}</p>
+                <button class="common-button" (click)="openPdf()">
+                    {{ dataProperty.mainContainer.subContainer.rightSide.button.text }}
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2 class="solo-tag" *ngIf="dataProperty.solobottom">
+    {{ dataProperty.solobottom }}
+</h2>
