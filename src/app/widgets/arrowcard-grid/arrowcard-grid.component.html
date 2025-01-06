@@ -1,0 +1,19 @@
+<div class="flex flex-wrap mt-[1.5rem] justify-between p-[1rem,0rem]  gap-y-[2rem] items-stretch" >
+      
+    <div *ngFor="let a of dataProperty.submaster.data" class="lg:basis-[48%] sm:basis-[100%] md:basis-[48%]">
+      <div class="flex">
+        <i class="bi bi-arrow-right-short text-[35px] text-primary font-bold basis-[40px]"></i>
+        <div class="ml-[0.3rem] basis-[90%]">
+            <h3 class="text-[21px] font-semikanit">
+                {{a.header}}
+              </h3>
+              <p class=" leading-[1.6] p-[.3rem 0] text-[1rem] text-toolbarprimary font-regular ">
+                {{a.content}}
+                </p>
+         </div>
+      </div>
+    
+    </div>
+    
+         
+  </div>

@@ -1,9 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { LightgreenGridBoxComponent } from '../lightgreen-grid-box/lightgreen-grid-box.component';
 
 @Component({
   selector: 'app-thorough-supportfor-cqc-registration',
-  imports: [CommonModule],
+  imports: [CommonModule, LightgreenGridBoxComponent],
   templateUrl: './thorough-supportfor-cqc-registration.component.html',
   styleUrl: './thorough-supportfor-cqc-registration.component.scss',
 })

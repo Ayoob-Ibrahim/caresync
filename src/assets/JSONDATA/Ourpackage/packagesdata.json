@@ -1,18 +1,112 @@
 {
   "DomiciliaryCare": {
     "compStructure": [
-      "FullImageWithCardBottomComponent",
+"FullImageWithCardBottomComponent",
       "ImageCardDataComponent_four",
       "CyanWhiteCardComponent",
       "ourPackagesaccordiangroup",
       "throutsupprtCQC",      
-      "ImageCardDataComponent_three"
+      "ImageCardDataComponent_three",
+       "gridwitharrowwithoutarrow"
     ],
+    "gridwitharrowwithoutarrow":{
+      "mastercard": {
+        "mastertiltle": "5. Bespoke Website Development",
+        "mastercontent": "We understand the importance of your website as the face of your domiciliary care agency. Our goal is not to design websites but to establish an online presence that reflects your brand and fosters growth.",
+        "data": [
+          {
+            "header": "Domain Name Registration",
+            "content": "We secure your business domain (e.g., www.yourcompanyname.co.uk) for one year, giving you full control and management access."
+          },
+          {
+            "header": "Social Media Integration",
+            "content": "We connect your social media profiles to your website making it easy for users to engage with you across platforms and helping foster a sense of community around your brand."
+          },
+          {
+            "header": "Data Privacy and Compliance",
+            "content": "Our websites are designed to fully comply with GDPR, ensuring features like cookies notifications, privacy by design, and user data management are seamlessly integrated."
+          },
+          {
+            "header": "Secure and Reliable Hosting",
+            "content": "Enjoy a year of complimentary, secure hosting with Cpanel access, robust malware protection, and a free SSL certificate to enhance trust and security. After the first year, hosting renews at £39 per year."
+          }
+        ]
+      },
+      "submaster": {
+        "header": "Website Features",
+        "data": [
+          {
+            "header": "Professional, Modern Design",
+            "content": "Sleek, clean layouts that convey professionalism and instil trust."
+          },
+          {
+            "header": "Client Testimonials",
+            "content": "Showcase positive feedback to build credibility and trust."
+          },
+          {
+            "header": "SEO-Optimised Content",
+            "content": "Quality, keyword-rich content to attract and engage your target audience."
+          },
+          {
+            "header": "Document Repository",
+            "content": "Provide additional downloadable resources for clients and staff."
+          },
+          {
+            "header": "High Quality Licensed Images",
+            "content": "Enhance visual appeal with premium, licensed imagery."
+          },
+          {
+            "header": "Online Application System",
+            "content": "Simplify recruitment with an integrated application form."
+          },
+          {
+            "header": "Mobile Responsive Design",
+            "content": "Seamless user experience across all devices, ensuring accessibility."
+          },
+          {
+            "header": "Job Listings",
+            "content": "Advertise current vacancies directly on your website."
+          },
+          {
+            "header": "World Class User Experience",
+            "content": "Intuitive navigation designed to keep visitors engaged."
+          },
+          {
+            "header": "Conversion Focused Design",
+            "content": "Integrated calls to action to drive client engagement and conversions."
+          },
+          {
+            "header": "Social Media Integration",
+            "content": "Connect your website to social platforms to broaden your reach."
+          },
+          {
+            "header": "Emailing Portal",
+            "content": "Streamline communications with an integrated email management system."
+          },
+          {
+            "header": "Downloadable Forms",
+            "content": "Convenient access to application forms, timesheets, and essential documents."
+          },
+          {
+            "header": "Admin Panel",
+            "content": "A user-friendly control panel allowing easy updates to your website content."
+          },
+          {
+            "header": "Online Signature & CV Upload",
+            "content": "Streamline communications with an integrated email management system."
+          },
+          {
+            "header": "Unlimited Pages",
+            "content": "Expand your website as your business grows, with no page limitations."
+          }
+        ]
+      }
+    },
     
     "throutsupprtCQC":{
       "mastertitle": "2. Thorough Support for CQC Registration",
       "mastercontent": "Assistance with CQC Registration Interview and Preparing for the Process",
-      "imagetitle": "",
+      "imagetitle": "Guidance on CQC Registration",
       "imagecontent1": "Getting through the registration process of the",
       "imagecontent2": "can be quite tricky and time-consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager, ensuring that everything is done accurately and in line with CQC regulations.",
       "linktext": "Care Quality Commission (CQC)",

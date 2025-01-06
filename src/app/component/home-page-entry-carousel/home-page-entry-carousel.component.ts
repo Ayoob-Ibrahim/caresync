@@ -1,5 +1,11 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, ChangeDetectorRef, Component, OnInit, signal } from '@angular/core';
+import {
+  AfterViewInit,
+  ChangeDetectorRef,
+  Component,
+  OnInit,
+  signal,
+} from '@angular/core';
 import Swiper, { Autoplay, Navigation, Pagination, EffectFade } from 'swiper';
 import carousel_data from '../../json-data/home-entry-carousel.json';
 import { CarouselItem } from '../../interface/common.interface';
@@ -13,14 +19,13 @@ export class HomePageEntryCarouselComponent implements OnInit, AfterViewInit {
   data: CarouselItem[] = carousel_data;
   private start: number = 300;
   private end: number = 500;
-  private duration: number = 2000;  
-  private frameRate: number = 60; 
-   currentCount = signal<number>(this.start);
-  constructor(private cdRef: ChangeDetectorRef) { }
+  private duration: number = 2000;
+  private frameRate: number = 60;
+  currentCount = signal<number>(this.start);
+  constructor(private cdRef: ChangeDetectorRef) {}
   ngOnInit(): void {
     this.startCounting();
   }
-
 
   startCounting() {
     const totalFrames = (this.duration / 1000) * this.frameRate;
@@ -29,17 +34,16 @@ export class HomePageEntryCarouselComponent implements OnInit, AfterViewInit {
 
     const updateCount = () => {
       if (currentFrame < totalFrames) {
-        this.currentCount.update(value => Math.floor(value + increment));
+        this.currentCount.update((value) => Math.floor(value + increment));
         currentFrame++;
         requestAnimationFrame(updateCount);
       } else {
-        this.currentCount.set(this.end);  
+        this.currentCount.set(this.end);
       }
     };
 
     requestAnimationFrame(updateCount);
   }
-
 
   ngAfterViewInit() {
     // new Swiper('.swiper-container', {

@@ -1,4 +1,4 @@
-<div class="p-[1.2rem] lg:px-[3rem]  md:p-[3rem] w-[90%] m-[auto]">
+<div class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
 <div >
 <h2 class="text-[2rem]  text-primary font-semikanit">
    {{dataProperty.mastertitle}}
@@ -12,43 +12,21 @@
 <h3 class="font-semikanit text-[1.3rem] mt-2 ">
    {{dataProperty.imagetitle}}
 </h3>
-<p class="p-[.3rem 0] m-[0px] text-[0.85rem]  text-toolbarprimary font-regular">
-    Getting through the registration process of the <a [href]="dataProperty.imagecontentlinkurl" class="text-primary hover:text-[#024349]" target="_blank" rel="noopener noreferrer">{{dataProperty.linktext}}</a> can be quite tricky and time consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager ensuring that everything is done accurately and in line with CQC regulations.
+<p class="p-[.3rem 0] m-[0px] text-[1rem]  text-toolbarprimary font-regular">
+    {{dataProperty.imagecontent1}} <a [href]="dataProperty.imagecontentlinkurl" class="text-primary hover:text-[#024349]" target="_blank" rel="noopener noreferrer">{{dataProperty.linktext}}</a> {{dataProperty.imagecontent2}}
 </p>
 <figure class="mt-[1rem]">
     <img class="rounded-[12px] w-[100%] h-auto align-middle" src="../../../assets/our-packages/DomiciliaryCare/througoutsupport.jpg" alt="">
 </figure>
 </div>
-<div class="flex justify-between lg:p-[3rem] flex-wrap items-stretch bg-[#dbf5ef] rounded-[12px]  mt-[30px] p-[1.5rem] md:p-[2rem]">
+<div>
+  
 
-    <div class="lg:basis-[48%] sm:basis-[100%] md:basis-[100%]" *ngFor="let a of dataProperty.subcard" >
-     
-        <div class="flex mb-[2rem] justify-start items-start">
-         
-         <div class="bg-[#c6e8e1] w-[48px] h-[48px] overflow-hidden rounded-[50%] flex justify-center items-center p-[.8rem] ">
-             <img class="w-[100%] max-w-[100%] h-auto align-middle" src="../../../assets/our-packages/DomiciliaryCare/{{a.icon}}.svg" alt="">
-            </div>
-            <div class="ml-[1rem] grow-[1] basis-[90%]  ">
-                <h3 class="font-regular">
-                    {{a.title}}
-                   
-                </h3>
-                <p *ngIf="a.url;else withouturl ">
-                    <p class=" leading-[1.6] p-[.3rem 0] text-[0.85rem] text-toolbarprimary font-regular ">
-                       {{a.content1}} <a class="text-primary hover:text-[#024349]" [href]="a.url" target="_blank" rel="noopener noreferrer">{{a.urltext}}</a>{{a.content2}}
-                     </p>
-             
-                <ng-template  #withouturl>
-                    <p class=" leading-[1.6] p-[.3rem 0] text-[0.85rem] text-toolbarprimary font-regular ">
-                      {{a.content}}
-                     </p>
-                </ng-template>
-               
-             </div>
-        </div>
-         </div>
-         
-
-
+  
+        <app-lightgreen-grid-box [dataProperty]="dataProperty">
+        
+        </app-lightgreen-grid-box>
+        
+       
 </div>
 </div>

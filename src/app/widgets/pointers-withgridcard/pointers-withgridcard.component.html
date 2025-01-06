@@ -1,0 +1,38 @@
+<div class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
+    <div >
+    <h2 class="text-[2rem]  text-primary font-semikanit">
+       {{dataProperty.mastercard.mastertiltle}}
+
+    </h2>
+    
+    <p class="p-[.3rem 0] m-[0px] text-[1rem]  text-toolbarprimary font-regular">
+        {{dataProperty.mastercard.mastercontent}}
+    </p>
+    
+    </div>
+    <div class="flex flex-wrap mt-[1.5rem] justify-between p-[1rem,0rem]  gap-y-[2rem] items-stretch" >
+      
+      <div *ngFor="let a of dataProperty.mastercard.data" class="lg:basis-[48%] sm:basis-[100%] md:basis-[48%]">
+        <h3 class="text-[21px] font-semikanit">
+        {{a.header}}
+        </h3>
+    
+        <p class=" leading-[1.6] p-[.3rem 0] text-[1rem] text-toolbarprimary font-regular ">
+            {{a.content}}
+          </p>
+      </div>
+      
+           
+    </div>
+
+    <div class="mt-[3rem]">
+        <h2 class="text-[2rem]  text-primary font-semikanit">
+{{dataProperty.submaster.header}}     
+         </h2>
+         
+
+          <app-arrowcard-grid [dataProperty]="dataProperty">
+
+          </app-arrowcard-grid>
+    </div>
+    </div>

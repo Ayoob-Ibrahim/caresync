@@ -14,6 +14,7 @@ import { OurpackagesAccorianGroupComponent } from '../../component/ourpackages-a
 import { ImageCardDataComponent } from '../../widgets/image-card-data/image-card-data.component';
 import { ThoroughSupportforCqcRegistrationComponent } from '../../widgets/thorough-supportfor-cqc-registration/thorough-supportfor-cqc-registration.component';
 import { CyanWhiteCardComponent } from '../../widgets/cyan-white-card/cyan-white-card.component';
+import { PointersWithgridcardComponent } from '../../widgets/pointers-withgridcard/pointers-withgridcard.component';
 
 @Component({
   selector: 'app-packages-menu',
@@ -33,6 +34,7 @@ export class PackagesMenuComponent implements OnInit {
       OurpackagesAccorianGroupComponent,
       ThoroughSupportforCqcRegistrationComponent,
       ImageCardDataComponent,
+      PointersWithgridcardComponent,
     ],
     TemporaryStaffing: [FullImageWithCardBottomComponent],
     SupportedLiving: [FullImageWithCardBottomComponent],

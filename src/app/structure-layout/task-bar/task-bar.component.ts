@@ -24,7 +24,7 @@ export class TaskBarComponent {
   menuItems: MenuItem[] = taskbar;
   isMobile: boolean = false;
   menu = signal(mainMenu);
-  private router: Router = inject(Router)
+  private router: Router = inject(Router);
   constructor() {
     this.checkIfMobile(window.innerWidth);
   }
@@ -57,7 +57,7 @@ export class TaskBarComponent {
   menuChanger(data) {
     this.router.navigate(['/packages', data.url]);
     setTimeout(() => {
-      this.toggleNav()
+      this.toggleNav();
     }, 400);
   }
 }
