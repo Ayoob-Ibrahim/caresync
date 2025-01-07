@@ -15,6 +15,8 @@ import { ImageCardDataComponent } from '../../widgets/image-card-data/image-card
 import { ThoroughSupportforCqcRegistrationComponent } from '../../widgets/thorough-supportfor-cqc-registration/thorough-supportfor-cqc-registration.component';
 import { CyanWhiteCardComponent } from '../../widgets/cyan-white-card/cyan-white-card.component';
 import { PointersWithgridcardComponent } from '../../widgets/pointers-withgridcard/pointers-withgridcard.component';
+import { ArrowPointsAndBannerComponent } from '../../widgets/arrow-points-and-banner/arrow-points-and-banner.component';
+import { RoundedArrowsContentComponent } from '../../widgets/rounded-arrows-content/rounded-arrows-content.component';
 
 @Component({
   selector: 'app-packages-menu',
@@ -33,8 +35,10 @@ export class PackagesMenuComponent implements OnInit {
       CyanWhiteCardComponent,
       OurpackagesAccorianGroupComponent,
       ThoroughSupportforCqcRegistrationComponent,
-      ImageCardDataComponent,
       PointersWithgridcardComponent,
+      RoundedArrowsContentComponent,
+      ArrowPointsAndBannerComponent,
+      ImageCardDataComponent,
     ],
     TemporaryStaffing: [FullImageWithCardBottomComponent],
     SupportedLiving: [FullImageWithCardBottomComponent],
