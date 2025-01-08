@@ -3,8 +3,6 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { list_comp } from './packages-widgets-imports';
 import { HttpService } from '../../service/http.service';
 import { CommonModule } from '@angular/common';
-import { TiltComponent } from '../../component/tilt/tilt.component';
-import { TwoCardWithImageComponent } from '../../widgets/two-card-with-image/two-card-with-image.component';
 
 @Component({
   selector: 'app-packages-menu',
