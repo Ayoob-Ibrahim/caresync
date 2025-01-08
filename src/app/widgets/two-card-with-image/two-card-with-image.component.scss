@@ -1,9 +1,7 @@
 .main-container {
-    background-color: #004558;
     padding: 4rem;
 
     article {
-        color: white;
 
         h1 {
             font-family: bold;
@@ -33,10 +31,20 @@
             gap: 10px;
 
             .card-box {
-                width: 46%;
-                height: 8rem;
+                width: 45%;
+                height: 9.25grem;
                 border-radius: .5rem;
                 background-color: white;
+                padding: 1rem;
+
+                h2 {
+                    font-family: medium;
+                    font-size: 1.3rem;
+                }
+
+                p {
+                    font-family: regular;
+                }
             }
         }
     }

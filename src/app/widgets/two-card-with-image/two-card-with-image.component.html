@@ -1,43 +1,38 @@
-<div class="main-container mt-[3rem]">
+<div class="main-container mt-[3rem]"
+    [ngStyle]="{ 'background-color': dataProperty?.section?.colors?.containerBackground }">
     <article>
-        <h1>
-            7. Customised Home Care Forms & Documents
+        <h1 [ngStyle]="{ 'color': dataProperty?.section?.colors?.contentHeader }">
+            {{ dataProperty?.section?.heading }}
         </h1>
-        <p>
-            We offer a range of custom suites of branded, professionally designed forms and documents tailored to meet
-            the specific needs of your domiciliary care agency. Our forms are not only visually appealing but also
-            highly functional, incorporating the latest in fillable PDF technology to streamline your operations.
+        <p [ngStyle]="{ 'color': dataProperty?.section?.colors?.containerContent }">
+            {{ dataProperty?.section?.description }}
         </p>
-        <h5>
-            Key Forms and Documents Include:
+        <h5 [ngStyle]="{ 'color': dataProperty?.section?.colors?.containerMiniHeader }">
+            {{ dataProperty?.section?.subSectionHeading }}
         </h5>
     </article>
 
-
     <main>
         <section>
-            <ng-container *ngFor="let card of [1,2,3,4,5,56,]">
-                <div class="card-box">
-                    data
+            <ng-container *ngFor="let form of dataProperty?.section?.formTypes">
+                <div class="card-box" [ngStyle]="{ 'background-color': dataProperty?.section?.colors?.cardBg, }">
+                    <ng-container *ngTemplateOutlet="card_data; context: { $implicit: form }"></ng-container>
                 </div>
             </ng-container>
         </section>
         <section>
             <div>
-                <img src="https://caresyncexperts.co.uk/images/packages/domiciliary-care-forms.jpg"
-                    alt="Domiciliary Care Forms" title="Domiciliary Care Forms" style="border-radius: .5rem;">
+                <app-tilt [selectedImage]="dataProperty?.section?.image?.src"></app-tilt>
             </div>
         </section>
     </main>
 </div>
 
-
-<ng-template #card_data>
-    <!-- <div class="card-data">
-        <h1>
-           
-        </h1>
-        <h2 class="mt-[8px]" [style.color]="card.cardHeaderclr">{{ card.name }}</h2>
-        <h3 [style.color]="card.cardContentColor">{{ card.description }}</h3>
-    </div> -->
+<ng-template #card_data let-form>
+    <h2 [ngStyle]="{ 'color': dataProperty?.section?.colors?.cardHeader }">
+        {{ form?.title }}
+    </h2>
+    <p [ngStyle]="{ 'color': dataProperty?.section?.colors?.cardContent }">
+        {{ form?.description }}
+    </p>
 </ng-template>

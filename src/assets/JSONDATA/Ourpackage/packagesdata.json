@@ -10,8 +10,9 @@
       "roundedarrowgrid",
       "arrowpointbanner",
       "ImageCardDataComponent_three",
-       "three_card_row_blue",
-      "three_card_row_white"
+      "three_card_row_blue",
+      "three_card_row_white",
+      "TwoCardWithImageComponent"
     ],
     "roundedarrowgrid": {
       "masterheader": "10. Streamlined Operations & Admin Support",
@@ -277,7 +278,7 @@
         "cardData": {
           "container": {
             "items": [
-              { 
+              {
                 "image": {
                   "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-personal-care.jpg",
                   "alt": "Personal care"
@@ -616,6 +617,53 @@
             "cardContentColor": " #00000070"
           }
         ]
+      }
+    },
+    "TwoCardWithImageComponent": {
+      "section": {
+        "heading": "7. Customised Home Care Forms & Documents",
+        "description": "We offer a range of custom suites of branded, professionally designed forms and documents tailored to meet the specific needs of your domiciliary care agency. Our forms are not only visually appealing but also highly functional, incorporating the latest in fillable PDF technology to streamline your operations.",
+        "subSectionHeading": "Key Forms and Documents Include:",
+        "formTypes": [
+          {
+            "title": "Client Assessments",
+            "description": "Thorough assessment forms to evaluate client needs."
+          },
+          {
+            "title": "Care Plans",
+            "description": "Customised care plans tailored to individual client requirements."
+          },
+          {
+            "title": "Risk Assessments",
+            "description": "Detailed forms to identify and mitigate potential risks."
+          },
+          {
+            "title": "Care Management",
+            "description": "Efficient management forms to track client care activities."
+          },
+          {
+            "title": "Medicine Management",
+            "description": "Structured forms to ensure accurate medication administration."
+          },
+          {
+            "title": "Incident Reporting",
+            "description": "Comprehensive forms to document and manage any incidents, ensuring compliance and safety."
+          }
+        ],
+        "image": {
+          "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-forms.jpg",
+          "alt": "Domiciliary Care Forms",
+          "title": "Domiciliary Care Forms"
+        },
+        "colors": {
+          "containerBackground": "#004558",
+          "contentHeader": "#ffffff",
+          "containerContent": "#ffffff",
+          "containerMiniHeader": "#ffffff",
+          "cardHeader": "#004558",
+          "cardContent": "#000000",
+          "cardBg": "#ffffff"
+        }
       }
     }
   },
