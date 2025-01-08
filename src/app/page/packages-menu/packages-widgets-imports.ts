@@ -22,7 +22,7 @@ export const list_comp = {
     RoundedArrowsContentComponent,
     ArrowPointsAndBannerComponent,
     ImageCardDataComponent,
-    ThreeCardRowGridComponent, ThreeCardRowGridComponent, TwoCardWithImageComponent
+    ThreeCardRowGridComponent, ThreeCardRowGridComponent, TwoCardWithImageComponent, TwoCardWithImageComponent
 
   ],
   TemporaryStaffing: [FullImageWithCardBottomComponent],

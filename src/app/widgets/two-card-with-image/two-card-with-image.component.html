@@ -1,38 +1,53 @@
-<div class="main-container mt-[3rem]"
+<div class="main-container mt-[3rem]" *ngIf="dataProperty?.section"
     [ngStyle]="{ 'background-color': dataProperty?.section?.colors?.containerBackground }">
     <article>
-        <h1 [ngStyle]="{ 'color': dataProperty?.section?.colors?.contentHeader }">
+        <h1 *ngIf="dataProperty?.section?.heading"
+            [ngStyle]="{ 'color': dataProperty?.section?.colors?.contentHeader }">
             {{ dataProperty?.section?.heading }}
         </h1>
-        <p [ngStyle]="{ 'color': dataProperty?.section?.colors?.containerContent }">
+        <p *ngIf="dataProperty?.section?.description"
+            [ngStyle]="{ 'color': dataProperty?.section?.colors?.containerContent }">
             {{ dataProperty?.section?.description }}
         </p>
-        <h5 [ngStyle]="{ 'color': dataProperty?.section?.colors?.containerMiniHeader }">
+        <h5 *ngIf="dataProperty?.section?.subSectionHeading"
+            [ngStyle]="{ 'color': dataProperty?.section?.colors?.containerMiniHeader }">
             {{ dataProperty?.section?.subSectionHeading }}
         </h5>
     </article>
 
-    <main>
+    <main *ngIf="dataProperty?.section?.formTypes?.length">
         <section>
             <ng-container *ngFor="let form of dataProperty?.section?.formTypes">
-                <div class="card-box" [ngStyle]="{ 'background-color': dataProperty?.section?.colors?.cardBg, }">
+                <div class="card-box" *ngIf="form"
+                    [ngStyle]="{ 'background-color': dataProperty?.section?.colors?.cardBg ,'height':dataProperty?.section?.colors?.cardHt }">
                     <ng-container *ngTemplateOutlet="card_data; context: { $implicit: form }"></ng-container>
                 </div>
             </ng-container>
         </section>
-        <section>
+        <section *ngIf="dataProperty?.section?.image?.src">
             <div>
                 <app-tilt [selectedImage]="dataProperty?.section?.image?.src"></app-tilt>
             </div>
         </section>
     </main>
+    <ng-container *ngIf="dataProperty?.section?.footer">
+        <ng-container *ngTemplateOutlet="footer"></ng-container>
+    </ng-container>
+
 </div>
 
 <ng-template #card_data let-form>
-    <h2 [ngStyle]="{ 'color': dataProperty?.section?.colors?.cardHeader }">
+    <h2 *ngIf="form?.title" [ngStyle]="{ 'color': dataProperty?.section?.colors?.cardHeader }">
         {{ form?.title }}
     </h2>
-    <p [ngStyle]="{ 'color': dataProperty?.section?.colors?.cardContent }">
+    <p *ngIf="form?.description" [ngStyle]="{ 'color': dataProperty?.section?.colors?.cardContent }">
         {{ form?.description }}
     </p>
+</ng-template>
+
+<ng-template #footer>
+    <div class="bg-[#129693] p-4 text-white! text-center rounded-lg w-[90%] mx-auto mt-4" style="color: white;font-family: regular;">
+        {{ dataProperty?.section?.footer?.data }}
+      </div>
+      
 </ng-template>

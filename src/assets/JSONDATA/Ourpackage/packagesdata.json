@@ -12,7 +12,8 @@
       "ImageCardDataComponent_three",
       "three_card_row_blue",
       "three_card_row_white",
-      "TwoCardWithImageComponent"
+      "TwoCardWithImageComponent",
+      "TwoCardsWithImageComp_whitebg"
     ],
     "roundedarrowgrid": {
       "masterheader": "10. Streamlined Operations & Admin Support",
@@ -662,7 +663,50 @@
           "containerMiniHeader": "#ffffff",
           "cardHeader": "#004558",
           "cardContent": "#000000",
-          "cardBg": "#ffffff"
+          "cardBg": "#ffffff",
+          "cardHt": "9.25rem"
+        }
+      }
+    },
+    "TwoCardsWithImageComp_whitebg": {
+      "section": {
+        "heading": "9. Professional Social Media Setup",
+        "description": "Care Sync Experts is dedicated to strengthening and maintaining a presence for your domiciliary care agency. We specialise in establishing and branding your social media profiles to boost your visibility and engage effectively with your target audience.",
+        "subSectionHeading": "Social Media Platforms:",
+        "formTypes": [
+          {
+            "title": "Facebook",
+            "description": "Create and customise a branded Facebook page to engage with clients and showcase your services."
+          },
+          {
+            "title": "LinkedIn",
+            "description": "Set up a professional LinkedIn profile to connect with industry professionals and potential partners."
+          },
+          {
+            "title": "Google Business Profile",
+            "description": "Establish your Google Business Location to enhance local search visibility and attract clients in your area."
+          },
+          {
+            "title": "Instagram",
+            "description": "Launch a visually appealing Instagram account to share your agency’s story, connect with clients, and showcase your services through images and videos."
+          }
+        ],
+        "image": {
+          "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-social-media.jpg",
+          "alt": "Social Media",
+          "title": "Social Media"
+        },
+        "colors": {
+          "containerBackground": "white",
+          "contentHeader": "#04717a",
+          "containerContent": "#04717a",
+          "containerMiniHeader": "#181818",
+          "cardHeader": "#129693",
+          "cardContent": "#000000",
+          "cardHt": "12rem"
+        },
+        "footer": {
+          "data": " We provide services that involve creating profile pictures, banners and setting up accounts to maintain a professional image across all platforms."
         }
       }
     }
