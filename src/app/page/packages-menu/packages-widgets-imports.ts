@@ -10,6 +10,8 @@ import { PointersWithgridcardComponent } from '../../widgets/pointers-withgridca
 import { RoundedArrowsContentComponent } from '../../widgets/rounded-arrows-content/rounded-arrows-content.component';
 import { ThoroughSupportforCqcRegistrationComponent } from '../../widgets/thorough-supportfor-cqc-registration/thorough-supportfor-cqc-registration.component';
 import { ThreeCardRowGridComponent } from '../../widgets/three-card-row-grid/three-card-row-grid.component';
+import { EmailFeaturebannerComponent } from '../../widgets/email-featurebanner/email-featurebanner.component';
+import { ContentLightgreenCardComponent } from '../../widgets/content-lightgreen-card/content-lightgreen-card.component';
 // Export all components
 export const list_comp = {
   DomiciliaryCare: [
@@ -19,11 +21,15 @@ export const list_comp = {
     OurpackagesAccorianGroupComponent,
     ThoroughSupportforCqcRegistrationComponent,
     PointersWithgridcardComponent,
+    EmailFeaturebannerComponent,
+    ContentLightgreenCardComponent,
     RoundedArrowsContentComponent,
     ArrowPointsAndBannerComponent,
     ImageCardDataComponent,
-    ThreeCardRowGridComponent, ThreeCardRowGridComponent, TwoCardWithImageComponent, TwoCardWithImageComponent
-
+    ThreeCardRowGridComponent,
+    ThreeCardRowGridComponent,
+    TwoCardWithImageComponent,
+    TwoCardWithImageComponent,
   ],
   TemporaryStaffing: [FullImageWithCardBottomComponent],
   SupportedLiving: [FullImageWithCardBottomComponent],

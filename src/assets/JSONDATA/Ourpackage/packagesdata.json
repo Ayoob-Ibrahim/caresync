@@ -7,6 +7,8 @@
       "ourPackagesaccordiangroup",
       "throutsupprtCQC",
       "gridwitharrowwithoutarrow",
+      "emailfeature",
+      "content_lightgreen_box",
       "roundedarrowgrid",
       "arrowpointbanner",
       "ImageCardDataComponent_three",
@@ -15,6 +17,70 @@
       "TwoCardWithImageComponent",
       "TwoCardsWithImageComp_whitebg"
     ],
+    "content_lightgreen_box":{
+      "mastertitle": "8. Essential Policy Framework for Your Care Agency",
+      "mastercontent": "We provide your home care agency with a collection of high-quality policy documents that are expertly crafted. These policies are carefully tailored to reflect your brand, stay current, and comply with all industry regulations, guaranteeing that your business is safeguarded and effectively managed.",
+      "title": "Key Benefits:",
+      "footer":"Ensure your agency is fully compliant and well prepared with our expertly developed policy documentation.",
+      "subcard": [
+        {
+          "title": "Customised Branding",
+          "icon": "flash",
+          "content": "Each policy is tailored with your agency's logo and branding elements to maintain a consistent brand identity."
+        },
+        {
+          "title": "Up to Date Compliance",
+          "icon": "card",
+          "content": "Our policies are regularly updated to reflect the latest regulatory changes, keeping your agency compliant."
+        },
+        {
+          "title": "User Friendly Format",
+          "icon": "file",
+          "content": "Delivered in accessible and easily printable PDF documents for straightforward implementation."
+        },
+        {
+          "title": "Comprehensive Coverage",
+          "icon": "storage",
+          "content": "Our policies cover all critical areas of your business, from health and safety to data protection and employee management."
+        }
+      ]
+    },
+    
+    "emailfeature":{
+      "mastertitle": "6. Setting up Email Accounts and Signatures",
+      "mastercontent": "We make sure that all your email accounts are professionally set up and ready for use, tailored to meet the specific needs of your domiciliary care agency. Our goal is to simplify the process and promote communication within your team.",
+      "imagetitle": "Email Features",
+      "imagecontentlinkurl": "../../../assets/emailfeature/emailfeatures.png",
+      "footer":"Our email configuration service is created to blend with your business processes guaranteeing that your agency’s communication appears both professional and effective.",
+      "subcard": [
+        {
+          "title": "Multiple Email Accounts",
+          "icon": "smg",
+          "content": "Set up to 12 email accounts for your team members, ensuring everyone has a professional branded email address."
+        },
+        {
+          "title": "Email Forwarding",
+          "icon": "exit",
+          "content": "Create up to 10 forwarding addresses to manage communications effectively."
+        },
+        {
+          "title": "Automated Responses",
+          "icon": "message",
+          "content": "Set up 12 autoresponders to handle client queries efficiently, even when you’re not available."
+        },
+        {
+          "title": "Generous Mailbox Storage",
+          "icon": "cloud",
+          "content": "Each account comes with up to 10GB of storage, providing ample space for essential communications and attachments."
+        },
+        {
+          "title": "Professional Email Signatures",
+          "icon": "edit",
+          "content": "Customised signatures for all accounts, reflecting your brand identity."
+        }
+      ]
+    },
+    
     "roundedarrowgrid": {
       "masterheader": "10. Streamlined Operations & Admin Support",
       "mastercontent": "We offer a range of operational and administrative solutions customised to suit the requirements of your domiciliary care agency. Our team provides expert advice and assistance in setting up services aimed at improving the efficiency and compliance of your business operations.",
