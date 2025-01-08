@@ -1,0 +1,33 @@
+<section class="mt-[2rem] main-container-grid" [style.background]="dataProperty?.containerData?.containerBackground">
+    <h1 [style.color]="dataProperty?.containerData?.headerColor">
+        {{ dataProperty?.containerData?.header }}
+    </h1>
+    <p [style.color]="dataProperty?.containerData?.descriptionColor">
+        {{ dataProperty?.containerData?.description }}
+    </p>
+    <h3>Our Referral Network Includes:</h3>
+    <ng-container
+        *ngTemplateOutlet="main_card; context: { $implicit: dataProperty?.containerData?.cardData }"></ng-container>
+</section>
+
+<ng-template #main_card let-cards>
+    <main>
+        <div class="card-container">
+            <ng-container *ngFor="let card of cards">
+                <div class="card-box" [style.background]="dataProperty?.containerData?.cardBackground">
+                    <ng-container *ngTemplateOutlet="card_data; context: { $implicit: card }"></ng-container>
+                </div>
+            </ng-container>
+        </div>
+    </main>
+</ng-template>
+
+<ng-template #card_data let-card>
+    <div class="card-data">
+        <h1 [style.color]="card.cardIdColor" [style.background]="card.cardIdBackground">
+            {{ card.id }}
+        </h1>
+        <h2  class="mt-[8px]" [style.color]="card.cardHeaderclr">{{ card.name }}</h2>
+        <h3  [style.color]="card.cardContentColor">{{ card.description }}</h3>
+    </div>
+</ng-template>

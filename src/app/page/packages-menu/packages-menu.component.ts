@@ -7,7 +7,7 @@ import {
   signal,
 } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { SHARED_WIDGETS_PACKAGE } from './packages-widgets-imports';
+import { list_comp } from './packages-widgets-imports';
 import { FullImageWithCardBottomComponent } from '../../widgets/full-image-with-card-bottom/full-image-with-card-bottom.component';
 import { HttpService } from '../../service/http.service';
 import { OurpackagesAccorianGroupComponent } from '../../component/ourpackages-accorian-group/ourpackages-accorian-group.component';
@@ -17,10 +17,12 @@ import { CyanWhiteCardComponent } from '../../widgets/cyan-white-card/cyan-white
 import { PointersWithgridcardComponent } from '../../widgets/pointers-withgridcard/pointers-withgridcard.component';
 import { ArrowPointsAndBannerComponent } from '../../widgets/arrow-points-and-banner/arrow-points-and-banner.component';
 import { RoundedArrowsContentComponent } from '../../widgets/rounded-arrows-content/rounded-arrows-content.component';
+import { ThreeCardRowGridComponent } from '../../widgets/three-card-row-grid/three-card-row-grid.component';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-packages-menu',
-  imports: SHARED_WIDGETS_PACKAGE,
+  imports: [CommonModule],
   templateUrl: './packages-menu.component.html',
   styleUrl: './packages-menu.component.scss',
 })
@@ -28,24 +30,7 @@ export class PackagesMenuComponent implements OnInit {
   packageId = signal<string | null>(null);
   customInjector = signal<any>({});
 
-  componentList = {
-    DomiciliaryCare: [
-      FullImageWithCardBottomComponent,
-      ImageCardDataComponent,
-      CyanWhiteCardComponent,
-      OurpackagesAccorianGroupComponent,
-      ThoroughSupportforCqcRegistrationComponent,
-      PointersWithgridcardComponent,
-      RoundedArrowsContentComponent,
-      ArrowPointsAndBannerComponent,
-      ImageCardDataComponent,
-    ],
-    TemporaryStaffing: [FullImageWithCardBottomComponent],
-    SupportedLiving: [FullImageWithCardBottomComponent],
-    ciwDomiciliaryCare: [FullImageWithCardBottomComponent],
-    rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],
-    CombinedCareAgency: [FullImageWithCardBottomComponent],
-  };
+  componentList = list_comp;
 
   private serviceData = inject(HttpService);
   private route = inject(ActivatedRoute);

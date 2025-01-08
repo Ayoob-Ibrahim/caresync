@@ -1,0 +1,43 @@
+.main-container {
+    background-color: #004558;
+    padding: 4rem;
+
+    article {
+        color: white;
+
+        h1 {
+            font-family: bold;
+            font-size: 1.7rem;
+        }
+
+        p {
+            font-family: regular;
+        }
+
+        h5 {
+            font-family: medium;
+            font-size: 1.4rem;
+        }
+    }
+
+    main {
+        margin-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+
+            .card-box {
+                width: 46%;
+                height: 8rem;
+                border-radius: .5rem;
+                background-color: white;
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { BaseDataReciever } from '../../baseclass/parent-data-reciever';
 
 @Component({
   selector: 'app-image-card-data',
@@ -7,14 +8,5 @@ import { Component, Input, OnChanges, SimpleChanges } from '@angular/core';
   templateUrl: './image-card-data.component.html',
   styleUrl: './image-card-data.component.scss'
 })
-export class ImageCardDataComponent {
-  @Input() dataProperty: any;
-
-
-  constructor() {
-    setTimeout(() => {
-      // console.log(this.dataProperty)
-      console.warn(this.dataProperty?.three_card?.cardData?.container?.items )
-    }, 1000);
-  }
+export class ImageCardDataComponent extends BaseDataReciever {
 }

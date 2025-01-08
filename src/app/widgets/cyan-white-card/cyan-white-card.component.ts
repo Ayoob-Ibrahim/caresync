@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
+import { BaseDataReciever } from '../../baseclass/parent-data-reciever';
 
 @Component({
   selector: 'app-cyan-white-card',
@@ -7,10 +8,5 @@ import { Component, Input } from '@angular/core';
   templateUrl: './cyan-white-card.component.html',
   styleUrl: './cyan-white-card.component.scss'
 })
-export class CyanWhiteCardComponent {
-  @Input() dataProperty: any;
-
-  openPdf() {
-    window.open(this.dataProperty.mainContainer.subContainer.rightSide.button.pdfUrl, "_blank");
-  }
+export class CyanWhiteCardComponent extends BaseDataReciever {
 }

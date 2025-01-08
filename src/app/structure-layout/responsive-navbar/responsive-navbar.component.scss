@@ -152,14 +152,14 @@
  //      }
  //  }
 
- @media (max-width: 768px) {
+ @media (max-width: 1024) {
      .nav-container {
          display: flex;
          flex-direction: column-reverse;
 
          .nav-title {
-            height: 48px;
-            font-size: 12px;
+             height: 48px;
+             font-size: 12px;
          }
 
          nav {

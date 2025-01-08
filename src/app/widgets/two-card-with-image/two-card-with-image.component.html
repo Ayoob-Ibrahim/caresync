@@ -1,0 +1,43 @@
+<div class="main-container mt-[3rem]">
+    <article>
+        <h1>
+            7. Customised Home Care Forms & Documents
+        </h1>
+        <p>
+            We offer a range of custom suites of branded, professionally designed forms and documents tailored to meet
+            the specific needs of your domiciliary care agency. Our forms are not only visually appealing but also
+            highly functional, incorporating the latest in fillable PDF technology to streamline your operations.
+        </p>
+        <h5>
+            Key Forms and Documents Include:
+        </h5>
+    </article>
+
+
+    <main>
+        <section>
+            <ng-container *ngFor="let card of [1,2,3,4,5,56,]">
+                <div class="card-box">
+                    data
+                </div>
+            </ng-container>
+        </section>
+        <section>
+            <div>
+                <img src="https://caresyncexperts.co.uk/images/packages/domiciliary-care-forms.jpg"
+                    alt="Domiciliary Care Forms" title="Domiciliary Care Forms" style="border-radius: .5rem;">
+            </div>
+        </section>
+    </main>
+</div>
+
+
+<ng-template #card_data>
+    <!-- <div class="card-data">
+        <h1>
+           
+        </h1>
+        <h2 class="mt-[8px]" [style.color]="card.cardHeaderclr">{{ card.name }}</h2>
+        <h3 [style.color]="card.cardContentColor">{{ card.description }}</h3>
+    </div> -->
+</ng-template>

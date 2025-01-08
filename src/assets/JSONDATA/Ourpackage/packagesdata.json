@@ -1,18 +1,19 @@
 {
   "DomiciliaryCare": {
     "compStructure": [
-"FullImageWithCardBottomComponent",
+      "FullImageWithCardBottomComponent",
       "ImageCardDataComponent_four",
       "CyanWhiteCardComponent",
       "ourPackagesaccordiangroup",
-      "throutsupprtCQC",      
-       "gridwitharrowwithoutarrow",
-       "roundedarrowgrid",
-       "arrowpointbanner",
-       "ImageCardDataComponent_three"
-       
+      "throutsupprtCQC",
+      "gridwitharrowwithoutarrow",
+      "roundedarrowgrid",
+      "arrowpointbanner",
+      "ImageCardDataComponent_three",
+       "three_card_row_blue",
+      "three_card_row_white"
     ],
-    "roundedarrowgrid":{
+    "roundedarrowgrid": {
       "masterheader": "10. Streamlined Operations & Admin Support",
       "mastercontent": "We offer a range of operational and administrative solutions customised to suit the requirements of your domiciliary care agency. Our team provides expert advice and assistance in setting up services aimed at improving the efficiency and compliance of your business operations.",
       "header": "Operational Tools & Setup:",
@@ -49,11 +50,9 @@
           "header": "Compliance & Checks",
           "content": "We recommend services for DBS checks, staff training, nurse revalidation, and occupational health to ensure full compliance."
         }
-      
       ]
     },
-    
-    "arrowpointbanner":{
+    "arrowpointbanner": {
       "bannerurl": "../../../assets/arrow-points-banner/Banner.png",
       "mastertitle": "14. Comprehensive Year Round Support",
       "mastercontent1": "At Care Sync Experts, we’re committed to your success. As part of our package, you’ll receive a full year of dedicated support to help you run your domiciliary care agency efficiently. Our support covers:",
@@ -79,8 +78,7 @@
         }
       ]
     },
-    
-    "gridwitharrowwithoutarrow":{
+    "gridwitharrowwithoutarrow": {
       "mastercard": {
         "mastertiltle": "5. Bespoke Website Development",
         "mastercontent": "We understand the importance of your website as the face of your domiciliary care agency. Our goal is not to design websites but to establish an online presence that reflects your brand and fosters growth.",
@@ -173,8 +171,7 @@
         ]
       }
     },
-    
-    "throutsupprtCQC":{
+    "throutsupprtCQC": {
       "mastertitle": "2. Thorough Support for CQC Registration",
       "mastercontent": "Assistance with CQC Registration Interview and Preparing for the Process",
       "imagetitle": "Guidance on CQC Registration",
@@ -207,9 +204,9 @@
           "content2": "on your behalf, handling any requirements and providing supporting documents. We manage all communication to ensure a smooth registration process."
         }
       ]
-    },    
-    "ourPackagesaccordiangroup":{
-      "title":"1. Set-up, Registration & Information",
+    },
+    "ourPackagesaccordiangroup": {
+      "title": "1. Set-up, Registration & Information",
       "data": [
         {
           "header": "Business Plan",
@@ -280,7 +277,7 @@
         "cardData": {
           "container": {
             "items": [
-              {
+              { 
                 "image": {
                   "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-personal-care.jpg",
                   "alt": "Personal care"
@@ -406,6 +403,219 @@
             ]
           }
         }
+      }
+    },
+    "three_card_row_blue": {
+      "containerData": {
+        "header": "11. Trusted Referral Network",
+        "headerColor": "#04717a",
+        "description": "We connect you with a network of trusted providers to support every aspect of your domiciliary care agency. Our handpicked recommendations guarantee that you can tap into top notch resources within the field improving your agency's efficiency and adherence to regulations.",
+        "descriptionColor": "#2d2b1f",
+        "containerBackground": "#f9f9f9",
+        "cardBackground": "#004558",
+        "cardData": [
+          {
+            "id": 1,
+            "name": "Uniform Suppliers",
+            "description": "Quality, professional attire for your staff.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 2,
+            "name": "Business Insurance",
+            "description": "Reliable insurance providers to protect your agency.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 3,
+            "name": "Staff Training Providers",
+            "description": "Top-tier training solutions, both online and offline.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 4,
+            "name": "Business Solicitors",
+            "description": "Legal experts specialising in the healthcare sector.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 5,
+            "name": "Invoice Factoring & Cashflow Finance",
+            "description": "Solutions to manage cash flow efficiently.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 6,
+            "name": "Compliance Memberships",
+            "description": "Access to organisations that keep your agency compliant.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 7,
+            "name": "Subcontracting Vendors",
+            "description": "Trusted partners for service outsourcing.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 8,
+            "name": "Accountants",
+            "description": "Experienced accountants to handle your financial management.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 9,
+            "name": "PPE Suppliers",
+            "description": "Providers of essential personal protective equipment for safety and compliance.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          }
+        ]
+      }
+    },
+    "three_card_row_white": {
+      "containerData": {
+        "header": "4. Brand Development and Marketing Materials",
+        "headerColor": "#129893",
+        "description": "Care Sync Experts are highly skilled in establishing brands for home care agencies, helping your business to shine in the competitive healthcare industry. Our branding solutions are thorough addressing all elements to create a memorable and lasting identity.",
+        "descriptionColor": "black",
+        "containerBackground": "#edfaf7",
+        "cardBackground": "white",
+        "cardData": [
+          {
+            "id": 1,
+            "name": "Custom Logo Design",
+            "description": "Craft distinctive logos that capture your agency’s mission and values.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 2,
+            "name": "Professional Business Cards",
+            "description": "Personalised business cards that leave a lasting impression.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 3,
+            "name": "Branded Letterheads",
+            "description": "Elevate your communications with professionally designed letterheads.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 4,
+            "name": "Personalised Compliment Slips",
+            "description": "Enhance client relations with customised compliment slips.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 5,
+            "name": "Secure ID Badges",
+            "description": "Custom ID badges featuring your logo and brand colours.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 6,
+            "name": "Consistent Email Signatures",
+            "description": "Ensure polished communication with branded email signatures.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 7,
+            "name": "Domain Registration & Website Development",
+            "description": "SEO-optimised, user-friendly websites.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 8,
+            "name": "Social Media Branding",
+            "description": "Create consistent and engaging social media profiles.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 9,
+            "name": "Brochures and Leaflets",
+            "description": "Develop captivating brochures and leaflets that showcase your services effectively.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 10,
+            "name": "Roll-up Banners & Door Signs",
+            "description": "Boost visibility with professionally designed banners and signs for events and your workspace.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 11,
+            "name": "Company Presentation Folder",
+            "description": "Professionally designed folders to organise and present your business materials.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 12,
+            "name": "Tri-fold Brochure",
+            "description": "Engaging and informative tri-fold brochures to effectively communicate your services.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          }
+        ]
       }
     }
   },
