@@ -1,0 +1,63 @@
+<div class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
+    <div >
+    <h2 class="lg:text-[2rem] md:text-[2rem] text-[1.5rem]  text-primary font-semikanit ">
+        {{dataProperty.mastertitle}}
+
+
+
+    </h2>
+    
+    <p class="p-[.3rem 0] m-[0px] text-[1rem]  font-regular">
+        {{dataProperty.mastercontent}}
+
+
+    </p>
+     
+
+    <h3 class="text-[1.37rem] font-semikanit py-3">
+        {{dataProperty.title}}
+
+
+
+    </h3>
+   
+    </div>
+  
+
+ <figure class="mt-2">
+    <img [src]="dataProperty.imageurl" alt="">
+    <figcaption class="text-center font-Elightkanit">
+        {{dataProperty.imagecontent}}
+    </figcaption>
+ </figure>
+
+
+ <div class="mt-2 flex flex-wrap gap-3">
+  <div class="card lg:basis-[24%] md:basis-[100%] sm:basis-[100%] " *ngFor="let a of dataProperty.subcard">
+  <h3 class="font-semikanit text-[1.7rem] text-[#04717a] ">
+    {{a.title}}
+  </h3>
+
+  <p class="font-regular">
+    {{a.content}}
+  </p>
+  </div>
+
+
+  <div class="mt-2">
+    <h3 class="text-[1.37rem] font-semikanit py-3">
+        {{dataProperty.footerheader}}
+
+
+
+    </h3>
+    <p class="font-regular text-[#04717a]">
+        {{dataProperty.footercontent}}
+      </p>
+
+  </div>
+ </div>
+  
+    
+
+</div>

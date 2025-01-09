@@ -10,6 +10,7 @@
       "emailfeature",
       "content_lightgreen_box",
       "roundedarrowgrid",
+      "largeimagewithgrid",
       "arrowpointbanner",
       "ImageCardDataComponent_three",
       "three_card_row_blue",
@@ -17,6 +18,50 @@
       "TwoCardWithImageComponent",
       "TwoCardsWithImageComp_whitebg"
     ],
+    "largeimagewithgrid":{
+      "mastertitle": "12. High Quality Printed Materials",
+      "mastercontent": "We recognise the significance of notch printed materials in building your domiciliary care agency’s brand. As part of our all service we offer a variety of printed materials designed to make an impact on both clients and employees.",
+      "title": "Included in Your Package:",
+      "footerheader": "Custom Options Available",
+      "footercontent": "Need more? We offer additional printed materials tailored to your specific needs. We ensure the highest quality paper and printing standards to make your brand stand out.",
+      "imageurl": "../../../assets/our-packages/DomiciliaryCare/accessories.png",
+      "imagecontent": "High Quality Printed Materials",
+      "subcard": [
+        {
+          "title": "Business Cards",
+          "content": "Two sets of 200, custom designed to reflect your brand."
+        },
+        {
+          "title": "Client Leaflets",
+          "content": "1,000 professionally printed leaflets to showcase your services."
+        },
+        {
+          "title": "Staff Leaflets",
+          "content": "200 leaflets designed to engage and inform your team."
+        },
+        {
+          "title": "A4 Folders",
+          "content": "50 branded folders to organise and present documents."
+        },
+        {
+          "title": "Compliment Slips",
+          "content": "1,000 slips to add a personal touch to your correspondence."
+        },
+        {
+          "title": "Timesheets",
+          "content": "1,000 timesheets for efficient staff management."
+        },
+        {
+          "title": "Company Brochures",
+          "content": "40 detailed brochures to present your agency."
+        },
+        {
+          "title": "Roll Up Banner",
+          "content": "1 roll-up banner for events and on-site branding."
+        }
+      ]
+    },
+    
     "content_lightgreen_box":{
       "mastertitle": "8. Essential Policy Framework for Your Care Agency",
       "mastercontent": "We provide your home care agency with a collection of high-quality policy documents that are expertly crafted. These policies are carefully tailored to reflect your brand, stay current, and comply with all industry regulations, guaranteeing that your business is safeguarded and effectively managed.",

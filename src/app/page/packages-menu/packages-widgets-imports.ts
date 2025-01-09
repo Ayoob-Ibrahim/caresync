@@ -12,6 +12,8 @@ import { ThoroughSupportforCqcRegistrationComponent } from '../../widgets/thorou
 import { ThreeCardRowGridComponent } from '../../widgets/three-card-row-grid/three-card-row-grid.component';
 import { EmailFeaturebannerComponent } from '../../widgets/email-featurebanner/email-featurebanner.component';
 import { ContentLightgreenCardComponent } from '../../widgets/content-lightgreen-card/content-lightgreen-card.component';
+import { LargeImagewithgridComponent } from '../../widgets/large-imagewithgrid/large-imagewithgrid.component';
+import { FreequentlyAskedComponent } from '../../widgets/freequently-asked/freequently-asked.component';
 // Export all components
 export const list_comp = {
   DomiciliaryCare: [
@@ -24,12 +26,14 @@ export const list_comp = {
     EmailFeaturebannerComponent,
     ContentLightgreenCardComponent,
     RoundedArrowsContentComponent,
+    LargeImagewithgridComponent,
     ArrowPointsAndBannerComponent,
     ImageCardDataComponent,
     ThreeCardRowGridComponent,
     ThreeCardRowGridComponent,
     TwoCardWithImageComponent,
     TwoCardWithImageComponent,
+    FreequentlyAskedComponent,
   ],
   TemporaryStaffing: [FullImageWithCardBottomComponent],
   SupportedLiving: [FullImageWithCardBottomComponent],
