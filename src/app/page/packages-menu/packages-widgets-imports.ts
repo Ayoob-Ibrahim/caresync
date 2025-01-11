@@ -23,6 +23,7 @@ export const list_comp = {
     CyanWhiteCardComponent,
     OurpackagesAccorianGroupComponent,
     ThoroughSupportforCqcRegistrationComponent,
+    ZigZagCardImgComponent,
     PointersWithgridcardComponent,
     EmailFeaturebannerComponent,
     ContentLightgreenCardComponent,
@@ -34,8 +35,8 @@ export const list_comp = {
     ThreeCardRowGridComponent,
     TwoCardWithImageComponent,
     TwoCardWithImageComponent,
-    FreequentlyAskedComponent,
-    ZigZagCardImgComponent
+    // FreequentlyAskedComponent,
+
   ],
   TemporaryStaffing: [FullImageWithCardBottomComponent],
   SupportedLiving: [FullImageWithCardBottomComponent],

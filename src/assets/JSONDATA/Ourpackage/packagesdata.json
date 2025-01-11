@@ -6,6 +6,7 @@
       "CyanWhiteCardComponent",
       "ourPackagesaccordiangroup",
       "throutsupprtCQC",
+      "Zig-Zag-Card-Content-1",
       "gridwitharrowwithoutarrow",
       "emailfeature",
       "content_lightgreen_box",
@@ -16,8 +17,7 @@
       "three_card_row_blue",
       "three_card_row_white",
       "TwoCardWithImageComponent",
-      "TwoCardsWithImageComp_whitebg",
-      "Zig-Zag-Card-Content-1"
+      "TwoCardsWithImageComp_whitebg"
     ],
     "largeimagewithgrid": {
       "mastertitle": "12. High Quality Printed Materials",
@@ -818,6 +818,84 @@
           "data": " We provide services that involve creating profile pictures, banners and setting up accounts to maintain a professional image across all platforms."
         }
       }
+    },
+    "Zig-Zag-Card-Content-1": {
+      "section": {
+        "heading": "3. CQC Interview Preparation",
+        "description": "Achieve Success with Comprehensive CQC Interview Training.",
+        "subSectionHeading": "At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness.",
+        "cards": [
+          {
+            "title": "Mock Interviews",
+            "description": "Simulated CQC interviews to help you practise, refine your answers, and build confidence.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-mock-interview.jpg",
+              "alt": "Mock Interviews",
+              "title": "Mock Interviews"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          },
+          {
+            "title": "Role Specific Coaching",
+            "description": "Tailored guidance for Registered Managers, Providers, and Nominated Individuals to understand their specific responsibilities during the interview.",
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "black"
+            }
+          },
+          {
+            "title": "Document Preparation",
+            "description": "Assistance in organising and presenting all necessary documentation clearly and effectively.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-document-preparation.jpg",
+              "alt": "Document Preparation",
+              "title": "Document Preparation"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          },
+          {
+            "title": "Mastering KLOE",
+            "description": "In-depth review of the CQC’s Key Lines of Enquiry (KLOE) to ensure you can effectively demonstrate compliance.",
+            "colors": {
+              "cardBackground": "#004558",
+              "headerColor": "#adffeb",
+              "contentColor": "white"
+            }
+          },
+          {
+            "title": "Q&A Support",
+            "description": "Interactive sessions to address any questions or concerns, ensuring you are fully prepared and confident.",
+            "colors": {
+              "cardBackground": "#004558",
+              "headerColor": "#adffeb",
+              "contentColor": "white"
+            }
+          },
+          {
+            "title": "Health & Safety Resources",
+            "description": "Includes a comprehensive Health & Safety poster and a fully compliant first aid kit to meet Health and Safety Executive standards.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
+              "alt": "Health & Safety Resources",
+              "title": "Health & Safety Resources"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          }
+        ]
+      }
     }
   },
   "TemporaryStaffing": {
@@ -877,84 +955,6 @@
       "sub": "Unite Domiciliary Care and Temporary Staffing for Unmatched Flexibility and Quality",
       "content": "Elevate Your Care Agency with Our Combined Package",
       "img": "../../../assets/our-packages/CombinedCareAgency/headerFullimage.webp"
-    }
-  },
-  "Zig-Zag-Card-Content-1": {
-    "section": {
-      "heading": "3. CQC Interview Preparation",
-      "description": "Achieve Success with Comprehensive CQC Interview Training. At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness.",
-      "subSectionHeading": "Key Areas of Focus:",
-      "cards": [
-        {
-          "title": "Mock Interviews",
-          "description": "Simulated CQC interviews to help you practise, refine your answers, and build confidence.",
-          "image": {
-            "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-mock-interview.jpg",
-            "alt": "Mock Interviews",
-            "title": "Mock Interviews"
-          },
-          "colors": {
-            "cardBackground": "#edfaf7",
-            "headerColor": "black",
-            "contentColor": "#667085"
-          }
-        },
-        {
-          "title": "Role Specific Coaching",
-          "description": "Tailored guidance for Registered Managers, Providers, and Nominated Individuals to understand their specific responsibilities during the interview.",
-          "colors": {
-            "cardBackground": "#edfaf7",
-            "headerColor": "black",
-            "contentColor": "black"
-          }
-        },
-        {
-          "title": "Document Preparation",
-          "description": "Assistance in organising and presenting all necessary documentation clearly and effectively.",
-          "image": {
-            "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-document-preparation.jpg",
-            "alt": "Document Preparation",
-            "title": "Document Preparation"
-          },
-          "colors": {
-            "cardBackground": "#edfaf7",
-            "headerColor": "black",
-            "contentColor": "#667085"
-          }
-        },
-        {
-          "title": "Mastering KLOE",
-          "description": "In-depth review of the CQC’s Key Lines of Enquiry (KLOE) to ensure you can effectively demonstrate compliance.",
-          "colors": {
-            "cardBackground": "#004558",
-            "headerColor": "#adffeb",
-            "contentColor": "white"
-          }
-        },
-        {
-          "title": "Q&A Support",
-          "description": "Interactive sessions to address any questions or concerns, ensuring you are fully prepared and confident.",
-          "colors": {
-            "cardBackground": "#004558",
-            "headerColor": "#adffeb",
-            "contentColor": "white"
-          }
-        },
-        {
-          "title": "Health & Safety Resources",
-          "description": "Includes a comprehensive Health & Safety poster and a fully compliant first aid kit to meet Health and Safety Executive standards.",
-          "image": {
-            "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
-            "alt": "Health & Safety Resources",
-            "title": "Health & Safety Resources"
-          },
-          "colors": {
-            "cardBackground": "#edfaf7",
-            "headerColor": "black",
-            "contentColor": "#667085"
-          }
-        }
-      ]
     }
   }
 }

@@ -1,20 +1,14 @@
 <div class="main-cont">
     <article>
-        <h1>
-            3. CQC Interview Preparation
-        </h1>
-        <h4>
-            Achieve Success with Comprehensive CQC Interview Training
-        </h4>
-        <p>
-            At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC
-            interview, a critical step in your agency’s registration process. Our approach covers all key areas to build
-            your confidence and readiness:
-
-            We offer tailored training sessions to help you get ready for the CQC interview, which is a part of your
-            agency's registration process. Our training program focuses on all aspects to build your confidence and
-            readiness:
-        </p>
+        <h1 *ngIf="dataProperty?.section?.heading">
+            {{ dataProperty.section.heading }}
+          </h1>
+          <h4 *ngIf="dataProperty?.section?.description">
+            {{ dataProperty.section.description }}
+          </h4>
+          <p *ngIf="dataProperty?.section?.subSectionHeading">
+            {{ dataProperty.section.subSectionHeading }}
+          </p>
     </article>
     <ng-container *ngTemplateOutlet="zig_zag_card"></ng-container>
 </div>
