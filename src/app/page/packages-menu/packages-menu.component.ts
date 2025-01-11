@@ -30,10 +30,6 @@ export class PackagesMenuComponent implements OnInit {
         this.customInjector.set(data);
       }
     });
-
-    setTimeout(() => {
-      console.log(this.customInjector())
-    }, 2000);
   }
 
   ngOnInit(): void {
