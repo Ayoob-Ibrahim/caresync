@@ -16,9 +16,10 @@
       "three_card_row_blue",
       "three_card_row_white",
       "TwoCardWithImageComponent",
-      "TwoCardsWithImageComp_whitebg"
+      "TwoCardsWithImageComp_whitebg",
+      "Zig-Zag-Card-Content-1"
     ],
-    "largeimagewithgrid":{
+    "largeimagewithgrid": {
       "mastertitle": "12. High Quality Printed Materials",
       "mastercontent": "We recognise the significance of notch printed materials in building your domiciliary care agency’s brand. As part of our all service we offer a variety of printed materials designed to make an impact on both clients and employees.",
       "title": "Included in Your Package:",
@@ -61,12 +62,11 @@
         }
       ]
     },
-    
-    "content_lightgreen_box":{
+    "content_lightgreen_box": {
       "mastertitle": "8. Essential Policy Framework for Your Care Agency",
       "mastercontent": "We provide your home care agency with a collection of high-quality policy documents that are expertly crafted. These policies are carefully tailored to reflect your brand, stay current, and comply with all industry regulations, guaranteeing that your business is safeguarded and effectively managed.",
       "title": "Key Benefits:",
-      "footer":"Ensure your agency is fully compliant and well prepared with our expertly developed policy documentation.",
+      "footer": "Ensure your agency is fully compliant and well prepared with our expertly developed policy documentation.",
       "subcard": [
         {
           "title": "Customised Branding",
@@ -90,13 +90,12 @@
         }
       ]
     },
-    
-    "emailfeature":{
+    "emailfeature": {
       "mastertitle": "6. Setting up Email Accounts and Signatures",
       "mastercontent": "We make sure that all your email accounts are professionally set up and ready for use, tailored to meet the specific needs of your domiciliary care agency. Our goal is to simplify the process and promote communication within your team.",
       "imagetitle": "Email Features",
       "imagecontentlinkurl": "../../../assets/emailfeature/emailfeatures.png",
-      "footer":"Our email configuration service is created to blend with your business processes guaranteeing that your agency’s communication appears both professional and effective.",
+      "footer": "Our email configuration service is created to blend with your business processes guaranteeing that your agency’s communication appears both professional and effective.",
       "subcard": [
         {
           "title": "Multiple Email Accounts",
@@ -125,7 +124,6 @@
         }
       ]
     },
-    
     "roundedarrowgrid": {
       "masterheader": "10. Streamlined Operations & Admin Support",
       "mastercontent": "We offer a range of operational and administrative solutions customised to suit the requirements of your domiciliary care agency. Our team provides expert advice and assistance in setting up services aimed at improving the efficiency and compliance of your business operations.",
@@ -879,6 +877,84 @@
       "sub": "Unite Domiciliary Care and Temporary Staffing for Unmatched Flexibility and Quality",
       "content": "Elevate Your Care Agency with Our Combined Package",
       "img": "../../../assets/our-packages/CombinedCareAgency/headerFullimage.webp"
+    }
+  },
+  "Zig-Zag-Card-Content-1": {
+    "section": {
+      "heading": "3. CQC Interview Preparation",
+      "description": "Achieve Success with Comprehensive CQC Interview Training. At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness.",
+      "subSectionHeading": "Key Areas of Focus:",
+      "cards": [
+        {
+          "title": "Mock Interviews",
+          "description": "Simulated CQC interviews to help you practise, refine your answers, and build confidence.",
+          "image": {
+            "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-mock-interview.jpg",
+            "alt": "Mock Interviews",
+            "title": "Mock Interviews"
+          },
+          "colors": {
+            "cardBackground": "#edfaf7",
+            "headerColor": "black",
+            "contentColor": "#667085"
+          }
+        },
+        {
+          "title": "Role Specific Coaching",
+          "description": "Tailored guidance for Registered Managers, Providers, and Nominated Individuals to understand their specific responsibilities during the interview.",
+          "colors": {
+            "cardBackground": "#edfaf7",
+            "headerColor": "black",
+            "contentColor": "black"
+          }
+        },
+        {
+          "title": "Document Preparation",
+          "description": "Assistance in organising and presenting all necessary documentation clearly and effectively.",
+          "image": {
+            "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-document-preparation.jpg",
+            "alt": "Document Preparation",
+            "title": "Document Preparation"
+          },
+          "colors": {
+            "cardBackground": "#edfaf7",
+            "headerColor": "black",
+            "contentColor": "#667085"
+          }
+        },
+        {
+          "title": "Mastering KLOE",
+          "description": "In-depth review of the CQC’s Key Lines of Enquiry (KLOE) to ensure you can effectively demonstrate compliance.",
+          "colors": {
+            "cardBackground": "#004558",
+            "headerColor": "#adffeb",
+            "contentColor": "white"
+          }
+        },
+        {
+          "title": "Q&A Support",
+          "description": "Interactive sessions to address any questions or concerns, ensuring you are fully prepared and confident.",
+          "colors": {
+            "cardBackground": "#004558",
+            "headerColor": "#adffeb",
+            "contentColor": "white"
+          }
+        },
+        {
+          "title": "Health & Safety Resources",
+          "description": "Includes a comprehensive Health & Safety poster and a fully compliant first aid kit to meet Health and Safety Executive standards.",
+          "image": {
+            "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
+            "alt": "Health & Safety Resources",
+            "title": "Health & Safety Resources"
+          },
+          "colors": {
+            "cardBackground": "#edfaf7",
+            "headerColor": "black",
+            "contentColor": "#667085"
+          }
+        }
+      ]
     }
   }
 }

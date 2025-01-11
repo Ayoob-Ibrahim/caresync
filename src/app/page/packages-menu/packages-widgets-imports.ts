@@ -14,6 +14,7 @@ import { EmailFeaturebannerComponent } from '../../widgets/email-featurebanner/e
 import { ContentLightgreenCardComponent } from '../../widgets/content-lightgreen-card/content-lightgreen-card.component';
 import { LargeImagewithgridComponent } from '../../widgets/large-imagewithgrid/large-imagewithgrid.component';
 import { FreequentlyAskedComponent } from '../../widgets/freequently-asked/freequently-asked.component';
+import { ZigZagCardImgComponent } from '../../widgets/zig-zag-card-img/zig-zag-card-img.component';
 // Export all components
 export const list_comp = {
   DomiciliaryCare: [
@@ -34,6 +35,7 @@ export const list_comp = {
     TwoCardWithImageComponent,
     TwoCardWithImageComponent,
     FreequentlyAskedComponent,
+    ZigZagCardImgComponent
   ],
   TemporaryStaffing: [FullImageWithCardBottomComponent],
   SupportedLiving: [FullImageWithCardBottomComponent],

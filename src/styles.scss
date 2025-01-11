@@ -77,6 +77,17 @@
   transition: .3s ease;
 }
 
-.common-button:hover{
-  background-color: var( --background-color);
+.common-button:hover {
+  background-color: var(--background-color);
+}
+
+
+.custom-link {
+  color: #129693;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #0e7a75;
+  text-decoration: underline;
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-freequently-asked',
@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './freequently-asked.component.scss'
 })
 export class FreequentlyAskedComponent {
-
+  @Input() dataProperty;
 }
