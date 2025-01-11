@@ -1,12 +1,24 @@
 <div class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
- <div class="rounded-[12px] p-[1rem] mb-[1rem] item">
+  <h2 class="text-center mb-2 text-[2rem] font-semikanit ">{{dataProperty.mastertitle}}  </h2>
+ <div (click)="selectIndex(i,$event)" *ngFor="let a of dataProperty.data;let i = index" class="rounded-[12px] p-[1rem] mb-[1rem] item {{selecteData() == i ?'bg':''}}" >
     <div class="header ">
-     <h3 class="text-[1.37rem] text-[#04717a] font-regular">
-        1. What are the initial steps to starting a domiciliary care agency?
+     <h3 class="text-[1.37rem]  font-regular">
+       {{a.title}}
      </h3>
+     <i class="bi bi-{{selecteData() == i ? 'dash-circle':'plus-circle'}} text-[25px]"></i>
       </div>
-      <div class="content">
-        
+      <div *ngIf="i == selecteData()" class="content text-toolbarprimary font-regular text-[1.05rem]">
+        <p>
+         {{a.headercontent}}
+        </p>
+        <ul class="py-3">
+            <li class="py-2" *ngFor="let b of a.maincontent">
+                <i class="text-[12px] bi bi-circle-fill text-toolbarprimary"></i> {{b}}
+            </li>
+        </ul>
+        <p>
+          {{a.footercontent}}
+        </p>
       </div>
  </div>
 </div>

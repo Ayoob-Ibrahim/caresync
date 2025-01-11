@@ -21,53 +21,50 @@ import { QusetionAnswerBankComponent } from '../../widgets/qusetion-answer-bank/
 export const list_comp = {
   DomiciliaryCare: [
     FullImageWithCardBottomComponent, // 0
-    ImageCardDataComponent,           // 1
-    CyanWhiteCardComponent,           // 2
-    OurpackagesAccorianGroupComponent,// 3
+    ImageCardDataComponent, // 1
+    CyanWhiteCardComponent, // 2
+    OurpackagesAccorianGroupComponent, // 3
     ThoroughSupportforCqcRegistrationComponent, // 4
-    ZigZagCardImgComponent,           // 5
-    ThreeCardRowGridComponent,        // 6
-    HorizontalCardComponent,          // 7
-    PointersWithgridcardComponent,    // 8
-    EmailFeaturebannerComponent,      // 9
-    TwoCardWithImageComponent,        // 10
-    ContentLightgreenCardComponent,   // 11
-    TwoCardWithImageComponent,        // 12
-    RoundedArrowsContentComponent,    // 13
-    ThreeCardRowGridComponent,        // 14
-    LargeImagewithgridComponent,      // 15
-    ZigZagCardImgComponent,           // 16
-    HorizontalCardComponent,          // 17
-    ArrowPointsAndBannerComponent,    // 18
-    ImageCardDataComponent,           // 19
-    HorizontalCardComponent           // 20
-    // FreequentlyAskedComponent,     //21
-
+    ZigZagCardImgComponent, // 5
+    ThreeCardRowGridComponent, // 6
+    HorizontalCardComponent, // 7
+    PointersWithgridcardComponent, // 8
+    EmailFeaturebannerComponent, // 9
+    TwoCardWithImageComponent, // 10
+    ContentLightgreenCardComponent, // 11
+    TwoCardWithImageComponent, // 12
+    RoundedArrowsContentComponent, // 13
+    ThreeCardRowGridComponent, // 14
+    LargeImagewithgridComponent, // 15
+    ZigZagCardImgComponent, // 16
+    HorizontalCardComponent, // 17
+    ArrowPointsAndBannerComponent, // 18
+    ImageCardDataComponent, // 19
+    FreequentlyAskedComponent, //21
+    HorizontalCardComponent, // 20
   ],
   TemporaryStaffing: [
     FullImageWithCardBottomComponent, //0
-    QusetionAnswerBankComponent,      //1
-    QusetionAnswerBankComponent,      //2
-    ImageCardDataComponent,           //3
-    CyanWhiteCardComponent,           //4
-    OurpackagesAccorianGroupComponent,//5
-    ThreeCardRowGridComponent,        //6
-    HorizontalCardComponent,          //7
-    PointersWithgridcardComponent,    //8
-    EmailFeaturebannerComponent,      // 9
-    TwoCardWithImageComponent,        // 10
-    ContentLightgreenCardComponent,   // 11
-    TwoCardWithImageComponent,        // 12
-    RoundedArrowsContentComponent,    // 13
-    ThreeCardRowGridComponent,        // 14
-    LargeImagewithgridComponent,      // 15
-    ZigZagCardImgComponent,           // 16
-    HorizontalCardComponent,          // 17
-    ArrowPointsAndBannerComponent,    // 18
-    ImageCardDataComponent,           // 19
-    HorizontalCardComponent           // 20
-
-
+    QusetionAnswerBankComponent, //1
+    QusetionAnswerBankComponent, //2
+    ImageCardDataComponent, //3
+    CyanWhiteCardComponent, //4
+    OurpackagesAccorianGroupComponent, //5
+    ThreeCardRowGridComponent, //6
+    HorizontalCardComponent, //7
+    PointersWithgridcardComponent, //8
+    EmailFeaturebannerComponent, // 9
+    TwoCardWithImageComponent, // 10
+    ContentLightgreenCardComponent, // 11
+    TwoCardWithImageComponent, // 12
+    RoundedArrowsContentComponent, // 13
+    ThreeCardRowGridComponent, // 14
+    LargeImagewithgridComponent, // 15
+    ZigZagCardImgComponent, // 16
+    HorizontalCardComponent, // 17
+    ArrowPointsAndBannerComponent, // 18
+    ImageCardDataComponent, // 19
+    HorizontalCardComponent, // 20
   ],
   SupportedLiving: [
     FullImageWithCardBottomComponent, //0
@@ -76,8 +73,8 @@ export const list_comp = {
   rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],
   CombinedCareAgency: [
     FullImageWithCardBottomComponent, // 0
-    QusetionAnswerBankComponent,      //1
-    QusetionAnswerBankComponent,      //2
-    ImageCardDataComponent,           //3
+    QusetionAnswerBankComponent, //1
+    QusetionAnswerBankComponent, //2
+    ImageCardDataComponent, //3
   ],
 };

@@ -21,8 +21,92 @@
       "horizontal-card-2 # HorizontalCardComponent // 17",
       "arrowpointbanner # ArrowPointsAndBannerComponent // 18",
       "ImageCardDataComponent_three # ImageCardDataComponent // 19",
-      "horizontal-card-3 # HorizontalCardComponent // 20"
+        "freequentlyasked # FreequentlyAskedComponent // 20",
+      "horizontal-card-3 # HorizontalCardComponent // 21"
+    
     ],
+    "freequentlyasked":{
+      "mastertitle": "Frequently Asked Questions",
+      "data": [
+        {
+          "title": "1. What are the initial steps to starting a domiciliary care agency?",
+          "headercontent": "Starting a domiciliary care agency involves several key steps:",
+          "maincontent": [
+            "Market Research: Understand the market by researching its needs, demographics trends and competitors to find clients and business opportunities.",
+            "Business Plan: Develop a business plan that includes your services, financial forecasts, marketing strategies and operational procedures.",
+            "CQC Registration: Ensure compliance by registering with the Care Quality Commission (CQC) and appointing a qualified registered manager and ensuring your business structure is compliant.",
+            "Legal and Financial Setup: Complete all required legal registrations, obtain insurance coverage and establish financial systems, like payroll and invoicing.",
+            "Staff Recruitment: Hire and train qualified care professionals, ensuring they hold the necessary certifications, such as the Care Certificate, and align with your agency's values and standards."
+          ],
+          "footercontent": "These foundational steps are essential for setting up a successful domiciliary care agency that is compliant and well prepared to deliver high quality care."
+        },
+        {
+          "title": "2. How much does it cost to start a domiciliary care agency?",
+          "headercontent": "Starting a domiciliary care agency usually requires an investment ranging from £10,000 to £20,000. These expenses include:",
+          "maincontent": [
+            "CQC Registration: Fees associated with the registration process and compliance with CQC regulations.",
+            "Office Setup: Costs for setting up an office space including expenses for rent, utilities, furniture and IT infrastructure.",
+            "Staff Recruitment and Training: Expenses related to hiring care staff and providing them with the necessary training and certifications.",
+            "Insurance: Essential policies such as public liability, employer’s liability, and professional indemnity insurance.",
+            "Marketing: Investing in marketing efforts, like branding, website development and local advertising to attract clients."
+          ],
+          "footercontent": "It's essential to plan your finances to ensure you have funds to meet these initial expenditures and sustain your business in its early phases."
+        },
+        {
+          "title": "3. What are the biggest challenges in running a domiciliary care agency?",
+          "headercontent": "Running a domiciliary care agency presents several challenges:",
+          "maincontent": [
+            "Staffing Shortages: Finding and keeping care workers is tough especially, in a competitive job market.",
+            "Regulatory Compliance: Keeping up with evolving regulations from the CQC and other governing bodies is essential to maintain your agency's licence and reputation.",
+            "Financial Stability: Handling cash flow, managing varying costs and ensuring stability are vital for the agency's success.",
+            "Service Diversification: Offering specialised care services like dementia or respite care brings both opportunities and challenges. It involves training for staff. Potentially increased operational expenses."
+          ],
+          "footercontent": "Effectively addressing these challenges is key to running a successful domiciliary care agency."
+        },
+        {
+          "title": "4. How can I effectively recruit and retain care staff?",
+          "headercontent": "Recruiting and retaining care staff poses a challenge, for domiciliary care agencies but there are several strategies that can help improve your workforce;",
+          "maincontent": [
+            "Competitive Compensation: It is essential to offer salaries and benefits that're competitive within the industry. This does not attract high quality candidates and also encourages existing employees to stay.",
+            "Career Development: Providing training opportunities and clear paths for career advancement can enable your staff to progress within your agency. This may involve training in areas like dementia care or advanced caregiving techniques, which can enhance the services you offer.",
+            "Supportive Work Environment: Cultivating a work culture that values teamwork, communication and staff well being can greatly boost job satisfaction. Recognising and rewarding good performance also plays a role in retaining staff.",
+            "Utilisation of Digital Tools: Incorporating modern care management software can lessen the workload on staff, enhance communication and increase job satisfaction. Platforms such as Careberry and Birdie are choices that streamline operations and create an efficient and less stressful work environment.",
+            "Sponsorship Licence for Overseas Recruitment: Given the shortage of care workers obtaining a sponsorship licence to recruit from overseas can be a solution. This enables your agency to bring in care professionals from countries, under the Health and Care Worker Visa program. To do this, your agency must first apply for a sponsorship licence from the Home Office. Once granted, you can issue a Certificate of Sponsorship (CoS) to each worker you intend to recruit. This approach can help fill staffing gaps and bring in diverse talent to your agency, but it requires a clear understanding of the immigration compliance system and possibly legal assistance to ensure all regulations are met."
+          ],
+          "footercontent": "It's essential to plan your finances to ensure you have funds to meet these initial expenditures and sustain your business in its early phases."
+        },
+        {
+          "title": "5. What digital tools are essential for a domiciliary care agency?",
+          "headercontent": "When running a home care agency selecting the Care Management Software is essential to maintain operations, effective communication and adherence to industry standards. These tools help in managing everything from client records and care plans to staff scheduling and payroll. Below is a list of highly recommended platforms that agencies can consider:",
+          "maincontenttitle": "List of Care Management Software Platforms:",
+          "maincontent": [
+            "Access PeoplePlanner",
+            "Unique:IQ",
+            "Nursebuddy",
+            "CarePlanner",
+            "QuikPlan",
+            "Birdie",
+            "iCareHealth",
+            "CareControl",
+            "RoundSys",
+            "Careberry",
+            "OnePlan",
+            "Log my Care",
+            "OnCare",
+            "Carebeans",
+            "PASS",
+            "Nourish",
+            "Caredocs",
+            "CareFree",
+            "Onetouch",
+            "Carelinelive",
+            "Skedulo"
+          ],
+          "footercontent": "These platforms offer unique features that can enhance your agency’s operations, improve communication, and ensure compliance with industry standards. Selecting the right software depends on your agency’s specific needs and operational goals."
+        }
+      ]
+    },
+    
     "largeimagewithgrid": {
       "mastertitle": "12. High Quality Printed Materials",
       "mastercontent": "We recognise the significance of notch printed materials in building your domiciliary care agency’s brand. As part of our all service we offer a variety of printed materials designed to make an impact on both clients and employees.",
