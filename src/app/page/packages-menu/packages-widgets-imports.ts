@@ -19,20 +19,28 @@ import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizonta
 // Export all components
 export const list_comp = {
   DomiciliaryCare: [
-    FullImageWithCardBottomComponent, ImageCardDataComponent, CyanWhiteCardComponent,
-    OurpackagesAccorianGroupComponent, ThoroughSupportforCqcRegistrationComponent, ZigZagCardImgComponent,
-    ThreeCardRowGridComponent, HorizontalCardComponent, PointersWithgridcardComponent,
-    EmailFeaturebannerComponent, TwoCardWithImageComponent,
-    ContentLightgreenCardComponent, TwoCardWithImageComponent,
-    RoundedArrowsContentComponent, ThreeCardRowGridComponent,
-    LargeImagewithgridComponent, ZigZagCardImgComponent, HorizontalCardComponent,
-    ArrowPointsAndBannerComponent,
-    ImageCardDataComponent,HorizontalCardComponent
-
-
-
-
-    // FreequentlyAskedComponent,
+    FullImageWithCardBottomComponent, // 0
+    ImageCardDataComponent,           // 1
+    CyanWhiteCardComponent,           // 2
+    OurpackagesAccorianGroupComponent,// 3
+    ThoroughSupportforCqcRegistrationComponent, // 4
+    ZigZagCardImgComponent,           // 5
+    ThreeCardRowGridComponent,        // 6
+    HorizontalCardComponent,          // 7
+    PointersWithgridcardComponent,    // 8
+    EmailFeaturebannerComponent,      // 9
+    TwoCardWithImageComponent,        // 10
+    ContentLightgreenCardComponent,   // 11
+    TwoCardWithImageComponent,        // 12
+    RoundedArrowsContentComponent,    // 13
+    ThreeCardRowGridComponent,        // 14
+    LargeImagewithgridComponent,      // 15
+    ZigZagCardImgComponent,           // 16
+    HorizontalCardComponent,          // 17
+    ArrowPointsAndBannerComponent,    // 18
+    ImageCardDataComponent,           // 19
+    HorizontalCardComponent           // 20
+    // FreequentlyAskedComponent,     //21
 
   ],
   TemporaryStaffing: [FullImageWithCardBottomComponent],
