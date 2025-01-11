@@ -15,27 +15,23 @@ import { ContentLightgreenCardComponent } from '../../widgets/content-lightgreen
 import { LargeImagewithgridComponent } from '../../widgets/large-imagewithgrid/large-imagewithgrid.component';
 import { FreequentlyAskedComponent } from '../../widgets/freequently-asked/freequently-asked.component';
 import { ZigZagCardImgComponent } from '../../widgets/zig-zag-card-img/zig-zag-card-img.component';
+import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
 // Export all components
 export const list_comp = {
   DomiciliaryCare: [
-    FullImageWithCardBottomComponent,
-    ImageCardDataComponent,
-    CyanWhiteCardComponent,
-    OurpackagesAccorianGroupComponent,
-    ThoroughSupportforCqcRegistrationComponent,
-    ZigZagCardImgComponent,
-    ThreeCardRowGridComponent,
-    PointersWithgridcardComponent,
-    EmailFeaturebannerComponent,
-    ContentLightgreenCardComponent,
-    RoundedArrowsContentComponent,
-    LargeImagewithgridComponent,
+    FullImageWithCardBottomComponent, ImageCardDataComponent, CyanWhiteCardComponent,
+    OurpackagesAccorianGroupComponent, ThoroughSupportforCqcRegistrationComponent, ZigZagCardImgComponent,
+    ThreeCardRowGridComponent, HorizontalCardComponent, PointersWithgridcardComponent,
+    EmailFeaturebannerComponent, TwoCardWithImageComponent,
+    ContentLightgreenCardComponent, TwoCardWithImageComponent,
+    RoundedArrowsContentComponent, ThreeCardRowGridComponent,
+    LargeImagewithgridComponent, ZigZagCardImgComponent, HorizontalCardComponent,
     ArrowPointsAndBannerComponent,
     ImageCardDataComponent,
-   
-    ThreeCardRowGridComponent,
-    TwoCardWithImageComponent,
-    TwoCardWithImageComponent,
+
+
+
+
     // FreequentlyAskedComponent,
 
   ],

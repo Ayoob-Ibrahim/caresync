@@ -8,16 +8,19 @@
       "throutsupprtCQC",
       "Zig-Zag-Card-Content-1",
       "three_card_row_white",
+      "horizontal-card-1",
       "gridwitharrowwithoutarrow",
       "emailfeature",
-      "content_lightgreen_box",
-      "roundedarrowgrid",
-      "largeimagewithgrid",
-      "arrowpointbanner",
-      "ImageCardDataComponent_three",
-      "three_card_row_blue",
       "TwoCardWithImageComponent",
-      "TwoCardsWithImageComp_whitebg"
+      "content_lightgreen_box",
+      "TwoCardsWithImageComp_whitebg",
+      "roundedarrowgrid",
+      "three_card_row_blue",
+      "largeimagewithgrid",
+      "Zig-Zag-Card-Content-2",
+      "horizontal-card-2",
+      "arrowpointbanner",
+      "ImageCardDataComponent_three"
     ],
     "largeimagewithgrid": {
       "mastertitle": "12. High Quality Printed Materials",
@@ -902,6 +905,107 @@
             }
           }
         ]
+      }
+    },
+    "horizontal-card-1": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Get Started with Care Sync Experts",
+              "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Email: hello@caresyncexperts.co.uk",
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
+      }
+    },
+    "Zig-Zag-Card-Content-2": {
+      "section": {
+        "heading": "13. Additional Essential Resources",
+        "headerColor": "#129893",
+        "subSectionHeading": "Care Sync Experts go beyond the basics to equip your domiciliary care agency with vital resources that ensure operational efficiency and regulatory compliance. Our package includes:",
+        "cards": [
+          {
+            "title": "Uniforms",
+            "rev": true,
+            "description": "Choose from 10 high-quality uniforms, including tunics and polo shirts, to maintain a professional appearance.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-resources-uniforms.jpg",
+              "alt": "Uniforms",
+              "title": "Uniforms"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          },
+          {
+            "title": "Customisable Care Plan Templates",
+            "rev": false,
+            "description": "Access a range of care plan templates that can be tailored to fit each client’s needs, ensuring consistent and personalised care.",
+            "colors": {
+              "cardBackground": "#004558",
+              "headerColor": "#adffeb",
+              "contentColor": "white"
+            }
+          },
+          {
+            "title": "ID Badge Printing Credits",
+            "rev": false,
+            "description": "Receive 10 custom ID badges, ensuring your team is easily identifiable.",
+            "colors": {
+              "cardBackground": "#004558",
+              "headerColor": "#adffeb",
+              "contentColor": "white"
+            }
+          },
+          {
+            "title": "Health & Safety Resources",
+            "rev": true,
+            "description": "Guidance on ensuring your agency meets all health and safety requirements, crucial for the <a href=\"https://www.cqc.org.uk/guidance-regulation/providers/assessment/assessment-framework\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\"> CQC’s assessment.</a>.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
+              "alt": "Health & Safety Resources",
+              "title": "Health & Safety Resources"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          }
+        ]
+      }
+    },
+    "horizontal-card-2": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Get Started with Care Sync Experts",
+              "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Call us today on 0333 577 0877 or click  below to begin your journey towards building a successful care business.",
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
       }
     }
   },
