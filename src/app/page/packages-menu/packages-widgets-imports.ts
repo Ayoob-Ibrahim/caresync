@@ -16,6 +16,7 @@ import { LargeImagewithgridComponent } from '../../widgets/large-imagewithgrid/l
 import { FreequentlyAskedComponent } from '../../widgets/freequently-asked/freequently-asked.component';
 import { ZigZagCardImgComponent } from '../../widgets/zig-zag-card-img/zig-zag-card-img.component';
 import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
+import { QusetionAnswerBankComponent } from '../../widgets/qusetion-answer-bank/qusetion-answer-bank.component';
 // Export all components
 export const list_comp = {
   DomiciliaryCare: [
@@ -43,7 +44,11 @@ export const list_comp = {
     // FreequentlyAskedComponent,     //21
 
   ],
-  TemporaryStaffing: [FullImageWithCardBottomComponent],
+  TemporaryStaffing: [
+    FullImageWithCardBottomComponent, //0
+    QusetionAnswerBankComponent,      //1
+    QusetionAnswerBankComponent,      //2
+  ],
   SupportedLiving: [FullImageWithCardBottomComponent],
   ciwDomiciliaryCare: [FullImageWithCardBottomComponent],
   rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],

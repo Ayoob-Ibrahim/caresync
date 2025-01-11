@@ -1,0 +1,12 @@
+<section class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
+    <article [style.width]="dataProperty?.image ? '70%' :'100%'">
+        <h2>{{ dataProperty?.title }}</h2>
+        <p>{{ dataProperty?.content1 }}</p>
+        <p class="mt-[10px]">{{ dataProperty?.content2 }}</p>
+        <p class="mt-[10px]">{{ dataProperty?.content3 }}</p>
+
+    </article>
+    <figure *ngIf="dataProperty?.image">
+        <img [src]="dataProperty?.image" alt="Image">
+    </figure>
+</section>

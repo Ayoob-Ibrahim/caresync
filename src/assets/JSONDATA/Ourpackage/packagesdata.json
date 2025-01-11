@@ -1020,13 +1020,27 @@
   },
   "TemporaryStaffing": {
     "compStructure": [
-      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0",
+      "question-ans-bank-1 # QusetionAnswerBankComponent, // 1",
+      "question-ans-bank-2 # QusetionAnswerBankComponent"
     ],
     "FullImageWithCardBottomComponent": {
       "title": "TEMPORARY STAFFING AGENCY",
       "sub": "Launch and Grow Your Temporary Staffing Agency with Confidence",
       "content": "We provide a package for Temporary Staffing that is tailored to support you in setting up a temporary staffing agency within the social care field. Our experience guarantees that you can effectively handle the complexities of the sector and establish a business centred on delivering notch adaptable staffing solutions.",
       "img": "../../../assets/our-packages/TemporaryStaffing/headerFullimage.webp"
+    },
+    "question-ans-bank-1": {
+      "title": "What is a Temporary Staffing Agency?",
+      "content1": "A Temporary Staffing Agency plays a role by providing short term, flexible staffing solutions to cater to the changing needs of healthcare and social care organisations. These agencies specialise in recruiting, vetting, and training a diverse pool of professionals, including nurses, support workers, and care assistants.These skilled professionals are on standby to fill in gaps in whenever healthcare facilities, care homes, or supported living environments experience staff shortages, peak demand periods, or specific client requirements.",
+      "content2": "Temporary staffing agencies play a role in helping organisations maintain uninterrupted, high-quality care and operational efficiency. They achieve this by offering staffing solutions that can quickly adjust to the evolving demands of healthcare and social care sectors.",
+      "content3": "We take temporary staffing to the next level by guiding you through the entire process of setting up your own agency. We offer the knowledge and resources required to create an agency that delivers exceptional care and complies with industry standards."
+    },
+    "question-ans-bank-2": {
+      "title": "Why Opt for Our Dual Service Care Agency Package?",
+      "content1": "Benefit from expert guidance and strategic planning as our seasoned consultants walk you through each stage assisting in creating a business plan that seamlessly integrates both staffing and home care services.",
+      "content2": "Ensure compliance with our help in navigating the regulatory landscape to meet all legal requirements and CQC guidelines for your agency.",
+      "image": "https://caresyncexperts.co.uk/images/packages/temporary-staffing-dual-service-agency.jpg"
     }
   },
   "SupportedLiving": {

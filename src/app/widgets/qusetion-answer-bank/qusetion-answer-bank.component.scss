@@ -1,0 +1,61 @@
+section {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    article {
+
+        h2 {
+            font-size: 2rem;
+            font-family: medium;
+            color: #129693;
+        }
+
+        p {
+            font-family: regular;
+            width: 100%;
+        }
+    }
+
+    figure {
+        img {
+            border-radius: .7rem;
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    section {
+      
+        flex-direction: column;
+        gap: 1rem !important;
+        article {
+            width: 100% !important;
+            h2 {
+                font-size: 1.5rem;
+            }
+    
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    
+
+    section {
+        flex-direction: column;
+        gap: 1rem !important;
+
+        article {
+            width: 100% !important;
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
