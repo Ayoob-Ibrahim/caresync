@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "dev": "ng serve --o",
-    "serve:ssr:caresync": "node dist/caresync/server/server.mjs"
+    "serve:ssr:caresync": "node dist/caresync/server/server.mjs",
+    "deploy": "ng build && cd dist/caresync && firebase deploy"
   },
   "private": true,
   "dependencies": {
