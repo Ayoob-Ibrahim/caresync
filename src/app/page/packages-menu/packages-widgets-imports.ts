@@ -69,8 +69,15 @@ export const list_comp = {
 
 
   ],
-  SupportedLiving: [FullImageWithCardBottomComponent],
+  SupportedLiving: [
+    FullImageWithCardBottomComponent, //0
+  ],
   ciwDomiciliaryCare: [FullImageWithCardBottomComponent],
   rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],
-  CombinedCareAgency: [FullImageWithCardBottomComponent],
+  CombinedCareAgency: [
+    FullImageWithCardBottomComponent, // 0
+    QusetionAnswerBankComponent,      //1
+    QusetionAnswerBankComponent,      //2
+    ImageCardDataComponent,           //3
+  ],
 };

@@ -1924,7 +1924,6 @@
         }
       ]
     }
-    
   },
   "SupportedLiving": {
     "compStructure": [
@@ -1965,13 +1964,78 @@
   },
   "CombinedCareAgency": {
     "compStructure": [
-      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent // 0",
+      "question-ans-bank-2 # QusetionAnswerBankComponent // 1",
+      "question-ans-bank-1 # QusetionAnswerBankComponent // 2",
+      "ImageCardDataComponent_four # ImageCardDataComponent // 3"
     ],
     "FullImageWithCardBottomComponent": {
       "title": "COMBINED CARE AGENCY",
       "sub": "Unite Domiciliary Care and Temporary Staffing for Unmatched Flexibility and Quality",
       "content": "Elevate Your Care Agency with Our Combined Package",
       "img": "../../../assets/our-packages/CombinedCareAgency/headerFullimage.webp"
+    },
+    "question-ans-bank-1": {
+      "title": "What is Domiciliary Care?",
+      "content1": "Domiciliary care, also referred to as Home care provides vital personal and practical assistance to individuals within the comfort of their own homes. Care Sync Experts specialises in guiding entrepreneurs and providers through the process of establishing successful combined care agencies. This service is crucial for meeting the needs of elderly individuals, people with disabilities, those recovering from illness or surgery, and others requiring assistance with daily living activities."
+    },
+    "question-ans-bank-2": {
+      "title": "Why Opt for Our Dual Service Care Agency Package?",
+      "content1": "Benefit from expert guidance and strategic planning as our seasoned consultants walk you through each stage assisting in creating a business plan that seamlessly integrates both staffing and home care services.",
+      "content2": "Ensure compliance with our help in navigating the regulatory landscape to meet all legal requirements and CQC guidelines for your agency.",
+      "image": "https://caresyncexperts.co.uk/images/packages/temporary-staffing-dual-service-agency.jpg"
+    },
+    "ImageCardDataComponent_four": {
+      "fourCard_data": {
+        "heading": " With our expertise, you can confidently set up a domiciliary care agency that offers services such as:",
+        "content": "We aim to assist you in establishing a care agency that promotes independence, enhances quality of life, and allows individuals to receive the support they need in the comfort of their own homes. Our consultancy services that cover every aspect of starting and running a domiciliary care business, ensuring your success from day one.",
+        "cardData": {
+          "container": {
+            "items": [
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-personal-care.jpg",
+                  "alt": "Personal care"
+                },
+                "layer": {
+                  "title": "Personal care",
+                  "description": "Assistance with bathing, dressing, and daily hygiene."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-household-tasks.jpg",
+                  "alt": "Household tasks"
+                },
+                "layer": {
+                  "title": "Household tasks",
+                  "description": "Support with cleaning, cooking, and household management."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-medical-support.jpg",
+                  "alt": "Medical support"
+                },
+                "layer": {
+                  "title": "Medical support",
+                  "description": "Administering medication and monitoring health conditions."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-companionship.jpg",
+                  "alt": "Companionship"
+                },
+                "layer": {
+                  "title": "Companionship",
+                  "description": "Providing emotional and social support to clients."
+                }
+              }
+            ]
+          }
+        }
+      }
     }
   }
 }
