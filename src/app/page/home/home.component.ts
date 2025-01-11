@@ -16,15 +16,13 @@ import { FooterComponent } from '../../component/footer/footer.component';
     ImageselecterpartComponent,
     PackageComponent,
     GrowingMarketComponent,
-    TestComponent,
     HomePageEntryCarouselComponent,
     GrowCareBuisnessComponent,
     ImageCarouselComponent,
     InfiniteCarouselComponent,
-    FooterComponent,
   ],
 
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent {}
+export class HomeComponent { }

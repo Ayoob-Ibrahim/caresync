@@ -20,7 +20,8 @@
       "Zig-Zag-Card-Content-2",
       "horizontal-card-2",
       "arrowpointbanner",
-      "ImageCardDataComponent_three"
+      "ImageCardDataComponent_three",
+      "horizontal-card-3"
     ],
     "largeimagewithgrid": {
       "mastertitle": "12. High Quality Printed Materials",
@@ -1006,6 +1007,14 @@
             }
           }
         }
+      }
+    },
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
       }
     }
   },

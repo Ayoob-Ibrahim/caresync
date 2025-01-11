@@ -1,5 +1,5 @@
 <!-- child.component.html -->
-<ng-container *ngIf="dataProperty">
+<ng-container *ngIf="dataProperty?.cardContainer">
     <div class="card-container">
         <div class="card">
             <div class="left-side">
@@ -17,5 +17,16 @@
                 </div>
             </div>
         </div>
+    </div>
+</ng-container>
+
+
+
+<ng-container *ngIf="dataProperty?.darkBlue">
+    <div class="dark-blue-container">
+        <img [src]="dataProperty?.darkBlue?.img" alt="">
+        <h1>{{dataProperty?.darkBlue?.h1}}</h1>
+        <p>{{dataProperty?.darkBlue?.p}}</p>
+        <button>{{dataProperty?.darkBlue?.button }}</button>
     </div>
 </ng-container>

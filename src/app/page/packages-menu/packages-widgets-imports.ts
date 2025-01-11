@@ -27,7 +27,7 @@ export const list_comp = {
     RoundedArrowsContentComponent, ThreeCardRowGridComponent,
     LargeImagewithgridComponent, ZigZagCardImgComponent, HorizontalCardComponent,
     ArrowPointsAndBannerComponent,
-    ImageCardDataComponent,
+    ImageCardDataComponent,HorizontalCardComponent
 
 
 
