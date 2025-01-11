@@ -7,6 +7,7 @@
       "ourPackagesaccordiangroup",
       "throutsupprtCQC",
       "Zig-Zag-Card-Content-1",
+      "three_card_row_white",
       "gridwitharrowwithoutarrow",
       "emailfeature",
       "content_lightgreen_box",
@@ -15,7 +16,6 @@
       "arrowpointbanner",
       "ImageCardDataComponent_three",
       "three_card_row_blue",
-      "three_card_row_white",
       "TwoCardWithImageComponent",
       "TwoCardsWithImageComp_whitebg"
     ],
@@ -822,11 +822,13 @@
     "Zig-Zag-Card-Content-1": {
       "section": {
         "heading": "3. CQC Interview Preparation",
+        "headerColor": "#129893",
         "description": "Achieve Success with Comprehensive CQC Interview Training.",
         "subSectionHeading": "At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness.",
         "cards": [
           {
             "title": "Mock Interviews",
+            "rev": true,
             "description": "Simulated CQC interviews to help you practise, refine your answers, and build confidence.",
             "image": {
               "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-mock-interview.jpg",
@@ -841,15 +843,17 @@
           },
           {
             "title": "Role Specific Coaching",
+            "rev": false,
             "description": "Tailored guidance for Registered Managers, Providers, and Nominated Individuals to understand their specific responsibilities during the interview.",
             "colors": {
               "cardBackground": "#edfaf7",
-              "headerColor": "black",
+              "headerColor": "#129893",
               "contentColor": "black"
             }
           },
           {
             "title": "Document Preparation",
+            "rev": true,
             "description": "Assistance in organising and presenting all necessary documentation clearly and effectively.",
             "image": {
               "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-document-preparation.jpg",
@@ -864,7 +868,8 @@
           },
           {
             "title": "Mastering KLOE",
-            "description": "In-depth review of the CQC’s Key Lines of Enquiry (KLOE) to ensure you can effectively demonstrate compliance.",
+            "rev": false,
+            "description": "In-depth review of the <a href=\"https://www.cqc.org.uk/guidance-providers/adult-social-care/key-lines-enquiry-adult-social-care-services\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\">CQC’s Key Lines of Enquiry (KLOE)</a> to ensure you can effectively demonstrate compliance.",
             "colors": {
               "cardBackground": "#004558",
               "headerColor": "#adffeb",
@@ -873,6 +878,7 @@
           },
           {
             "title": "Q&A Support",
+            "rev": false,
             "description": "Interactive sessions to address any questions or concerns, ensuring you are fully prepared and confident.",
             "colors": {
               "cardBackground": "#004558",
@@ -882,7 +888,8 @@
           },
           {
             "title": "Health & Safety Resources",
-            "description": "Includes a comprehensive Health & Safety poster and a fully compliant first aid kit to meet Health and Safety Executive standards.",
+            "rev": true,
+            "description": "Guidance on ensuring your agency meets all health and safety requirements, crucial for the <a href=\"https://www.cqc.org.uk/guidance-regulation/providers/assessment/assessment-framework\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\"> CQC’s assessment.</a>.",
             "image": {
               "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
               "alt": "Health & Safety Resources",

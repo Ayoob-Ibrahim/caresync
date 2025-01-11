@@ -91,3 +91,14 @@
   color: #0e7a75;
   text-decoration: underline;
 }
+
+
+.custom-paragraph a {
+  color: #129693 !important;
+  text-decoration: none !important;
+}
+
+.custom-paragraph a:hover {
+  color: #0e7a74 !important;
+  text-decoration: underline !important;
+}

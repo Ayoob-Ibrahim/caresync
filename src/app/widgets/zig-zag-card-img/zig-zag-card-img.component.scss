@@ -1,5 +1,5 @@
 .main-cont {
-    padding: 4rem;
+
 
     article {
         h1 {
@@ -21,16 +21,18 @@
 
 
 .main-cont section {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    gap: 2rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
     .card-box {
-        margin-top: 2rem;
+
         border-radius: .9rem;
-        background-color: white;
-        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
         height: 15rem;
+        margin: auto;
+        margin-top: 1rem;
+
 
         h2 {
             font-family: medium;
@@ -51,12 +53,58 @@
         main {
             display: flex;
             justify-content: space-between;
-            background-color: #edfaf7;
             border-radius: .9rem;
 
             .content-card {
-                width: 60%;
                 padding: 3rem;
+            }
+        }
+    }
+}
+
+
+
+.important-width {
+    width: 60%;
+}
+
+
+
+@media (max-width: 1024px) {
+    .main-cont section {
+        flex-direction: column;
+
+        div.card-box {
+            width: 100% !important;
+
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .main-cont section {
+        flex-direction: column;
+
+        div.card-box {
+            width: 100% !important;
+            height: max-content !important;
+
+            main {
+                flex-direction: column;
+
+                .content-card {
+                  width: 100% !important;
+                  padding: 1rem;
+                }
+
+                div img {
+                    height: 15rem;
+                    width: 100%;
+                    border-radius: .9rem;
+                    border-radius: .9rem;
+                }
             }
         }
     }

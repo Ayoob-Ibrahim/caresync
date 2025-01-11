@@ -24,6 +24,7 @@ export const list_comp = {
     OurpackagesAccorianGroupComponent,
     ThoroughSupportforCqcRegistrationComponent,
     ZigZagCardImgComponent,
+    ThreeCardRowGridComponent,
     PointersWithgridcardComponent,
     EmailFeaturebannerComponent,
     ContentLightgreenCardComponent,
@@ -31,7 +32,7 @@ export const list_comp = {
     LargeImagewithgridComponent,
     ArrowPointsAndBannerComponent,
     ImageCardDataComponent,
-    ThreeCardRowGridComponent,
+   
     ThreeCardRowGridComponent,
     TwoCardWithImageComponent,
     TwoCardWithImageComponent,

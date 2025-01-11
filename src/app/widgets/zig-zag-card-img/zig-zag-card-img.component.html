@@ -1,26 +1,24 @@
-<div class="main-cont">
+<div class="main-cont p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
     <article>
-        <h1 *ngIf="dataProperty?.section?.heading">
+        <h1 *ngIf="dataProperty?.section?.heading" [style.color]="dataProperty?.section?.headerColor">
             {{ dataProperty.section.heading }}
-          </h1>
-          <h4 *ngIf="dataProperty?.section?.description">
+        </h1>
+        <h4 *ngIf="dataProperty?.section?.description">
             {{ dataProperty.section.description }}
-          </h4>
-          <p *ngIf="dataProperty?.section?.subSectionHeading">
+        </h4>
+        <p *ngIf="dataProperty?.section?.subSectionHeading">
             {{ dataProperty.section.subSectionHeading }}
-          </p>
+        </p>
     </article>
     <ng-container *ngTemplateOutlet="zig_zag_card"></ng-container>
 </div>
 
 <ng-template #zig_zag_card>
     <section>
-        <ng-container *ngFor="let form of [1]">
-            <div class="card-box">
-                <ng-container *ngTemplateOutlet="card_data"></ng-container>
-            </div>
-            <div class="card-box">
-                <ng-container *ngTemplateOutlet="card_data"></ng-container>
+        <ng-container *ngFor="let card of dataProperty.section.cards">
+            <div class="card-box"
+                [ngStyle]="{ 'background-color': card.colors.cardBackground, 'width':card?.rev ? '58%':'38%' }">
+                <ng-container *ngTemplateOutlet="card_data; context: { $implicit: card }"></ng-container>
             </div>
         </ng-container>
     </section>
@@ -28,17 +26,19 @@
 
 
 
-<ng-template #card_data>
+<ng-template #card_data let-card>
     <main>
-        <div class="content-card">
-            <h2>Mock Interviews
+        <div class="content-card" [ngClass]="{ 'important-width': card?.image?.src }">
+            <h2 *ngIf="card.title" [ngStyle]="{ color: card.colors.headerColor }">
+                {{ card.title }}
             </h2>
-            <p>
-                Simulated CQC interviews to help you practise, refine your answers, and build confidence.
-            </p>
+            <p *ngIf="card.description" [innerHTML]="card.description" [ngStyle]="{ color: card.colors.contentColor }"
+                class="custom-paragraph"></p>
+
         </div>
         <div>
-            <img src="https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-mock-interview.jpg" alt="">
+            <img *ngIf="card.image?.src" [src]="card.image.src" [alt]="card.image.alt || 'Image'"
+                [title]="card.image.title || 'Image'" />
         </div>
     </main>
 </ng-template>
