@@ -2,7 +2,7 @@
   <ng-container *ngIf="packageId() && componentList[packageId()]; else noData">
     <ng-container *ngFor="let comp of componentList[packageId()]; let i = index;">
       <ng-template
-        *ngComponentOutlet="comp; inputs: { dataProperty: customInjector()[customInjector()['compStructure'][i]] }" />
+        *ngComponentOutlet="comp; inputs: { dataProperty: customInjector()[customInjector()['compStructure'][i].split('#')[0].trim()] }" />
     </ng-container>
   </ng-container>
   <ng-template #noData>

@@ -1,27 +1,27 @@
 {
   "DomiciliaryCare": {
     "compStructure": [
-      "FullImageWithCardBottomComponent",
-      "ImageCardDataComponent_four",
-      "CyanWhiteCardComponent",
-      "ourPackagesaccordiangroup",
-      "throutsupprtCQC",
-      "Zig-Zag-Card-Content-1",
-      "three_card_row_white",
-      "horizontal-card-1",
-      "gridwitharrowwithoutarrow",
-      "emailfeature",
-      "TwoCardWithImageComponent",
-      "content_lightgreen_box",
-      "TwoCardsWithImageComp_whitebg",
-      "roundedarrowgrid",
-      "three_card_row_blue",
-      "largeimagewithgrid",
-      "Zig-Zag-Card-Content-2",
-      "horizontal-card-2",
-      "arrowpointbanner",
-      "ImageCardDataComponent_three",
-      "horizontal-card-3"
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0",
+      "ImageCardDataComponent_four # ImageCardDataComponentFour, // 1",
+      "CyanWhiteCardComponent # CyanWhiteCardComponent, // 2",
+      "ourPackagesaccordiangroup # OurPackagesAccordionGroupComponent, // 3",
+      "throutsupprtCQC # ThoroughSupportForCqcRegistrationComponent, // 4",
+      "Zig-Zag-Card-Content-1 # ZigZagCardContent1Component, // 5",
+      "three_card_row_white # ThreeCardRowWhiteComponent, // 6",
+      "horizontal-card-1 # HorizontalCard1Component, // 7",
+      "gridwitharrowwithoutarrow # GridWithArrowWithoutArrowComponent, // 8",
+      "emailfeature # EmailFeatureComponent, // 9",
+      "TwoCardWithImageComponent # TwoCardWithImageComponent, // 10",
+      "content_lightgreen_box # ContentLightGreenBoxComponent, // 11",
+      "TwoCardsWithImageComp_whitebg # TwoCardsWithImageWhiteBgComponent, // 12",
+      "roundedarrowgrid # RoundedArrowGridComponent, // 13",
+      "three_card_row_blue # ThreeCardRowBlueComponent, // 14",
+      "largeimagewithgrid # LargeImageWithGridComponent, // 15",
+      "Zig-Zag-Card-Content-2 # ZigZagCardContent2Component, // 16",
+      "horizontal-card-2 # HorizontalCard2Component, // 17",
+      "arrowpointbanner # ArrowPointBannerComponent, // 18",
+      "ImageCardDataComponent_three # ImageCardDataComponentThree, // 19",
+      "horizontal-card-3 # HorizontalCard3Component // 20"
     ],
     "largeimagewithgrid": {
       "mastertitle": "12. High Quality Printed Materials",
@@ -1020,7 +1020,7 @@
   },
   "TemporaryStaffing": {
     "compStructure": [
-      "FullImageWithCardBottomComponent"
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
     ],
     "FullImageWithCardBottomComponent": {
       "title": "TEMPORARY STAFFING AGENCY",
@@ -1031,7 +1031,7 @@
   },
   "SupportedLiving": {
     "compStructure": [
-      "FullImageWithCardBottomComponent"
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
     ],
     "FullImageWithCardBottomComponent": {
       "title": "SUPPORTED LIVING",
@@ -1046,7 +1046,7 @@
   },
   "ciwDomiciliaryCare": {
     "compStructure": [
-      "FullImageWithCardBottomComponent"
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
     ],
     "FullImageWithCardBottomComponent": {
       "title": "CIW DOMICILIARY CARE",
@@ -1057,7 +1057,7 @@
   },
   "rqiaDomiciliaryCare": {
     "compStructure": [
-      "FullImageWithCardBottomComponent"
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
     ],
     "FullImageWithCardBottomComponent": {
       "title": "RQIA DOMICILIARY CARE AGENCY",
@@ -1068,7 +1068,7 @@
   },
   "CombinedCareAgency": {
     "compStructure": [
-      "FullImageWithCardBottomComponent"
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
     ],
     "FullImageWithCardBottomComponent": {
       "title": "COMBINED CARE AGENCY",

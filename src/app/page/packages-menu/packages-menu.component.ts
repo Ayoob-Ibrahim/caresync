@@ -3,7 +3,7 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { list_comp } from './packages-widgets-imports';
 import { HttpService } from '../../service/http.service';
 import { CommonModule } from '@angular/common';
- 
+
 
 
 
@@ -30,6 +30,10 @@ export class PackagesMenuComponent implements OnInit {
         this.customInjector.set(data);
       }
     });
+
+    setTimeout(() => {
+      console.log(this.customInjector())
+    }, 2000);
   }
 
   ngOnInit(): void {
