@@ -1,0 +1,50 @@
+<div class="main-cont">
+    <article>
+        <h1>
+            3. CQC Interview Preparation
+        </h1>
+        <h4>
+            Achieve Success with Comprehensive CQC Interview Training
+        </h4>
+        <p>
+            At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC
+            interview, a critical step in your agency’s registration process. Our approach covers all key areas to build
+            your confidence and readiness:
+
+            We offer tailored training sessions to help you get ready for the CQC interview, which is a part of your
+            agency's registration process. Our training program focuses on all aspects to build your confidence and
+            readiness:
+        </p>
+    </article>
+    <ng-container *ngTemplateOutlet="zig_zag_card"></ng-container>
+</div>
+
+<ng-template #zig_zag_card>
+    <section>
+        <ng-container *ngFor="let form of [1]">
+            <div class="card-box">
+                <ng-container *ngTemplateOutlet="card_data"></ng-container>
+            </div>
+            <div class="card-box">
+                <ng-container *ngTemplateOutlet="card_data"></ng-container>
+            </div>
+        </ng-container>
+    </section>
+</ng-template>
+
+
+
+<ng-template #card_data>
+    <main>
+        <div class="content-card">
+            <h2>Mock Interviews
+            </h2>
+            <p>
+                Simulated CQC interviews to help you practise, refine your answers, and build confidence.
+            </p>
+        </div>
+        <div>
+            <img src="https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-mock-interview.jpg" alt="">
+        </div>
+    </main>
+</ng-template>

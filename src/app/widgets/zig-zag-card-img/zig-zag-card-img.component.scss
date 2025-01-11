@@ -1,0 +1,63 @@
+.main-cont {
+    padding: 4rem;
+
+    article {
+        h1 {
+            font-size: 2rem;
+            font-family: medium;
+        }
+
+        h4 {
+            font-size: 1.2rem;
+            font-family: semikanit;
+        }
+
+        p {
+            font-family: regular;
+        }
+    }
+}
+
+
+
+.main-cont section {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 2rem;
+
+    .card-box {
+        margin-top: 2rem;
+        border-radius: .9rem;
+        background-color: white;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        height: 15rem;
+
+        h2 {
+            font-family: medium;
+            font-size: 1.3rem;
+        }
+
+        p {
+            font-family: regular;
+        }
+
+        div img {
+            height: 15rem;
+            border-top-right-radius: .9rem;
+            border-bottom-right-radius: .9rem;
+        }
+
+
+        main {
+            display: flex;
+            justify-content: space-between;
+            background-color: #edfaf7;
+            border-radius: .9rem;
+
+            .content-card {
+                width: 60%;
+                padding: 3rem;
+            }
+        }
+    }
+}

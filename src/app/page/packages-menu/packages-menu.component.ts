@@ -3,10 +3,12 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { list_comp } from './packages-widgets-imports';
 import { HttpService } from '../../service/http.service';
 import { CommonModule } from '@angular/common';
+import { ZigZagCardImgComponent } from '../../widgets/zig-zag-card-img/zig-zag-card-img.component';
+
 
 @Component({
   selector: 'app-packages-menu',
-  imports: [CommonModule,],
+  imports: [CommonModule, ZigZagCardImgComponent],
   templateUrl: './packages-menu.component.html',
   styleUrl: './packages-menu.component.scss',
 })
