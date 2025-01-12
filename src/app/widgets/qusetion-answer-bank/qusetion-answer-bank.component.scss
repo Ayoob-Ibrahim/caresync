@@ -22,6 +22,7 @@ section {
     figure {
         img {
             border-radius: .7rem;
+            max-height: 400px;
         }
     }
 }
@@ -30,7 +31,7 @@ section {
 @media (max-width: 1024px) {
     section {
       
-        flex-direction: column;
+        flex-direction: column !important ;
         gap: 1rem !important;
         article {
             width: 100% !important;
@@ -48,7 +49,7 @@ section {
     
 
     section {
-        flex-direction: column;
+        flex-direction: column !important;
         gap: 1rem !important;
 
         article {

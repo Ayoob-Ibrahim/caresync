@@ -69,6 +69,30 @@ export const list_comp = {
   ],
   SupportedLiving: [
     FullImageWithCardBottomComponent, //0
+    QusetionAnswerBankComponent,//1
+    QusetionAnswerBankComponent,//2
+    CyanWhiteCardComponent,
+    OurpackagesAccorianGroupComponent,
+    ThoroughSupportforCqcRegistrationComponent,
+    ZigZagCardImgComponent,
+    ThreeCardRowGridComponent, //6
+    HorizontalCardComponent, //7
+    PointersWithgridcardComponent, //8
+    EmailFeaturebannerComponent, // 9
+    TwoCardWithImageComponent, // 10
+    ContentLightgreenCardComponent, // 11
+    TwoCardWithImageComponent, // 12
+    RoundedArrowsContentComponent, // 13
+    ThreeCardRowGridComponent, // 14
+    LargeImagewithgridComponent, // 15
+    ZigZagCardImgComponent, // 16
+    HorizontalCardComponent, // 17
+    ArrowPointsAndBannerComponent, // 18
+    ImageCardDataComponent, // 19
+    FreequentlyAskedComponent, //21
+    HorizontalCardComponent, // 20
+
+    
   ],
   ciwDomiciliaryCare: [FullImageWithCardBottomComponent],
   rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],
