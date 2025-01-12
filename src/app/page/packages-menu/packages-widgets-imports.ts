@@ -68,61 +68,64 @@ export const list_comp = {
     HorizontalCardComponent, // 21
   ],
   SupportedLiving: [
-    FullImageWithCardBottomComponent, //0
-    QusetionAnswerBankComponent,//1
-    QusetionAnswerBankComponent,//2
-    CyanWhiteCardComponent,
-    OurpackagesAccorianGroupComponent,
-    ThoroughSupportforCqcRegistrationComponent,
-    ZigZagCardImgComponent,
-    ThreeCardRowGridComponent, //6
-    HorizontalCardComponent, //7
-    PointersWithgridcardComponent, //8
-    EmailFeaturebannerComponent, // 9
-    TwoCardWithImageComponent, // 10
-    ContentLightgreenCardComponent, // 11
-    TwoCardWithImageComponent, // 12
-    RoundedArrowsContentComponent, // 13
-    ThreeCardRowGridComponent, // 14
-    LargeImagewithgridComponent, // 15
-    ZigZagCardImgComponent, // 16
-    HorizontalCardComponent, // 17
-    ArrowPointsAndBannerComponent, // 18
-    ImageCardDataComponent, // 19
-    FreequentlyAskedComponent, //21
-    HorizontalCardComponent, // 20
+    FullImageWithCardBottomComponent, // 0
+    QusetionAnswerBankComponent,      // 1
+    QusetionAnswerBankComponent,      // 2
+    CyanWhiteCardComponent,           // 3
+    OurpackagesAccorianGroupComponent,// 4
+    ThoroughSupportforCqcRegistrationComponent, // 5
+    ZigZagCardImgComponent,           // 6
+    ThreeCardRowGridComponent,        // 7
+    HorizontalCardComponent,          // 8
+    PointersWithgridcardComponent,    // 9
+    EmailFeaturebannerComponent,      // 10
+    TwoCardWithImageComponent,        // 11
+    ContentLightgreenCardComponent,   // 12
+    TwoCardWithImageComponent,        // 13
+    RoundedArrowsContentComponent,    // 14
+    ThreeCardRowGridComponent,        // 15
+    LargeImagewithgridComponent,      // 16
+    ZigZagCardImgComponent,           // 17
+    HorizontalCardComponent,          // 18
+    ArrowPointsAndBannerComponent,    // 19
+    ImageCardDataComponent,           // 20
+    FreequentlyAskedComponent,        // 21
+    HorizontalCardComponent           // 22
 
-    
+
+
+  ],
+  CombinedCareAgency: [
+    FullImageWithCardBottomComponent, // 0
+    HorizontalCardComponent,          // 1
+    QusetionAnswerBankComponent,      // 2
+    QusetionAnswerBankComponent,      // 3
+    ImageCardDataComponent,           // 4
+    QusetionAnswerBankComponent,      // 5
+    ImageCardDataComponent,           // 6
+    CyanWhiteCardComponent,           // 7
+    OurpackagesAccorianGroupComponent,// 8
+    ThoroughSupportforCqcRegistrationComponent, // 9
+    ZigZagCardImgComponent,           // 10
+    ThreeCardRowGridComponent,        // 11
+    HorizontalCardComponent,          // 12
+    PointersWithgridcardComponent,    // 13
+    EmailFeaturebannerComponent,      // 14
+    TwoCardWithImageComponent,        // 15
+    ContentLightgreenCardComponent,   // 16
+    TwoCardWithImageComponent,        // 17
+    RoundedArrowsContentComponent,    // 18
+    ThreeCardRowGridComponent,        // 19
+    LargeImagewithgridComponent,      // 20
+    ZigZagCardImgComponent,           // 21
+    HorizontalCardComponent,          // 22
+    ArrowPointsAndBannerComponent,    // 23
+    ImageCardDataComponent,           // 24
+    FreequentlyAskedComponent,        // 25
+    HorizontalCardComponent           // 26
+
   ],
   ciwDomiciliaryCare: [FullImageWithCardBottomComponent],
   rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],
-  CombinedCareAgency: [
-    FullImageWithCardBottomComponent, // 0
-    HorizontalCardComponent,
-    QusetionAnswerBankComponent, //1
-    QusetionAnswerBankComponent, //2
-    ImageCardDataComponent, //3
-    QusetionAnswerBankComponent,
-    ImageCardDataComponent,
-    CyanWhiteCardComponent,
-    OurpackagesAccorianGroupComponent,
-    ThoroughSupportforCqcRegistrationComponent,
-    ZigZagCardImgComponent,
-    ThreeCardRowGridComponent, //6
-    HorizontalCardComponent, //7
-    PointersWithgridcardComponent, //8
-    EmailFeaturebannerComponent, // 9
-    TwoCardWithImageComponent, // 10
-    ContentLightgreenCardComponent, // 11
-    TwoCardWithImageComponent, // 12
-    RoundedArrowsContentComponent, // 13
-    ThreeCardRowGridComponent, // 14
-    LargeImagewithgridComponent, // 15
-    ZigZagCardImgComponent, // 16
-    HorizontalCardComponent, // 17
-    ArrowPointsAndBannerComponent, // 18
-    ImageCardDataComponent, // 19
-    FreequentlyAskedComponent, //21
-    HorizontalCardComponent, // 20
-  ],
+
 };
