@@ -2132,7 +2132,29 @@
       "horizontal-card-4 # HorizontalCardComponent // 1",
       "question-ans-bank-2 # QusetionAnswerBankComponent // 2",
       "question-ans-bank-1 # QusetionAnswerBankComponent // 3",
-      "ImageCardDataComponent_four # ImageCardDataComponent // 4"
+      "ImageCardDataComponent_four # ImageCardDataComponent // 4",
+      "question-ans-bank-3 # QusetionAnswerBankComponent // 5",
+      "ImageCardDataComponent_four_cons # ImageCardDataComponent // 6",
+      "CyanWhiteCardComponent # CyanWhiteCardComponent // 8",
+      "ourPackagesaccordiangroup # OurpackagesAccorianGroupComponent // 9",
+      "throutsupprtCQC # ThoroughSupportforCqcRegistrationComponent // 10",
+      "Zig-Zag-Card-Content-1 # ZigZagCardImgComponent // 11",
+      "three_card_row_white # ThreeCardRowGridComponent // 12",
+      "horizontal-card-1 # HorizontalCardComponent // 13",
+      "gridwitharrowwithoutarrow # PointersWithgridcardComponent // 14",
+      "emailfeature # EmailFeaturebannerComponent // 15",
+      "TwoCardWithImageComponent # TwoCardWithImageComponent // 16",
+      "content_lightgreen_box # ContentLightgreenCardComponent // 17",
+      "TwoCardsWithImageComp_whitebg # TwoCardWithImageComponent // 18",
+      "roundedarrowgrid # RoundedArrowsContentComponent // 19",
+      "three_card_row_blue # ThreeCardRowGridComponent // 20",
+      "largeimagewithgrid # LargeImagewithgridComponent // 21",
+      "Zig-Zag-Card-Content-2 # ZigZagCardImgComponent // 22",
+      "horizontal-card-2 # HorizontalCardComponent // 23",
+      "arrowpointbanner # ArrowPointsAndBannerComponent // 24",
+      "ImageCardDataComponent_three # ImageCardDataComponent // 25",
+      "freequentlyasked # FreequentlyAskedComponent // 26",
+      "horizontal-card-3 # HorizontalCardComponent // 27"
     ],
     "FullImageWithCardBottomComponent": {
       "title": "COMBINED CARE AGENCY",
@@ -2206,6 +2228,1077 @@
           }
         }
       }
+    },
+    "question-ans-bank-3": {
+      "title": "What is a Temporary Staffing Agency?",
+      "content1": "A Temporary Staffing Agency plays a role by providing short term, flexible staffing solutions to cater to the changing needs of healthcare and social care organisations. These agencies specialise in recruiting, vetting, and training a diverse pool of professionals, including nurses, support workers, and care assistants.These skilled professionals are on standby to fill in gaps in whenever healthcare facilities, care homes, or supported living environments experience staff shortages, peak demand periods, or specific client requirements.",
+      "content2": "Temporary staffing agencies play a role in helping organisations maintain uninterrupted, high-quality care and operational efficiency. They achieve this by offering staffing solutions that can quickly adjust to the evolving demands of healthcare and social care sectors.",
+      "content3": "We take temporary staffing to the next level by guiding you through the entire process of setting up your own agency. We offer the knowledge and resources required to create an agency that delivers exceptional care and complies with industry standards."
+    },
+    "ImageCardDataComponent_four_cons": {
+      "fourCard_data": {
+        "heading": " Our Consultancy Services Include:",
+        "content": "Let Care Sync Experts provide you with the reliable, responsive staffing solutions that keep your organisation running smoothly, no matter the challenges.",
+        "cardData": {
+          "container": {
+            "items": [
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/temporary-staffing-business-planning.jpg",
+                  "alt": "Business Planning"
+                },
+                "layer": {
+                  "title": "Business Planning",
+                  "description": "Develop a comprehensive business plan tailored to your vision."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/temporary-staffing-recruitment-strategies.jpg",
+                  "alt": "Recruitment Strategies"
+                },
+                "layer": {
+                  "title": "Recruitment Strategies",
+                  "description": "Learn how to source, vet, and train a reliable pool of qualified staff, including nurses, care assistants, and support workers."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/temporary-staffing-compliance-guidance.jpg",
+                  "alt": "Compliance Guidance"
+                },
+                "layer": {
+                  "title": "Compliance Guidance",
+                  "description": "Ensure your agency meets all regulatory requirements, from employment law to health and safety standards."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-companionship.jpg",
+                  "alt": "Companionship"
+                },
+                "layer": {
+                  "title": "Client Matching",
+                  "description": "Establish systems that match your staff with client needs, ensuring high-quality care and operational efficiency."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "CyanWhiteCardComponent": {
+      "mainContainer": {
+        "subContainer": {
+          "leftSide": {
+            "heading": "Our Comprehensive Package",
+            "priceRange": "Prices Range from £500 to £6,000",
+            "taxInfo": "EXCL VAT"
+          },
+          "rightSide": {
+            "heading": "DO YOU PREFER OFFLINE READING?",
+            "description": "Download a PDF version of our Domiciliary Care Agency Package",
+            "button": {
+              "text": "Download PDF Here",
+              "action": "openPdf",
+              "pdfUrl": "https://caresyncexperts.co.uk/domiciliary-care-package-brochure-download"
+            }
+          }
+        }
+      },
+      "solobottom": " What’s Included in Our Comprehensive Package:"
+    },
+    "ourPackagesaccordiangroup": {
+      "title": "1. Set-up, Registration & Information",
+      "data": [
+        {
+          "header": "Business Plan",
+          "content": "Work with our team to develop a detailed business plan tailored to your care agency, including cash flow forecasts and profit and loss statements to ensure financial stability and growth.>"
+        },
+        {
+          "header": "Name Creation",
+          "content": "We assist in brainstorming and selecting a business name that is memorable, marketable, and perfectly suited to your agency's mission and services."
+        },
+        {
+          "header": "Company Registration",
+          "content1": "We handle the entire registration process with ",
+          "content2": ", providing you with all necessary legal documents, both digitally and by post.",
+          "name": "Companies House",
+          "url": "https://www.gov.uk/limited-company-formation/register-your-company"
+        },
+        {
+          "header": "Business Registration",
+          "content1": "We’ll ",
+          "content2": "your company as an official employer, ensuring compliance with all employment regulations, including PAYE setup.",
+          "name": "register ",
+          "url": "https://www.gov.uk/set-up-limited-company"
+        },
+        {
+          "header": "IT Setup Assistance",
+          "content": "Get expert guidance on the necessary technology, tools, and systems to efficiently run your care agency from day one."
+        },
+        {
+          "header": "Office Space Assistance",
+          "content": "Our team assists you in identifying and securing the ideal office location that meets your operational needs."
+        },
+        {
+          "header": "VAT Registration",
+          "content": "We manage the VAT registration process for your company, ensuring all tax obligations are met from the start."
+        },
+        {
+          "header": "Virtual Telephone Setup",
+          "content": "Enhance your communication with a virtual telephone number, professionally set up to manage client and partner calls."
+        },
+        {
+          "header": "Corporation Tax Enrollment",
+          "content": "Automatically register for corporation tax with HMRC during company formation, ensuring your business meets all tax obligations."
+        },
+        {
+          "header": "Data Protection Registration",
+          "content1": "We ensure your agency meets legal data protection requirements by registering with the ",
+          "content2": "and covering your first year’s fee.",
+          "name": "Information Commissioner’s Office (ICO) ",
+          "url": "https://ico.org.uk/"
+        }
+      ]
+    },
+    "throutsupprtCQC": {
+      "mastertitle": "2. Thorough Support for CQC Registration",
+      "mastercontent": "Assistance with CQC Registration Interview and Preparing for the Process",
+      "imagetitle": "Guidance on CQC Registration",
+      "imagecontent1": "Getting through the registration process of the",
+      "imagecontent2": "can be quite tricky and time-consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager, ensuring that everything is done accurately and in line with CQC regulations.",
+      "linktext": "Care Quality Commission (CQC)",
+      "imagecontentlinkurl": "https://www.cqc.org.uk/",
+      "subcard": [
+        {
+          "title": "Application Form Assistance",
+          "icon": "flash",
+          "content": "Our team is here to support you in completing the application forms both for the provider and the registered manager. We make sure that all details are accurately filled in and that your application is well prepared for submission."
+        },
+        {
+          "title": "Statement of Purpose Preparation",
+          "icon": "file",
+          "content": "We help create a statement of purpose that outlines your service goals, objectives, and the range of services you plan to offer. This document plays a role in showing the CQC your agency's dedication to delivering top-notch care."
+        },
+        {
+          "title": "Reviewing CVs for Compliance",
+          "icon": "flash",
+          "content": "We carefully assess the CVs of your Registered Manager and Nominated Individual to ensure they align with CQC standards. This involves verifying their credentials, experience, and suitability for their roles within your agency."
+        },
+        {
+          "title": "Liaison with CQC",
+          "icon": "file",
+          "url": "https://www.cqc.org.uk/",
+          "urltext": "Care Quality Commission (CQC)",
+          "content1": "Our team engages directly with the",
+          "content2": "on your behalf, handling any requirements and providing supporting documents. We manage all communication to ensure a smooth registration process."
+        }
+      ]
+    },
+    "Zig-Zag-Card-Content-1": {
+      "section": {
+        "heading": "3. CQC Interview Preparation",
+        "headerColor": "#129893",
+        "description": "Achieve Success with Comprehensive CQC Interview Training.",
+        "subSectionHeading": "At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness.",
+        "cards": [
+          {
+            "title": "Mock Interviews",
+            "rev": true,
+            "description": "Simulated CQC interviews to help you practise, refine your answers, and build confidence.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-mock-interview.jpg",
+              "alt": "Mock Interviews",
+              "title": "Mock Interviews"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          },
+          {
+            "title": "Role Specific Coaching",
+            "rev": false,
+            "description": "Tailored guidance for Registered Managers, Providers, and Nominated Individuals to understand their specific responsibilities during the interview.",
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "#129893",
+              "contentColor": "black"
+            }
+          },
+          {
+            "title": "Document Preparation",
+            "rev": true,
+            "description": "Assistance in organising and presenting all necessary documentation clearly and effectively.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-cqc-document-preparation.jpg",
+              "alt": "Document Preparation",
+              "title": "Document Preparation"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          },
+          {
+            "title": "Mastering KLOE",
+            "rev": false,
+            "description": "In-depth review of the <a href=\"https://www.cqc.org.uk/guidance-providers/adult-social-care/key-lines-enquiry-adult-social-care-services\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\">CQC’s Key Lines of Enquiry (KLOE)</a> to ensure you can effectively demonstrate compliance.",
+            "colors": {
+              "cardBackground": "#004558",
+              "headerColor": "#adffeb",
+              "contentColor": "white"
+            }
+          },
+          {
+            "title": "Q&A Support",
+            "rev": false,
+            "description": "Interactive sessions to address any questions or concerns, ensuring you are fully prepared and confident.",
+            "colors": {
+              "cardBackground": "#004558",
+              "headerColor": "#adffeb",
+              "contentColor": "white"
+            }
+          },
+          {
+            "title": "Health & Safety Resources",
+            "rev": true,
+            "description": "Guidance on ensuring your agency meets all health and safety requirements, crucial for the <a href=\"https://www.cqc.org.uk/guidance-regulation/providers/assessment/assessment-framework\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\"> CQC’s assessment.</a>.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
+              "alt": "Health & Safety Resources",
+              "title": "Health & Safety Resources"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          }
+        ]
+      }
+    },
+    "three_card_row_white": {
+      "containerData": {
+        "header": "4. Brand Development and Marketing Materials",
+        "headerColor": "#129893",
+        "description": "Care Sync Experts are highly skilled in establishing brands for home care agencies, helping your business to shine in the competitive healthcare industry. Our branding solutions are thorough addressing all elements to create a memorable and lasting identity.",
+        "descriptionColor": "black",
+        "containerBackground": "#edfaf7",
+        "cardBackground": "white",
+        "cardData": [
+          {
+            "id": 1,
+            "name": "Custom Logo Design",
+            "description": "Craft distinctive logos that capture your agency’s mission and values.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 2,
+            "name": "Professional Business Cards",
+            "description": "Personalised business cards that leave a lasting impression.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 3,
+            "name": "Branded Letterheads",
+            "description": "Elevate your communications with professionally designed letterheads.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 4,
+            "name": "Personalised Compliment Slips",
+            "description": "Enhance client relations with customised compliment slips.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 5,
+            "name": "Secure ID Badges",
+            "description": "Custom ID badges featuring your logo and brand colours.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 6,
+            "name": "Consistent Email Signatures",
+            "description": "Ensure polished communication with branded email signatures.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 7,
+            "name": "Domain Registration & Website Development",
+            "description": "SEO-optimised, user-friendly websites.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 8,
+            "name": "Social Media Branding",
+            "description": "Create consistent and engaging social media profiles.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 9,
+            "name": "Brochures and Leaflets",
+            "description": "Develop captivating brochures and leaflets that showcase your services effectively.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 10,
+            "name": "Roll-up Banners & Door Signs",
+            "description": "Boost visibility with professionally designed banners and signs for events and your workspace.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 11,
+            "name": "Company Presentation Folder",
+            "description": "Professionally designed folders to organise and present your business materials.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          },
+          {
+            "id": 12,
+            "name": "Tri-fold Brochure",
+            "description": "Engaging and informative tri-fold brochures to effectively communicate your services.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderColor": "black",
+            "cardContentColor": " #00000070"
+          }
+        ]
+      }
+    },
+    "horizontal-card-1": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Get Started with Care Sync Experts",
+              "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Email: hello@caresyncexperts.co.uk",
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
+      }
+    },
+    "gridwitharrowwithoutarrow": {
+      "mastercard": {
+        "mastertiltle": "5. Bespoke Website Development",
+        "mastercontent": "We understand the importance of your website as the face of your domiciliary care agency. Our goal is not to design websites but to establish an online presence that reflects your brand and fosters growth.",
+        "data": [
+          {
+            "header": "Domain Name Registration",
+            "content": "We secure your business domain (e.g., www.yourcompanyname.co.uk) for one year, giving you full control and management access."
+          },
+          {
+            "header": "Social Media Integration",
+            "content": "We connect your social media profiles to your website making it easy for users to engage with you across platforms and helping foster a sense of community around your brand."
+          },
+          {
+            "header": "Data Privacy and Compliance",
+            "content": "Our websites are designed to fully comply with GDPR, ensuring features like cookies notifications, privacy by design, and user data management are seamlessly integrated."
+          },
+          {
+            "header": "Secure and Reliable Hosting",
+            "content": "Enjoy a year of complimentary, secure hosting with Cpanel access, robust malware protection, and a free SSL certificate to enhance trust and security. After the first year, hosting renews at £39 per year."
+          }
+        ]
+      },
+      "submaster": {
+        "header": "Website Features",
+        "data": [
+          {
+            "header": "Professional, Modern Design",
+            "content": "Sleek, clean layouts that convey professionalism and instil trust."
+          },
+          {
+            "header": "Client Testimonials",
+            "content": "Showcase positive feedback to build credibility and trust."
+          },
+          {
+            "header": "SEO-Optimised Content",
+            "content": "Quality, keyword-rich content to attract and engage your target audience."
+          },
+          {
+            "header": "Document Repository",
+            "content": "Provide additional downloadable resources for clients and staff."
+          },
+          {
+            "header": "High Quality Licensed Images",
+            "content": "Enhance visual appeal with premium, licensed imagery."
+          },
+          {
+            "header": "Online Application System",
+            "content": "Simplify recruitment with an integrated application form."
+          },
+          {
+            "header": "Mobile Responsive Design",
+            "content": "Seamless user experience across all devices, ensuring accessibility."
+          },
+          {
+            "header": "Job Listings",
+            "content": "Advertise current vacancies directly on your website."
+          },
+          {
+            "header": "World Class User Experience",
+            "content": "Intuitive navigation designed to keep visitors engaged."
+          },
+          {
+            "header": "Conversion Focused Design",
+            "content": "Integrated calls to action to drive client engagement and conversions."
+          },
+          {
+            "header": "Social Media Integration",
+            "content": "Connect your website to social platforms to broaden your reach."
+          },
+          {
+            "header": "Emailing Portal",
+            "content": "Streamline communications with an integrated email management system."
+          },
+          {
+            "header": "Downloadable Forms",
+            "content": "Convenient access to application forms, timesheets, and essential documents."
+          },
+          {
+            "header": "Admin Panel",
+            "content": "A user-friendly control panel allowing easy updates to your website content."
+          },
+          {
+            "header": "Online Signature & CV Upload",
+            "content": "Streamline communications with an integrated email management system."
+          },
+          {
+            "header": "Unlimited Pages",
+            "content": "Expand your website as your business grows, with no page limitations."
+          }
+        ]
+      }
+    },
+    "emailfeature": {
+      "mastertitle": "6. Setting up Email Accounts and Signatures",
+      "mastercontent": "We make sure that all your email accounts are professionally set up and ready for use, tailored to meet the specific needs of your domiciliary care agency. Our goal is to simplify the process and promote communication within your team.",
+      "imagetitle": "Email Features",
+      "imagecontentlinkurl": "../../../assets/emailfeature/emailfeatures.png",
+      "footer": "Our email configuration service is created to blend with your business processes guaranteeing that your agency’s communication appears both professional and effective.",
+      "subcard": [
+        {
+          "title": "Multiple Email Accounts",
+          "icon": "smg",
+          "content": "Set up to 12 email accounts for your team members, ensuring everyone has a professional branded email address."
+        },
+        {
+          "title": "Email Forwarding",
+          "icon": "exit",
+          "content": "Create up to 10 forwarding addresses to manage communications effectively."
+        },
+        {
+          "title": "Automated Responses",
+          "icon": "message",
+          "content": "Set up 12 autoresponders to handle client queries efficiently, even when you’re not available."
+        },
+        {
+          "title": "Generous Mailbox Storage",
+          "icon": "cloud",
+          "content": "Each account comes with up to 10GB of storage, providing ample space for essential communications and attachments."
+        },
+        {
+          "title": "Professional Email Signatures",
+          "icon": "edit",
+          "content": "Customised signatures for all accounts, reflecting your brand identity."
+        }
+      ]
+    },
+    "TwoCardWithImageComponent": {
+      "section": {
+        "heading": "7. Customised Home Care Forms & Documents",
+        "description": "We offer a range of custom suites of branded, professionally designed forms and documents tailored to meet the specific needs of your domiciliary care agency. Our forms are not only visually appealing but also highly functional, incorporating the latest in fillable PDF technology to streamline your operations.",
+        "subSectionHeading": "Key Forms and Documents Include:",
+        "formTypes": [
+          {
+            "title": "Client Assessments",
+            "description": "Thorough assessment forms to evaluate client needs."
+          },
+          {
+            "title": "Care Plans",
+            "description": "Customised care plans tailored to individual client requirements."
+          },
+          {
+            "title": "Risk Assessments",
+            "description": "Detailed forms to identify and mitigate potential risks."
+          },
+          {
+            "title": "Care Management",
+            "description": "Efficient management forms to track client care activities."
+          },
+          {
+            "title": "Medicine Management",
+            "description": "Structured forms to ensure accurate medication administration."
+          },
+          {
+            "title": "Incident Reporting",
+            "description": "Comprehensive forms to document and manage any incidents, ensuring compliance and safety."
+          }
+        ],
+        "image": {
+          "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-forms.jpg",
+          "alt": "Domiciliary Care Forms",
+          "title": "Domiciliary Care Forms"
+        },
+        "colors": {
+          "containerBackground": "#004558",
+          "contentHeader": "#ffffff",
+          "containerContent": "#ffffff",
+          "containerMiniHeader": "#ffffff",
+          "cardHeader": "#004558",
+          "cardContent": "#000000",
+          "cardBg": "#ffffff",
+          "cardHt": "9.25rem"
+        }
+      }
+    },
+    "content_lightgreen_box": {
+      "mastertitle": "8. Essential Policy Framework for Your Care Agency",
+      "mastercontent": "We provide your home care agency with a collection of high-quality policy documents that are expertly crafted. These policies are carefully tailored to reflect your brand, stay current, and comply with all industry regulations, guaranteeing that your business is safeguarded and effectively managed.",
+      "title": "Key Benefits:",
+      "footer": "Ensure your agency is fully compliant and well prepared with our expertly developed policy documentation.",
+      "subcard": [
+        {
+          "title": "Customised Branding",
+          "icon": "flash",
+          "content": "Each policy is tailored with your agency's logo and branding elements to maintain a consistent brand identity."
+        },
+        {
+          "title": "Up to Date Compliance",
+          "icon": "card",
+          "content": "Our policies are regularly updated to reflect the latest regulatory changes, keeping your agency compliant."
+        },
+        {
+          "title": "User Friendly Format",
+          "icon": "file",
+          "content": "Delivered in accessible and easily printable PDF documents for straightforward implementation."
+        },
+        {
+          "title": "Comprehensive Coverage",
+          "icon": "storage",
+          "content": "Our policies cover all critical areas of your business, from health and safety to data protection and employee management."
+        }
+      ]
+    },
+    "TwoCardsWithImageComp_whitebg": {
+      "section": {
+        "heading": "9. Professional Social Media Setup",
+        "description": "Care Sync Experts is dedicated to strengthening and maintaining a presence for your domiciliary care agency. We specialise in establishing and branding your social media profiles to boost your visibility and engage effectively with your target audience.",
+        "subSectionHeading": "Social Media Platforms:",
+        "formTypes": [
+          {
+            "title": "Facebook",
+            "description": "Create and customise a branded Facebook page to engage with clients and showcase your services."
+          },
+          {
+            "title": "LinkedIn",
+            "description": "Set up a professional LinkedIn profile to connect with industry professionals and potential partners."
+          },
+          {
+            "title": "Google Business Profile",
+            "description": "Establish your Google Business Location to enhance local search visibility and attract clients in your area."
+          },
+          {
+            "title": "Instagram",
+            "description": "Launch a visually appealing Instagram account to share your agency’s story, connect with clients, and showcase your services through images and videos."
+          }
+        ],
+        "image": {
+          "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-social-media.jpg",
+          "alt": "Social Media",
+          "title": "Social Media"
+        },
+        "colors": {
+          "containerBackground": "white",
+          "contentHeader": "#04717a",
+          "containerContent": "#04717a",
+          "containerMiniHeader": "#181818",
+          "cardHeader": "#129693",
+          "cardContent": "#000000",
+          "cardHt": "12rem"
+        },
+        "footer": {
+          "data": " We provide services that involve creating profile pictures, banners and setting up accounts to maintain a professional image across all platforms."
+        }
+      }
+    },
+    "roundedarrowgrid": {
+      "masterheader": "10. Streamlined Operations & Admin Support",
+      "mastercontent": "We offer a range of operational and administrative solutions customised to suit the requirements of your domiciliary care agency. Our team provides expert advice and assistance in setting up services aimed at improving the efficiency and compliance of your business operations.",
+      "header": "Operational Tools & Setup:",
+      "data": [
+        {
+          "header": "Invoicing Solutions",
+          "content": "We recommend and implement intuitive invoicing software to streamline your billing process."
+        },
+        {
+          "header": "Payroll Systems",
+          "content": "We recommend and set up reliable payroll systems tailored to your agency’s needs, ensuring timely and accurate payments."
+        },
+        {
+          "header": "Client Management (CRM)",
+          "content": "We help you select and integrate powerful CRM tools to enhance client management and service delivery."
+        },
+        {
+          "header": "Care Monitoring Systems",
+          "content": "We recommend the best care monitoring systems to ensure real-time tracking and management of care delivery."
+        },
+        {
+          "header": "HR Solutions",
+          "content": "We recommend trusted HR companies to manage recruitment, employee relations, and compliance with employment laws."
+        },
+        {
+          "header": "Document Management",
+          "content": "Receive expert guidance on implementing organised and efficient filing systems."
+        },
+        {
+          "header": "Accounting & Bookkeeping",
+          "content": "We recommend top accounting software and connect you with reliable accountants for seamless financial management."
+        },
+        {
+          "header": "Compliance & Checks",
+          "content": "We recommend services for DBS checks, staff training, nurse revalidation, and occupational health to ensure full compliance."
+        }
+      ]
+    },
+    "three_card_row_blue": {
+      "containerData": {
+        "header": "11. Trusted Referral Network",
+        "headerColor": "#04717a",
+        "description": "We connect you with a network of trusted providers to support every aspect of your domiciliary care agency. Our handpicked recommendations guarantee that you can tap into top notch resources within the field improving your agency's efficiency and adherence to regulations.",
+        "descriptionColor": "#2d2b1f",
+        "containerBackground": "#f9f9f9",
+        "cardBackground": "#004558",
+        "cardData": [
+          {
+            "id": 1,
+            "name": "Uniform Suppliers",
+            "description": "Quality, professional attire for your staff.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 2,
+            "name": "Business Insurance",
+            "description": "Reliable insurance providers to protect your agency.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 3,
+            "name": "Staff Training Providers",
+            "description": "Top-tier training solutions, both online and offline.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 4,
+            "name": "Business Solicitors",
+            "description": "Legal experts specialising in the healthcare sector.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 5,
+            "name": "Invoice Factoring & Cashflow Finance",
+            "description": "Solutions to manage cash flow efficiently.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 6,
+            "name": "Compliance Memberships",
+            "description": "Access to organisations that keep your agency compliant.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 7,
+            "name": "Subcontracting Vendors",
+            "description": "Trusted partners for service outsourcing.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 8,
+            "name": "Accountants",
+            "description": "Experienced accountants to handle your financial management.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          },
+          {
+            "id": 9,
+            "name": "PPE Suppliers",
+            "description": "Providers of essential personal protective equipment for safety and compliance.",
+            "cardIdColor": "#129693",
+            "cardIdBackground": "#dbf5ef",
+            "cardHeaderclr": "#adffeb",
+            "cardContentColor": "white"
+          }
+        ]
+      }
+    },
+    "largeimagewithgrid": {
+      "mastertitle": "12. High Quality Printed Materials",
+      "mastercontent": "We recognise the significance of notch printed materials in building your domiciliary care agency’s brand. As part of our all service we offer a variety of printed materials designed to make an impact on both clients and employees.",
+      "title": "Included in Your Package:",
+      "footerheader": "Custom Options Available",
+      "footercontent": "Need more? We offer additional printed materials tailored to your specific needs. We ensure the highest quality paper and printing standards to make your brand stand out.",
+      "imageurl": "../../../assets/our-packages/DomiciliaryCare/accessories.png",
+      "imagecontent": "High Quality Printed Materials",
+      "subcard": [
+        {
+          "title": "Business Cards",
+          "content": "Two sets of 200, custom designed to reflect your brand."
+        },
+        {
+          "title": "Client Leaflets",
+          "content": "1,000 professionally printed leaflets to showcase your services."
+        },
+        {
+          "title": "Staff Leaflets",
+          "content": "200 leaflets designed to engage and inform your team."
+        },
+        {
+          "title": "A4 Folders",
+          "content": "50 branded folders to organise and present documents."
+        },
+        {
+          "title": "Compliment Slips",
+          "content": "1,000 slips to add a personal touch to your correspondence."
+        },
+        {
+          "title": "Timesheets",
+          "content": "1,000 timesheets for efficient staff management."
+        },
+        {
+          "title": "Company Brochures",
+          "content": "40 detailed brochures to present your agency."
+        },
+        {
+          "title": "Roll Up Banner",
+          "content": "1 roll-up banner for events and on-site branding."
+        }
+      ]
+    },
+    "Zig-Zag-Card-Content-2": {
+      "section": {
+        "heading": "13. Additional Essential Resources",
+        "headerColor": "#129893",
+        "subSectionHeading": "Care Sync Experts go beyond the basics to equip your domiciliary care agency with vital resources that ensure operational efficiency and regulatory compliance. Our package includes:",
+        "cards": [
+          {
+            "title": "Uniforms",
+            "rev": true,
+            "description": "Choose from 10 high-quality uniforms, including tunics and polo shirts, to maintain a professional appearance.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-resources-uniforms.jpg",
+              "alt": "Uniforms",
+              "title": "Uniforms"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          },
+          {
+            "title": "Customisable Care Plan Templates",
+            "rev": false,
+            "description": "Access a range of care plan templates that can be tailored to fit each client’s needs, ensuring consistent and personalised care.",
+            "colors": {
+              "cardBackground": "#004558",
+              "headerColor": "#adffeb",
+              "contentColor": "white"
+            }
+          },
+          {
+            "title": "ID Badge Printing Credits",
+            "rev": false,
+            "description": "Receive 10 custom ID badges, ensuring your team is easily identifiable.",
+            "colors": {
+              "cardBackground": "#004558",
+              "headerColor": "#adffeb",
+              "contentColor": "white"
+            }
+          },
+          {
+            "title": "Health & Safety Resources",
+            "rev": true,
+            "description": "Guidance on ensuring your agency meets all health and safety requirements, crucial for the <a href=\"https://www.cqc.org.uk/guidance-regulation/providers/assessment/assessment-framework\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\"> CQC’s assessment.</a>.",
+            "image": {
+              "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
+              "alt": "Health & Safety Resources",
+              "title": "Health & Safety Resources"
+            },
+            "colors": {
+              "cardBackground": "#edfaf7",
+              "headerColor": "black",
+              "contentColor": "#667085"
+            }
+          }
+        ]
+      }
+    },
+    "horizontal-card-2": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Get Started with Care Sync Experts",
+              "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Call us today on 0333 577 0877 or click  below to begin your journey towards building a successful care business.",
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
+      }
+    },
+    "arrowpointbanner": {
+      "bannerurl": "../../../assets/arrow-points-banner/Banner.png",
+      "mastertitle": "14. Comprehensive Year Round Support",
+      "mastercontent1": "At Care Sync Experts, we’re committed to your success. As part of our package, you’ll receive a full year of dedicated support to help you run your domiciliary care agency efficiently. Our support covers:",
+      "mastercontent2": "We are dedicated to ensuring your success. As part of our package, you will receive a year of assistance to effectively manage your domiciliary care agency. Our support includes:",
+      "mastercontent3": "With our continuous support, you can focus on delivering outstanding care while we handle the rest.",
+      "bannercontent": "Your Vision, Our Expertise: Building the Future of Care Together",
+      "data": [
+        {
+          "header": "Business Guidance",
+          "content": "Expert advice on managing and growing your care agency."
+        },
+        {
+          "header": "Technical Assistance",
+          "content": "Support for technical issues (excluding hardware) to keep your operations running smoothly."
+        },
+        {
+          "header": "Website Maintenance",
+          "content": "Ongoing website support and updates to ensure optimal performance."
+        },
+        {
+          "header": "Social Media Management",
+          "content": "Six months of professional social media management to enhance your online presence."
+        }
+      ]
+    },
+    "ImageCardDataComponent_three": {
+      "three_card": {
+        "heading": " Building Your Vision, One Step at a Time",
+        "content": "Partner with Care Sync Experts to establish your care business in one of the most robust sectors.With our tailored support and industry expertise, we provide everything you need to build and grow a successful care agency.",
+        "cardData": {
+          "container": {
+            "items": [
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/supported-living-package-thumbnail.jpg",
+                  "alt": "Supported Living"
+                },
+                "layer": {
+                  "title": "Supported Living",
+                  "description": "Create communities where independence and quality of life are the top priorities."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/temporary-staffing-package-thumbnail.jpg",
+                  "alt": "Temporary Staffing Agency"
+                },
+                "layer": {
+                  "title": "Temporary Staffing Agency",
+                  "description": "Ensure top tier care with a reliable, expertly trained workforce on demand."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/ciw-package-thumbnail.jpg",
+                  "alt": "CIW Domiciliary Care Agency"
+                },
+                "layer": {
+                  "title": "CIW Domiciliary Care Agency",
+                  "description": "Navigate CIW regulations and establish a high quality care agency in Wales."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/combined-agency-package-thumbnail.jpg",
+                  "alt": "Combined Care Agency"
+                },
+                "layer": {
+                  "title": "Combined Care Agency",
+                  "description": "Integrate care and staffing for seamless operations and unparalleled service."
+                }
+              },
+              {
+                "image": {
+                  "src": "https://caresyncexperts.co.uk/images/packages/rqia-domiciliary-care-package-thumbnail.jpg",
+                  "alt": "RQIA Domiciliary Care Agency"
+                },
+                "layer": {
+                  "title": "RQIA Domiciliary Care Agency",
+                  "description": "Launch with confidence, meeting and exceeding RQIA standards from the start."
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "freequentlyasked": {
+      "mastertitle": "Frequently Asked Questions",
+      "data": [
+        {
+          "title": "1. What are the initial steps to starting a domiciliary care agency?",
+          "headercontent": "Starting a domiciliary care agency involves several key steps:",
+          "maincontent": [
+            "Market Research: Understand the market by researching its needs, demographics trends and competitors to find clients and business opportunities.",
+            "Business Plan: Develop a business plan that includes your services, financial forecasts, marketing strategies and operational procedures.",
+            "CQC Registration: Ensure compliance by registering with the Care Quality Commission (CQC) and appointing a qualified registered manager and ensuring your business structure is compliant.",
+            "Legal and Financial Setup: Complete all required legal registrations, obtain insurance coverage and establish financial systems, like payroll and invoicing.",
+            "Staff Recruitment: Hire and train qualified care professionals, ensuring they hold the necessary certifications, such as the Care Certificate, and align with your agency's values and standards."
+          ],
+          "footercontent": "These foundational steps are essential for setting up a successful domiciliary care agency that is compliant and well prepared to deliver high quality care."
+        },
+        {
+          "title": "2. How much does it cost to start a domiciliary care agency?",
+          "headercontent": "Starting a domiciliary care agency usually requires an investment ranging from £10,000 to £20,000. These expenses include:",
+          "maincontent": [
+            "CQC Registration: Fees associated with the registration process and compliance with CQC regulations.",
+            "Office Setup: Costs for setting up an office space including expenses for rent, utilities, furniture and IT infrastructure.",
+            "Staff Recruitment and Training: Expenses related to hiring care staff and providing them with the necessary training and certifications.",
+            "Insurance: Essential policies such as public liability, employer’s liability, and professional indemnity insurance.",
+            "Marketing: Investing in marketing efforts, like branding, website development and local advertising to attract clients."
+          ],
+          "footercontent": "It's essential to plan your finances to ensure you have funds to meet these initial expenditures and sustain your business in its early phases."
+        },
+        {
+          "title": "3. What are the biggest challenges in running a domiciliary care agency?",
+          "headercontent": "Running a domiciliary care agency presents several challenges:",
+          "maincontent": [
+            "Staffing Shortages: Finding and keeping care workers is tough especially, in a competitive job market.",
+            "Regulatory Compliance: Keeping up with evolving regulations from the CQC and other governing bodies is essential to maintain your agency's licence and reputation.",
+            "Financial Stability: Handling cash flow, managing varying costs and ensuring stability are vital for the agency's success.",
+            "Service Diversification: Offering specialised care services like dementia or respite care brings both opportunities and challenges. It involves training for staff. Potentially increased operational expenses."
+          ],
+          "footercontent": "Effectively addressing these challenges is key to running a successful domiciliary care agency."
+        },
+        {
+          "title": "4. How can I effectively recruit and retain care staff?",
+          "headercontent": "Recruiting and retaining care staff poses a challenge, for domiciliary care agencies but there are several strategies that can help improve your workforce;",
+          "maincontent": [
+            "Competitive Compensation: It is essential to offer salaries and benefits that're competitive within the industry. This does not attract high quality candidates and also encourages existing employees to stay.",
+            "Career Development: Providing training opportunities and clear paths for career advancement can enable your staff to progress within your agency. This may involve training in areas like dementia care or advanced caregiving techniques, which can enhance the services you offer.",
+            "Supportive Work Environment: Cultivating a work culture that values teamwork, communication and staff well being can greatly boost job satisfaction. Recognising and rewarding good performance also plays a role in retaining staff.",
+            "Utilisation of Digital Tools: Incorporating modern care management software can lessen the workload on staff, enhance communication and increase job satisfaction. Platforms such as Careberry and Birdie are choices that streamline operations and create an efficient and less stressful work environment.",
+            "Sponsorship Licence for Overseas Recruitment: Given the shortage of care workers obtaining a sponsorship licence to recruit from overseas can be a solution. This enables your agency to bring in care professionals from countries, under the Health and Care Worker Visa program. To do this, your agency must first apply for a sponsorship licence from the Home Office. Once granted, you can issue a Certificate of Sponsorship (CoS) to each worker you intend to recruit. This approach can help fill staffing gaps and bring in diverse talent to your agency, but it requires a clear understanding of the immigration compliance system and possibly legal assistance to ensure all regulations are met."
+          ],
+          "footercontent": "It's essential to plan your finances to ensure you have funds to meet these initial expenditures and sustain your business in its early phases."
+        },
+        {
+          "title": "5. What digital tools are essential for a domiciliary care agency?",
+          "headercontent": "When running a home care agency selecting the Care Management Software is essential to maintain operations, effective communication and adherence to industry standards. These tools help in managing everything from client records and care plans to staff scheduling and payroll. Below is a list of highly recommended platforms that agencies can consider:",
+          "maincontenttitle": "List of Care Management Software Platforms:",
+          "maincontent": [
+            "Access PeoplePlanner",
+            "Unique:IQ",
+            "Nursebuddy",
+            "CarePlanner",
+            "QuikPlan",
+            "Birdie",
+            "iCareHealth",
+            "CareControl",
+            "RoundSys",
+            "Careberry",
+            "OnePlan",
+            "Log my Care",
+            "OnCare",
+            "Carebeans",
+            "PASS",
+            "Nourish",
+            "Caredocs",
+            "CareFree",
+            "Onetouch",
+            "Carelinelive",
+            "Skedulo"
+          ],
+          "footercontent": "These platforms offer unique features that can enhance your agency’s operations, improve communication, and ensure compliance with industry standards. Selecting the right software depends on your agency’s specific needs and operational goals."
+        }
+      ]
+    },
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
     }
   }
+ 
 }
