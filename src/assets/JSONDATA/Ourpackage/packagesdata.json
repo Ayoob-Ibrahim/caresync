@@ -2089,28 +2089,6 @@
       ]
     }
   },
-  "ciwDomiciliaryCare": {
-    "compStructure": [
-      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
-    ],
-    "FullImageWithCardBottomComponent": {
-      "title": "CIW DOMICILIARY CARE",
-      "sub": "Start Your Domiciliary Care Business in Wales with Our Complete Setup Package",
-      "content": "Make your dream of owning a home care company in Wales a reality by utilising our CIW (Care Inspectorate Wales) Domiciliary Care Agency Setup Package. At Care Sync Experts we provide the expertise and resources to help your care agency meet all standards and excel in delivering top quality care.",
-      "img": "../../../assets/our-packages/ciwDomiciliaryCare/headerFullimage.webp"
-    }
-  },
-  "rqiaDomiciliaryCare": {
-    "compStructure": [
-      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
-    ],
-    "FullImageWithCardBottomComponent": {
-      "title": "RQIA DOMICILIARY CARE AGENCY",
-      "sub": "Build Your Leading Domiciliary Care Agency in Northern Ireland Today",
-      "content": "Setting up an RQIA compliant Domiciliary Care Agency requires precision and expertise. At Care Sync Experts, we provide the essential guidance and resources to help you navigate RQIA regulations with ease. Our package equips you with the knowledge and tools to build a high-quality, compliant care agency that stands out in the healthcare sector. Start your journey to excellence and ensure your agency meets the highest standards from day one.",
-      "img": "../../../assets/our-packages/rqiaDomiciliaryCare/headerFullimage.webp"
-    }
-  },
   "CombinedCareAgency": {
     "compStructure": [
       "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent // 0",
@@ -4348,6 +4326,28 @@
         "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
         "button": "GetIn Touch"
       }
+    }
+  },
+  "ciwDomiciliaryCare": {
+    "compStructure": [
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
+    ],
+    "FullImageWithCardBottomComponent": {
+      "title": "CIW DOMICILIARY CARE",
+      "sub": "Start Your Domiciliary Care Business in Wales with Our Complete Setup Package",
+      "content": "Make your dream of owning a home care company in Wales a reality by utilising our CIW (Care Inspectorate Wales) Domiciliary Care Agency Setup Package. At Care Sync Experts we provide the expertise and resources to help your care agency meet all standards and excel in delivering top quality care.",
+      "img": "../../../assets/our-packages/ciwDomiciliaryCare/headerFullimage.webp"
+    }
+  },
+  "rqiaDomiciliaryCare": {
+    "compStructure": [
+      "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent, // 0"
+    ],
+    "FullImageWithCardBottomComponent": {
+      "title": "RQIA DOMICILIARY CARE AGENCY",
+      "sub": "Build Your Leading Domiciliary Care Agency in Northern Ireland Today",
+      "content": "Setting up an RQIA compliant Domiciliary Care Agency requires precision and expertise. At Care Sync Experts, we provide the essential guidance and resources to help you navigate RQIA regulations with ease. Our package equips you with the knowledge and tools to build a high-quality, compliant care agency that stands out in the healthcare sector. Start your journey to excellence and ensure your agency meets the highest standards from day one.",
+      "img": "../../../assets/our-packages/rqiaDomiciliaryCare/headerFullimage.webp"
     }
   }
 }
