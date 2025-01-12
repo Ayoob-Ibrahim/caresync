@@ -10,7 +10,7 @@
     "dev": "ng serve --o",
     "serve:ssr:caresync": "node dist/caresync/server/server.mjs",
     "deploy": "ng build && cd dist/caresync && firebase deploy",
-    "submit": "git add . && git commit -m 'feat: update' && git push "
+    "submit": "git add . && git commit -m 'PUSH ALL THE DATA BY CLI' && git push "
   },
   "private": true,
   "dependencies": {
