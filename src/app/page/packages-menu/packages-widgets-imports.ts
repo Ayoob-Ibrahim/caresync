@@ -125,7 +125,31 @@ export const list_comp = {
     HorizontalCardComponent           // 26
 
   ],
-  ciwDomiciliaryCare: [FullImageWithCardBottomComponent],
+  ciwDomiciliaryCare: [
+    FullImageWithCardBottomComponent,
+    QusetionAnswerBankComponent,      // 1
+    ImageCardDataComponent,
+    CyanWhiteCardComponent,           // 3
+    OurpackagesAccorianGroupComponent,// 4
+    ThoroughSupportforCqcRegistrationComponent, // 5
+    ZigZagCardImgComponent,           // 6
+    ThreeCardRowGridComponent,        // 7
+    HorizontalCardComponent,          // 8
+    PointersWithgridcardComponent,    // 9
+    EmailFeaturebannerComponent,      // 10
+    TwoCardWithImageComponent,        // 11
+    ContentLightgreenCardComponent,   // 12
+    TwoCardWithImageComponent,        // 13
+    RoundedArrowsContentComponent,    // 14
+    ThreeCardRowGridComponent,        // 15
+    LargeImagewithgridComponent,      // 16
+    ZigZagCardImgComponent,           // 17
+    HorizontalCardComponent,          // 18
+    ArrowPointsAndBannerComponent,    // 19
+    ImageCardDataComponent,           // 20
+    FreequentlyAskedComponent,        // 21
+    HorizontalCardComponent           // 22
+  ],
   rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],
 
 };
