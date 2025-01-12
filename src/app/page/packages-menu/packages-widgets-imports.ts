@@ -175,7 +175,6 @@ export const list_comp = {
     ImageCardDataComponent,           // 20
     FreequentlyAskedComponent,        // 21
     HorizontalCardComponent           // 22
-
   ],
 
 };
