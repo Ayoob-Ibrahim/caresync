@@ -65,6 +65,7 @@ export class FabButtonComponent implements OnInit {
         break;
 
     }
+    this.toggle()
   }
 
 
