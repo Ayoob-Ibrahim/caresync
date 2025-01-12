@@ -149,20 +149,35 @@
     img {
         height: 4rem;
     }
-    h1{
+
+    h1 {
         font-size: 2rem;
         font-family: medium
     }
-    p{
+
+    p {
         font-family: regular;
     }
 
     button {
-        background-color:#ffffff;
-        color:  #004558;
+        background-color: #ffffff;
+        color: #004558;
         padding: 6px 14px;
         border-radius: 1.3rem;
         font-family: regular;
         margin-top: 10px;
+    }
+}
+
+.lite-blue-container {
+    margin: 1rem auto;
+    width: 90%;
+    background-color: #129693;
+    color: white;
+    padding: 1.5rem;
+    border-radius: .7rem;
+
+    a span {
+        color: red !important;
     }
 }

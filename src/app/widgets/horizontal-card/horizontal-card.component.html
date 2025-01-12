@@ -30,3 +30,10 @@
         <button>{{dataProperty?.darkBlue?.button }}</button>
     </div>
 </ng-container>
+
+
+<ng-container *ngIf="dataProperty?.liteblue">
+    <div class="lite-blue-container">
+        <p [innerHTML]="dataProperty?.liteblue?.p" class="custom-paragraph"></p>
+    </div>
+</ng-container>

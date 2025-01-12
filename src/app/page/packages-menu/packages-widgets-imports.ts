@@ -64,7 +64,8 @@ export const list_comp = {
     HorizontalCardComponent, // 17
     ArrowPointsAndBannerComponent, // 18
     ImageCardDataComponent, // 19
-    HorizontalCardComponent, // 20
+    FreequentlyAskedComponent, //20
+    HorizontalCardComponent, // 21
   ],
   SupportedLiving: [
     FullImageWithCardBottomComponent, //0
@@ -73,6 +74,7 @@ export const list_comp = {
   rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],
   CombinedCareAgency: [
     FullImageWithCardBottomComponent, // 0
+    HorizontalCardComponent,
     QusetionAnswerBankComponent, //1
     QusetionAnswerBankComponent, //2
     ImageCardDataComponent, //3
