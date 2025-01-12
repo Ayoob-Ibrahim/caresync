@@ -34,6 +34,7 @@
 
 <ng-container *ngIf="dataProperty?.liteblue">
     <div class="lite-blue-container">
+        <h1 *ngIf="dataProperty?.liteblue?.h1">{{dataProperty?.liteblue?.h1}}</h1>
         <p [innerHTML]="dataProperty?.liteblue?.p" class="custom-paragraph"></p>
     </div>
 </ng-container>

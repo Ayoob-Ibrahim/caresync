@@ -126,9 +126,9 @@ export const list_comp = {
 
   ],
   ciwDomiciliaryCare: [
-    FullImageWithCardBottomComponent,
+    FullImageWithCardBottomComponent, // 0
     QusetionAnswerBankComponent,      // 1
-    ImageCardDataComponent,
+    ImageCardDataComponent,           // 2
     CyanWhiteCardComponent,           // 3
     OurpackagesAccorianGroupComponent,// 4
     ThoroughSupportforCqcRegistrationComponent, // 5
@@ -149,7 +149,33 @@ export const list_comp = {
     ImageCardDataComponent,           // 20
     FreequentlyAskedComponent,        // 21
     HorizontalCardComponent           // 22
+
   ],
-  rqiaDomiciliaryCare: [FullImageWithCardBottomComponent],
+  rqiaDomiciliaryCare: [
+    FullImageWithCardBottomComponent, // 0
+    HorizontalCardComponent,          // 1
+    ImageCardDataComponent,           // 2
+    CyanWhiteCardComponent,           // 3
+    OurpackagesAccorianGroupComponent,// 4
+    ThoroughSupportforCqcRegistrationComponent, // 5
+    ZigZagCardImgComponent,           // 6
+    ThreeCardRowGridComponent,        // 7
+    HorizontalCardComponent,          // 8
+    PointersWithgridcardComponent,    // 9
+    EmailFeaturebannerComponent,      // 10
+    TwoCardWithImageComponent,        // 11
+    ContentLightgreenCardComponent,   // 12
+    TwoCardWithImageComponent,        // 13
+    RoundedArrowsContentComponent,    // 14
+    ThreeCardRowGridComponent,        // 15
+    LargeImagewithgridComponent,      // 16
+    ZigZagCardImgComponent,           // 17
+    HorizontalCardComponent,          // 18
+    ArrowPointsAndBannerComponent,    // 19
+    ImageCardDataComponent,           // 20
+    FreequentlyAskedComponent,        // 21
+    HorizontalCardComponent           // 22
+
+  ],
 
 };
