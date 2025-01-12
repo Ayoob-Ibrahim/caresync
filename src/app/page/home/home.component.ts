@@ -1,4 +1,4 @@
-import { Component, HostListener } from '@angular/core';
+import { AfterViewInit, Component, HostListener, OnInit } from '@angular/core';
 import { TestComponent } from '../../component/test/test.component';
 import { ImageselecterpartComponent } from '../../component/imageselecterpart/imageselecterpart.component';
 import { ServicesComponent } from '../../component/our-service/service/services.component';
@@ -25,4 +25,9 @@ import { FooterComponent } from '../../component/footer/footer.component';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent { }
+export class HomeComponent implements AfterViewInit {
+  ngAfterViewInit(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+}
