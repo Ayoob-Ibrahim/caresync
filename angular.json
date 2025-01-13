@@ -42,20 +42,25 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/owl.carousel/dist/owl.carousel.min.js"
-            ]
+            ],
+            "server": "src/main.server.ts",
+            "outputMode": "server",
+            "ssr": {
+              "entry": "src/server.ts"
+            }
           },
           "configurations": {
             "production": {
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "800kB",   
-                  "maximumError": "1.5MB"     
+                  "maximumWarning": "800kB",
+                  "maximumError": "1.5MB"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "10kB",     
-                  "maximumError": "10kB"      
+                  "maximumWarning": "10kB",
+                  "maximumError": "10kB"
                 }
               ],
               "outputHashing": "all",
