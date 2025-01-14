@@ -1,0 +1,18 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "outDir": "./dist/server",
+        "module": "es2020",
+        "target": "es2020",
+        "types": [
+            "node"
+        ]
+    },
+    "files": [
+        "src/main.server.ts",
+        "src/server.ts"
+    ],
+    "angularCompilerOptions": {
+        "entryModule": "./src/app/app.server.module#AppServerModule"
+    }
+}
