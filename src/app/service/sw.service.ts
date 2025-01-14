@@ -15,11 +15,9 @@ export class WebServiceWorker implements OnDestroy {
 
   initialize() {
     if (this.swUpdate.isEnabled) {
-      console.log('Service worker running.');
       this.serviceSubscriptions.push(interval(15 * 1000).subscribe(() => this.swUpdate.checkForUpdate()));
       this.serviceSubscriptions.push(
         this.swUpdate.versionUpdates.subscribe(evt => {
-          console.log(evt);
           if (evt.type === 'VERSION_READY') {
             this.$isAnyNewUpdateAvailable.next(true);
           }
@@ -27,7 +25,6 @@ export class WebServiceWorker implements OnDestroy {
       );
       this.serviceSubscriptions.push(
         this.swUpdate.unrecoverable.subscribe(evt => {
-          console.log('App is in unrecoverable state. Reloading to avoid chunk load issue.');
           window.location.reload();
         }),
       );

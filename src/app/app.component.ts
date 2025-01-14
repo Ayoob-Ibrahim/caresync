@@ -32,7 +32,6 @@ export class AppComponent implements OnInit, OnDestroy {
   checkIfAppUpdated() {
     this.newAppUpdateAvailableSubscription = this.webServiceWorker.$isAnyNewUpdateAvailable.subscribe((versionAvailableFlag: boolean) => {
       this.isNewAppVersionAvailable = versionAvailableFlag;
-      console.info('chnages updated')
     });
   }
 
