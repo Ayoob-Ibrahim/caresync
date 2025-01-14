@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, inject, Input, OnInit } from '@angular/core';
+import { Component, HostListener, inject, Input, OnInit } from '@angular/core';
 import { speedDialFabAnimations } from '../../animation/common-animation';
 import { Router, RouterModule } from '@angular/router';
 @Component({
@@ -66,6 +66,16 @@ export class FabButtonComponent implements OnInit {
 
     }
     this.toggle()
+  }
+
+  isMobile: boolean = false;
+  @HostListener('window:resize', ['$event'])
+  onResize(event: any) {
+    this.checkIfMobile(event.target.innerWidth);
+  }
+
+  checkIfMobile(width: number) {
+    this.isMobile = width < 1280;
   }
 
 
