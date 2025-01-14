@@ -26,7 +26,14 @@ export const routes: Routes = [
                     ).then((m) => m.PackagesMenuComponent)
 
                 ,
-
+            },
+            {
+                path: 'services/:id',
+                loadComponent: () =>
+                    import(
+                        './page/serivces-menu/serivces-menu.component'
+                    ).then((m) => m.SerivcesMenuComponent)
+                ,
             }
         ]
 

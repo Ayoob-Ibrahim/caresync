@@ -29,8 +29,9 @@ export class ResponsiveNavbarComponent {
   }
 
 
-  menuChanger(data) {
-    this.router.navigate(['/packages', data.url]);
-     window.scrollTo({ top: 0, behavior: 'smooth' });
+  menuChanger(data, parentData) {
+    let { parent } = parentData;
+    this.router.navigate([parent, data.url]);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 }
