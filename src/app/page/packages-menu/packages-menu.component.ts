@@ -3,6 +3,7 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
 import { list_comp } from './packages-widgets-imports';
 import { HttpService } from '../../service/http.service';
 import { CommonModule } from '@angular/common';
+import { ParentMenuDataHandler } from '../../baseclass/parent-menu-comp';
 
 
 
@@ -13,28 +14,14 @@ import { CommonModule } from '@angular/common';
   templateUrl: './packages-menu.component.html',
   styleUrl: './packages-menu.component.scss',
 })
-export class PackagesMenuComponent implements OnInit {
-  packageId = signal<string | null>(null);
-  customInjector = signal<any>({});
-
+export class PackagesMenuComponent extends ParentMenuDataHandler {
   componentList = list_comp;
-
-  private serviceData = inject(HttpService);
-  private route = inject(ActivatedRoute);
-
   constructor() {
-    effect(() => {
-      const id = this.packageId();
-      if (id) {
-        const data = this.serviceData.GetPackagesData()[id];
-        this.customInjector.set(data);
-      }
-    });
+    super();
   }
 
-  ngOnInit(): void {
-    this.route.paramMap.subscribe((params: ParamMap) => {
-      this.packageId.set(params.get('id'));
-    });
+  private serviceData = inject(HttpService);
+  protected getData(): Record<string, any> {
+    return this.serviceData.GetPackagesData();
   }
 }

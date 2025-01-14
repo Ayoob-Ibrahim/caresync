@@ -6,7 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class HttpService {
-  private our_packages: any
+  private our_packages: any;
+  private our_service: any;
   constructor(private http: HttpClient) { }
 
 
@@ -17,8 +18,20 @@ export class HttpService {
     })
   }
 
+  setserviceJson(): void {
+    this.GetJson('ourservice/serviceData.json').subscribe({
+      next: (data) => { this.our_service = data; console.log(this.our_service) },
+      error: (error) => console.error('Error:', error),
+    })
+  }
+
   GetPackagesData() {
     return this.our_packages;
+  }
+
+
+  GetServiceData() {
+    return this.our_service;
   }
 
   private GetJson(dataJson: string): Observable<any> {

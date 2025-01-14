@@ -27,5 +27,8 @@ export const appConfig: ApplicationConfig = {
   ]
 };
 export function appInitializer(appConfigService: HttpService) {
-  return () => appConfigService.setpackagesJson();
+  return () => {
+    appConfigService.setpackagesJson();
+    appConfigService.setserviceJson();
+  };
 }

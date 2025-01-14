@@ -1,7 +1,7 @@
 import { Component, effect, inject, OnInit, signal } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { HttpService } from '../../service/http.service';
-import { list_comp } from '../packages-menu/packages-widgets-imports';
+import { ParentMenuDataHandler } from '../../baseclass/parent-menu-comp';
 
 @Component({
   selector: 'app-serivces-menu',
@@ -9,30 +9,14 @@ import { list_comp } from '../packages-menu/packages-widgets-imports';
   templateUrl: './serivces-menu.component.html',
   styleUrl: './serivces-menu.component.scss'
 })
-export class SerivcesMenuComponent implements OnInit {
-  packageId = signal<string | null>(null);
-  customInjector = signal<any>({});
-
-  componentList = list_comp;
-
-  private serviceData = inject(HttpService);
-  private route = inject(ActivatedRoute);
+export class SerivcesMenuComponent extends ParentMenuDataHandler {
 
   constructor() {
-    effect(() => {
-      const id = this.packageId();
-      if (id) {
-        const data = this.serviceData.GetPackagesData()[id];
-        this.customInjector.set(data);
-      }
-    });
+    super();
   }
 
-  ngOnInit(): void {
-    this.route.paramMap.subscribe((params: ParamMap) => {
-      this.packageId.set(params.get('id'));
-      console.log(this.packageId)
-    });
+  private serviceData = inject(HttpService);
+  protected getData(): Record<string, any> {
+    return this.serviceData.GetServiceData();
   }
 }
-
