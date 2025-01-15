@@ -1,11 +1,289 @@
 {
     "business-setup": {
         "compStructure": [
-            "first-initial-card-with-image # ServiceInitialPageWithImageComponent"
+            "first-initial-card-with-image # ServiceInitialPageWithImageComponent",
+            "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent"
         ],
         "first-initial-card-with-image": {
-            "name": "ajith kumar",
-            "img": "https://caresyncexperts.co.uk/images/services/care-sync-business-setup-header.jpg"
+            "mainContainer": {
+                "main": {
+                    "sections": [
+                        {
+                            "heading": "BUSINESS SETUP",
+                            "subHeading": "LAUNCH YOUR HEALTHCARE BUSINESS WITH CONFIDENCE AND SUCCESS",
+                            "buttonText": "Contact Us"
+                        },
+                        {
+                            "content": "Starting a healthcare venture like establishing a Domiciliary Care Agency, Temporary Staffing service or Supported Living service demands planning, precise implementation and strict adherence to regulations. At Care Sync Experts we offer services to set up your healthcare agency for success from the beginning."
+                        }
+                    ]
+                },
+                "figure": {
+                    "image": {
+                        "src": "https://caresyncexperts.co.uk/images/services/care-sync-business-setup-header.jpg",
+                        "alt": "Description of the image"
+                    },
+                    "figcaption": "At Care Sync Experts we offer services to set up your healthcare agency for success from the beginning"
+                }
+            }
+        },
+        "list-of-vertical-cards-with-image-center": {
+            "maintitle": " Our Range of Business Setup Services",
+            "listdata": [
+                {
+                    "contentWrapper": {
+                        "size": "30%",
+                        "height": "600px",
+                        "sectionContentWrapper": {
+                            "sectionNumberWrap": {
+                                "sectionNumber": "1"
+                            },
+                            "sectionHeaderWrap": {
+                                "heading": "Initial Consultation and Business Planning"
+                            },
+                            "cards": [
+                                {
+                                    "cardDetails": {
+                                        "title": "Thorough Business Plan",
+                                        "description": "We work together to develop a business plan encompassing forecasts, market analysis and a focused operational approach customised to your objectives and market environment."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Market Research",
+                                        "description": "Conducting in depth market research to pinpoint opportunities, edges and strategies for triumph."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Business Name and Branding",
+                                        "description": "Support in crafting an fitting business name well as professional branding services to establish a robust presence in the market."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "contentWrapper": {
+                        "size": "30%",
+                        "height": "600px",
+                        "sectionContentWrapper": {
+                            "sectionNumberWrap": {
+                                "sectionNumber": "2"
+                            },
+                            "sectionHeaderWrap": {
+                                "heading": "Legal Compliance And Regulations"
+                            },
+                            "cards": [
+                                {
+                                    "cardDetails": {
+                                        "title": "Company Registration",
+                                        "description": "Guiding you through the company registration process with authorities to ensure compliance with all prerequisites."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "CQC Registration",
+                                        "description": "Offering assistance for Care Quality Commission (CQC) registration by aiding in document preparation and compliance checks to meet standards."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Ofsted Registration",
+                                        "description": "Providing support for Ofsted registration related to supported accommodation by ensuring adherence to all standards and requirements."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Developing Policies and Procedures",
+                                        "description": "Crafting tailored policies and procedures to meet requirements and adhere to industry practices."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "contentWrapper": {
+                        "size": "30%",
+                        "height": "600px",
+                        "sectionContentWrapper": {
+                            "sectionNumberWrap": {
+                                "sectionNumber": "3"
+                            },
+                            "sectionHeaderWrap": {
+                                "heading": "Setting Up Infrastructure And Technology"
+                            },
+                            "cards": [
+                                {
+                                    "cardDetails": {
+                                        "title": "Office Arrangement",
+                                        "description": "Providing guidance on organising your office space recommending technology tools and equipment for a work environment."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "IT Systems and Software Installation",
+                                        "description": "Implementing software for tasks such as invoicing, payroll management, CRM usage and shift scheduling to streamline business operations."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Website Design",
+                                        "description": "Creating a website that's SEO friendly to boost online presence and attract potential clients."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Email Communication Tools",
+                                        "description": "Establishing email accounts and communication systems for seamless operations and effective interaction."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "imageWrapper": "https://caresyncexperts.com/wp-content/uploads/2024/12/people-office-pandemic-having-meeting-with-masks-1.png"
+                },
+                {
+                    "contentWrapper": {
+                        "size": "40%",
+                        "height": "380px",
+                        "sectionContentWrapper": {
+                            "sectionNumberWrap": {
+                                "sectionNumber": "4"
+                            },
+                            "sectionHeaderWrap": {
+                                "heading": "Staff Recruitment Training"
+                            },
+                            "cards": [
+                                {
+                                    "cardDetails": {
+                                        "title": "Recruitment Planning",
+                                        "description": "Assisting in devising a recruitment strategy aimed at attracting personnel while focusing on staff retention. Staff Training Programs: We provide training programs to make sure your team is well prepared and follows industry standards."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Continuous Professional Development",
+                                        "description": "We offer training opportunities to keep your staff informed about practices and any regulatory changes."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "contentWrapper": {
+                        "size": "55%",
+                        "height": "380px",
+                        "sectionContentWrapper": {
+                            "sectionNumberWrap": {
+                                "sectionNumber": "5"
+                            },
+                            "sectionHeaderWrap": {
+                                "heading": "Marketing Strategies For Client Acquisition"
+                            },
+                            "cards": [
+                                {
+                                    "cardDetails": {
+                                        "title": "Digital Marketing Plan",
+                                        "description": "Formulating a marketing strategy to showcase services effectively and draw in clients."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "SEO Enhancement",
+                                        "description": "Optimising the website for search engines to increase visibility and drive traffic."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Social Media Handling",
+                                        "description": "Managing social media profiles to connect with clients, enhance brand image and foster engagement."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Marketing Collateral Creation",
+                                        "description": "Developing marketing materials, like brochures, business cards, promotional content to convey services."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "contentWrapper": {
+                        "size": "55%",
+                        "height": "380px",
+                        "sectionContentWrapper": {
+                            "sectionNumberWrap": {
+                                "sectionNumber": "6"
+                            },
+                            "sectionHeaderWrap": {
+                                "heading": "Financial Management and Funding"
+                            },
+                            "cards": [
+                                {
+                                    "cardDetails": {
+                                        "title": "Effective Financial Planning",
+                                        "description": "We create a plan that covers budgeting, managing cash flow and making financial projections."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Securing Funding Opportunities",
+                                        "description": "We help in securing funding, through avenues such as loans, grants and investment options."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Tax Compliance",
+                                        "description": "Our guidance on tax planning ensures compliance with tax regulations for management."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "contentWrapper": {
+                        "size": "40%",
+                        "height": "380px",
+                        "sectionContentWrapper": {
+                            "sectionNumberWrap": {
+                                "sectionNumber": "7"
+                            },
+                            "sectionHeaderWrap": {
+                                "heading": "Continuous Support and Growth"
+                            },
+                            "cards": [
+                                {
+                                    "cardDetails": {
+                                        "title": "Sustained Consultancy Services",
+                                        "description": "We provide consultancy services to assist your business as it grows and evolves."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Performance Monitoring",
+                                        "description": "Utilising analytics tools to monitor business performance helps in identifying areas for improvement."
+                                    }
+                                },
+                                {
+                                    "cardDetails": {
+                                        "title": "Compliance Audits",
+                                        "description": "Regular compliance audits are conducted to ensure adherence to standards."
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
         }
     }
 }

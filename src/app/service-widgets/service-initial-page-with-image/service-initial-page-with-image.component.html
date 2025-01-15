@@ -1,33 +1,24 @@
 <div class="main-container">
-    <main>
-        <section>
-            <h1>
-                BUSINESS SETUP
-            </h1>
-            <h4>
-                LAUNCH YOUR HEALTHCARE BUSINESS WITH CONFIDENCE AND SUCCESS
-            </h4>
+    <main *ngIf="dataProperty?.mainContainer?.main">
+        <section *ngIf="dataProperty?.mainContainer.main.sections[0]">
+            <h1>{{ dataProperty?.mainContainer.main.sections[0]?.heading }}</h1>
+            <h4>{{ dataProperty?.mainContainer.main.sections[0]?.subHeading }}</h4>
             <button class="common-button">
-                Contact Us
+                {{ dataProperty?.mainContainer.main.sections[0]?.buttonText }}
             </button>
         </section>
-        <section>
+        <section *ngIf="dataProperty?.mainContainer.main.sections[1]">
             <p>
-                Starting a healthcare venture like establishing a Domiciliary Care Agency, Temporary Staffing service or
-                Supported Living service demands planning, precise implementation and strict adherence to regulations.
-                At
-                Care Sync Experts we offer services to set up your healthcare agency for success from the beginning.
+                {{ dataProperty?.mainContainer.main.sections[1]?.content }}
             </p>
         </section>
     </main>
-    <figure>
+    <figure *ngIf="dataProperty?.mainContainer?.figure">
         <div>
-            <img src="https://caresyncexperts.co.uk/images/services/care-sync-business-setup-header.jpg"
-                alt="Description of the image">
+            <img [src]="dataProperty?.mainContainer.figure.image?.src" [alt]="dataProperty?.mainContainer.figure.image?.alt" />
             <figcaption>
-                At Care Sync Expertswe offer services to setup your healthcare agency for success  from the beginning
+                {{ dataProperty?.mainContainer.figure?.figcaption }}
             </figcaption>
         </div>
     </figure>
-
 </div>
