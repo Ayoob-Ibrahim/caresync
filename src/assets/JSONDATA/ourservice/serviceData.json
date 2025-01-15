@@ -1,3 +1,11 @@
 {
-    "name": "John"
+    "business-setup": {
+        "compStructure": [
+            "first-initial-card-with-image # ServiceInitialPageWithImageComponent"
+        ],
+        "first-initial-card-with-image": {
+            "name": "ajith kumar",
+            "img": "https://caresyncexperts.co.uk/images/services/care-sync-business-setup-header.jpg"
+        }
+    }
 }

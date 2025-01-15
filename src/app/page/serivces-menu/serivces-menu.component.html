@@ -1,1 +1,11 @@
-<p>serivces-menu works!</p>
+<div class="mt-8 sm:mt-0">
+    <ng-container *ngIf="routerDataMenu() && componentList[routerDataMenu()]; else noData">
+        <ng-container *ngFor="let comp of componentList[routerDataMenu()]; let i = index;">
+            <ng-template
+                *ngComponentOutlet="comp; inputs: { dataProperty: customInjector()[customInjector()['compStructure'][i].split('#')[0].trim()] }" />
+        </ng-container>
+    </ng-container>
+    <ng-template #noData>
+        <p>No components available for the selected package.</p>
+    </ng-template>
+</div>

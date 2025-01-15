@@ -20,7 +20,7 @@ export class HttpService {
 
   setserviceJson(): void {
     this.GetJson('ourservice/serviceData.json').subscribe({
-      next: (data) => { this.our_service = data; console.log(this.our_service) },
+      next: (data) => { this.our_service = data; },
       error: (error) => console.error('Error:', error),
     })
   }
