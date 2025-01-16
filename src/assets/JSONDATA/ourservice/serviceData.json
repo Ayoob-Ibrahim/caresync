@@ -2,7 +2,10 @@
     "business-setup": {
         "compStructure": [
             "first-initial-card-with-image # ServiceInitialPageWithImageComponent",
-            "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent"
+            "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
+            "three-row-card-with-large-card # ThreeRowContentComponent",
+            "freequentlyasked # FreequentlyAskedComponent ",
+            "horizontal-card-3 # HorizontalCardComponent"
         ],
         "first-initial-card-with-image": {
             "mainContainer": {
@@ -284,6 +287,146 @@
                     }
                 }
             ]
+        },
+        "three-row-card-with-large-card": {
+            "contentWrapper": {
+                "sectionHeaderWrap": {
+                    "heading": "Why Opt for Caresync Experts For Your Business Setup?",
+                    "headingUnderline": true
+                },
+                "image": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png",
+                "subSections": [
+                    {
+                        "size": "33%",
+                        "height": "380px",
+                        "sectionHeaderWrap": {
+                            "heading": "SKILLED PROFESSIONALS"
+                        },
+                        "cards": [
+                            {
+                                "cardDetails": {
+                                    "title": "Industry Expertise",
+                                    "description": "Our team holds experience in the healthcare sector guaranteeing that your business aligns with industry standards and client expectations.",
+                                    "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                                }
+                            },
+                            {
+                                "cardDetails": {
+                                    "title": "Regulatory Knowledge",
+                                    "description": "With an in depth understanding of CQC, Ofsted and other regulatory requirements we ensure compliance.",
+                                    "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "size": "33%",
+                        "height": "380px",
+                        "sectionHeaderWrap": {
+                            "heading": "TAILORED SOLUTIONS"
+                        },
+                        "cards": [
+                            {
+                                "cardDetails": {
+                                    "title": "Personalised Plans",
+                                    "description": "Each business setup strategy is tailored to suit your requirements and operational environment.",
+                                    "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                                }
+                            },
+                            {
+                                "cardDetails": {
+                                    "title": "Collaborative Approach",
+                                    "description": "Partnering closely with you to ensure our tactics are in line with your business objectives and vision.",
+                                    "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "size": "33%",
+                        "height": "380px",
+                        "sectionHeaderWrap": {
+                            "heading": "PROVEN TRACK RECORD"
+                        },
+                        "cards": [
+                            {
+                                "cardDetails": {
+                                    "title": "Strong Client Satisfaction",
+                                    "description": "Demonstrating a history of delivering initiatives that foster growth and adherence to regulations.",
+                                    "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                                }
+                            },
+                            {
+                                "cardDetails": {
+                                    "title": "Building Long Term Partnerships",
+                                    "description": "Establishing enduring relationships to support the growth and evolution of your business.",
+                                    "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "freequentlyasked": {
+            "mastertitle": "Frequently Asked Questions",
+            "data": [
+                {
+                    "title": "1. What are the essential steps to start a domiciliary care agency in the UK?",
+                    "headercontent": "Starting a domiciliary care agency involves several key steps:",
+                    "maincontent": [
+                        "Market Research: Understand the market by researching its needs, demographics trends and competitors to find clients and business opportunities.",
+                        "Business Plan: Develop a business plan that includes your services, financial forecasts, marketing strategies and operational procedures.",
+                        "CQC Registration: Ensure compliance by registering with the Care Quality Commission (CQC) and appointing a qualified registered manager and ensuring your business structure is compliant.",
+                        "Legal and Financial Setup: Complete all required legal registrations, obtain insurance coverage and establish financial systems, like payroll and invoicing.",
+                        "Staff Recruitment: Hire and train qualified care professionals, ensuring they hold the necessary certifications, such as the Care Certificate, and align with your agency's values and standards."
+                    ],
+                    "footercontent": "These foundational steps are essential for setting up a successful domiciliary care agency that is compliant and well prepared to deliver high quality care."
+                },
+                {
+                    "title": "2. How much does it cost to start a domiciliary care agency?",
+                    "headercontent": "Starting a domiciliary care agency usually requires an investment ranging from £10,000 to £20,000. These expenses include:",
+                    "maincontent": [
+                        "CQC Registration: Fees associated with the registration process and compliance with CQC regulations.",
+                        "Office Setup: Costs for setting up an office space including expenses for rent, utilities, furniture and IT infrastructure.",
+                        "Staff Recruitment and Training: Expenses related to hiring care staff and providing them with the necessary training and certifications.",
+                        "Insurance: Essential policies such as public liability, employer’s liability, and professional indemnity insurance.",
+                        "Marketing: Investing in marketing efforts, like branding, website development and local advertising to attract clients."
+                    ],
+                    "footercontent": "It's essential to plan your finances to ensure you have funds to meet these initial expenditures and sustain your business in its early phases."
+                },
+                {
+                    "title": "3. What are the biggest challenges in running a domiciliary care agency?",
+                    "headercontent": "Running a domiciliary care agency presents several challenges:",
+                    "maincontent": [
+                        "Staffing Shortages: Finding and keeping care workers is tough especially, in a competitive job market.",
+                        "Regulatory Compliance: Keeping up with evolving regulations from the CQC and other governing bodies is essential to maintain your agency's licence and reputation.",
+                        "Financial Stability: Handling cash flow, managing varying costs and ensuring stability are vital for the agency's success.",
+                        "Service Diversification: Offering specialised care services like dementia or respite care brings both opportunities and challenges. It involves training for staff. Potentially increased operational expenses."
+                    ],
+                    "footercontent": "Effectively addressing these challenges is key to running a successful domiciliary care agency."
+                },
+                {
+                    "title": "4. How can I effectively recruit and retain care staff?",
+                    "headercontent": "Recruiting and retaining care staff poses a challenge, for domiciliary care agencies but there are several strategies that can help improve your workforce;",
+                    "maincontent": [
+                        "Competitive Compensation: It is essential to offer salaries and benefits that're competitive within the industry. This does not attract high quality candidates and also encourages existing employees to stay.",
+                        "Career Development: Providing training opportunities and clear paths for career advancement can enable your staff to progress within your agency. This may involve training in areas like dementia care or advanced caregiving techniques, which can enhance the services you offer.",
+                        "Supportive Work Environment: Cultivating a work culture that values teamwork, communication and staff well being can greatly boost job satisfaction. Recognising and rewarding good performance also plays a role in retaining staff.",
+                        "Utilisation of Digital Tools: Incorporating modern care management software can lessen the workload on staff, enhance communication and increase job satisfaction. Platforms such as Careberry and Birdie are choices that streamline operations and create an efficient and less stressful work environment.",
+                        "Sponsorship Licence for Overseas Recruitment: Given the shortage of care workers obtaining a sponsorship licence to recruit from overseas can be a solution. This enables your agency to bring in care professionals from countries, under the Health and Care Worker Visa program. To do this, your agency must first apply for a sponsorship licence from the Home Office. Once granted, you can issue a Certificate of Sponsorship (CoS) to each worker you intend to recruit. This approach can help fill staffing gaps and bring in diverse talent to your agency, but it requires a clear understanding of the immigration compliance system and possibly legal assistance to ensure all regulations are met."
+                    ],
+                    "footercontent": "It's essential to plan your finances to ensure you have funds to meet these initial expenditures and sustain your business in its early phases."
+                }
+            ]
+        },
+        "horizontal-card-3": {
+            "darkBlue": {
+                "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+                "h1": "Still have questions?",
+                "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+                "button": "GetIn Touch"
+            }
         }
     }
 }

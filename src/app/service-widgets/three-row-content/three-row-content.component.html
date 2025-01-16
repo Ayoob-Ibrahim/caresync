@@ -1,1 +1,37 @@
-<p>three-row-content works!</p>
+<ng-container>
+    <div class="main-container">
+        <h2>
+            {{dataProperty.contentWrapper.sectionHeaderWrap.heading}}
+        </h2>
+
+        <main>
+            <ng-container *ngFor="let item of dataProperty?.contentWrapper?.subSections">
+                <div class="card" [ngStyle]="{  'width':item?.size ,'height':item?.height }">
+                    <h3>{{ item?.sectionHeaderWrap?.heading }}
+                    </h3>
+                    <ng-container *ngTemplateOutlet="card_data; context: { cards: item?.cards }"></ng-container>
+                </div>
+
+            </ng-container>
+
+        </main>
+        <section>
+            <ng-container *ngTemplateOutlet="image_full_bg"></ng-container>
+        </section>
+    </div>
+</ng-container>
+
+<ng-template #card_data let-cards="cards">
+    <ng-container>
+        <div *ngFor="let card of cards">
+            <h5>{{ card?.cardDetails?.title }}</h5>
+            <p>{{ card?.cardDetails?.description }}</p>
+        </div>
+    </ng-container>
+</ng-template>
+
+<ng-template #image_full_bg>
+    <div class="mt-[2.5rem] flex justify-center align-middle" style="margin: auto;">
+        <img [src]="dataProperty?.contentWrapper?.image" alt="image">
+    </div>
+</ng-template>
