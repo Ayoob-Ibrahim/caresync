@@ -1,5 +1,5 @@
 <div class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
-  <h2 class="text-center mb-2 text-[2rem] font-semikanit ">{{dataProperty.mastertitle}}  </h2>
+  <h2 class="text-center mb-2 text-[2rem] font-semikanit ">{{dataProperty?.mastertitle}}  </h2>
  <div (click)="selectIndex(i,$event)" *ngFor="let a of dataProperty.data;let i = index" class="rounded-[12px] p-[1rem] mb-[1rem] item {{selecteData() == i ?'bg':''}}" >
     <div class="header ">
      <h3 class="text-[1.37rem]  font-regular">
@@ -17,7 +17,7 @@
             </li>
         </ul>
         <p>
-          {{a.footercontent}}
+          {{a?.footercontent}}
         </p>
       </div>
  </div>
