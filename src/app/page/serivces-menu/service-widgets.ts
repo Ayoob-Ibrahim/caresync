@@ -18,6 +18,12 @@ export const list_service_comp = {
         ThreeRowContentComponent,
         FreequentlyAskedComponent,
         HorizontalCardComponent
-
+    ],
+    'branding': [
+        ServiceInitialPageWithImageComponent,
+        ListVerticalCardsInServiceComponent,
+        ThreeRowContentComponent,
+        FreequentlyAskedComponent,
+        HorizontalCardComponent
     ]
 }
