@@ -11,5 +11,13 @@ export const list_service_comp = {
         ThreeRowContentComponent,
         FreequentlyAskedComponent,
         HorizontalCardComponent
+    ],
+    'client-acquisition': [
+        ServiceInitialPageWithImageComponent,
+        ListVerticalCardsInServiceComponent,
+        ThreeRowContentComponent,
+        FreequentlyAskedComponent,
+        HorizontalCardComponent
+
     ]
 }
