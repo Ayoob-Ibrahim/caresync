@@ -1,1 +1,131 @@
-<p>aboutus works!</p>
+<main>
+    <section class="bg-image">
+        <div class="content">
+            <h1>ABOUT US</h1>
+            <p>Leading The Way In Exceptional Care Services</p>
+        </div>
+        <div class="button-group">
+            <button class="common-button">
+                learn more &nbsp;<i class="bi bi-box-arrow-up-right"></i>
+            </button>
+            <button class="common-button">
+                Contact us &nbsp;<i class="bi bi-chat-left"></i>
+            </button>
+        </div>
+    </section>
+    <ng-container *ngTemplateOutlet="carousel_comp"></ng-container>
+    <ng-container *ngTemplateOutlet="three_card_with_image_center"></ng-container>
+    <ng-container *ngTemplateOutlet="ash_clr_container"></ng-container>
+    <ng-container *ngTemplateOutlet="six_card_blue_border"></ng-container>
+</main>
+
+
+<ng-template #carousel_comp>
+    <app-infinite-carousel></app-infinite-carousel>
+</ng-template>
+
+<ng-template #three_card_with_image_center>
+    <div class="three_card_with_image_center">
+        <article>
+            <h2>
+                Our Vision
+            </h2>
+            <p>
+                Our company, Care Sync Experts leads the charge in delivering top notch care services. We aim to empower
+                healthcare agencies to navigate the complexities of the industry successfully. Our vision is to offer
+                expert support and customised solutions that enable each client to thrive in the changing healthcare
+                landscape.
+            </p>
+        </article>
+        <figure>
+            <img src="../../../assets/aboutus/about-us-three-card-img.jpeg" alt="">
+        </figure>
+        <article>
+            <h2>
+                Our Mission </h2>
+            <p>
+                We are on a mission to assist healthcare agencies in establishing, expanding and prospering. Through our
+                quality services we ensure regulatory compliance boost operational efficiency and encourage sustainable
+                business practices. Our dedication lies in providing unwavering support to our clients at every stage.
+            </p>
+        </article>
+
+    </div>
+</ng-template>
+
+<ng-template #ash_clr_container>
+    <div class="ash_clr_container">
+        <h2>
+            Our Commitment
+        </h2>
+        <section>
+            <aside class="container-1">
+                <img src="../../../assets/aboutus/about-us-aside.jpeg" alt="">
+            </aside>
+            <aside class="container-2">
+                <h4>
+                    Come Be Part Of Our Mission to Revolutionize Health Care
+                </h4>
+            </aside>
+            <div class="absolute-cards">
+                <ng-container *ngTemplateOutlet="three_cards"></ng-container>
+            </div>
+        </section>
+    </div>
+</ng-template>
+
+<ng-template #three_cards>
+    <div class="card">
+        <div class="card-icon">
+            <img src="https://s3-alpha-sig.figma.com/img/4465/d1a5/62aef332f6cec8c99a5dd24d6d927303?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fwEHThjZJJbtra1D-Tiv6zxeZLdX4~NvIoR6Hb5tN8L0qI256RBVqpzU9UYMpPKrwqDqFa-JOsNQ-y9o73MLnSUPX3jx5nyagK2ty7p-zHp3gT1fyG8K7iL6wM079y7QFAjSAa4j9usfGAx3HK26WNQoNq77mrHxmJ1fw0GoIiv8MBpWLjG8bF0w6Wg81zht3WBY6PjApWwbAyQhl1uQGRSLaOpBysN0QjkEPxflPhCy9kJw6HTcWSJ5N6NJm4WLD~svwnz-1nWqCoDunF7nRARplzjUA7rDY7WLtZ6HBc9mCrAzCPxaE9DfOCer-hOY9d42J9qCi9m3dIkbsN6GHg__"
+                alt="Icon">
+        </div>
+        <h3 class="card-header">Putting Clients First</h3>
+        <p class="card-content">Our focus is on meeting our clients needs by providing solutions that assist them in
+            reaching their objectives and surpassing industry benchmarks. </p>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">
+            <img src="https://s3-alpha-sig.figma.com/img/d67e/1a9a/a5b9171917b953d6320f023ceed07236?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=gG2BBBENiCJUCYBZyiaIQIlj6PilSG19BkkTBlL9O34F10hbklJg7aWuVDzrggCm~Cv8tIL0i67MpTjkm~WSPrScKPMim7atkGNyZmBEVYVyR3ncfz9M0HnBVC4mPl77bihp64XBC567ss9DhcsXWLF0sxrDt1gqzQiEQ8D-QoaPUMW5YTXUebPXQLftP-aMYkQ~rotgMHvFgGeWxGgmCIsKdXJp4DxMHKgOKvSrgm6AZ~aZ6WsiRCFK1h5okl0sU0nXWJLcahvneNr9OXtKrYEmpqCbRLtQZQzTfP7E3XSpIqwv3uCkYX5tX5xR13bq6xySeJejFBESqtx8~vvtcw__"
+                alt="Icon">
+        </div>
+        <h3 class="card-header">Professional Advice</h3>
+        <p class="card-content">Our team keeps up with the trends and regulatory updates in the industry to offer up to
+            date and guidance and assistance.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="card-icon">
+            <img src="https://s3-alpha-sig.figma.com/img/ad6b/9e1e/b0c8253ba433d748f9954a7a818ff55f?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TsxacxVRNJ0g7-V2F3so-qfgI2RcvCqKWupeepa7cKQMFiyqd0UmyxIeLriNyllI7pSaIJuegCPyN5sXSBe0S3TgDae10hDsq2R9z4b3oPFoOM0D-pr3F1CReHlCky8bTnXb0l8K4BpP050wQPAD1T9-u1W88ed0NZcTGZQ90e1V4YlYrLhVrbvURO1mAdF--kaLPp5gOg90wTwQafj8SEjAwe6tn4I2dMnlvfvsfKtkmTauPFhYA5QShPVQVi0F8f5CPQ-WOgnOeEATKumaITE0V0nLyOBPKYL84QgyjpbCWje3zJd-HTrkL3Sq8fXj1rhK2rIC71T1Gi-Xhhf~rg__"
+                alt="Icon">
+        </div>
+        <h3 class="card-header">Enhancements</h3>
+        <p class="card-content">We are dedicated to improving our services to guarantee top notch care and business
+            success. </p>
+    </div>
+
+</ng-template>
+
+
+<ng-template #six_card_blue_border>
+    <div class="six_card_blue_border">
+        <header>
+            <h2>Our Core Values</h2>
+            <button class="common-button">Contact Us</button>
+        </header>
+        <section>
+            <ng-container *ngFor="let item of coreValues">
+                <div class="card-border" [style.width]="item.width">
+                    <h3>
+                        {{item.title}}
+                    </h3>
+                    <p>
+                        {{item.content}}
+                    </p>
+                </div>
+            </ng-container>
+        </section>
+    </div>
+</ng-template>

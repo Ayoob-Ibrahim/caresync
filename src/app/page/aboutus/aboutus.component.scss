@@ -1,0 +1,474 @@
+main .bg-image {
+    background-image: url('../../../assets/aboutus/about-us.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    background-color: rgba(18, 150, 148, 0.234);
+    background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+
+    .button-group {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+main .bg-image .content {
+    color: white;
+    z-index: 2;
+
+    h1 {
+        font-family: bold;
+        color: #aeffef;
+        font-size: 2rem;
+    }
+
+    p {
+        font-family: medium;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+
+}
+
+main .bg-image h1,
+main .bg-image p {
+    margin: 0;
+
+}
+
+.three_card_with_image_center {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 1rem;
+    width: 90%;
+    margin: 2rem auto;
+
+    article {
+        background: rgba(245, 251, 250, 1);
+        padding: 1rem;
+        height: 300px;
+        border-radius: .7rem;
+
+        h2 {
+            font-family: medium;
+            color: #32a4a1;
+            font-size: 2rem;
+        }
+
+        p {
+            font-family: regular;
+        }
+    }
+
+    figure {
+
+
+        img {
+            height: 300px;
+            border-radius: .7rem;
+        }
+
+    }
+}
+
+
+
+.ash_clr_container {
+    padding: 4rem;
+    background-color: #f0f5f5;
+    position: relative;
+
+    h2 {
+        font-family: medium;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    section {
+        display: flex;
+        gap: 2rem;
+        position: relative;
+
+    }
+
+    aside {
+        font-family: regular;
+        font-size: 3rem;
+        width: 48%;
+    }
+}
+
+
+.absolute-cards {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    bottom: -4%;
+    right: 4%;
+
+    .card {
+        width: 270px;
+        height: 270px;
+        border-radius: 0.9rem;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-icon {
+        width: 30px;
+        height: 30px;
+        text-align: left;
+    }
+
+    .card-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .card-header {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+        font-family: semikanit;
+    }
+
+    .card-content {
+        font-size: 1rem;
+        color: #666;
+        text-align: left;
+        font-family: regular;
+    }
+
+
+    .card-header:hover {
+        color: #129693;
+        cursor: pointer;
+    }
+
+    .card-content:hover {
+        color: #555;
+        cursor: pointer;
+    }
+}
+
+
+.six_card_blue_border {
+    padding: 4rem;
+
+    header {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.245);
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+
+        h2 {
+            font-family: medium;
+            font-size: 2rem;
+
+        }
+    }
+
+    section {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        gap: 10px;
+
+        div.card-border {
+            border: 3px solid #129693;
+            border-radius: .5rem;
+            padding: 1rem;
+            background-color: #f6f6f6;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+
+                font-family: regular;
+                color: rgba(0, 0, 0, 0.762);
+            }
+
+            h3 {
+                font-family: medium;
+                color: #129693;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    main .three_card_with_image_center {
+        grid-template-columns: repeat(1, 1fr) !important;
+
+        article {
+            background: rgba(245, 251, 250, 1);
+            padding: 10px;
+            height: max-content;
+            border-radius: .7rem;
+
+            h2 {
+                font-family: medium;
+                color: #32a4a1;
+                font-size: 2rem;
+            }
+
+            p {
+                font-family: regular;
+            }
+        }
+    }
+
+
+
+    main .ash_clr_container {
+        padding: 2rem;
+
+
+        h2 {
+            font-family: medium;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+
+        section {
+            display: flex;
+            gap: 1rem;
+            position: relative;
+            flex-wrap: wrap // flex-direction: column;
+
+        }
+
+        aside {
+            font-family: regular;
+            font-size: 2rem;
+            width: 48%;
+        }
+
+        .absolute-cards {
+            position: static;
+            width: 100%;
+            bottom: auto;
+            right: auto;
+            margin-top: 1rem;
+
+            .card:hover {
+                transform: none;
+                box-shadow: none;
+            }
+
+            .card-header:hover {
+                color: inherit;
+                cursor: default;
+            }
+
+            .card-content:hover {
+                color: inherit;
+                cursor: default;
+            }
+        }
+    }
+
+    .six_card_blue_border {
+        padding: 2rem;
+
+
+        header h2 {
+            font-family: medium;
+            font-size: 1.5rem;
+        }
+    }
+
+    main .six_card_blue_border section {
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 1rem;
+        gap: 10px;
+
+        div.card-border {
+
+            padding: 10px;
+            background-color: #f6f6f6;
+            height: max-content;
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+
+                font-family: regular;
+                color: rgba(0, 0, 0, 0.762);
+            }
+
+            h3 {
+                font-family: medium;
+                color: #129693;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    main .three_card_with_image_center {
+        grid-template-columns: repeat(1, 1fr) !important;
+
+        article {
+            background: rgba(245, 251, 250, 1);
+            padding: 10px;
+            height: max-content;
+            border-radius: .7rem;
+
+            h2 {
+                font-family: medium;
+                color: #32a4a1;
+                font-size: 2rem;
+            }
+
+            p {
+                font-family: regular;
+            }
+        }
+    }
+
+
+
+    main .ash_clr_container {
+        padding: 10px;
+
+
+        h2 {
+            font-family: medium;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+        }
+
+
+        section {
+            display: flex;
+            gap: 5px;
+            position: relative;
+            flex-wrap: wrap
+        }
+
+        aside {
+            font-family: regular;
+            font-size: 1rem;
+            width: 48%;
+        }
+
+        .absolute-cards {
+            position: static;
+            width: 100%;
+            bottom: auto;
+            right: auto;
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+
+            .card {
+                width: 98%;
+                height: max-content;
+                margin: auto;
+            }
+
+            .card:hover {
+                transform: none;
+                box-shadow: none;
+            }
+
+            .card-header:hover {
+                color: inherit;
+                cursor: default;
+            }
+
+            .card-content:hover {
+                color: inherit;
+                cursor: default;
+            }
+        }
+    }
+
+
+
+    .six_card_blue_border {
+        padding: 10px;
+        margin-top: 2rem;
+
+        header h2 {
+            font-family: medium;
+            font-size: 1.5rem;
+            padding-bottom: 10px;
+
+        }
+    }
+
+    main .six_card_blue_border section {
+        padding: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-top: 1rem;
+        gap: 10px;
+
+        div.card-border {
+
+            padding: 10px;
+            background-color: #f6f6f6;
+            height: max-content;
+            width: 100% !important;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            p {
+
+                font-family: regular;
+                color: rgba(0, 0, 0, 0.762);
+            }
+
+            h3 {
+                font-family: medium;
+                color: #129693;
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+}
