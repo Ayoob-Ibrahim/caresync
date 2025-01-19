@@ -5,6 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundPosition: {
+        'custom-pos': '45% 10%', // Define your custom class
+        'custom-possm': '10% 50%', // Define your custom class
+      },
       fontFamily: {
         'kanitb': ['Kanit-bold'],
         'Elightkanit':['EKanit'],

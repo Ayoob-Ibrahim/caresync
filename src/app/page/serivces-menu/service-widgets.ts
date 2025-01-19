@@ -1,29 +1,37 @@
-import { ListVerticalCardsInServiceComponent } from "../../service-widgets/list-vertical-cards-in-service/list-vertical-cards-in-service.component";
-import { ServiceInitialPageWithImageComponent } from "../../service-widgets/service-initial-page-with-image/service-initial-page-with-image.component";
-import { ThreeRowContentComponent } from "../../service-widgets/three-row-content/three-row-content.component";
-import { FreequentlyAskedComponent } from "../../widgets/freequently-asked/freequently-asked.component";
-import { HorizontalCardComponent } from "../../widgets/horizontal-card/horizontal-card.component";
+import { ListVerticalCardsInServiceComponent } from '../../service-widgets/list-vertical-cards-in-service/list-vertical-cards-in-service.component';
+import { ServiceInitialPageWithImageComponent } from '../../service-widgets/service-initial-page-with-image/service-initial-page-with-image.component';
+import { ThreeRowContentComponent } from '../../service-widgets/three-row-content/three-row-content.component';
+import { BgArrowUpComponent } from '../../widgets/bg-arrow-up/bg-arrow-up.component';
+import { ClientCardComponent } from '../../widgets/client-card/client-card.component';
+import { FreequentlyAskedComponent } from '../../widgets/freequently-asked/freequently-asked.component';
+import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
+import { StepCardComponent } from '../../widgets/step-card/step-card.component';
 
 export const list_service_comp = {
-    'business-setup': [
-        ServiceInitialPageWithImageComponent,
-        ListVerticalCardsInServiceComponent,
-        ThreeRowContentComponent,
-        FreequentlyAskedComponent,
-        HorizontalCardComponent
-    ],
-    'client-acquisition': [
-        ServiceInitialPageWithImageComponent,
-        ListVerticalCardsInServiceComponent,
-        ThreeRowContentComponent,
-        FreequentlyAskedComponent,
-        HorizontalCardComponent
-    ],
-    'branding': [
-        ServiceInitialPageWithImageComponent,
-        ListVerticalCardsInServiceComponent,
-        ThreeRowContentComponent,
-        FreequentlyAskedComponent,
-        HorizontalCardComponent
-    ]
-}
+  'cqc-registration': [
+    BgArrowUpComponent,
+    StepCardComponent,
+    ClientCardComponent,
+  ],
+  'business-setup': [
+    ServiceInitialPageWithImageComponent,
+    ListVerticalCardsInServiceComponent,
+    ThreeRowContentComponent,
+    FreequentlyAskedComponent,
+    HorizontalCardComponent,
+  ],
+  'client-acquisition': [
+    ServiceInitialPageWithImageComponent,
+    ListVerticalCardsInServiceComponent,
+    ThreeRowContentComponent,
+    FreequentlyAskedComponent,
+    HorizontalCardComponent,
+  ],
+  branding: [
+    ServiceInitialPageWithImageComponent,
+    ListVerticalCardsInServiceComponent,
+    ThreeRowContentComponent,
+    FreequentlyAskedComponent,
+    HorizontalCardComponent,
+  ],
+};

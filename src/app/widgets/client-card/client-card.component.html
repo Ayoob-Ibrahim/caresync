@@ -1,0 +1,35 @@
+<div class="m-auto">
+  <div class="py-14 w-[80%] m-auto">
+    <h3 class="text-[28px] font-semikanit">{{ dataProperty.mastertitle }}</h3>
+    <p class="font-regular text-[#667085]">
+      {{ dataProperty.mastercontent }}
+    </p>
+    <h2 class="font-regular text-[24px]">
+      {{ dataProperty.mastercontent1 }}
+    </h2>
+
+    <div class="flex flex-wrap justify-between gap-2 mt-9">
+      <div
+        *ngFor="let item of dataProperty.data"
+        class="flex flex-col justify-center items-center w-[330px] sm:basis-[100%] lg:basis-[30%] md:basis-[30%]"
+      >
+        <div class="bg-[#F7F7F7] flex justify-center">
+          <img
+            class="text-center"
+            src="{{ item.image }}"
+            height="213px"
+            width="80%"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+            alt=""
+          />
+        </div>
+
+        <a class="w-full" href="{{ item.href }}">
+          <button class="common-button-white w-full mt-3">
+            {{ item.buttonname }}
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

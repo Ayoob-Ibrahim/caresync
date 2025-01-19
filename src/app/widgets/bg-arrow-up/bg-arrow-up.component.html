@@ -1,0 +1,90 @@
+<div
+  class="lg:h-[600px] md:h-[800px] bg-[#f7fbfb] mt-5 w-[100%]"
+  style="overflow: hidden"
+>
+  <div
+    style="
+      background-image: url('{{ dataProperty.masterbg }}');
+      background-repeat: no-repeat;
+      height: 100%;
+      width: 100%;
+      background-position: 45% 10%;
+      background-size: cover;
+    "
+  >
+    <div class="w-[100%] h-[100%] flex flex-wrap items-center justify-center">
+      <div
+        class="lg:basis-[50%] h-[100%] md:basis-[50%] sm:basis-[100%] p-[8%] flex flex-col items-start justify-center"
+      >
+        <h5 class="font-semikanit text-primary text-[30px]">
+          {{ dataProperty.mastertitle }}
+        </h5>
+        <p class="font-regular text-[28px]">
+          {{ dataProperty.mastersubtitle }}
+        </p>
+
+        <p class="font-regular text-toolbarprimary">
+          {{ dataProperty.mastercontent }}
+        </p>
+        <button class="common-button mt-3">Contact Us</button>
+      </div>
+
+      <div
+        class="lg:basis-[50%] md:basis-[50%] sm:basis-[100%] p-2 h-[100%] flex flex-col justify-center items-center"
+      >
+        <div
+          class="flex flex-wrap h-[30%] lg:w-[75%] sm:w-[90%] md:[90%] justify-center"
+        >
+          <div
+            class="rounded-[20px] h-[100%] py-5 lg:w-[90%] md:w-[100%] sm:w-[100%] bg-cover flex items-center lg:basis-[50%] md:basis-[50%] sm:basis-[100%]"
+            style="
+              background-image: url('{{ dataProperty.rightimage }}');
+              background-repeat: no-repeat;
+
+              opacity: 0.7;
+            "
+          >
+            <div>
+              <p
+                class="font-regular text-whitenormal text-[20px] flex items-center px-4"
+              >
+                {{ dataProperty.rightimagecontent }}
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="rounded-[20px] h-[100%] w-full bg-cover filter-[20px] ml-3 sm:hidden lg:block md:block"
+            style="
+              background-image: url('{{ dataProperty.rightimage }}');
+              background-repeat: no-repeat;
+
+              width: 40%;
+              background-position: 63% 0%;
+            "
+          ></div>
+        </div>
+
+        <div
+          class="rounded-[20px] bg-[#002A36] h-[30%] lg:w-[70%] sm:w-[90%] md:w-[90%] mt-2"
+          style="
+            background-image: url('{{ dataProperty.rightbgcolorimage }}');
+            background-repeat: no-repeat;
+            background-size: 200px 200px;
+            background-position: 116% 10%;
+          "
+        >
+          <div class="p-5 w-[75%]">
+            <h4 class="font-semikanit text-[20px] text-whitenormal">
+              {{ dataProperty.rightbgcolortitle }}
+            </h4>
+
+            <p class="font-regular text-whitenormal">
+              {{ dataProperty.rightbgcolorcontent }}
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

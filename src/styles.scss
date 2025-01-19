@@ -82,6 +82,24 @@
 }
 
 
+.common-button-white {
+  background-color: white;
+  padding: 8px 25px;
+  color: black;
+  border: 1px solid var(--primary);
+  border-radius: 2rem;
+  font-family: regular;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+.common-button-white:hover {
+
+  background-color: var(--primary);
+  color: white;
+}
+
+
 .custom-link {
   color: #129693;
   text-decoration: none;
