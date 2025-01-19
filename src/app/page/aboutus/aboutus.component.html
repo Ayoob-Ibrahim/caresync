@@ -20,6 +20,7 @@
     <ng-container *ngTemplateOutlet="two_ladies_template"></ng-container>
     <ng-container *ngTemplateOutlet="our_team"></ng-container>
     <ng-container *ngTemplateOutlet="client_aquistion"></ng-container>
+    <ng-container *ngTemplateOutlet="horizontal_card_template"></ng-container>
 </main>
 
 
@@ -183,4 +184,9 @@
 
 <ng-template #client_aquistion>
     <app-three-row-content [dataProperty]="client_aquistion_data"></app-three-row-content>
+</ng-template>
+
+
+<ng-template #horizontal_card_template>
+    <app-horizontal-card [dataProperty]="horizontal_card"></app-horizontal-card>
 </ng-template>

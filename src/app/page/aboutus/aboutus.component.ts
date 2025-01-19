@@ -2,10 +2,11 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { InfiniteCarouselComponent } from '../../component/infinite-carousel/infinite-carousel.component';
 import { ThreeRowContentComponent } from '../../service-widgets/three-row-content/three-row-content.component';
+import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
 
 @Component({
   selector: 'app-aboutus',
-  imports: [CommonModule, InfiniteCarouselComponent, ThreeRowContentComponent],
+  imports: [CommonModule, InfiniteCarouselComponent, ThreeRowContentComponent, HorizontalCardComponent],
   templateUrl: './aboutus.component.html',
   styleUrl: './aboutus.component.scss'
 })
@@ -124,6 +125,28 @@ export class AboutusComponent {
           ]
         },
       ]
+    }
+  }
+
+  public horizontal_card = {
+    "cardContainer": {
+      "card": {
+        "leftSide": {
+          "content": {
+            "h2": "Are you looking to take your care agency to another level?",
+            "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+          }
+        },
+        "rightSide": {
+          "textWhite": {
+            "p": [
+              "Phone: 0333 577 0877",
+              "Email: hello@caresyncexperts.co.uk"
+            ],
+            "button": "Contact us"
+          }
+        }
+      }
     }
   }
 }
