@@ -208,6 +208,7 @@ main .bg-image p {
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            transition: background-color 0.3s ease;
 
             p {
 
@@ -219,6 +220,26 @@ main .bg-image p {
                 font-family: medium;
                 color: #129693;
                 font-size: 1.3rem;
+                transition: color 0.3s ease;
+
+                span {
+                    display: none;
+                }
+            }
+        }
+
+        .card-border:hover {
+            background-color: #129693;
+            cursor: pointer;
+
+            h3 {
+                color: white;
+
+                span {
+                    display: inline;
+                }
+
+
             }
         }
     }
