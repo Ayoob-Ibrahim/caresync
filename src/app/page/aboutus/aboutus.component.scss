@@ -336,10 +336,11 @@ main .bg-image p {
         margin-top: 1rem;
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         .card-data {
-            width: 23%;
-            height: 270px;
+            margin-top: 10px;
+            height: 310px;
             border-radius: 0.9rem;
             background-color: #f1f8ff;
             padding: 20px;
@@ -655,7 +656,7 @@ main .bg-image p {
             }
         }
     }
-    
+
     .our_team {
         padding: 10px;
 
@@ -664,16 +665,16 @@ main .bg-image p {
             display: flex;
             justify-content: space-between;
             padding-bottom: 1rem;
-    
+
             h2 {
                 font-family: medium;
                 font-size: 1.6rem;
                 color: rgba(0, 0, 0, 0.493);
-    
+
             }
         }
 
-        h3{
+        h3 {
             font-size: 1.2rem;
         }
 

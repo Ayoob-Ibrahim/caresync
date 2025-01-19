@@ -158,9 +158,9 @@
             industry. 
         </h3>
         <p>
-            Each team member possesses a wealth of knowledge and relevant certifications collaborating effectively to
-            provide top notch services and assistance. Whether its the meeting or continuous support we are committed to
-            helping you navigate all aspects of your business endeavours.
+            At CareSync Experts, our team combines extensive expertise to support healthcare providers and entrepreneurs
+            in achieving their goals. Get to know the dedicated professionals behind our success:
+
         </p>
 
         <ng-container *ngTemplateOutlet="horizontal_team_card"></ng-container>
@@ -170,9 +170,9 @@
 <ng-template #horizontal_team_card>
     <div class="horizontal_team_card">
         <ng-container *ngFor="let team of team_mates">
-            <div class="card-data">
+            <div class="card-data" [style.width]="team.width">
                 <div class="card-icon">
-                    <img [src]="team.img" alt="Icon">
+                    <img [src]="'../../../assets/aboutus/'+team.imgName" alt="Icon">
                 </div>
                 <h3 class="card-header-data">{{team.title}}</h3>
                 <h6>{{team.positon}}</h6>
