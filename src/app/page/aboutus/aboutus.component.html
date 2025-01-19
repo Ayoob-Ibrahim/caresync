@@ -17,6 +17,10 @@
     <ng-container *ngTemplateOutlet="three_card_with_image_center"></ng-container>
     <ng-container *ngTemplateOutlet="ash_clr_container"></ng-container>
     <ng-container *ngTemplateOutlet="six_card_blue_border"></ng-container>
+    <ng-container *ngTemplateOutlet="two_ladies_template"></ng-container>
+    <ng-container *ngTemplateOutlet="our_team"></ng-container>
+    <ng-container *ngTemplateOutlet="client_aquistion"></ng-container>
+    <ng-container *ngTemplateOutlet="horizontal_card_template"></ng-container>
 </main>
 
 
@@ -119,7 +123,7 @@
             <ng-container *ngFor="let item of coreValues">
                 <div class="card-border" [style.width]="item.width">
                     <h3>
-                        {{item.title}}
+                        {{item.title}} <span><i class="bi bi-box-arrow-up-right"></i></span>
                     </h3>
                     <p>
                         {{item.content}}
@@ -128,4 +132,61 @@
             </ng-container>
         </section>
     </div>
+</ng-template>
+
+
+<ng-template #two_ladies_template>
+    <section class="two_ladies_template">
+        <div class="content-ladies">
+            <h1>At CareSync Experts;</h1>
+            <p>We are dedicated to supporting your journey towards success in the healthcare field. Whether you're
+                starting a venture or looking to improve your existing operations we offer the knowledge and assistance
+                needed to help you thrive. Join us in reshaping healthcare standards and driving business expansion.</p>
+        </div>
+    </section>
+</ng-template>
+
+<ng-template #our_team>
+    <div class="our_team">
+        <header>
+            <h2>Our Team</h2>
+            <button class="common-button">Contact Us</button>
+        </header>
+        <h3>
+            The individuals in our <span style="color: #37a6a4;">Team are experienced experts</span> who are
+            enthusiastic about the healthcare
+            industry. 
+        </h3>
+        <p>
+            At CareSync Experts, our team combines extensive expertise to support healthcare providers and entrepreneurs
+            in achieving their goals. Get to know the dedicated professionals behind our success:
+
+        </p>
+
+        <ng-container *ngTemplateOutlet="horizontal_team_card"></ng-container>
+    </div>
+</ng-template>
+
+<ng-template #horizontal_team_card>
+    <div class="horizontal_team_card">
+        <ng-container *ngFor="let team of team_mates">
+            <div class="card-data" [style.width]="team.width">
+                <div class="card-icon">
+                    <img [src]="'../../../assets/aboutus/'+team.imgName" alt="Icon">
+                </div>
+                <h3 class="card-header-data">{{team.title}}</h3>
+                <h6>{{team.positon}}</h6>
+                <p class="card-content">{{team.content}} </p>
+            </div>
+        </ng-container>
+    </div>
+</ng-template>
+
+<ng-template #client_aquistion>
+    <app-three-row-content [dataProperty]="client_aquistion_data"></app-three-row-content>
+</ng-template>
+
+
+<ng-template #horizontal_card_template>
+    <app-horizontal-card [dataProperty]="horizontal_card"></app-horizontal-card>
 </ng-template>
