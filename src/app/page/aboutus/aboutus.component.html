@@ -18,6 +18,8 @@
     <ng-container *ngTemplateOutlet="ash_clr_container"></ng-container>
     <ng-container *ngTemplateOutlet="six_card_blue_border"></ng-container>
     <ng-container *ngTemplateOutlet="two_ladies_template"></ng-container>
+    <ng-container *ngTemplateOutlet="our_team"></ng-container>
+    <ng-container *ngTemplateOutlet="client_aquistion"></ng-container>
 </main>
 
 
@@ -141,4 +143,44 @@
                 needed to help you thrive. Join us in reshaping healthcare standards and driving business expansion.</p>
         </div>
     </section>
+</ng-template>
+
+<ng-template #our_team>
+    <div class="our_team">
+        <header>
+            <h2>Our Team</h2>
+            <button class="common-button">Contact Us</button>
+        </header>
+        <h3>
+            The individuals in our <span style="color: #37a6a4;">Team are experienced experts</span> who are
+            enthusiastic about the healthcare
+            industry. 
+        </h3>
+        <p>
+            Each team member possesses a wealth of knowledge and relevant certifications collaborating effectively to
+            provide top notch services and assistance. Whether its the meeting or continuous support we are committed to
+            helping you navigate all aspects of your business endeavours.
+        </p>
+
+        <ng-container *ngTemplateOutlet="horizontal_team_card"></ng-container>
+    </div>
+</ng-template>
+
+<ng-template #horizontal_team_card>
+    <div class="horizontal_team_card">
+        <ng-container *ngFor="let team of team_mates">
+            <div class="card-data">
+                <div class="card-icon">
+                    <img [src]="team.img" alt="Icon">
+                </div>
+                <h3 class="card-header-data">{{team.title}}</h3>
+                <h6>{{team.positon}}</h6>
+                <p class="card-content">{{team.content}} </p>
+            </div>
+        </ng-container>
+    </div>
+</ng-template>
+
+<ng-template #client_aquistion>
+    <app-three-row-content [dataProperty]="client_aquistion_data"></app-three-row-content>
 </ng-template>

@@ -305,7 +305,71 @@ main .bg-image p {
 
 }
 
+.our_team {
+    padding: 4rem;
 
+    header {
+
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+
+        h2 {
+            font-family: medium;
+            font-size: 2rem;
+            color: rgba(0, 0, 0, 0.493);
+
+        }
+    }
+
+    h3 {
+        font-family: medium;
+        font-size: 1.6rem;
+    }
+
+    p {
+        font-family: regular;
+        color: rgba(0, 0, 0, 0.493);
+    }
+
+    .horizontal_team_card {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: space-between;
+
+        .card-data {
+            width: 23%;
+            height: 270px;
+            border-radius: 0.9rem;
+            background-color: #f1f8ff;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+            .card-icon {
+                img {
+                    height: 40px;
+                    width: 40px;
+                    border-radius: 50%;
+                }
+            }
+
+            .card-header-data {
+                font-family: medium;
+                font-size: 1.4rem
+            }
+
+            h6 {
+                font-family: medium;
+                font-size: 1rem;
+                color: #004558;
+            }
+        }
+    }
+}
 
 
 
@@ -431,6 +495,23 @@ main .bg-image p {
 
         .content-ladies {
             width: 90%;
+        }
+    }
+
+    .our_team {
+        padding: 2rem;
+
+        .horizontal_team_card {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .card-data {
+                margin-top: 1rem;
+                width: 49%;
+                height: 270px;
+            }
         }
     }
 }
@@ -571,6 +652,41 @@ main .bg-image p {
 
             h1 {
                 font-size: 1.6rem;
+            }
+        }
+    }
+    
+    .our_team {
+        padding: 10px;
+
+        header {
+
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 1rem;
+    
+            h2 {
+                font-family: medium;
+                font-size: 1.6rem;
+                color: rgba(0, 0, 0, 0.493);
+    
+            }
+        }
+
+        h3{
+            font-size: 1.2rem;
+        }
+
+        .horizontal_team_card {
+            margin-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .card-data {
+                margin-top: 1rem;
+                width: 99%;
+                height: 270px;
             }
         }
     }
