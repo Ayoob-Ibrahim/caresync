@@ -1,4 +1,4 @@
-import { Component, computed, effect, inject, OnInit, signal, } from '@angular/core';
+import { AfterViewInit, Component, computed, effect, inject, OnInit, signal, } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { list_comp } from './packages-widgets-imports';
 import { HttpService } from '../../service/http.service';
@@ -14,7 +14,10 @@ import { ParentMenuDataHandler } from '../../baseclass/parent-menu-comp';
   templateUrl: './packages-menu.component.html',
   styleUrl: './packages-menu.component.scss',
 })
-export class PackagesMenuComponent extends ParentMenuDataHandler {
+export class PackagesMenuComponent extends ParentMenuDataHandler implements AfterViewInit {
+  ngAfterViewInit(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
   componentList = list_comp;
   constructor() {
     super();

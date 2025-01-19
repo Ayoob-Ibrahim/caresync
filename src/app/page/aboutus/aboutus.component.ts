@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { AfterViewInit, Component } from '@angular/core';
 import { InfiniteCarouselComponent } from '../../component/infinite-carousel/infinite-carousel.component';
 import { ThreeRowContentComponent } from '../../service-widgets/three-row-content/three-row-content.component';
 import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
@@ -10,7 +10,10 @@ import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizonta
   templateUrl: './aboutus.component.html',
   styleUrl: './aboutus.component.scss'
 })
-export class AboutusComponent {
+export class AboutusComponent implements AfterViewInit {
+  ngAfterViewInit(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
   public coreValues = [
     {
       width: '35%',
