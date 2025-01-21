@@ -55,20 +55,20 @@ export const list_service_comp = {
     ListVerticalCardsInServiceComponent,
     ThreeRowContentComponent,
     FreequentlyAskedComponent,
-    HorizontalCardComponent,
+    HorizontalCardComponent, HorizontalCardComponent,
   ],
   'client-acquisition': [
     ServiceInitialPageWithImageComponent,
     ListVerticalCardsInServiceComponent,
     ThreeRowContentComponent,
     FreequentlyAskedComponent,
-    HorizontalCardComponent,
+    HorizontalCardComponent, HorizontalCardComponent,
   ],
   branding: [
     ServiceInitialPageWithImageComponent,
     ListVerticalCardsInServiceComponent,
     ThreeRowContentComponent,
     FreequentlyAskedComponent,
-    HorizontalCardComponent,
+    HorizontalCardComponent, HorizontalCardComponent,
   ],
 };
