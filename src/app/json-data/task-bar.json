@@ -1,23 +1,23 @@
 [
     {
         "svgType": "phone_fill",
-        "text": "Phone",
+        "text": "Call us",
         "bgClass": "bg-[#004558] text-white",
-        "textClass": "text-white font-regular",
+        "textClass": "font-regular",
         "color":"#004558"
     },
     {
         "svgType": "mail",
-        "text": "Mail",
+        "text": "Enquire Online",
         "bgClass": "bg-[#004558] text-white",
-        "textClass": "text-white font-regular",
+        "textClass": "font-regular",
         "color":"#004558"
     },
     {
         "svgType": "menu",
         "text": "Menu",
-        "bgClass": "bg-white text-black",
-        "textClass": "text-black font-regular",
+        "bgClass": "bg-white text-[#007cff]",
+        "textClass": "font-regular",
         "color":"#ffffff"
     }
 ]
