@@ -76,7 +76,63 @@
     }
 }
 
-@media screen and (max-width: 768px)  {
+
+
+.dark-blue-container {
+    width: 90%;
+    background-color: #004558;
+    color: white;
+    margin: 1rem auto;
+    border-radius: .7rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+        height: 4rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-family: medium
+    }
+
+    p {
+        font-family: regular;
+    }
+
+    button {
+        background-color: #ffffff;
+        color: #004558;
+        padding: 6px 14px;
+        border-radius: 1.3rem;
+        font-family: regular;
+        margin-top: 10px;
+    }
+}
+
+.lite-blue-container {
+    margin: 1.5rem auto;
+    width: 90%;
+    background-color: #129693;
+    color: white;
+    padding: 1.5rem;
+    border-radius: .7rem;
+
+    a span {
+        color: red !important;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+        font-family: medium
+    }
+}
+
+
+@media screen and (max-width: 768px) {
     .card-container {
         width: 90%;
         margin: 2rem auto 5rem;
@@ -132,57 +188,15 @@
         }
 
     }
-}
 
-.dark-blue-container {
-    width: 90%;
-    background-color: #004558;
-    color: white;
-    margin: 1rem auto;
-    border-radius: .7rem;
-    height: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-    img {
-        height: 4rem;
-    }
+    .dark-blue-container {
 
-    h1 {
-        font-size: 2rem;
-        font-family: medium
-    }
+        h1 {
+            font-size: 1.5rem;
+            font-family: medium
+        }
 
-    p {
-        font-family: regular;
-    }
-
-    button {
-        background-color: #ffffff;
-        color: #004558;
-        padding: 6px 14px;
-        border-radius: 1.3rem;
-        font-family: regular;
-        margin-top: 10px;
-    }
-}
-
-.lite-blue-container {
-    margin: 1.5rem auto;
-    width: 90%;
-    background-color: #129693;
-    color: white;
-    padding: 1.5rem;
-    border-radius: .7rem;
-
-    a span {
-        color: red !important;
-    }
-
-    h1 {
-        font-size: 1.6rem;
-        font-family: medium
+        padding: 1rem;
     }
 }
