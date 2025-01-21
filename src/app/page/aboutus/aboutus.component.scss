@@ -340,7 +340,7 @@ main .bg-image p {
 
         .card-data {
             margin-top: 10px;
-            height: 310px;
+            // height: 310px;
             border-radius: 0.9rem;
             background-color: #f1f8ff;
             padding: 20px;
@@ -687,7 +687,7 @@ main .bg-image p {
             .card-data {
                 margin-top: 1rem;
                 width: 99% !important;
-                height: 270px;
+                height: max-content;
             }
         }
     }
