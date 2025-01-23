@@ -1,8 +1,11 @@
 <div class="nav-container">
     <div
-        class="h-[30px] w-[100%] bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal text-[14px] nav-title">
-        Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877
-        <div class="ml-5 font-Elightkanit text-[#aeffef]">We are here to help 24/7.</div>
+        class="h-[30px] w-[100%] bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal  nav-title">
+        <small class="text-[14px]">
+            Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877 <span
+                class="ml-5 font-Elightkanit text-[#aeffef]">We are here to help 24/7.</span>
+        </small>
+
     </div>
     <nav [class.fixed]="isSticky">
 
@@ -17,10 +20,11 @@
                         </ng-container>
                     </a>
                     <ng-container *ngIf="data.children">
-                        <div class="collapse-menu" aria-haspopup="true" >
+                        <div class="collapse-menu" aria-haspopup="true">
                             <div class="grid grid-cols-2  ">
                                 <ng-container *ngFor="let child of data.children">
-                                    <div class="flex items-center   h-[60px]   w-[100%] child-hover relative group" (click)="menuChanger(child,data)">
+                                    <div class="flex items-center   h-[60px]   w-[100%] child-hover relative group"
+                                        (click)="menuChanger(child,data)">
                                         <img class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]" [src]="child.img"
                                             alt="">
                                         <span class="flex items-center"
