@@ -1,10 +1,10 @@
 .main-container {
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    // background-attachment: fixed;
     background-size: cover;
     height: 78vh;
-   
+
 
     figure {
         height: 100%;
@@ -32,7 +32,7 @@
             padding: 10px;
             font-family: regular;
             margin-right: 10%;
-           
+
         }
     }
 
@@ -108,8 +108,8 @@
 
 /* Bottom Card Styling */
 .bottom-card {
- 
-   margin-top: -4rem;
+
+    margin-top: -4rem;
     width: 80%;
     background: white;
     color: black;
@@ -149,4 +149,40 @@
     }
 
 
+}
+
+.headerontop_templ {
+    margin-top: 2rem;
+    text-align: center;
+
+    article {
+
+        p,
+        h6 {
+            font-family: medium;
+            color: rgba(0, 0, 0, 0.815);
+        }
+
+        h2 {
+            font-family: bold;
+            font-size: 3rem;
+            color: #129693;
+        }
+    }
+
+    section {
+        width: 90%;
+        margin: 1rem auto auto;
+        height: max-content;
+        padding: 2rem;
+        background-color: #f9f9f9;
+
+        div {
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            height: 500px;
+            border-radius: .7rem;
+        }
+    }
 }

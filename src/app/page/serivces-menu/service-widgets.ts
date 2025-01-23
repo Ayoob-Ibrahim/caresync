@@ -60,6 +60,7 @@ export const list_service_comp = {
     StepCardComponent,
     ListVerticalCardsInServiceComponent,
     // ClientCardComponent,
+    ClientCardComponent,
   ],
   'business-setup': [
     ServiceInitialPageWithImageComponent,
