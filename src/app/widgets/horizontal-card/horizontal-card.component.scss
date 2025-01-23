@@ -76,7 +76,63 @@
     }
 }
 
+@media screen and (max-width: 560px) {
+    .card-container {
+        width: 90%;
+        margin: 2rem auto 5rem;
 
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: max-content;
+
+            .left-side,
+            .right-side {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                padding: 12px;
+                margin-left: 20px;
+            }
+
+
+            .left-side .content {
+                text-align: left;
+                color: white;
+
+                h2 {
+                    font-size: 1.5rem;
+                    font-family: bold;
+                    margin-bottom: 0.5rem;
+                }
+
+                p {
+                    font-family: regular;
+                    padding-right: 5px;
+                }
+            }
+
+
+            .right-side .text-white {
+                p {
+                    margin-top: 0.5rem;
+                    padding-left: 10px;
+                }
+
+                button {
+                    background-color: #aeffef;
+                    color: #03485b;
+                    padding: 6px 14px;
+                    border-radius: 1.3rem;
+                    font-family: semikanit;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+    }
+}
 
 .dark-blue-container {
     width: 90%;
@@ -128,75 +184,5 @@
     h1 {
         font-size: 1.6rem;
         font-family: medium
-    }
-}
-
-
-@media screen and (max-width: 768px) {
-    .card-container {
-        width: 90%;
-        margin: 2rem auto 5rem;
-
-        .card {
-            display: flex;
-            flex-direction: column;
-            height: max-content;
-
-            .left-side,
-            .right-side {
-                width: 94%;
-                display: flex;
-                align-items: center;
-                justify-content: left;
-                padding: 12px;
-                margin-left: 20px;
-            }
-
-
-            .left-side .content {
-                text-align: left;
-                color: white;
-
-                h2 {
-                    font-size: 1.5rem;
-                    font-family: bold;
-                    margin-bottom: 0.5rem;
-                }
-
-                p {
-                    font-family: regular;
-                    padding-right: 5px;
-                }
-            }
-
-
-            .right-side .text-white {
-                p {
-                    margin-top: 0.5rem;
-                    padding-left: 10px;
-                }
-
-                button {
-                    background-color: #aeffef;
-                    color: #03485b;
-                    padding: 6px 14px;
-                    border-radius: 1.3rem;
-                    font-family: semikanit;
-                    margin-top: 5px;
-                }
-            }
-        }
-
-    }
-
-
-    .dark-blue-container {
-
-        h1 {
-            font-size: 1.5rem;
-            font-family: medium
-        }
-
-        padding: 1rem;
     }
 }
