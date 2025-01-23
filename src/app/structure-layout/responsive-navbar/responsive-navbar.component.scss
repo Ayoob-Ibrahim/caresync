@@ -159,7 +159,12 @@
 
          .nav-title {
              height: 48px;
-             font-size: 12px;
+
+             small {
+                 font-size: 12px;
+                 padding-left: 4px;
+                 padding-right: 4px;
+             }
          }
 
          nav {
