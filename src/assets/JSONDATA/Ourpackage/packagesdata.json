@@ -407,7 +407,7 @@
       "data": [
         {
           "header": "Business Plan",
-          "content": "Work with our team to develop a detailed business plan tailored to your care agency, including cash flow forecasts and profit and loss statements to ensure financial stability and growth."
+          "content": "Work with our team to develop a detailed business plan tailored to your care agency, including cash flow forecasts and profit and loss statements to ensure financial stability and growth.>"
         },
         {
           "header": "Name Creation",
@@ -2120,10 +2120,11 @@
       "horizontal-card-3 # HorizontalCardComponent // 27"
     ],
     "FullImageWithCardBottomComponent": {
+      "headerontop": true,
       "title": "COMBINED CARE AGENCY",
       "sub": "Unite Domiciliary Care and Temporary Staffing for Unmatched Flexibility and Quality",
       "content": "Elevate Your Care Agency with Our Combined Package",
-      "img": "../../../assets/our-packages/CombinedCareAgency/headerFullimage.webp"
+      "img": "https://caresyncexperts.co.uk/images/packages/combined-care-agency-page-header.png"
     },
     "horizontal-card-4": {
       "liteblue": {
