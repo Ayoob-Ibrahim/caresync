@@ -5,7 +5,8 @@
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "three-row-card-with-large-card # ThreeRowContentComponent",
       "freequentlyasked # FreequentlyAskedComponent ",
-      "horizontal-card-3 # HorizontalCardComponent"
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
     "first-initial-card-with-image": {
       "mainContainer": {
@@ -429,6 +430,27 @@
         "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
         "button": "GetIn Touch"
       }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Are you looking to take your care agency to another level?",
+              "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
     }
   },
   "client-acquisition": {
@@ -437,7 +459,8 @@
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "three-row-card-with-large-card # ThreeRowContentComponent",
       "freequentlyasked # FreequentlyAskedComponent ",
-      "horizontal-card-3 # HorizontalCardComponent"
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
     "first-initial-card-with-image": {
       "mainContainer": {
@@ -830,6 +853,27 @@
         "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
         "button": "GetIn Touch"
       }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Are you looking to take your care agency to another level?",
+              "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
     }
   },
   "branding": {
@@ -838,8 +882,30 @@
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "three-row-card-with-large-card # ThreeRowContentComponent",
       "freequentlyasked # FreequentlyAskedComponent ",
-      "horizontal-card-3 # HorizontalCardComponent"
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Are you looking to take your care agency to another level?",
+              "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
+    },
     "first-initial-card-with-image": {
       "mainContainer": {
         "main": {
@@ -856,7 +922,7 @@
         },
         "figure": {
           "image": {
-            "src": "https://caresyncexperts.co.uk/images/services/care-sync-client-acquisition-header.jpg",
+            "src": "https://caresyncexperts.co.uk/images/services/care-sync-branding-header.jpg",
             "alt": "Description of the image"
           },
           "figcaption": "At Care Sync Experts we offer services to set up your healthcare agency for success from the beginning"
@@ -1820,7 +1886,6 @@
             }
           }
         },
-
         {
           "imageWrapper": "https://caresyncexperts.com/wp-content/uploads/2024/12/people-office-pandemic-having-meeting-with-masks-1.png"
         }
@@ -1876,7 +1941,6 @@
       ]
     }
   },
-
   "tender-writing": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
