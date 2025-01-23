@@ -1981,7 +1981,7 @@
         "subSections": [
           {
             "size": "33%",
-            "height": "200x",
+            "height": "250px",
             "sectionHeaderWrap": {
               "heading": "EFFICIENT WORKFLOW IMPLEMENTATION"
             },
@@ -1997,7 +1997,7 @@
           },
           {
             "size": "33%",
-            "height": "380px",
+            "height": "250px",
             "sectionHeaderWrap": {
               "heading": "TRAINING FOR CRISIS MANAGEMENT"
             },
@@ -2013,7 +2013,7 @@
           },
           {
             "size": "33%",
-            "height": "380px",
+            "height": "250px",
             "sectionHeaderWrap": {
               "heading": "PROVEN TRACK RECORD"
             },
@@ -2177,8 +2177,17 @@
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "three-row-card-with-large-card # ThreeRowContentComponent",
       "clientcard # ClientCardComponent",
+      "horizontal-card-3 # HorizontalCardComponent",
       "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
     "horizontal-card-4": {
       "cardContainer": {
         "card": {
@@ -2210,7 +2219,7 @@
         "subSections": [
           {
             "size": "100%",
-            "height": "200",
+            "height": "300px",
             "sectionHeaderWrap": {
               "heading": "TEAM DELIVERING PROVEN RESULTS"
             },
@@ -2233,7 +2242,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "600px",
+            "height": "443px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "1"
@@ -2261,7 +2270,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "600px",
+            "height": "443px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "2"
@@ -2289,7 +2298,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "600px",
+            "height": "443px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "3"
@@ -2326,7 +2335,7 @@
         {
           "contentWrapper": {
             "size": "46%",
-            "height": "400px",
+            "height": "300px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "4"
@@ -2354,7 +2363,7 @@
         {
           "contentWrapper": {
             "size": "46%",
-            "height": "400px",
+            "height": "300px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "5"
@@ -2776,7 +2785,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "410px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "1"
@@ -2804,7 +2813,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "410px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "2"
@@ -2832,7 +2841,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "410px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "3"
@@ -2983,209 +2992,99 @@
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
       "stepcard # StepCardComponent",
-      "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
-      "clientcard # ClientCardComponent"
+      "three-row-card-with-large-card # ThreeRowContentComponent",
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
-    "list-of-vertical-cards-with-image-center": {
-      "maintitle": "OUR EXTENSIVE RANGE OF COMPLIANCE MANAGEMENT SERVICES",
-      "listdata": [
-        {
-          "contentWrapper": {
-            "size": "30%",
-            "height": "600px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "1"
-              },
-              "sectionHeaderWrap": {
-                "heading": "1. REGISTRATION SUPPORT"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "Professional Assistance",
-                    "description": "Receive registration support from our team for both CQC, RQIA, CIW and Ofsted registrations."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Document Preparation",
-                    "description": "Get help in preparing all documentation to meet the required standards of CQC, RQIA, CIW, and Ofsted."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Compliance Assessments",
-                    "description": "Evaluations carried out to confirm that your agency or educational service complies fully, with all mandates."
-                  }
-                }
-              ]
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Get Started with CareSync Expert",
+              "p": "If you're ready to enhance your presence reach out to Care Sync Experts for a consultation. Find out how our web development services can take your care agency to the level."
             }
-          }
-        },
-        {
-          "contentWrapper": {
-            "size": "30%",
-            "height": "600px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "2"
-              },
-              "sectionHeaderWrap": {
-                "heading": "2. IN-DEPTH COMPLIANCE AUDITS"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "Pre Inspection Audits",
-                    "description": "Thorough assessments to get your organisation or educational institution for inspections."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Continuous Monitoring",
-                    "description": "Checks to uphold compliance and pinpoint areas needing enhancement."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Risk Analysis",
-                    "description": "Carrying out risk evaluations to minimise problems and ensure safety."
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "contentWrapper": {
-            "size": "30%",
-            "height": "600px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "3"
-              },
-              "sectionHeaderWrap": {
-                "heading": "3. CUSTOMISED POLICIES AND PROCEDURES"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "TAILORED DOCUMENTATION",
-                    "description": "Crafting policies and procedures to suit the requirements of your organisation or educational institution."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "REGULATORY ADHERENCE",
-                    "description": "Ensuring all policies align with the CQC, RQIA, CIW, and Ofsted guidelines and rules."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "COMPREHENSIVE SCOPE",
-                    "description": "Encompassing all aspects such as safeguarding, health and safety medication management, care provision and educational benchmarks."
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "imageWrapper": "https://caresyncexperts.com/wp-content/uploads/2024/12/people-office-pandemic-having-meeting-with-masks-1.png"
-        },
-        {
-          "contentWrapper": {
-            "size": "46%",
-            "height": "400px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "4"
-              },
-              "sectionHeaderWrap": {
-                "heading": "4. INSPECTION READINESS WORKSHOPS"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "Team Training",
-                    "description": "Empower your team with the knowledge and abilities for CQC, RQIA, CIW, and Ofsted inspections."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Practice Inspections",
-                    "description": "Conducting simulated inspections to spot issues and offer feedback."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Feedback Sessions",
-                    "description": "Providing feedback and strategies for improvement to guarantee preparedness for inspections."
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "contentWrapper": {
-            "size": "46%",
-            "height": "400px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "5"
-              },
-              "sectionHeaderWrap": {
-                "heading": "5. CONTINUOUS SUPPORT AND TRAINING"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "Ongoing Guidance",
-                    "description": "Furnishing support to uphold care standards and compliance."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Training Initiatives",
-                    "description": "In-depth training schemes covering CQC, RQIA, and CIW standards, including safety, effectiveness, care quality, responsiveness, and leadership well, as Ofsted educational criteria."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Leadership Training Sessions",
-                    "description": "Tailored workshops designed to equip your supervisors for leading a thriving care agency or educational institution."
-                  }
-                }
-              ]
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
             }
           }
         }
-      ]
+      }
     },
-    "clientcard": {
-      "mastertitle": "Some of Our Clients",
-      "mastercontent": "Discover how we have assisted healthcare agencies in reaching their marketing objectives and expanding their enterprises",
-      "mastercontent1": "Our success stories showcase our proficiency and the concrete results we've achieved for clients such, as:",
-      "data": [
-        {
-          "image": "../../../assets/our-services/client1.png",
-          "href": "",
-          "buttonname": "Visit Website"
+    "three-row-card-with-large-card": {
+      "contentWrapper": {
+        "sectionHeaderWrap": {
+          "heading": "COMPLIANCE WITH CQC AND OFSTED REGULATIONS: INTRODUCTION OF THE NEW REGULATORY FRAMEWORK",
+          "headingUnderline": true
         },
-        {
-          "image": "../../../assets/our-services/client2.png",
-          "href": "",
-          "buttonname": "Visit Website"
-        },
-        {
-          "image": "../../../assets/our-services/client3.png",
-          "href": "",
-          "buttonname": "Visit Website"
-        }
-      ]
+        "image": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png",
+        "subSections": [
+          {
+            "size": "33%",
+            "height": "500px",
+            "sectionHeaderWrap": {
+              "heading": "Grasping the New CQC Assessment Framework"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "The updated CQC single assessment framework incorporates 'We' statements to outline provider duties and 'I' statements to capture the viewpoints of patients and service users. This innovative approach underscores care and the significance of listening to people's stories in shaping judgments. The framework centres on five inquiries; safety, effectiveness, compassion, responsiveness and leadership quality with the goal of offering a systematic and uniform evaluation of care standards.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "33%",
+            "height": "500px",
+            "sectionHeaderWrap": {
+              "heading": "Significance of 'I' Statements in CQC Oversight"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "'I' statements hold a pivotal role in the recent assessment framework introduced by CQC by ensuring that the voices of service users are not only heard but also acted upon. These statements facilitate the collection of evidence and aid in understanding what constitutes a positive care encounter from the perspective of service.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "33%",
+            "height": "500px",
+            "sectionHeaderWrap": {
+              "heading": "Promoting Exceptional Care and Educational Services"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "Our methodology guarantees that your establishment adheres to the core principles encompassing safety, effectiveness, compassion, responsiveness and leadership excellence. To excel in providing quality care services and achieving results it is essential to adhere to these core principles.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          }
+        ]
+      }
     },
+
     "arrowupbg": {
       "masterbg": "../../../assets/our-services/arrowup.png",
       "mastertitle": "COMPREHENSIVE COMPLIANCE MANAGEMENT",

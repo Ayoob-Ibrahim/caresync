@@ -40,6 +40,7 @@ export const list_service_comp = {
     ThreeRowContentComponent,
     ClientCardComponent,
     HorizontalCardComponent,
+    HorizontalCardComponent,
   ],
   'ofsted-related-services': [
     BgArrowUpComponent,
@@ -58,9 +59,9 @@ export const list_service_comp = {
   'compliance-management': [
     BgArrowUpComponent,
     StepCardComponent,
-    ListVerticalCardsInServiceComponent,
-    // ClientCardComponent,
-    ClientCardComponent,
+    ThreeRowContentComponent,
+    HorizontalCardComponent,
+    HorizontalCardComponent,
   ],
   'business-setup': [
     ServiceInitialPageWithImageComponent,
