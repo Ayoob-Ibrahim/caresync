@@ -11,7 +11,44 @@ export const list_service_comp = {
   'cqc-registration': [
     BgArrowUpComponent,
     StepCardComponent,
-    ClientCardComponent,
+    ListVerticalCardsInServiceComponent,
+    // ClientCardComponent,
+  ],
+  'marketing-support': [
+    BgArrowUpComponent,
+    StepCardComponent,
+    ListVerticalCardsInServiceComponent,
+    // ClientCardComponent,
+  ],
+  'comprehensive-training': [
+    BgArrowUpComponent,
+    StepCardComponent,
+    ListVerticalCardsInServiceComponent,
+    // ClientCardComponent,
+  ],
+  'tender-writing': [
+    BgArrowUpComponent,
+    StepCardComponent,
+    ListVerticalCardsInServiceComponent,
+    // ClientCardComponent,
+  ],
+  'ofsted-related-services': [
+    BgArrowUpComponent,
+    StepCardComponent,
+    ListVerticalCardsInServiceComponent,
+    // ClientCardComponent,
+  ],
+  'pir-writing': [
+    BgArrowUpComponent,
+    StepCardComponent,
+    ListVerticalCardsInServiceComponent,
+    //  ClientCardComponent
+  ],
+  'compliance-management': [
+    BgArrowUpComponent,
+    StepCardComponent,
+    ListVerticalCardsInServiceComponent,
+    // ClientCardComponent,
   ],
   'business-setup': [
     ServiceInitialPageWithImageComponent,
