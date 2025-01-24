@@ -1298,35 +1298,216 @@
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
       "stepcard # StepCardComponent",
-      "clientcard # ClientCardComponent"
+      "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
-    "clientcard": {
-      "mastertitle": "Some of Our Clients",
-      "mastercontent": "Discover how we have assisted healthcare agencies in reaching their marketing objectives and expanding their enterprises",
-      "mastercontent1": "Our success stories showcase our proficiency and the concrete results we've achieved for clients such, as:",
-      "data": [
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "GET STARTED WITH CARE SYNC EXPERTS TODAY",
+              "p": "If you're ready to enhance your presence reach out to Care Sync Experts for a consultation. Find out how our web development services can take your care agency to the level."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
+    },
+    "list-of-vertical-cards-with-image-center": {
+      "maintitle": " OUR SUPPORT PACKAGE COVERS",
+      "listdata": [
         {
-          "image": "../../../assets/our-services/client1.png",
-          "href": "",
-          "buttonname": "Visit Website"
+          "contentWrapper": {
+            "size": "30%",
+            "height": "600px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "1"
+              },
+              "sectionHeaderWrap": {
+                "heading": "1. PERSONALISED CONSULTATION AND GUIDANCE"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "Detailed Process Breakdown",
+                    "description": "We provide an overview of the CQC registration process simplifying each step for understanding."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Tailored Recommendations",
+                    "description": "Our consultants deliver customised advice based on your business model ensuring you grasp the demands to your type of care provision."
+                  }
+                }
+              ]
+            }
+          }
         },
         {
-          "image": "../../../assets/our-services/client2.png",
-          "href": "",
-          "buttonname": "Visit Website"
+          "contentWrapper": {
+            "size": "30%",
+            "height": "600px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "2"
+              },
+              "sectionHeaderWrap": {
+                "heading": "2. ASSISTANCE WITH DOCUMENTATION PREPARATION AND COMPLIANCE"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "Document Support",
+                    "description": "We assist in preparing and submitting all paperwork, including the CQC application form and crucial supporting documents."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Policy Development and Alignment",
+                    "description": "Our team assists in crafting and refining policies and procedures to align with CQC regulations encompassing areas, like safeguarding, health & safety and service delivery."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Thorough Compliance Assessments",
+                    "description": "We conduct reviews of your documentation to ensure it aligns with CQC regulations reducing the chances of delays or rejections."
+                  }
+                }
+              ]
+            }
+          }
         },
         {
-          "image": "../../../assets/our-services/client3.png",
-          "href": "",
-          "buttonname": "Visit Website"
+          "contentWrapper": {
+            "size": "30%",
+            "height": "600px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "3"
+              },
+              "sectionHeaderWrap": {
+                "heading": "3. PREPARING FOR INSPECTIONS AND PROVIDING ONGOING ASSISTANCE"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "SIMULATED INSPECTIONS",
+                    "description": "Our team carries out practice inspections to pinpoint areas that can be improved helping you get ready thoroughly for the CQC inspection."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "ASSESSMENT OF READINESS",
+                    "description": "We assess your preparedness, for the inspection. Provide suggestions to address any potential weaknesses."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "SUPPORT AFTER SUBMISSION",
+                    "description": "Following submission we offer assistance to handle any requirements or queries from the CQC."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "imageWrapper": "https://caresyncexperts.com/wp-content/uploads/2024/12/people-office-pandemic-having-meeting-with-masks-1.png"
+        },
+        {
+          "contentWrapper": {
+            "size": "46%",
+            "height": "400px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "4"
+              },
+              "sectionHeaderWrap": {
+                "heading": "4. PREPARATION FOR INTERVIEWS AND ACCESS TO EXTRA RESOURCES"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "Guidance for CQC Interviews",
+                    "description": "We provide a comprehensive manual on possible interview questions by CQC inspectors aiding in your preparation for discussions effectively."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Resource Downloads",
+                    "description": "Get access to manuals and templates including questions asked during CQC interviews, policies and procedure templates that can assist you in preparing."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Updates",
+                    "description": "We keep you updated on any amendments in CQC regulations. Recommended practices so that your documentation and procedures stay current."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "contentWrapper": {
+            "size": "46%",
+            "height": "400px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "5"
+              },
+              "sectionHeaderWrap": {
+                "heading": "5. REASONS TO CHOOSE CARE SYNC EXPERTS"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "DEMONSTRATED PROFICIENCY",
+                    "description": "Our team has vast experience in guiding care providers through the process of registering with the CQC showcasing a strong track record of success. We utilise our knowledge to ensure your agency complies with all requirements."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "TAILORED SOLUTIONS",
+                    "description": "We provide customised assistance to cater to the requirements of your caregiving organisation offering an approach that aligns with your specific objectives and needs."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "CONTINUOUS ASSISTANCE",
+                    "description": "Starting from the consultation to follow up, after registration we offer support to ensure your success. Our dedicated team is on hand to help with any issues or queries that may arise during the process."
+                  }
+                }
+              ]
+            }
+          }
         }
       ]
     },
     "arrowupbg": {
       "masterbg": "../../../assets/our-services/arrowup.png",
-      "mastertitle": "MARKETING SUPPORT",
-      "mastersubtitle": "Get a Boost In Growth Through Effective Marketing Support",
-      "mastercontent": "Expand the reach and impact of your care agency by utilising our personalised marketing support services.",
+      "mastertitle": "CQC Registration",
+      "mastersubtitle": "EXPERT ASSISTANCE FOR SMOOTH CQC COMPLIANCE",
+      "mastercontent": "Make sure your care agency complies with notch quality and safety standards by utilising our CQC registration support. At Care Sync Experts we offer personalised guidance to help you navigate the CQC registration process and ensure your success at every stage.",
       "rightimage": "../../../assets/our-services/nurse-sit.png",
       "rightimagecontent": "Here at Care Sync Experts we recognise the obstacles faced in care sector marketing.",
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
@@ -1334,8 +1515,8 @@
       "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
     },
     "stepcard": {
-      "mastertitle": "The Importance of Marketing For Care Agency",
-      "mastercontent": "In the world of care services successful marketing plays a role in:",
+      "mastertitle": "UNDERSTANDING THE INS AND OUTS OF CQC REGISTRATION",
+      "mastercontent": "In England all care providers are required to undergo registration with the Care Quality Commission (CQC) to guarantee that their services meet the quality and safety benchmarks set by the regulatory body.",
       "data": [
         {
           "logo": "../../../assets/our-services/step1.png",
@@ -1354,13 +1535,142 @@
         }
       ]
     }
-  }, "marketing-support": {
+  },
+  "marketing-support": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
       "stepcard # StepCardComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
-      "clientcard # ClientCardComponent"
+      "clientcard # ClientCardComponent",
+      "three-row-card-with-large-card # ThreeRowContentComponent",
+      "freequentlyasked # FreequentlyAskedComponent ",
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Get Started with CareSync Expert",
+              "p": "If you're ready to enhance your presence reach out to Care Sync Experts for a consultation. Find out how our web development services can take your care agency to the level."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Learn how we can support your success",
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
+    },
+    "freequentlyasked": {
+      "mastertitle": "Frequently Asked Questions",
+      "data": [
+        {
+          "title": "1. How do I promote my care business?",
+          "headercontent": "Promoting a care business requires a multi-faceted approach:",
+          "maincontent": [
+            "Digital Marketing: Create an SEO-optimised website, use social media to engage with potential clients, and run targeted ads to increase visibility.",
+            "Local Outreach: Build relationships with local healthcare providers, community centres, and organisations. Participate in local events and sponsor community initiatives.",
+            "Content Marketing: Share informative blog posts, videos, and guides to position your business as a trusted resource in the care industry."
+          ],
+          "footercontent": "Referral Programs: Encourage satisfied clients to refer others through incentives like discounts or free services."
+        },
+        {
+          "title": "2. How can I get clients for domiciliary care?",
+          "headercontent": "Attracting clients for domiciliary care involves strategic planning:",
+          "maincontent": [
+            "Build an Online Presence: Develop a professional website and use local SEO strategies to ensure your business appears in search results for care services in your area.",
+            "Leverage Social Media: Share success stories, care tips, and updates to engage your audience and build trust.",
+            "Collaborate Locally: Partner with hospitals, GP practices, and community organisations to gain referrals."
+          ],
+          "footercontent": "Direct Marketing: Use brochures, flyers, and email campaigns targeting families seeking care services."
+        },
+        {
+          "title": "3. What are the best marketing campaigns designed for home care providers?",
+          "headercontent": "Effective marketing campaigns for home care providers include:",
+          "maincontent": [
+            "Pay-Per-Click (PPC) Advertising: Use targeted ads on Google and social media platforms to reach families searching for care services.",
+            "Community Engagement: Host workshops or participate in local events to showcase your services and connect with potential clients.",
+            "Email Campaigns: Send personalised emails to prospects and current clients, offering updates, promotions, or useful information."
+          ],
+          "footercontent": "Testimonial Marketing: Share client testimonials and success stories across your website and social media to build credibility."
+        }
+      ]
+    },
+    "three-row-card-with-large-card": {
+      "contentWrapper": {
+        "sectionHeaderWrap": {
+          "heading": "REASONS TO SELECT CARE SYNC EXPERTS?",
+          "headingUnderline": true
+        },
+        "image": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png",
+        "subSections": [
+          {
+            "size": "33%",
+            "height": "200x",
+            "sectionHeaderWrap": {
+              "heading": "SPECIALISED INDUSTRY KNOWLEDGE"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "Our team possesses expertise in the healthcare domain enabling us to comprehend your challenges and opportunities. We utilise our industry acumen to develop marketing strategies that yield outcomes.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "33%",
+            "height": "380px",
+            "sectionHeaderWrap": {
+              "heading": "CUSTOMISED SOLUTIONS"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "We provide tailored marketing assistance that aligns with your requirements and objectives. Our collaborative approach ensures that your vision is actualised meeting your business goals.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "33%",
+            "height": "380px",
+            "sectionHeaderWrap": {
+              "heading": "PROVEN TRACK RECORD"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "We have a history of executing marketing campaigns that boost traffic generate leads and enhance conversions. Our clients witness outcomes and sustainable growth through our marketing assistance.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
     "list-of-vertical-cards-with-image-center": {
       "maintitle": "OUR RANGE OF MARKETING SUPPORT SERVICES",
       "listdata": [
@@ -1627,8 +1937,98 @@
       "arrowupbg # BgArrowUpComponent",
       "stepcard # StepCardComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
-      "clientcard # ClientCardComponent"
+      "three-row-card-with-large-card # ThreeRowContentComponent",
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "TAKE YOUR TEAM TO THE NEXT LEVEL TODAYGET IN TOUCH WITH CARE SYNC EXPERTS",
+              "p": "Ready to empower your team with tailored programs and ongoing support? Reach out to us today for information on our services designed for improvement."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
+    },
+    "three-row-card-with-large-card": {
+      "contentWrapper": {
+        "sectionHeaderWrap": {
+          "heading": "IMPROVING OPERATIONAL EFFICIENCY",
+          "headingUnderline": true
+        },
+        "image": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png",
+        "subSections": [
+          {
+            "size": "33%",
+            "height": "250px",
+            "sectionHeaderWrap": {
+              "heading": "EFFICIENT WORKFLOW IMPLEMENTATION"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "We assist you in implementing processes and workflows to minimise obstacles and enhance overall productivity.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "33%",
+            "height": "250px",
+            "sectionHeaderWrap": {
+              "heading": "TRAINING FOR CRISIS MANAGEMENT"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "Equip your team with the skills to effectively handle emergencies and unexpected situations through our crisis management training program.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "33%",
+            "height": "250px",
+            "sectionHeaderWrap": {
+              "heading": "PROVEN TRACK RECORD"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "We have a history of executing marketing campaigns that boost traffic generate leads and enhance conversions. Our clients witness outcomes and sustainable growth through our marketing assistance.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
     "list-of-vertical-cards-with-image-center": {
       "maintitle": "",
       "listdata": [
@@ -1772,15 +2172,74 @@
       "arrowupbg # BgArrowUpComponent",
       "stepcard # StepCardComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
-      "clientcard # ClientCardComponent"
+      "three-row-card-with-large-card # ThreeRowContentComponent",
+      "clientcard # ClientCardComponent",
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "BEGIN YOUR JOURNEY WITH CARE SYNC SPECIALISTS TODAY",
+              "p": "Interested in improving your chances of securing contracts? Reach out to Care Sync Specialists for expert, customised tender writing services that meet your business requirements."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
+    },
+    "three-row-card-with-large-card": {
+      "contentWrapper": {
+        "sectionHeaderWrap": {
+          "heading": "WHY CONSIDER CARE SYNC EXPERTS FOR TENDER WRITING?",
+          "headingUnderline": true
+        },
+        "image": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png",
+        "subSections": [
+          {
+            "size": "100%",
+            "height": "300px",
+            "sectionHeaderWrap": {
+              "heading": "TEAM DELIVERING PROVEN RESULTS"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "Industry Experts: Our team consists of professionals with expertise in tender writing and a profound knowledge of the healthcare industry. We have a record of success in assisting clients in securing contracts through well crafted tenders. Each tender is personalised to showcase the strengths and capabilities of your business. By leveraging insights we position your business as the choice for potential clients emphasising your distinct value propositions. Our efficient workflow saves you time and resources allowing you to concentrate on aspects of your business. We manage all aspects of the tender writing process from research to submission guaranteeing a professional service. We use proven strategies and best practices to create proposals that set you apart from the competition. Our full service support includes a range of services from consultation, to ongoing post submission assistance ensuring all your needs are met every step of the way. Explore how we've assisted care agencies in achieving their tendering objectives and securing contracts.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
     "list-of-vertical-cards-with-image-center": {
       "maintitle": " OUR COMPREHENSIVE BID WRITING SERVICES",
       "listdata": [
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "600px",
+            "height": "443px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "1"
@@ -1808,7 +2267,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "600px",
+            "height": "443px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "2"
@@ -1836,7 +2295,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "600px",
+            "height": "443px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "3"
@@ -1873,7 +2332,7 @@
         {
           "contentWrapper": {
             "size": "46%",
-            "height": "400px",
+            "height": "300px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "4"
@@ -1901,7 +2360,7 @@
         {
           "contentWrapper": {
             "size": "46%",
-            "height": "400px",
+            "height": "300px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "5"
@@ -1934,17 +2393,22 @@
       "mastercontent1": "Our success stories showcase our proficiency and the concrete results we've achieved for clients such, as:",
       "data": [
         {
-          "image": "../../../assets/our-services/client1.png",
+          "image": "../../../assets/our-services/menu-client1.png",
           "href": "",
           "buttonname": "Visit Website"
         },
         {
-          "image": "../../../assets/our-services/client2.png",
+          "image": "../../../assets/our-services/menu-client2.png",
           "href": "",
           "buttonname": "Visit Website"
         },
         {
-          "image": "../../../assets/our-services/client3.png",
+          "image": "../../../assets/our-services/menu-client3.png",
+          "href": "",
+          "buttonname": "Visit Website"
+        },
+        {
+          "image": "../../../assets/our-services/menu-client4.png",
           "href": "",
           "buttonname": "Visit Website"
         }
@@ -1978,8 +2442,38 @@
       "arrowupbg # BgArrowUpComponent",
       "stepcard # StepCardComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
-      "clientcard # ClientCardComponent"
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "CONNECT WITH CARE SYNC EXPERTS",
+              "p": "Ready to begin the process of Ofsted registration and enhance your supported accommodation service? Reach out to us for a consultation. We'll guide you through every step of the process."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
+    },
     "list-of-vertical-cards-with-image-center": {
       "maintitle": "Inclusions in Our Package:",
       "listdata": [
@@ -2250,15 +2744,45 @@
       "arrowupbg # BgArrowUpComponent",
       "stepcard # StepCardComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
-      "clientcard # ClientCardComponent"
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "START TODAY WITH CARE SYNC EXPERTS",
+              "p": "Ready to boost your compliance and quality assurance through a PIR? Reach out to Care Sync Experts for expert PIR writing services tailored specifically for your services requirements."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
+    },
     "list-of-vertical-cards-with-image-center": {
       "maintitle": "Inclusions in Our Package:",
       "listdata": [
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "410px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "1"
@@ -2286,7 +2810,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "410px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "2"
@@ -2314,7 +2838,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "410px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "3"
@@ -2465,208 +2989,97 @@
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
       "stepcard # StepCardComponent",
-      "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
-      "clientcard # ClientCardComponent"
+      "three-row-card-with-large-card # ThreeRowContentComponent",
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
     ],
-    "list-of-vertical-cards-with-image-center": {
-      "maintitle": "OUR EXTENSIVE RANGE OF COMPLIANCE MANAGEMENT SERVICES",
-      "listdata": [
-        {
-          "contentWrapper": {
-            "size": "30%",
-            "height": "600px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "1"
-              },
-              "sectionHeaderWrap": {
-                "heading": "1. REGISTRATION SUPPORT"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "Professional Assistance",
-                    "description": "Receive registration support from our team for both CQC, RQIA, CIW and Ofsted registrations."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Document Preparation",
-                    "description": "Get help in preparing all documentation to meet the required standards of CQC, RQIA, CIW, and Ofsted."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Compliance Assessments",
-                    "description": "Evaluations carried out to confirm that your agency or educational service complies fully, with all mandates."
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "contentWrapper": {
-            "size": "30%",
-            "height": "600px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "2"
-              },
-              "sectionHeaderWrap": {
-                "heading": "2. IN-DEPTH COMPLIANCE AUDITS"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "Pre Inspection Audits",
-                    "description": "Thorough assessments to get your organisation or educational institution for inspections."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Continuous Monitoring",
-                    "description": "Checks to uphold compliance and pinpoint areas needing enhancement."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Risk Analysis",
-                    "description": "Carrying out risk evaluations to minimise problems and ensure safety."
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "contentWrapper": {
-            "size": "30%",
-            "height": "600px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "3"
-              },
-              "sectionHeaderWrap": {
-                "heading": "3. CUSTOMISED POLICIES AND PROCEDURES"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "TAILORED DOCUMENTATION",
-                    "description": "Crafting policies and procedures to suit the requirements of your organisation or educational institution."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "REGULATORY ADHERENCE",
-                    "description": "Ensuring all policies align with the CQC, RQIA, CIW, and Ofsted guidelines and rules."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "COMPREHENSIVE SCOPE",
-                    "description": "Encompassing all aspects such as safeguarding, health and safety medication management, care provision and educational benchmarks."
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "imageWrapper": "https://caresyncexperts.com/wp-content/uploads/2024/12/people-office-pandemic-having-meeting-with-masks-1.png"
-        },
-        {
-          "contentWrapper": {
-            "size": "46%",
-            "height": "400px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "4"
-              },
-              "sectionHeaderWrap": {
-                "heading": "4. INSPECTION READINESS WORKSHOPS"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "Team Training",
-                    "description": "Empower your team with the knowledge and abilities for CQC, RQIA, CIW, and Ofsted inspections."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Practice Inspections",
-                    "description": "Conducting simulated inspections to spot issues and offer feedback."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Feedback Sessions",
-                    "description": "Providing feedback and strategies for improvement to guarantee preparedness for inspections."
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "contentWrapper": {
-            "size": "46%",
-            "height": "400px",
-            "sectionContentWrapper": {
-              "sectionNumberWrap": {
-                "sectionNumber": "5"
-              },
-              "sectionHeaderWrap": {
-                "heading": "5. CONTINUOUS SUPPORT AND TRAINING"
-              },
-              "cards": [
-                {
-                  "cardDetails": {
-                    "title": "Ongoing Guidance",
-                    "description": "Furnishing support to uphold care standards and compliance."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Training Initiatives",
-                    "description": "In-depth training schemes covering CQC, RQIA, and CIW standards, including safety, effectiveness, care quality, responsiveness, and leadership well, as Ofsted educational criteria."
-                  }
-                },
-                {
-                  "cardDetails": {
-                    "title": "Leadership Training Sessions",
-                    "description": "Tailored workshops designed to equip your supervisors for leading a thriving care agency or educational institution."
-                  }
-                }
-              ]
-            }
-          }
-        }
-      ]
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
     },
-    "clientcard": {
-      "mastertitle": "Some of Our Clients",
-      "mastercontent": "Discover how we have assisted healthcare agencies in reaching their marketing objectives and expanding their enterprises",
-      "mastercontent1": "Our success stories showcase our proficiency and the concrete results we've achieved for clients such, as:",
-      "data": [
-        {
-          "image": "../../../assets/our-services/client1.png",
-          "href": "",
-          "buttonname": "Visit Website"
-        },
-        {
-          "image": "../../../assets/our-services/client2.png",
-          "href": "",
-          "buttonname": "Visit Website"
-        },
-        {
-          "image": "../../../assets/our-services/client3.png",
-          "href": "",
-          "buttonname": "Visit Website"
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Get Started with CareSync Expert",
+              "p": "If you're ready to enhance your presence reach out to Care Sync Experts for a consultation. Find out how our web development services can take your care agency to the level."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
         }
-      ]
+      }
+    },
+    "three-row-card-with-large-card": {
+      "contentWrapper": {
+        "sectionHeaderWrap": {
+          "heading": "COMPLIANCE WITH CQC AND OFSTED REGULATIONS: INTRODUCTION OF THE NEW REGULATORY FRAMEWORK",
+          "headingUnderline": true
+        },
+        "image": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png",
+        "subSections": [
+          {
+            "size": "33%",
+            "height": "500px",
+            "sectionHeaderWrap": {
+              "heading": "Grasping the New CQC Assessment Framework"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "The updated CQC single assessment framework incorporates 'We' statements to outline provider duties and 'I' statements to capture the viewpoints of patients and service users. This innovative approach underscores care and the significance of listening to people's stories in shaping judgments. The framework centres on five inquiries; safety, effectiveness, compassion, responsiveness and leadership quality with the goal of offering a systematic and uniform evaluation of care standards.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "33%",
+            "height": "500px",
+            "sectionHeaderWrap": {
+              "heading": "Significance of 'I' Statements in CQC Oversight"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "'I' statements hold a pivotal role in the recent assessment framework introduced by CQC by ensuring that the voices of service users are not only heard but also acted upon. These statements facilitate the collection of evidence and aid in understanding what constitutes a positive care encounter from the perspective of service.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "33%",
+            "height": "500px",
+            "sectionHeaderWrap": {
+              "heading": "Promoting Exceptional Care and Educational Services"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "Our methodology guarantees that your establishment adheres to the core principles encompassing safety, effectiveness, compassion, responsiveness and leadership excellence. To excel in providing quality care services and achieving results it is essential to adhere to these core principles.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          }
+        ]
+      }
     },
     "arrowupbg": {
       "masterbg": "../../../assets/our-services/arrowup.png",

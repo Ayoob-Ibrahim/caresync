@@ -8,67 +8,114 @@ import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizonta
 import { StepCardComponent } from '../../widgets/step-card/step-card.component';
 
 export const list_service_comp = {
-  'cqc-registration': [
-    BgArrowUpComponent,
-    StepCardComponent,
-    ListVerticalCardsInServiceComponent,
-    // ClientCardComponent,
-  ],
-  'marketing-support': [
-    BgArrowUpComponent,
-    StepCardComponent,
-    ListVerticalCardsInServiceComponent,
-    // ClientCardComponent,
-  ],
-  'comprehensive-training': [
-    BgArrowUpComponent,
-    StepCardComponent,
-    ListVerticalCardsInServiceComponent,
-    // ClientCardComponent,
-  ],
-  'tender-writing': [
-    BgArrowUpComponent,
-    StepCardComponent,
-    ListVerticalCardsInServiceComponent,
-    // ClientCardComponent,
-  ],
-  'ofsted-related-services': [
-    BgArrowUpComponent,
-    StepCardComponent,
-    ListVerticalCardsInServiceComponent,
-    // ClientCardComponent,
-  ],
-  'pir-writing': [
-    BgArrowUpComponent,
-    StepCardComponent,
-    ListVerticalCardsInServiceComponent,
-    //  ClientCardComponent
-  ],
-  'compliance-management': [
-    BgArrowUpComponent,
-    StepCardComponent,
-    ListVerticalCardsInServiceComponent,
-    // ClientCardComponent,
-  ],
-  'business-setup': [
-    ServiceInitialPageWithImageComponent,
-    ListVerticalCardsInServiceComponent,
-    ThreeRowContentComponent,
-    FreequentlyAskedComponent,
-    HorizontalCardComponent, HorizontalCardComponent
-  ],
-  'client-acquisition': [
-    ServiceInitialPageWithImageComponent,
-    ListVerticalCardsInServiceComponent,
-    ThreeRowContentComponent,
-    FreequentlyAskedComponent,
-    HorizontalCardComponent, HorizontalCardComponent
-  ],
-  branding: [
-    ServiceInitialPageWithImageComponent,
-    ListVerticalCardsInServiceComponent,
-    ThreeRowContentComponent,
-    FreequentlyAskedComponent,
-    HorizontalCardComponent, HorizontalCardComponent
-  ],
+    'cqc-registration': [
+        BgArrowUpComponent,
+        StepCardComponent,
+        ListVerticalCardsInServiceComponent,
+
+        // ClientCardComponent,
+
+        HorizontalCardComponent,
+        HorizontalCardComponent,
+
+    ],
+    'marketing-support': [
+        BgArrowUpComponent,
+        StepCardComponent,
+        ListVerticalCardsInServiceComponent,
+
+        ClientCardComponent,
+        ThreeRowContentComponent,
+        FreequentlyAskedComponent,
+        HorizontalCardComponent,
+        HorizontalCardComponent,
+
+    ],
+    'comprehensive-training': [
+        BgArrowUpComponent,
+        StepCardComponent,
+        // ListVerticalCardsInServiceComponent,
+
+        ThreeRowContentComponent,
+        HorizontalCardComponent,
+        HorizontalCardComponent,
+
+    ],
+    'tender-writing': [
+        BgArrowUpComponent,
+        StepCardComponent,
+        ListVerticalCardsInServiceComponent,
+        ThreeRowContentComponent,
+        ClientCardComponent,
+        HorizontalCardComponent,
+        HorizontalCardComponent,
+
+    ],
+    'ofsted-related-services': [
+        BgArrowUpComponent,
+        StepCardComponent,
+        ListVerticalCardsInServiceComponent,
+
+        // ClientCardComponent,
+
+        HorizontalCardComponent,
+        HorizontalCardComponent,
+
+    ],
+    'pir-writing': [
+        BgArrowUpComponent,
+        StepCardComponent,
+        ListVerticalCardsInServiceComponent,
+
+        //  ClientCardComponent
+
+        HorizontalCardComponent,
+        HorizontalCardComponent,
+
+    ],
+    'compliance-management': [
+        BgArrowUpComponent,
+        StepCardComponent,
+
+        ListVerticalCardsInServiceComponent,
+        // ClientCardComponent,
+
+        ThreeRowContentComponent,
+        HorizontalCardComponent,
+        HorizontalCardComponent,
+
+    ],
+    'business-setup': [
+        ServiceInitialPageWithImageComponent,
+        ListVerticalCardsInServiceComponent,
+        ThreeRowContentComponent,
+        FreequentlyAskedComponent,
+
+        HorizontalCardComponent, HorizontalCardComponent
+
+
+
+    ],
+    'client-acquisition': [
+        ServiceInitialPageWithImageComponent,
+        ListVerticalCardsInServiceComponent,
+        ThreeRowContentComponent,
+        FreequentlyAskedComponent,
+
+        HorizontalCardComponent, HorizontalCardComponent
+
+
+
+    ],
+    branding: [
+        ServiceInitialPageWithImageComponent,
+        ListVerticalCardsInServiceComponent,
+        ThreeRowContentComponent,
+        FreequentlyAskedComponent,
+
+        HorizontalCardComponent, HorizontalCardComponent
+
+
+
+    ],
 };
