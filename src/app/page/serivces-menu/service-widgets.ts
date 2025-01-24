@@ -34,7 +34,7 @@ export const list_service_comp = {
     'comprehensive-training': [
         BgArrowUpComponent,
         StepCardComponent,
-        // ListVerticalCardsInServiceComponent,
+        ListVerticalCardsInServiceComponent,
 
         ThreeRowContentComponent,
         HorizontalCardComponent,
