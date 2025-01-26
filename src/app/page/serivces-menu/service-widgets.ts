@@ -3,6 +3,7 @@ import { ServiceInitialPageWithImageComponent } from '../../service-widgets/serv
 import { ThreeRowContentComponent } from '../../service-widgets/three-row-content/three-row-content.component';
 import { BgArrowUpComponent } from '../../widgets/bg-arrow-up/bg-arrow-up.component';
 import { ClientCardComponent } from '../../widgets/client-card/client-card.component';
+import { DynamicParaWithImageComponent } from '../../widgets/dynamic-para-with-image/dynamic-para-with-image.component';
 import { FreequentlyAskedComponent } from '../../widgets/freequently-asked/freequently-asked.component';
 import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
 import { StepCardComponent } from '../../widgets/step-card/step-card.component';
@@ -10,7 +11,7 @@ import { StepCardComponent } from '../../widgets/step-card/step-card.component';
 export const list_service_comp = {
   'cqc-registration': [
     BgArrowUpComponent,
-    StepCardComponent,
+    DynamicParaWithImageComponent,
     ListVerticalCardsInServiceComponent,
     HorizontalCardComponent,
     HorizontalCardComponent,
@@ -27,7 +28,7 @@ export const list_service_comp = {
   ],
   'comprehensive-training': [
     BgArrowUpComponent,
-    StepCardComponent,
+    DynamicParaWithImageComponent,
     ListVerticalCardsInServiceComponent,
     ThreeRowContentComponent,
     HorizontalCardComponent,
@@ -35,7 +36,7 @@ export const list_service_comp = {
   ],
   'tender-writing': [
     BgArrowUpComponent,
-    StepCardComponent,
+    DynamicParaWithImageComponent,
     ListVerticalCardsInServiceComponent,
     ThreeRowContentComponent,
     ClientCardComponent,
@@ -44,21 +45,21 @@ export const list_service_comp = {
   ],
   'ofsted-related-services': [
     BgArrowUpComponent,
-    StepCardComponent,
+    DynamicParaWithImageComponent,
     ListVerticalCardsInServiceComponent,
     HorizontalCardComponent,
     HorizontalCardComponent,
   ],
   'pir-writing': [
     BgArrowUpComponent,
-    StepCardComponent,
+    DynamicParaWithImageComponent,
     ListVerticalCardsInServiceComponent,
     HorizontalCardComponent,
     HorizontalCardComponent,
   ],
   'compliance-management': [
     BgArrowUpComponent,
-    StepCardComponent,
+    DynamicParaWithImageComponent,
     ThreeRowContentComponent,
     HorizontalCardComponent,
     HorizontalCardComponent,

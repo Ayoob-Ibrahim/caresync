@@ -1297,11 +1297,17 @@
   "cqc-registration": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
-      "stepcard # StepCardComponent",
+      "dynamiccontent # DynamicParaWithImageComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "horizontal-card-3 # HorizontalCardComponent",
       "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "dynamiccontent": {
+      "title": "UNDERSTANDING THE INS AND OUTS OF CQC REGISTRATION",
+      "data": [],
+      "onlycontent": "In England all care providers are required to undergo registration with the Care Quality Commission (CQC) to guarantee that their services meet the quality and safety benchmarks set by the regulatory body."
+    },
+
     "horizontal-card-3": {
       "darkBlue": {
         "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
@@ -1436,7 +1442,7 @@
         {
           "contentWrapper": {
             "size": "46%",
-            "height": "400px",
+            "height": "450px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "4"
@@ -1470,7 +1476,7 @@
         {
           "contentWrapper": {
             "size": "46%",
-            "height": "400px",
+            "height": "450px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "5"
@@ -1514,27 +1520,6 @@
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
       "rightbgcolortitle": "WE Offer;",
       "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
-    },
-    "stepcard": {
-      "mastertitle": "UNDERSTANDING THE INS AND OUTS OF CQC REGISTRATION",
-      "mastercontent": "In England all care providers are required to undergo registration with the Care Quality Commission (CQC) to guarantee that their services meet the quality and safety benchmarks set by the regulatory body.",
-      "data": [
-        {
-          "logo": "../../../assets/our-services/step1.png",
-          "title": "Reaching New Clients",
-          "content": "Engage potential clients and their families using focused marketing approaches."
-        },
-        {
-          "logo": "../../../assets/our-services/step2.png",
-          "title": "Improving Client Loyalty",
-          "content": "Keep existing clients interested and satisfied through regular communication and added value services."
-        },
-        {
-          "logo": "../../../assets/our-services/step3.png",
-          "title": "Establishing Brand Recognition",
-          "content": "Creating a strong and consistent presence both locally and online, making your brand easily identifiable and memorable."
-        }
-      ]
     }
   },
   "marketing-support": {
@@ -1936,12 +1921,26 @@
   "comprehensive-training": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
-      "stepcard # StepCardComponent",
+      "dynamiccontent # DynamicParaWithImageComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "three-row-card-with-large-card # ThreeRowContentComponent",
       "horizontal-card-3 # HorizontalCardComponent",
       "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "dynamiccontent": {
+      "title": "WHAT MAKES OUR TRAINING AND SUPPORT SERVICES STAND OUT?",
+      "data": [
+        {
+          "header": "Tailored Training Programs",
+          "content": "We customise our training programs to fit the requirements of your agency preparing your team for all aspects of healthcare delivery."
+        },
+        {
+          "header": "Continuous Professional Development",
+          "content": "Our support ensures that your staff remains up to date on the best practices and regulatory standards fostering a culture of continuous learning and enhancement."
+        }
+      ]
+    },
+
     "horizontal-card-3": {
       "darkBlue": {
         "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
@@ -2151,35 +2150,29 @@
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
       "rightbgcolortitle": "WE Offer;",
       "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
-    },
-    "stepcard": {
-      "mastertitle": "WHAT MAKES OUR TRAINING AND SUPPORT SERVICES STAND OUT?",
-      "mastercontent": "In the world of care services successful marketing plays a role in:",
-      "data": [
-        {
-          "logo": "../../../assets/our-services/step1.png",
-          "title": "Tailored Training Programs",
-          "content": "We customise our training programs to fit the requirements of your agency preparing your team for all aspects of healthcare delivery."
-        },
-        {
-          "logo": "../../../assets/our-services/step2.png",
-          "title": "Continuous Professional Development",
-          "content": "Our support ensures that your staff remains up to date on the best practices and regulatory standards fostering a culture of continuous learning and enhancement."
-        }
-      ]
     }
   },
 
   "tender-writing": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
-      "stepcard # StepCardComponent",
+      "dynamiccontent # DynamicParaWithImageComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "three-row-card-with-large-card # ThreeRowContentComponent",
       "clientcard # ClientCardComponent",
       "horizontal-card-3 # HorizontalCardComponent",
       "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "dynamiccontent": {
+      "title": "UNDERSTANDING BID WRITING",
+      "data": [
+        {
+          "header": "What is Bid Writing?",
+          "content": "Bid writing involves creating convincing proposals to secure contracts from organisations like local authorities and healthcare institutions. A crafted bid highlights your strengths capabilities and dedication to delivering top notch services."
+        }
+      ]
+    },
+
     "horizontal-card-3": {
       "darkBlue": {
         "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
@@ -2443,11 +2436,24 @@
   "ofsted-related-services": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
-      "stepcard # StepCardComponent",
+      "dynamiccontent # DynamicParaWithImageComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "horizontal-card-3 # HorizontalCardComponent",
       "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "dynamiccontent": {
+      "title": "REASONS TO COLLABORATE WITH CARE SYNC EXPERTS",
+      "data": [
+        {
+          "header": "Tailored Assistance and Extensive Knowledge",
+          "content": "Our skilled consultants offer personalised support to help you grasp and fulfil all Ofsted requirements to supported accommodation."
+        },
+        {
+          "header": "Ensuring Adherence to Regulations and Quality Standards",
+          "content": "We guarantee that your service aligns with the up to date regulations upholding top notch care standards and safeguarding practices."
+        }
+      ]
+    },
     "horizontal-card-3": {
       "darkBlue": {
         "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
@@ -2719,37 +2725,25 @@
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
       "rightbgcolortitle": "WE Offer;",
       "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
-    },
-    "stepcard": {
-      "mastertitle": "The Importance of Marketing For Care Agency",
-      "mastercontent": "In the world of care services successful marketing plays a role in:",
-      "data": [
-        {
-          "logo": "../../../assets/our-services/step1.png",
-          "title": "Reaching New Clients",
-          "content": "Engage potential clients and their families using focused marketing approaches."
-        },
-        {
-          "logo": "../../../assets/our-services/step2.png",
-          "title": "Improving Client Loyalty",
-          "content": "Keep existing clients interested and satisfied through regular communication and added value services."
-        },
-        {
-          "logo": "../../../assets/our-services/step3.png",
-          "title": "Establishing Brand Recognition",
-          "content": "Creating a strong and consistent presence both locally and online, making your brand easily identifiable and memorable."
-        }
-      ]
     }
   },
   "pir-writing": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
-      "stepcard # StepCardComponent",
+      "dynamiccontent # DynamicParaWithImageComponent",
       "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
       "horizontal-card-3 # HorizontalCardComponent",
       "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "dynamiccontent": {
+      "title": "UNDERSTANDING THE PURPOSE OF PIR WRITING",
+      "data": [
+        {
+          "header": "What does PIR Writing entail?",
+          "content": "The Provider Information Return (PIR) is a report submitted to the CQC that outlines how well your service delivers care and its quality standards. This document is essential for the CQC to monitor your service effectively and prepare for inspections."
+        }
+      ]
+    },
     "horizontal-card-3": {
       "darkBlue": {
         "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
@@ -2991,11 +2985,20 @@
   "compliance-management": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
-      "stepcard # StepCardComponent",
+      "dynamiccontent # DynamicParaWithImageComponent",
       "three-row-card-with-large-card # ThreeRowContentComponent",
       "horizontal-card-3 # HorizontalCardComponent",
       "horizontal-card-4 # HorizontalCardComponent"
     ],
+    "dynamiccontent": {
+      "title": "REASONS TO OPT FOR CARE SYNC EXPERTS",
+      "data": [
+        {
+          "header": "Guidance from Seasoned Professionals for Effortless Compliance",
+          "content": "Our dedicated team provides expert guidance throughout the compliance journey aiding you in understanding and adhering to the complexities of CQC, RQIA, CIW and Ofsted regulations for a successful compliance experience."
+        }
+      ]
+    },
     "horizontal-card-3": {
       "darkBlue": {
         "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
@@ -3095,27 +3098,6 @@
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
       "rightbgcolortitle": "WE Offer;",
       "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
-    },
-    "stepcard": {
-      "mastertitle": "The Importance of Marketing For Care Agency",
-      "mastercontent": "In the world of care services successful marketing plays a role in:",
-      "data": [
-        {
-          "logo": "../../../assets/our-services/step1.png",
-          "title": "Reaching New Clients",
-          "content": "Engage potential clients and their families using focused marketing approaches."
-        },
-        {
-          "logo": "../../../assets/our-services/step2.png",
-          "title": "Improving Client Loyalty",
-          "content": "Keep existing clients interested and satisfied through regular communication and added value services."
-        },
-        {
-          "logo": "../../../assets/our-services/step3.png",
-          "title": "Establishing Brand Recognition",
-          "content": "Creating a strong and consistent presence both locally and online, making your brand easily identifiable and memorable."
-        }
-      ]
     }
   }
 }
