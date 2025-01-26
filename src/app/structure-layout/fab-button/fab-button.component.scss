@@ -41,4 +41,11 @@
     display: inline-block;
     color: white;
     padding-top: 3px;
-  }
+}
+
+
+@media (max-width: 768px) {
+    #fab-dismiss{
+        display: none;
+    }
+}

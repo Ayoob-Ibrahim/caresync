@@ -901,7 +901,7 @@
         },
         "figure": {
           "image": {
-            "src": "https://caresyncexperts.co.uk/images/services/care-sync-client-acquisition-header.jpg",
+            "src": "https://caresyncexperts.co.uk/images/services/care-sync-branding-header.jpg",
             "alt": "Description of the image"
           },
           "figcaption": "At Care Sync Experts we offer services to set up your healthcare agency for success from the beginning"
@@ -1509,7 +1509,6 @@
         }
       ]
     },
-
     "arrowupbg": {
       "masterbg": "../../../assets/our-services/arrowup.png",
       "mastertitle": "CQC Registration",
@@ -2112,7 +2111,6 @@
             }
           }
         },
-
         {
           "imageWrapper": "https://caresyncexperts.com/wp-content/uploads/2024/12/people-office-pandemic-having-meeting-with-masks-1.png"
         }
@@ -2152,7 +2150,6 @@
       "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
     }
   },
-
   "tender-writing": {
     "compStructure": [
       "arrowupbg # BgArrowUpComponent",
@@ -3087,7 +3084,6 @@
         ]
       }
     },
-
     "arrowupbg": {
       "masterbg": "../../../assets/our-services/arrowup.png",
       "mastertitle": "COMPREHENSIVE COMPLIANCE MANAGEMENT",
