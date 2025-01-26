@@ -2486,7 +2486,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "530px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "1"
@@ -2514,7 +2514,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "530px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "2"
@@ -2548,7 +2548,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "500px",
+            "height": "530px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "3"
@@ -2579,7 +2579,7 @@
         {
           "contentWrapper": {
             "size": "24%",
-            "height": "400px",
+            "height": "450px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "4"
@@ -2607,7 +2607,7 @@
         {
           "contentWrapper": {
             "size": "24%",
-            "height": "400px",
+            "height": "450px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "5"
@@ -2635,7 +2635,7 @@
         {
           "contentWrapper": {
             "size": "24%",
-            "height": "400px",
+            "height": "450px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "6"
@@ -2663,7 +2663,7 @@
         {
           "contentWrapper": {
             "size": "24%",
-            "height": "400px",
+            "height": "450px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "7"
