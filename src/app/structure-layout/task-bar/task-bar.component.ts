@@ -47,6 +47,13 @@ export class TaskBarComponent {
       this.sidenav.nativeElement.style.width =
         currentWidth === '100%' ? '0' : '100%';
       this.isOpened = currentWidth != '100%';
+      if (!this.isOpened) {
+        this.menu().map((value, index) => {
+          if (value.hasOwnProperty('collapse') ? value.collapse : false) {
+            this.menu()[index].collapse = false
+          }
+        })
+      }
     }
   }
 

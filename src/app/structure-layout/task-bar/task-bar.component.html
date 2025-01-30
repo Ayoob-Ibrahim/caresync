@@ -1,36 +1,37 @@
 <ng-container *ngIf="isMobile">
   <div class="grid grid-cols-3 w-screen h-[50px] task-container">
     <ng-container *ngFor="let item of menuItems">
-      <ng-container>
-        <div [ngClass]="item.bgClass" class="flex flex-col items-center justify-center">
-          <ng-container *ngIf="item.text !='Menu' else menu_bar">
-            <app-svg [svgType]="item.svgType"></app-svg>
-            <span [ngClass]="item.textClass" class="text-xs mt-1" style="color: white;">{{
-              item.text
-              }}</span>
-          </ng-container>
-        </div>
-      </ng-container>
+      <div [ngClass]="item.bgClass" class="flex flex-col items-center justify-center">
+        <ng-container *ngIf="item.text !='Menu' else menu_bar">
+          <app-svg [svgType]="item.svgType"></app-svg>
+          <span [ngClass]="item.textClass" class="text-xs mt-1" style="color: white;">{{
+            item.text
+            }}</span>
+        </ng-container>
+      </div>
     </ng-container>
   </div>
 </ng-container>
 
 <div #mySidenav class="sidenav-bar-slide">
-  <ng-container *ngFor="let data of menu(); let i = index">
-    <div class="flex justify-between p-[5px] border-b border-[#12969421] items-center "
-      (click)="data.children ? collapse(i) :  this.toggleNav()" [routerLink]="data.url" routerLinkActive="active">
-      <a>{{ data.title }}</a>
-      <ng-container *ngIf="data.children">
-        <i class="bi bi-caret-down-fill arrow-icon text-[12px] font-bold me-[2rem] text-[17px]"></i>
-      </ng-container>
-    </div>
+  <ng-container *ngIf="isOpened">
+    <ng-container *ngFor="let data of menu(); let i = index">
+      <div class="flex justify-between p-[5px] border-b border-[#12969421] items-center "
+        (click)="data.children ? collapse(i) :  this.toggleNav()" [routerLink]="data.url" routerLinkActive="active">
+        <a>{{ data.title }}</a>
+        <ng-container *ngIf="data.children">
+          <i class="bi bi-caret-down-fill arrow-icon text-[12px] font-bold me-[2rem] text-[17px]"></i>
+        </ng-container>
+      </div>
 
-    <div class="dropdown-container" *ngIf="data.children && data.collapse" @dropdownAnimation>
-      <ng-container *ngFor="let child of data.children">
-        <a (click)=" menuChanger(child,data)">{{ child.title }}</a>
-      </ng-container>
-    </div>
+      <div class="dropdown-container" *ngIf="data.children && data.collapse" @dropdownAnimation>
+        <ng-container *ngFor="let child of data.children">
+          <a (click)=" menuChanger(child,data)">{{ child.title }}</a>
+        </ng-container>
+      </div>
+    </ng-container>
   </ng-container>
+
 </div>
 <!-- (click)="toggleNav()" -->
 <ng-template #menu_bar>
