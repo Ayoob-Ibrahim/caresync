@@ -17,7 +17,7 @@
   <ng-container *ngIf="isOpened">
     <ng-container *ngFor="let data of menu(); let i = index">
       <div class="flex justify-between p-[5px] border-b border-[#12969421] items-center "
-        (click)="data.children ? collapse(i) :  this.toggleNav()" [routerLink]="data.url" routerLinkActive="active">
+        (click)="data.children ? collapse(i) :  this.toggleNav(true)" [routerLink]="data.url" routerLinkActive="active">
         <a>{{ data.title }}</a>
         <ng-container *ngIf="data.children">
           <i class="bi bi-caret-down-fill arrow-icon text-[12px] font-bold me-[2rem] text-[17px]"></i>
@@ -26,7 +26,7 @@
 
       <div class="dropdown-container" *ngIf="data.children && data.collapse" @dropdownAnimation>
         <ng-container *ngFor="let child of data.children">
-          <a (click)=" menuChanger(child,data)">{{ child.title }}</a>
+          <a [ngClass]="{'active': this.child==child.url}" (click)=" menuChanger(child,data)">{{ child.title }}</a>
         </ng-container>
       </div>
     </ng-container>
