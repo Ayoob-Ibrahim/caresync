@@ -1,8 +1,9 @@
 import { CommonModule } from '@angular/common';
-import { AfterViewInit, Component } from '@angular/core';
+import { AfterViewInit, Component, inject } from '@angular/core';
 import { InfiniteCarouselComponent } from '../../component/infinite-carousel/infinite-carousel.component';
 import { ThreeRowContentComponent } from '../../service-widgets/three-row-content/three-row-content.component';
 import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 
 @Component({
   selector: 'app-aboutus',
@@ -184,5 +185,16 @@ export class AboutusComponent implements AfterViewInit {
         }
       }
     }
+  }
+  private http: HttpClient = inject(HttpClient)
+  test() {
+    const headers = new HttpHeaders({
+      'Authorization': `Bearer wwCM7WSflOZSxGLW6tnmteQWbGvmmqH3`,
+      'Content-Type': 'application/json'
+    });
+
+    this.http.get<any>('https://api.humanisewriter.com/v1/refine', { headers }).subscribe(res => {
+      console.warn(res, 'respio')
+    });
   }
 }

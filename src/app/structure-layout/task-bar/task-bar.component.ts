@@ -24,6 +24,7 @@ export class TaskBarComponent {
   menuItems: MenuItem[] = taskbar;
   isMobile: boolean = false;
   menu = signal(mainMenu);
+  isOpened: boolean;
   private router: Router = inject(Router);
   constructor() {
     this.checkIfMobile(window.innerWidth);
@@ -45,6 +46,7 @@ export class TaskBarComponent {
       const currentWidth = this.sidenav.nativeElement.style.width;
       this.sidenav.nativeElement.style.width =
         currentWidth === '100%' ? '0' : '100%';
+      this.isOpened = currentWidth != '100%';
     }
   }
 
@@ -62,4 +64,6 @@ export class TaskBarComponent {
       this.toggleNav();
     }, 400);
   }
+
+
 }
