@@ -42,15 +42,30 @@
     color: white;
     padding-top: 3px;
 }
-
+.dot-span{
+    display: none;
+}
 
 @media (max-width: 768px) {
-    #fab-dismiss{
+    #fab-dismiss {
         display: none;
     }
 
-    .fab-container{
+    .fab-container {
         display: none !important;
     }
-}
 
+    .dot-span {
+        height: 40px;
+        width: 40px;
+        background-color: #e8b83a;
+        border-radius: 50%;
+        display: inline-block;
+        margin-bottom: 38px;
+        .bi{
+            font-size: 1.5rem;
+            color: white;
+            padding-left: 8px;
+        }
+    }
+}
