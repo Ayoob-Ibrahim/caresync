@@ -1,26 +1,26 @@
 <div class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
-    <div >
+  <div>
     <h2 class="text-[2rem]  text-primary font-semikanit">
-       {{dataProperty.masterheader}}
+      {{dataProperty.masterheader}}
 
     </h2>
-    
+
     <p class="p-[.3rem 0] m-[0px] text-[1rem]  text-toolbarprimary font-regular">
-  {{dataProperty.mastercontent}}  
-  </p>
-    
-    </div>
- 
+      {{dataProperty.mastercontent}}
+    </p>
 
-    <div class="mt-[3rem]">
-        <h2 class="text-[2rem]  font-semikanit">
-            {{dataProperty.header}}  
+  </div>
 
-         </h2>
-         
 
-          <app-arrowcard-grid [isArrowBg]="true" [dataProperty]="dataProperty.data">
+  <div class="mt-[3rem]">
+    <h2 class="text-[2rem]  font-semikanit semi-header">
+      {{dataProperty.header}}
 
-          </app-arrowcard-grid>
-    </div>
-    </div>
+    </h2>
+
+
+    <app-arrowcard-grid [isArrowBg]="true" [dataProperty]="dataProperty.data">
+
+    </app-arrowcard-grid>
+  </div>
+</div>
