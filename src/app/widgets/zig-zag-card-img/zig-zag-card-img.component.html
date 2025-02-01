@@ -6,8 +6,12 @@
         <h4 *ngIf="dataProperty?.section?.description">
             {{ dataProperty.section.description }}
         </h4>
-        <p *ngIf="dataProperty?.section?.subSectionHeading">
+        <p *ngIf="dataProperty?.section?.subSectionHeading"
+            [ngStyle]="dataProperty?.section?.anothersub && {'color': 'black'}">
             {{ dataProperty.section.subSectionHeading }}
+        </p>
+        <p *ngIf="dataProperty?.section?.anothersub" [ngStyle]="dataProperty?.section?.anothersub && {'color': 'black'}">
+            {{ dataProperty.section.anothersub }}
         </p>
     </article>
     <ng-container *ngTemplateOutlet="zig_zag_card"></ng-container>
