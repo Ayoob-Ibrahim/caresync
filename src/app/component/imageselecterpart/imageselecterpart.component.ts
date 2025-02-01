@@ -19,7 +19,7 @@ export class ImageselecterpartComponent {
   ]
 
 getstartedData=[
-  {title:"Kickstart Your Ideal Care Business with Confidence ",content:"Make use of our expert guidance, personalised assistance and thorough training to bring your vision of a care business to fruition.",button:"Get Started"},
+  {title:"Kickstart Your Ideal Care Business with Confidence ",content:"Make use of our expert guidance, personalised assistance and thorough training to bring your vision of a care business to fruition.",button:"Learn More"},
   {title:"Integrated Support for Startups in Health and Social Care",content:"Collaborate with us for encompassing solutions that ensure the success of your care agency from the beginning.",button:"Discover"},
   {title:"Arm Your Business with Essential Tools and Expert Knowledge ",content:"Gain access to a set of resources tailored to establish long term success for your care business.",button:"Dive Into Solutions"}
 ]
