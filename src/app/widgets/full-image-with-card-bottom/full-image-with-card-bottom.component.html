@@ -1,7 +1,7 @@
 <ng-container *ngIf="!dataProperty?.headerontop; else headerontop_templ">
     <div [style.height]="dataProperty?.card ? '100vh' : 'max-content'">
         <div class="main-container" [style.background-image]="'url(' + dataProperty?.img + ')'">
-            <figure>
+            <figure *ngIf="!dataProperty?.isFullContent else full_container_content">
                 <figcaption>
                     <h2>{{dataProperty?.title}}</h2>
                     <h6>{{dataProperty?.sub}}</h6>
@@ -47,4 +47,14 @@
             </div>
         </section>
     </div>
+</ng-template>
+
+<ng-template #full_container_content>
+    <article class="full-container">
+        <h2>{{dataProperty?.title}}</h2>
+        <h6 [innerHTML]="dataProperty?.sub"> </h6>
+        <p>
+            {{dataProperty?.content}}
+        </p>
+    </article>
 </ng-template>

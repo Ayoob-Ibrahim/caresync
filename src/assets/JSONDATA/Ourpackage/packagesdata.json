@@ -5460,8 +5460,9 @@
       "horizontal-card-3 # HorizontalCardComponent // 22"
     ],
     "FullImageWithCardBottomComponent": {
+      "isFullContent": true,
       "title": "RQIA DOMICILIARY CARE AGENCY",
-      "sub": "Build Your Leading Domiciliary Care Agency in Northern Ireland Today",
+      "sub": "Build Your Leading Domiciliary Care Agency in <span>Northern Ireland</span> Today",
       "content": "Setting up an RQIA compliant Domiciliary Care Agency requires precision and expertise. At Care Sync Experts, we provide the essential guidance and resources to help you navigate RQIA regulations with ease. Our package equips you with the knowledge and tools to build a high-quality, compliant care agency that stands out in the healthcare sector. Start your journey to excellence and ensure your agency meets the highest standards from day one.",
       "img": "../../../assets/our-packages/rqiaDomiciliaryCare/headerFullimage.webp"
     },

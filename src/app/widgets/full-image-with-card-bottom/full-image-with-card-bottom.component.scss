@@ -4,6 +4,45 @@
     // background-attachment: fixed;
     background-size: cover;
     height: 78vh;
+    position: relative;
+
+    article {
+        background-color: rgba(0, 0, 0, 0.577);
+        width: 52%;
+        border: 1px solid white;
+        border-radius: .7rem;
+        padding: 10px;
+        // margin: auto;
+        position: absolute;
+        top: 28%;
+        left: 10%;
+
+        h2 {
+            font-family: bold;
+            font-size: 2.4rem;
+            color: white;
+
+        }
+
+        h6 {
+            font-family: semikanit;
+            font-size: 1.2rem;
+            color: white;
+
+
+            span {
+                color: red !important;
+            }
+
+        }
+
+        p {
+            color: white;
+            font-family: regular;
+            margin-right: 10%;
+
+        }
+    }
 
 
     figure {
@@ -188,14 +227,63 @@
 }
 
 
+
+
+
+@media (max-width: 1024px) {
+
+    .main-container article.full-container {
+        width: 93%;
+        top: 25%;
+        left: 4%;
+
+        h2 {
+            font-size: 1.6rem;
+        }
+
+        h6 {
+            font-size: 1.2rem;
+        }
+
+        p {
+            margin-right: 2%;
+        }
+    }
+
+
+}
+
+
 @media (max-width: 768px) {
     .headerontop_templ {
 
         margin-top: 2.5rem;
+
         article {
             h2 {
                 font-size: 2rem;
             }
         }
+    }
+
+    .main-container {
+        article.full-container {
+            width: 93%;
+            top: 5%;
+            left: 4%;
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            h6 {
+                font-size: 1.2rem;
+            }
+
+            p {
+                margin-right: 2%;
+            }
+        }
+
     }
 }
