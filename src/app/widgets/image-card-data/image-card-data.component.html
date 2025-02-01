@@ -36,9 +36,12 @@
                 </div>
                 <div class="portfolio-box" *ngFor="let item of dataProperty?.three_card?.cardData?.container?.items">
                     <img [src]="item.image.src" [alt]="item.image.alt">
-                    <div class="portfolio-layer">
-                        <h4>{{ item.layer.title }}</h4>
-                        <p>{{ item.layer.description }}</p>
+                    <div class="portfolio-layer three-card-arrow">
+                        <div>
+                            <h4>{{ item.layer.title }}</h4>
+                            <p>{{ item.layer.description }}</p>
+                        </div>
+                        <app-svg [svgType]="'rounded_arrow_card'"></app-svg>
                     </div>
                 </div>
             </div>
