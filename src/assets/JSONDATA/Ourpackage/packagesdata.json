@@ -3294,6 +3294,9 @@
       "title": "SUPPORTED LIVING",
       "sub": "Your Blueprint for Establishing and Running a Thriving Supported Living Service",
       "content": "Unlock Success in Supported Living",
+      "bgclr": "#129693",
+      "txtclr": "#adffeb",
+      "txtclr1": "white",
       "img": "../../../assets/our-packages/SupportedLiving/headerFullimage.webp",
       "card": {
         "title": "Empower Lives with Our Expertly Crafted Supported Living Solutions",
@@ -5602,11 +5605,11 @@
     "throutsupprtCQC": {
       "mastertitle": "2. Thorough Support for CQC Registration",
       "mastercontent": "Assistance with CQC Registration Interview and Preparing for the Process",
-      "imagetitle": "Guidance on CQC Registration",
+      "imagetitle": "Guidance on RQIA Registration",
       "imagecontent1": "Getting through the registration process of the",
-      "imagecontent2": "can be quite tricky and time-consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager, ensuring that everything is done accurately and in line with CQC regulations.",
-      "linktext": "Care Quality Commission (CQC)",
-      "imagecontentlinkurl": "https://www.cqc.org.uk/",
+      "imagecontent2": "can be quite tricky and time consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager ensuring that everything is done accurately and in line with RQIA regulations.",
+      "linktext": " Regulation & Quality Improvement Authority (RQIA)",
+      "imagecontentlinkurl": "https://www.rqia.org.uk/",
       "subcard": [
         {
           "title": "Application Form Assistance",

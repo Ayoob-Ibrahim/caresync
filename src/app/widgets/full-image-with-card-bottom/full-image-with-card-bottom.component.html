@@ -13,11 +13,12 @@
 
             <ng-container *ngIf="dataProperty?.card">
                 <div class="flex justify-center">
-                    <div class="bottom-card">
-                        <h3>
+                    <div class="bottom-card"
+                        [ngStyle]="dataProperty?.bgclr && {'background-color': dataProperty?.bgclr}">
+                        <h3 [ngStyle]="dataProperty?.txtclr && {'color': dataProperty?.txtclr}">
                             {{dataProperty?.card?.title}}
                         </h3>
-                        <p>
+                        <p [ngStyle]="dataProperty?.txtclr1 && {'color': dataProperty?.txtclr1}">
                             {{dataProperty?.card?.content1}}
                         </p>
                         <p>
