@@ -5436,8 +5436,8 @@
   "rqiaDomiciliaryCare": {
     "compStructure": [
       "FullImageWithCardBottomComponent # FullImageWithCardBottomComponent // 0",
-      "HorizontalCardComponent # HorizontalCardComponent // 1",
-      "ImageCardDataComponent # ImageCardDataComponent // 2",
+      "horizontal-card-4 # HorizontalCardComponent // 1",
+      "ImageCardDataComponent_four # ImageCardDataComponent // 2",
       "CyanWhiteCardComponent # CyanWhiteCardComponent // 3",
       "ourPackagesaccordiangroup # OurpackagesAccorianGroupComponent // 4",
       "throutsupprtCQC # ThoroughSupportforCqcRegistrationComponent // 5",
@@ -5528,7 +5528,7 @@
         "subContainer": {
           "leftSide": {
             "heading": "Our Comprehensive Package",
-            "priceRange": "Prices Range from £500 to £6,000",
+            "priceRange": "Prices Range from £500 to £7,000",
             "taxInfo": "EXCL VAT"
           },
           "rightSide": {
