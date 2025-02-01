@@ -1,4 +1,4 @@
-import { Component, signal } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, signal, SimpleChanges } from '@angular/core';
 import { AccordianComponent } from '../accordian/accordian.component';
 import { CommonModule } from '@angular/common';
 import { TiltComponent } from '../tilt/tilt.component';
@@ -9,7 +9,12 @@ import { TiltComponent } from '../tilt/tilt.component';
   templateUrl: './growing-market.component.html',
   styleUrl: './growing-market.component.scss',
 })
-export class GrowingMarketComponent {
+export class GrowingMarketComponent implements OnChanges {
+  @Input() selectedIndex_default: string;
+  ngOnChanges(changes: SimpleChanges): void {
+    if (this.selectedIndex_default) this.selectedIndex.set(Number(this.selectedIndex_default))
+  }
+
   selectedIndex = signal(null);
   data = [
     {
