@@ -71,7 +71,7 @@
         flex-direction: column;
         justify-content: end;
         margin-left: 1rem;
-        cursor: zoom-in;
+        cursor: pointer;
         margin-bottom: 1rem;
     }
 
@@ -119,13 +119,13 @@
         height: 100%;
         color: white;
         transition: .5s ease;
-        opacity: 0;
+        opacity: 1;
         /* Make sure text is visible */
         display: flex;
         flex-direction: column;
         justify-content: end;
         margin-left: 1rem;
-        cursor: zoom-in;
+        cursor: pointer;
         margin-bottom: 1rem;
         z-index: 2;
         /* Ensure text appears above overlay */
