@@ -1291,7 +1291,7 @@
             "button": {
               "text": "Download PDF Here",
               "action": "openPdf",
-              "pdfUrl": "https://caresyncexperts.co.uk/domiciliary-care-package-brochure-download"
+              "pdfUrl": "https://caresyncexperts.co.uk/temporary-staffing-package-brochure-download"
             }
           }
         }
@@ -2257,7 +2257,7 @@
         "subContainer": {
           "leftSide": {
             "heading": "Our Comprehensive Package",
-            "priceRange": "Prices Range from £500 to £6,000",
+            "priceRange": "Prices Range from £500 to £8,000",
             "taxInfo": "EXCL VAT"
           },
           "rightSide": {
@@ -2266,7 +2266,7 @@
             "button": {
               "text": "Download PDF Here",
               "action": "openPdf",
-              "pdfUrl": "https://caresyncexperts.co.uk/domiciliary-care-package-brochure-download"
+              "pdfUrl": "https://caresyncexperts.co.uk/combined-care-package-brochure-download"
             }
           }
         }
@@ -3326,7 +3326,7 @@
         "subContainer": {
           "leftSide": {
             "heading": "Our Comprehensive Package",
-            "priceRange": "Prices Range from £500 to £6,000",
+            "priceRange": "Prices Range from £500 to £10,250",
             "taxInfo": "EXCL VAT"
           },
           "rightSide": {
@@ -3335,7 +3335,7 @@
             "button": {
               "text": "Download PDF Here",
               "action": "openPdf",
-              "pdfUrl": "https://caresyncexperts.co.uk/domiciliary-care-package-brochure-download"
+              "pdfUrl": "https://caresyncexperts.co.uk/supported-living-package-brochure-download"
             }
           }
         }
@@ -4440,7 +4440,7 @@
             "button": {
               "text": "Download PDF Here",
               "action": "openPdf",
-              "pdfUrl": "https://caresyncexperts.co.uk/domiciliary-care-package-brochure-download"
+              "pdfUrl": "https://caresyncexperts.co.uk/ciw-domiciliary-care-package-brochure-download"
             }
           }
         }
@@ -5545,7 +5545,7 @@
             "button": {
               "text": "Download PDF Here",
               "action": "openPdf",
-              "pdfUrl": "https://caresyncexperts.co.uk/domiciliary-care-package-brochure-download"
+              "pdfUrl": "https://caresyncexperts.co.uk/rqia-domiciliary-care-package-brochure-download"
             }
           }
         }

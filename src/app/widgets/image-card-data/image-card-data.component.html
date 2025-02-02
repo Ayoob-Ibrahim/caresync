@@ -7,7 +7,8 @@
         </p>
         <section class="portfolio mt-[2rem]" id="portfolio">
             <div class="portfolio-container">
-                <div class="portfolio-box" *ngFor="let item of dataProperty?.fourCard_data?.cardData?.container?.items">
+                <div class="portfolio-box" *ngFor="let item of dataProperty?.fourCard_data?.cardData?.container?.items"
+                    style=" background: linear-gradient(rgba(0, 0, 0, .1), black);">
                     <img [src]="item.image.src" [alt]="item.image.alt">
                     <div class="portfolio-layer">
                         <h4>{{ item.layer.title }}</h4>
