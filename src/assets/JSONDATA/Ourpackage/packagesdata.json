@@ -4502,13 +4502,13 @@
       ]
     },
     "throutsupprtCQC": {
-      "mastertitle": "2. Thorough Support for CQC Registration",
-      "mastercontent": "Assistance with CQC Registration Interview and Preparing for the Process",
-      "imagetitle": "Guidance on CQC Registration",
+      "mastertitle": "2. Thorough Support for CIW Registration.",
+      "mastercontent": "Assistance with CIW Registration Interview and Preparing for the Process",
+      "imagetitle": "Guidance on CIW Registration",
       "imagecontent1": "Getting through the registration process of the",
-      "imagecontent2": "can be quite tricky and time-consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager, ensuring that everything is done accurately and in line with CQC regulations.",
-      "linktext": "Care Quality Commission (CQC)",
-      "imagecontentlinkurl": "https://www.cqc.org.uk/",
+      "imagecontent2": "can be quite tricky and time-consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager, ensuring that everything is done accurately and in line with CIW regulations.",
+      "linktext": "Care Inspectorate Wales (CIW)",
+      "imagecontentlinkurl": "https://www.careinspectorate.wales/",
       "subcard": [
         {
           "title": "Application Form Assistance",
@@ -4537,11 +4537,11 @@
     },
     "Zig-Zag-Card-Content-1": {
       "section": {
-        "heading": "3. CQC Interview Preparation",
+        "heading": "3. CIW Interview Preparation",
         "headerColor": "#129893",
-        "description": "Achieve Success with Comprehensive CQC Interview Training.",
-        "anothersub": "We offer tailored training sessions to help you get ready for the CQC interview, which is a part of your agency's registration process. Our training program focuses on all aspects to build your confidence and readiness:",
-        "subSectionHeading": "At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness.",
+        "description": "Achieve Success with Comprehensive CIW Interview Training",
+        "anothersub": "We offer tailored training sessions to help you get ready for the CIW interview, which is a part of your agency's registration process. Our training program focuses on all aspects to build your confidence and readiness:",
+        "subSectionHeading": "We provide specialised training to ensure you are fully prepared for the CIW interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness:",
         "cards": [
           {
             "title": "Mock Interviews",
@@ -4584,9 +4584,9 @@
             }
           },
           {
-            "title": "Mastering KLOE",
+            "title": "Mastering The Code of Practice",
             "rev": false,
-            "description": "In-depth review of the <a href=\"https://www.cqc.org.uk/guidance-providers/adult-social-care/key-lines-enquiry-adult-social-care-services\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\">CQC’s Key Lines of Enquiry (KLOE)</a> to ensure you can effectively demonstrate compliance.",
+            "description": "In-depth review of the <a href=\"https://www.careinspectorate.wales/code-practice-inspection-regulated-services-html\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\">CIW’s code</a> to ensure you can effectively demonstrate compliance.",
             "colors": {
               "cardBackground": "#004558",
               "headerColor": "#adffeb",
@@ -4606,7 +4606,7 @@
           {
             "title": "Health & Safety Resources",
             "rev": true,
-            "description": "Guidance on ensuring your agency meets all health and safety requirements, crucial for the <a href=\"https://www.cqc.org.uk/guidance-regulation/providers/assessment/assessment-framework\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\"> CQC’s assessment.</a>.",
+            "description": "Guidance on ensuring your agency meets all health and safety requirements, crucial for the <a href=\"https://www.careinspectorate.wales/providing-a-care-service/already-registered-services/self-assessment-service-statement-sass\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\"> SASS assessment.</a>.",
             "image": {
               "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
               "alt": "Health & Safety Resources",
@@ -5607,8 +5607,8 @@
       ]
     },
     "throutsupprtCQC": {
-      "mastertitle": "2. Thorough Support for CQC Registration",
-      "mastercontent": "Assistance with CQC Registration Interview and Preparing for the Process",
+      "mastertitle": "2. Thorough Support for RQIA Registration",
+      "mastercontent": "Assistance with RQIA Registration Interview and Preparing for the Process",
       "imagetitle": "Guidance on RQIA Registration",
       "imagecontent1": "Getting through the registration process of the",
       "imagecontent2": "can be quite tricky and time consuming. Care Sync Experts offer clear guidance to help make the registration process for your home care agency seamless. We are here to help you fill out all the required forms correctly for both the provider and the registered manager ensuring that everything is done accurately and in line with RQIA regulations.",
@@ -5642,11 +5642,11 @@
     },
     "Zig-Zag-Card-Content-1": {
       "section": {
-        "heading": "3. CQC Interview Preparation",
+        "heading": "3. RQIA Interview Preparation",
         "headerColor": "#129893",
-        "description": "Achieve Success with Comprehensive CQC Interview Training.",
-        "anothersub": "We offer tailored training sessions to help you get ready for the CQC interview, which is a part of your agency's registration process. Our training program focuses on all aspects to build your confidence and readiness:",
-        "subSectionHeading": "At Care Sync Experts, we provide specialised training to ensure you are fully prepared for the CQC interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness.",
+        "description": "Achieve Success with Comprehensive RQIA Interview Training",
+        "anothersub": "We offer tailored training sessions to help you get ready for the RQIA interview, which is a part of your agency's registration process. Our training program focuses on all aspects to build your confidence and readiness:",
+        "subSectionHeading": "We provide specialised training to ensure you are fully prepared for the RQIA interview, a critical step in your agency’s registration process. Our approach covers all key areas to build your confidence and readiness:",
         "cards": [
           {
             "title": "Mock Interviews",
@@ -5666,7 +5666,7 @@
           {
             "title": "Role Specific Coaching",
             "rev": false,
-            "description": "Tailored guidance for Registered Managers, Providers, and Nominated Individuals to understand their specific responsibilities during the interview.",
+            "description": "Tailored guidance for Registered Managers, Providers, and Responsible Person to understand their specific responsibilities during the interview.",
             "colors": {
               "cardBackground": "#edfaf7",
               "headerColor": "#129893",
@@ -5689,9 +5689,9 @@
             }
           },
           {
-            "title": "Mastering KLOE",
+            "title": "Mastering The Minimum Standards",
             "rev": false,
-            "description": "In-depth review of the <a href=\"https://www.cqc.org.uk/guidance-providers/adult-social-care/key-lines-enquiry-adult-social-care-services\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\">CQC’s Key Lines of Enquiry (KLOE)</a> to ensure you can effectively demonstrate compliance.",
+            "description": "In-depth review of the <a href=\"https://www.rqia.org.uk/guidance/standards\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\"> RQIA’s minimum standards</a> to ensure you can effectively demonstrate compliance.",
             "colors": {
               "cardBackground": "#004558",
               "headerColor": "#adffeb",
@@ -5711,7 +5711,7 @@
           {
             "title": "Health & Safety Resources",
             "rev": true,
-            "description": "Guidance on ensuring your agency meets all health and safety requirements, crucial for the <a href=\"https://www.cqc.org.uk/guidance-regulation/providers/assessment/assessment-framework\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\"> CQC’s assessment.</a>.",
+            "description": "Guidance on ensuring your agency meets all health and safety requirements, crucial for the <a href=\"https://www.rqia.org.uk/what-we-do/register/how-to-register-with-rqia/registration-as-a-manager-of-an-establishment-or-a/self-assessment-tool-for-managers\" class=\"custom-link\" target=\"_blank\" rel=\"noopener noreferrer\">RQIA’s assessment.</a>.",
             "image": {
               "src": "https://caresyncexperts.co.uk/images/packages/domiciliary-care-health-safety-resources.jpg",
               "alt": "Health & Safety Resources",
