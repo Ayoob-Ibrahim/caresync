@@ -118,7 +118,7 @@ export class AboutusComponent implements AfterViewInit {
       "subSections": [
         {
           "size": "32%",
-          "height": "380px",
+          "height": "230px",
           "sectionHeaderWrap": {
             "heading": "Customised Solution"
           },
@@ -133,7 +133,7 @@ export class AboutusComponent implements AfterViewInit {
         },
         {
           "size": "32%",
-          "height": "380px",
+          "height": "230px",
           "sectionHeaderWrap": {
             "heading": "Demonstrated Success"
           },
@@ -148,7 +148,7 @@ export class AboutusComponent implements AfterViewInit {
         },
         {
           "size": "32%",
-          "height": "380px",
+          "height": "230px",
           "sectionHeaderWrap": {
             "heading": "Extensive Assistance"
           },
