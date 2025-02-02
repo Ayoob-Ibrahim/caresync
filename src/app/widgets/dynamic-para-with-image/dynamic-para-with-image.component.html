@@ -1,26 +1,21 @@
 <div class="p-7 w-full flex flex-wrap">
-  <div
-    class="{{
-      dataProperty?.onlycontent
-        ? 'basis-[100%]'
-        : 'lg:basis-[50%] md:basis-[50%] sm:basis-[100%]'
-    }}"
-  >
+  <div>
     <h3 class="text-[30px] font-semikanit text-[#129693]">
       {{ dataProperty.title }}
     </h3>
-    <p class="font-regular text-[17px]" *ngIf="dataProperty.onlycontent">
-      {{ dataProperty?.onlycontent }}
+    <p class="font-regular text-[17px]">
+      {{ dataProperty?.subtitle }}
     </p>
+  </div>
+  <div class="lg:basis-[50%] md:basis-[50%] sm:basis-[100%]">
     <img
-      class=" {{ dataProperty?.onlycontent ? ' w-full pt-10 pb-10' : 'pt-5' }}"
-      src="../../../assets/our-services/personwithgirl_small.png"
+      class="pt-5"
+      src="../../../assets/our-services/personwithgirl.png"
       alt=""
     />
   </div>
 
   <div
-    *ngIf="!dataProperty?.onlycontent"
     class="flex flex-col lg:basis-[50%] md:basis-[50%] sm:basis-[100%] p-2 lg:pl-8"
   >
     <div

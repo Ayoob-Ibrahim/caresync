@@ -1,0 +1,55 @@
+<div class="p-4 sm:px-[4.5rem] flex flex-wrap gap-10 w-full">
+  <div
+    class="lg:basis-[48%] md:basis-[100%] sm:basis-[100%]"
+    *ngFor="let a of data"
+  >
+    <ng-container *ngIf="a.for == 'boxbg'">
+      <ng-container
+        *ngTemplateOutlet="boxwithbg; context: { $implicit: a }"
+      ></ng-container>
+    </ng-container>
+
+    <ng-container *ngIf="a.for == 'boxcontent'">
+      <ng-container
+        *ngTemplateOutlet="boxwithcontent; context: { $implicit: a }"
+      ></ng-container>
+    </ng-container>
+  </div>
+</div>
+
+<ng-template #boxwithbg let-data>
+  <div class="bg-[#004558] p-5 py-14 rounded-lg">
+    <h3 class="font-semikanit text-[35px] text-whitenormal">
+      {{ data.title }}
+    </h3>
+    <p class="font-regular text-[15px] text-whitenormal">
+      {{ data.content }}
+    </p>
+  </div>
+</ng-template>
+
+<ng-template #boxwithcontent let-data>
+  <div class="rounded-lg">
+    <div class="py-1" *ngFor="let item of data.data; let i = index">
+      <div *ngIf="i == 0">
+        <h3 class="font-semikanit text-[15px]">{{ item.title }}</h3>
+        <p class="font-regular text-[15px] text-[#667085]">
+          {{ item.content }}
+        </p>
+      </div>
+      <div *ngIf="i != 0">
+        <p class="font-regular text-[15px] text-[#667085]">
+          <span class="font-semikanit text-[#000] text-[15px]">{{
+            item.title
+          }}</span
+          >{{ item.content }}
+        </p>
+      </div>
+    </div>
+    <div
+      class="bg-whitenormal cursor-pointer mt-2 border border-[#129693] h-[37px] w-[100px] rounded-[45px] flex justify-center items-center contact-btn"
+    >
+      <div class="text-[#129693] font-semikanit text-[14px]">Learn more</div>
+    </div>
+  </div>
+</ng-template>

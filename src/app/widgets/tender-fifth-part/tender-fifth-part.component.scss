@@ -1,0 +1,59 @@
+section.service-panel {
+    // padding: 4rem 0px 10px;
+   //  margin-top: 100%;
+ }
+
+ .owl-theme .owl-nav {
+
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .owl-carousel {
+    margin: 3rem auto 0rem;
+    // width: 85%;
+  }
+  
+  .owl-theme .owl-nav [class*='owl-'] {
+    background: #ddd;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .item {
+    height: 50px;
+    width: 100px;
+  
+    img {
+      height: 100%;
+      width: 100%;
+      cursor: grab;
+    }
+  }
+  
+  @media screen and (max-width: 560px) {
+    .owl-theme .owl-nav {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .owl-carousel {
+      margin: 5px auto 0rem;
+   
+    }
+  
+    .item {
+      height: 80px;
+      width: 120px;
+      margin: auto;
+  
+      img {
+        height: 100%;
+        width: 100%;
+        cursor: grab;
+      }
+    }
+  }

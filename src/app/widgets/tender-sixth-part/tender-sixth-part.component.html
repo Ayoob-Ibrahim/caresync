@@ -1,0 +1,79 @@
+<div class="p-1 py-8 sm:py-[4.5rem] w-[100%] bg-[#FAFDF9]">
+  <p class="text-[30px] font-semikanit text-[#323433] text-center">
+    Our<span class="text-[30px] font-semikanit text-[#129693]">
+      Tender Writing Process:</span
+    >Your Path to Success
+  </p>
+  <p class="py-3 text-[15px] font-regular text-[#667085] text-center">
+    We provide a service to simplify your bidding process and enhance your
+    opportunities for success. Our proven process includes:
+  </p>
+
+  <div class="w-[100%]">
+    <div class="flex gap-4 sm:px-[4.5rem] flex-wrap pb-3 pt-4 bg-[#FAFDF9]">
+      <div
+        class="lg:basis-[47%] sm:basis-[100%] md:basis-[100%] flex flex-col items-start justify-center"
+      >
+        <div *ngFor="let a of data.data" class="w-full">
+          <div class="flex py-3 items-start w-full" *ngIf="a.for == 'normal'">
+            <div
+              class="bg-[#E1F3F3] sm:basis-[6%] basis-[7.5%] font-semikanit rounded-[30px] h-[30px] w-[20px] text-[#129693] flex items-center justify-center text-center"
+            >
+              {{ a.item }}
+            </div>
+
+            <div class="ml-2 basis-[90%]">
+              <h4 class="text-[20px] font-semikanit text-[#129693]">
+                {{ a.title }}
+              </h4>
+              <p class="font-regular text-[#667085]">
+                {{ a.content }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="lg:basis-[47%] sm:basis-[100%] md:basis-[100%] flex sm:flex-col flex-col-reverse items-start justify-center"
+      >
+        <div>
+          <img class="rounded-lg" src="{{ data.data1 }}" alt="" />
+        </div>
+        <div class="sm:flex-col flex-col-reverse">
+          <div *ngFor="let a of data.data2" class="w-full">
+            <div class="flex items-start py-3 w-full" *ngIf="a.for == 'normal'">
+              <div
+                class="bg-[#E1F3F3] sm:basis-[6%] basis-[7.5%] font-semikanit h-[30px] w-[20px] rounded-[30px] text-[#129693] flex justify-center items-center text-center"
+              >
+                {{ a.item }}
+              </div>
+
+              <div class="ml-2 basis-[90%]">
+                <h4 class="text-[20px] font-semikanit text-[#129693]">
+                  {{ a.title }}
+                </h4>
+                <p class="font-regular text-[#667085]">
+                  {{ a.content }}
+                </p>
+              </div>
+            </div>
+
+            <!-- <div *ngIf="a.for == 'image'">
+            <img src="{{ a.image }}" alt="" />
+          </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full flex justify-center">
+    <div
+      class="bg-[#129693] text-whitenormal p-3 font-regular text-[15px] rounded-sm text-center"
+    >
+      Ready to streamline your tendering process? Let us take care of the entire
+      journey!
+    </div>
+  </div>
+</div>

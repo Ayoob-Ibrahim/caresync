@@ -40,7 +40,10 @@
     border-radius: 50%;
     display: inline-block;
     color: white;
-    padding-top: 3px;
+    display: flex
+    ;
+        justify-content: center;
+        align-items: center;
 }
 .dot-span{
     display: none;

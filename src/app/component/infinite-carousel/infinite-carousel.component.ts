@@ -1,18 +1,27 @@
 import { CommonModule } from '@angular/common';
-import { Component, OnInit, AfterViewInit, OnDestroy, HostListener, ElementRef, ViewChild, Renderer2 } from '@angular/core';
-import infinite_carousel from '../../json-data/infinite-carousel.json'
+import {
+  Component,
+  OnInit,
+  AfterViewInit,
+  OnDestroy,
+  HostListener,
+  ElementRef,
+  ViewChild,
+  Renderer2,
+  Input,
+} from '@angular/core';
+import infinite_carousel from '../../json-data/infinite-carousel.json';
 declare var $: any;
 @Component({
   selector: 'app-infinite-carousel',
   imports: [CommonModule],
   templateUrl: './infinite-carousel.component.html',
-  styleUrl: './infinite-carousel.component.scss'
+  styleUrl: './infinite-carousel.component.scss',
 })
 export class InfiniteCarouselComponent implements AfterViewInit {
   @ViewChild('owlCarousel', { static: false }) owlCarousel!: ElementRef;
-  carousel: string[] = infinite_carousel
+  @Input() carousel: string[];
   ngAfterViewInit(): void {
-
     $(this.owlCarousel.nativeElement).owlCarousel({
       loop: true,
       margin: 10,
@@ -24,15 +33,15 @@ export class InfiniteCarouselComponent implements AfterViewInit {
       dots: false,
       responsive: {
         0: {
-          items: 2
+          items: 2,
         },
         600: {
-          items: 3
+          items: 3,
         },
         1000: {
-          items: 5
-        }
-      }
+          items: 5,
+        },
+      },
     });
   }
-}   
+}

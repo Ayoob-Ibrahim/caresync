@@ -1,0 +1,26 @@
+<div class="p-4 sm:py-[4.5rem] sm:px-[4.5rem] w-full">
+  <h3 class="text-[#004558] font-semikanit py-3 text-[30px]">
+    Our Success Across Multiple Local Authorities
+  </h3>
+  <p class="text-[#667085] font-regular py-3 text-[15px]">
+    At Care Sync Experts, we have a proven track record of delivering winning
+    tenders across various local authorities. With our expertise in health and
+    social care tender writing, we have successfully secured bids for clients in
+    regions spanning the UK.
+  </p>
+  <p class="text-[#129693] font-regular py-3">
+    Some of the local authorities where we’ve submitted successful tenders
+    include:
+  </p>
+  <section>
+    <div>
+      <div #owlCarousel class="owl-carousel owl-theme">
+        <ng-container *ngFor="let item of data">
+          <div class="item">
+            <img [src]="item" alt="" />
+          </div>
+        </ng-container>
+      </div>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,30 @@
+.background{
+    background-image: url('../../../assets/our-services/tender-writing-logo.jpg');
+    background-size: cover;
+    position: relative;
+
+}
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.759);
+    inset: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+ .background{
+    background-position: 20% 20%;
+ }
+}
+
+
+@media screen and (max-width: 550px) {
+    .background{
+       background-position: 33% 20%;
+    }
+   }

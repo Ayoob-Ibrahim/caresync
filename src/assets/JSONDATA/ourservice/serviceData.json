@@ -453,6 +453,344 @@
       }
     }
   },
+
+  "compliance-management": {
+    "compStructure": [
+      "first-initial-card-with-image # ServiceInitialPageWithImageComponent",
+      "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
+      "three-row-card-with-large-card # ThreeRowContentComponent",
+      "freequentlyasked # FreequentlyAskedComponent ",
+      "horizontal-card-3 # HorizontalCardComponent",
+      "horizontal-card-4 # HorizontalCardComponent"
+    ],
+    "first-initial-card-with-image": {
+      "mainContainer": {
+        "main": {
+          "sections": [
+            {
+              "heading": "COMPREHENSIVE COMPLIANCE MANAGEMENT",
+              "subHeading": "ACHIEVING EXCELLENCE IN CQC AND OFSTED COMPLIANCE THROUGH COMPREHENSIVE COMPLIANCE MANAGEMENT AT CARE SYNC EXPERTS",
+              "buttonText": "Contact Us"
+            },
+            {
+              "content": "Successfully navigating the intricacies of meeting CQC (Care Quality Commission), RQIA (The Regulation & Quality Improvement Authority), CIW (care inspectorate wales), and Ofsted compliance standards is crucial for any care agency or educational service. At Care Sync Experts we offer compliance management services tailored to assist your organisation in meeting and surpassing expectations ultimately ensuring top notch care and education quality."
+            }
+          ]
+        },
+        "figure": {
+          "image": {
+            "src": "https://caresyncexperts.co.uk/images/services/care-sync-tender-writing-header.jpg",
+            "alt": "Description of the image"
+          },
+          "figcaption": "At Care Sync Experts we offer services to set up your healthcare agency for success from the beginning"
+        }
+      }
+    },
+    "list-of-vertical-cards-with-image-center": {
+      "maintitle": " OUR EXTENSIVE RANGE OF COMPLIANCE MANAGEMENT SERVICES",
+      "listdata": [
+        {
+          "contentWrapper": {
+            "size": "30%",
+            "height": "446px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "1"
+              },
+              "sectionHeaderWrap": {
+                "heading": "1. REGISTRATION SUPPORT"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "Professional Assistance",
+                    "description": "Receive registration support from our team for both CQC, RQIA, CIW and Ofsted registrations."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Document Preparation",
+                    "description": "Get help in preparing all documentation to meet the required standards of CQC, RQIA, CIW, and Ofsted."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Compliance Assessments",
+                    "description": "Evaluations carried out to confirm that your agency or educational service complies fully, with all mandates."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "contentWrapper": {
+            "size": "30%",
+            "height": "446px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "2"
+              },
+              "sectionHeaderWrap": {
+                "heading": "2. IN-DEPTH COMPLIANCE AUDITS"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "Pre Inspection Audits",
+                    "description": "Thorough assessments to get your organisation or educational institution for inspections."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Continuous Monitoring",
+                    "description": "Checks to uphold compliance and pinpoint areas needing enhancement."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Risk Analysis",
+                    "description": "Carrying out risk evaluations to minimise problems and ensure safety."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "contentWrapper": {
+            "size": "30%",
+            "height": "446px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "3"
+              },
+              "sectionHeaderWrap": {
+                "heading": "3. CUSTOMISED POLICIES AND PROCEDURES"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "TAILORED DOCUMENTATION",
+                    "description": "Crafting policies and procedures to suit the requirements of your organisation or educational institution."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "REGULATORY ADHERENCE",
+                    "description": "Ensuring all policies align with the CQC, RQIA, CIW, and Ofsted guidelines and rules."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "COMPREHENSIVE SCOPE",
+                    "description": "Encompassing all aspects such as safeguarding, health and safety medication management, care provision and educational benchmarks."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "imageWrapper": "../../assets/our-services/person_with_lap.jpg"
+        },
+        {
+          "contentWrapper": {
+            "size": "47%",
+            "height": "343px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "4"
+              },
+              "sectionHeaderWrap": {
+                "heading": "4. INSPECTION READINESS WORKSHOPS"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "Team Training",
+                    "description": "Empower your team with the knowledge and abilities for CQC, RQIA, CIW, and Ofsted inspections."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Practice Inspections",
+                    "description": "Conducting simulated inspections to spot issues and offer feedback."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Feedback Sessions",
+                    "description": "Providing feedback and strategies for improvement to guarantee preparedness for inspections."
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "contentWrapper": {
+            "size": "47%",
+            "height": "343px",
+            "sectionContentWrapper": {
+              "sectionNumberWrap": {
+                "sectionNumber": "5"
+              },
+              "sectionHeaderWrap": {
+                "heading": "5. CONTINUOUS SUPPORT AND TRAINING"
+              },
+              "cards": [
+                {
+                  "cardDetails": {
+                    "title": "Ongoing Guidance",
+                    "description": "Furnishing support to uphold care standards and compliance."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Training Initiatives",
+                    "description": "In-depth training schemes covering CQC, RQIA, and CIW standards, including safety, effectiveness, care quality, responsiveness, and leadership well, as Ofsted educational criteria."
+                  }
+                },
+                {
+                  "cardDetails": {
+                    "title": "Leadership Training Sessions",
+                    "description": "Tailored workshops designed to equip your supervisors for leading a thriving care agency or educational institution."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "three-row-card-with-large-card": {
+      "contentWrapper": {
+        "sectionHeaderWrap": {
+          "heading": "COMPLIANCE WITH CQC AND OFSTED REGULATIONS: INTRODUCTION OF THE NEW REGULATORY FRAMEWORK",
+          "headingUnderline": true
+        },
+        "image": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png",
+        "subSections": [
+          {
+            "size": "47%",
+            "height": "380px",
+            "sectionHeaderWrap": {
+              "heading": "Grasping the New CQC Assessment Framework"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "The updated CQC single assessment framework incorporates 'We' statements to outline provider duties and 'I' statements to capture the viewpoints of patients and service users. This innovative approach underscores care and the significance of listening to people's stories in shaping judgments. The framework centres on five inquiries; safety, effectiveness, compassion, responsiveness and leadership quality with the goal of offering a systematic and uniform evaluation of care standards.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          },
+          {
+            "size": "47%",
+            "height": "380px",
+            "sectionHeaderWrap": {
+              "heading": "Significance of 'I' Statements in CQC Oversight"
+            },
+            "cards": [
+              {
+                "cardDetails": {
+                  "title": "",
+                  "description": "'I' statements hold a pivotal role in the recent assessment framework introduced by CQC by ensuring that the voices of service users are not only heard but also acted upon. These statements facilitate the collection of evidence and aid in understanding what constitutes a positive care encounter from the perspective of service.",
+                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "freequentlyasked": {
+      "mastertitle": "Frequently Asked Questions",
+      "data": [
+        {
+          "title": "1. What are the essential steps to start a domiciliary care agency in the UK?",
+          "headercontent": "Starting a domiciliary care agency involves several key steps:",
+          "maincontent": [
+            "Market Research: Understand the market by researching its needs, demographics trends and competitors to find clients and business opportunities.",
+            "Business Plan: Develop a business plan that includes your services, financial forecasts, marketing strategies and operational procedures.",
+            "CQC Registration: Ensure compliance by registering with the Care Quality Commission (CQC) and appointing a qualified registered manager and ensuring your business structure is compliant.",
+            "Legal and Financial Setup: Complete all required legal registrations, obtain insurance coverage and establish financial systems, like payroll and invoicing.",
+            "Staff Recruitment: Hire and train qualified care professionals, ensuring they hold the necessary certifications, such as the Care Certificate, and align with your agency's values and standards."
+          ]
+        },
+        {
+          "title": "2. What qualifications are required to establish and manage a care agency?",
+          "headercontent": "FreequentlyAskedComponent",
+          "maincontent": [
+            "Relevant Experience: Experience in the healthcare or social care sector is highly advantageous.",
+            "Management Qualifications: Qualifications such as the QCF Level 5 Diploma in Leadership for Health and Social Care can be beneficial.",
+            "Staff Recruitment and Training: Expenses related to hiring care staff and providing them with the necessary training and certifications.",
+            "Registered Manager Requirements: If you plan to act as the Registered Manager, you must meet the CQC's requirements, which may include specific qualifications and experience."
+          ]
+        },
+        {
+          "title": "3. How can I ensure compliance with CQC regulations when setting up my healthcare business?",
+          "headercontent": "To comply with CQC regulations:",
+          "maincontent": [
+            "Regular Audits: Conduct regular internal audits to monitor compliance and address any issues promptly",
+            "Staff Training: Ensure all staff are adequately trained and understand their roles in maintaining compliance.",
+            "Regular Audits: Conduct regular internal audits to monitor compliance and address any issues promptly"
+          ]
+        },
+        {
+          "title": "4. What are the common challenges faced when starting a domiciliary care business, and how can they be addressed?",
+          "headercontent": "Common challenges include:",
+          "maincontent": [
+            "Recruitment Difficulties: Attracting and retaining qualified staff can be challenging. Offering competitive salaries, opportunities for professional development, and creating a positive work environment can help mitigate this issue.",
+            "Regulatory Compliance: Navigating complex regulations requires thorough understanding and meticulous attention to detail. Seeking guidance from consultancy services specialising in healthcare can be beneficial.",
+            "Financial Constraints: Initial setup costs and ongoing operational expenses require careful financial planning. Exploring various funding options, such as grants or loans, and maintaining a detailed budget can assist in managing finances effectively."
+          ]
+        },
+        {
+          "title": "5. What marketing strategies are effective for attracting clients to a new healthcare agency?",
+          "headercontent": "Effective marketing strategies include:",
+          "maincontent": [
+            "Digital Marketing: Develop a user-friendly, SEO-optimised website to enhance online visibility. Utilise social media platforms to engage with the community and share valuable content.",
+            "Educational Content: Provide informative content, such as blog posts or seminars, to establish your agency as a knowledgeable and reliable service provider.",
+            "Client Testimonials: Showcase positive testimonials from clients to build trust with potential clients.",
+            "Local Networking: Build relationships with local healthcare providers, community centres, and other relevant organisations to generate referrals."
+          ]
+        }
+      ]
+    },
+    "horizontal-card-3": {
+      "darkBlue": {
+        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+        "h1": "Still have questions?",
+        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+        "button": "GetIn Touch"
+      }
+    },
+    "horizontal-card-4": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Are you looking to take your care agency to another level?",
+              "p": "Ready to progress in your care business journey? Reach out to us today for a consultation. Kickstart your path to success with Care Sync Experts."
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Phone: 0333 577 0877",
+                "Email: hello@caresyncexperts.co.uk"
+              ],
+              "button": "Contact us"
+            }
+          }
+        }
+      }
+    }
+  },
   "client-acquisition": {
     "compStructure": [
       "first-initial-card-with-image # ServiceInitialPageWithImageComponent",
@@ -1306,9 +1644,26 @@
       "horizontal-card-4 # HorizontalCardComponent"
     ],
     "dynamiccontent": {
-      "title": "UNDERSTANDING THE INS AND OUTS OF CQC REGISTRATION",
-      "data": [],
-      "onlycontent": "In England all care providers are required to undergo registration with the Care Quality Commission (CQC) to guarantee that their services meet the quality and safety benchmarks set by the regulatory body."
+      "title": "Understanding the Ins and Outs of CQC Registration",
+      "subtitle": "In England all care providers are required to undergo registration with the Care Quality Commission (CQC) to guarantee that their services meet the quality and safety benchmarks set by the regulatory body.",
+      "data": [
+        {
+          "header": "THE IMPORTANCE OF COMPLIANCE IN CQC REGISTRATION",
+          "content": "Compliance with CQC standards ensures care providers deliver safe and high-quality services while meeting legal obligations. It also builds trust with clients and regulators."
+        },
+        {
+          "header": "STEP-BY-STEP GUIDE TO SUCCESSFUL CQC REGISTRATION",
+          "content": "Simplify the registration process with our clear, step-by-step guide, helping you prepare, apply, and pass CQC interviews with ease."
+        },
+        {
+          "header": "COMMON CHALLENGES IN CQC REGISTRATION AND HOW TO OVERCOME THEM",
+          "content": "Discover practical solutions to common registration challenges, from policy gaps to inspection readiness, ensuring a smooth process."
+        },
+        {
+          "header": "UPDATING AND MAINTAINING CQC REGISTRATION: WHAT YOU NEED TO KNOW",
+          "content": "Learn how to keep your registration up to date, manage inspections, and stay compliant with evolving CQC regulations."
+        }
+      ]
     },
 
     "horizontal-card-3": {
@@ -1520,8 +1875,8 @@
       "rightimage": "../../../assets/our-services/nurse-sit.png",
       "rightimagecontent": "Here at Care Sync Experts we recognise the obstacles faced in care sector marketing.",
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
-      "rightbgcolortitle": "WE Offer;",
-      "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
+      "rightbgcolortitle": "WE OFFER:",
+      "rightbgcolorcontent": "Expert guidance on CQC registration, including application support, mock interviews, and ongoing compliance advice to help you meet regulatory standards efficiently."
     }
   },
   "marketing-support": {
@@ -1610,7 +1965,7 @@
         "subSections": [
           {
             "size": "33%",
-            "height": "200x",
+            "height": "250px",
             "sectionHeaderWrap": {
               "heading": "SPECIALISED INDUSTRY KNOWLEDGE"
             },
@@ -1626,7 +1981,7 @@
           },
           {
             "size": "33%",
-            "height": "380px",
+            "height": "250px",
             "sectionHeaderWrap": {
               "heading": "CUSTOMISED SOLUTIONS"
             },
@@ -1642,7 +1997,7 @@
           },
           {
             "size": "33%",
-            "height": "380px",
+            "height": "250px",
             "sectionHeaderWrap": {
               "heading": "PROVEN TRACK RECORD"
             },
@@ -1939,6 +2294,14 @@
         {
           "header": "Continuous Professional Development",
           "content": "Our support ensures that your staff remains up to date on the best practices and regulatory standards fostering a culture of continuous learning and enhancement."
+        },
+        {
+          "header": " Hands-On Learning Opportunities",
+          "content": "Our training programs include practical, hands-on learning sessions to help your team apply their skills in real-world healthcare scenarios, ensuring they are well-prepared for daily challenges."
+        },
+        {
+          "header": " Personalised Support and Feedback",
+          "content": "We offer continuous support and constructive feedback throughout the training process, empowering your team to excel and build confidence in their roles."
         }
       ]
     },
@@ -2143,36 +2506,29 @@
     },
     "arrowupbg": {
       "masterbg": "../../../assets/our-services/arrowup.png",
-      "mastertitle": "COMPREHENSIVE TRAINING AND SUPPORT",
-      "mastersubtitle": "EMPOWER YOUR TEAM WITH OUR EXPERT TRAINING PROGRAMS",
+      "mastertitle": "Comprehensive Training and  Support ",
+      "mastersubtitle": "Empower Your Team, with Our Expert Training Programs",
       "mastercontent": "Having a workforce is crucial for the success of your healthcare agency. Care Sync Experts offer training and ongoing support to ensure your staff has the knowledge and skills to provide exceptional care.",
       "rightimage": "../../../assets/our-services/nurse-sit.png",
       "rightimagecontent": "Here at Care Sync Experts we recognise the obstacles faced in care sector marketing.",
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
-      "rightbgcolortitle": "WE Offer;",
-      "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
+      "rightbgcolortitle": "WE OFFER:",
+      "rightbgcolorcontent": "Bespoke training solutions designed to empower your staff with the skills and knowledge necessary for delivering exceptional care. Our services include tailored programs, continuous professional development, and personalised support to ensure excellence in healthcare delivery."
     }
   },
   "tender-writing": {
     "compStructure": [
-      "arrowupbg # BgArrowUpComponent",
-      "dynamiccontent # DynamicParaWithImageComponent",
-      "list-of-vertical-cards-with-image-center # ListVerticalCardsInServiceComponent",
-      "three-row-card-with-large-card # ThreeRowContentComponent",
-      "clientcard # ClientCardComponent",
-      "horizontal-card-3 # HorizontalCardComponent",
-      "horizontal-card-4 # HorizontalCardComponent"
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "horizontal-card-4 # HorizontalCardComponent",
+      "freequentlyasked # FreequentlyAskedComponent ",
+      "horizontal-card-3 # HorizontalCardComponent"
     ],
-    "dynamiccontent": {
-      "title": "UNDERSTANDING BID WRITING",
-      "data": [
-        {
-          "header": "What is Bid Writing?",
-          "content": "Bid writing involves creating convincing proposals to secure contracts from organisations like local authorities and healthcare institutions. A crafted bid highlights your strengths capabilities and dedication to delivering top notch services."
-        }
-      ]
-    },
-
     "horizontal-card-3": {
       "darkBlue": {
         "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
@@ -2181,13 +2537,39 @@
         "button": "GetIn Touch"
       }
     },
+    "freequentlyasked": {
+      "mastertitle": "Frequently Asked Questions",
+      "data": [
+        {
+          "title": "1. What is the typical timeline for tender submission?",
+          "headercontent": "The tender writing process typically takes between 2-4 weeks, but we can accommodate tighter deadlines when necessary."
+        },
+        {
+          "title": "2. How much do your tender writing services cost?",
+          "headercontent": "Our services start at £1,200, depending on the complexity and scope of the tender. Contact us for a custom quote."
+        },
+        {
+          "title": "3. Can you help me find tenders?",
+          "headercontent": "Yes, we offer tender identification services and custom alerts to help you stay informed of relevant opportunities."
+        },
+        {
+          "title": "4. Do you offer training for internal teams?",
+          "headercontent": "Yes, we offer bespoke training programmes to equip your team with the skills needed for future tender writing."
+        },
+        {
+          "title": "5. How do you ensure compliance with tender requirements?",
+          "headercontent": "Our team follows a strict review process, ensuring each submission is fully compliant with the tender requirements, including financial and legal regulations."
+        }
+      ]
+    },
     "horizontal-card-4": {
       "cardContainer": {
         "card": {
           "leftSide": {
             "content": {
-              "h2": "BEGIN YOUR JOURNEY WITH CARE SYNC SPECIALISTS TODAY",
-              "p": "Interested in improving your chances of securing contracts? Reach out to Care Sync Specialists for expert, customised tender writing services that meet your business requirements."
+              "p1": "Get Started with Care Sync Experts",
+              "h2": "Ready to win more contracts?",
+              "p": "Contact Care Sync Experts today for a free consultation on how we can help you secure lucrative tenders for your healthcare business."
             }
           },
           "rightSide": {
@@ -2202,6 +2584,16 @@
         }
       }
     },
+    "dynamiccontent": {
+      "title": "UNDERSTANDING BID WRITING",
+      "data": [
+        {
+          "header": "What is Bid Writing?",
+          "content": "Bid writing involves creating convincing proposals to secure contracts from organisations like local authorities and healthcare institutions. A crafted bid highlights your strengths capabilities and dedication to delivering top notch services."
+        }
+      ]
+    },
+
     "three-row-card-with-large-card": {
       "contentWrapper": {
         "sectionHeaderWrap": {
@@ -2451,6 +2843,14 @@
         {
           "header": "Ensuring Adherence to Regulations and Quality Standards",
           "content": "We guarantee that your service aligns with the up to date regulations upholding top notch care standards and safeguarding practices."
+        },
+        {
+          "header": "Comprehensive Support Throughout the Registration Process",
+          "content": "We guide you step-by-step through the Ofsted registration process, from preparing your policies and procedures to ensuring your organisation is fully compliant and inspection-ready."
+        },
+        {
+          "header": "Proactive Updates on Regulatory Changes",
+          "content": "Our team stays informed about regulatory updates and industry changes, ensuring your service remains compliant and consistently meets Ofsted’s evolving standards."
         }
       ]
     },
@@ -2721,10 +3121,10 @@
       "mastersubtitle": "PROFESSIONAL ASSISTANCE, FOR AN EFFORTLESS OFSTED REGISTRATION PROCESS",
       "mastercontent": "Going through the process of registering with Ofsted can present its challenges. With the guidance of Care Sync Experts you can embark on a effective and successful journey. Our full support package is specifically designed for providers of supported accommodation ensuring that you meet all standards and deliver outstanding care to young individuals.",
       "rightimage": "../../../assets/our-services/nurse-sit.png",
-      "rightimagecontent": "Here at Care Sync Experts we recognise the obstacles faced in care sector marketing.",
+      "rightimagecontent": "Comprehensive guidance and support for Ofsted registration, including policy development, inspection preparation, and adherence to safeguarding standards. Our expert team ensures your organisation meets all regulatory requirements with confidence and efficiency.",
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
-      "rightbgcolortitle": "WE Offer;",
-      "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
+      "rightbgcolortitle": "WE OFFER:",
+      "rightbgcolorcontent": "Comprehensive guidance and support for Ofsted registration, including policy development, inspection preparation, and adherence to safeguarding standards. Our expert team ensures your organisation meets all regulatory requirements with confidence and efficiency."
     }
   },
   "pir-writing": {
@@ -2741,6 +3141,18 @@
         {
           "header": "What does PIR Writing entail?",
           "content": "The Provider Information Return (PIR) is a report submitted to the CQC that outlines how well your service delivers care and its quality standards. This document is essential for the CQC to monitor your service effectively and prepare for inspections."
+        },
+        {
+          "header": "Why is PIR Writing Important?",
+          "content": "The PIR helps the CQC evaluate how your service meets regulatory requirements, highlighting your strengths and identifying areas for improvement to ensure compliance."
+        },
+        {
+          "header": "How Does PIR Writing Reflect Your Service?",
+          "content": "A well-written PIR showcases your commitment to providing high-quality care, offering insights into your operations, achievements, and ongoing efforts to enhance service delivery."
+        },
+        {
+          "header": "The Role of PIR Writing in Inspection Readiness",
+          "content": "Submitting an accurate and comprehensive PIR ensures you are well-prepared for CQC inspections, providing a clear narrative of your service’s performance and compliance standards."
         }
       ]
     },
@@ -2779,7 +3191,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "410px",
+            "height": "440px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "1"
@@ -2807,7 +3219,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "410px",
+            "height": "440px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "2"
@@ -2835,7 +3247,7 @@
         {
           "contentWrapper": {
             "size": "30%",
-            "height": "410px",
+            "height": "440px",
             "sectionContentWrapper": {
               "sectionNumberWrap": {
                 "sectionNumber": "3"
@@ -2957,8 +3369,8 @@
       "rightimage": "../../../assets/our-services/nurse-sit.png",
       "rightimagecontent": "Here at Care Sync Experts we recognise the obstacles faced in care sector marketing.",
       "rightbgcolorimage": "../../../assets/our-services/archer.png",
-      "rightbgcolortitle": "WE Offer;",
-      "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
+      "rightbgcolortitle": "WE OFFER:",
+      "rightbgcolorcontent": "Expert support in crafting comprehensive and accurate Provider Information Returns (PIR) that highlight your service's strengths, ensure compliance with CQC requirements, and prepare you for successful inspections."
     },
     "stepcard": {
       "mastertitle": "The Importance of Marketing For Care Agency",
@@ -2980,123 +3392,6 @@
           "content": "Creating a strong and consistent presence both locally and online, making your brand easily identifiable and memorable."
         }
       ]
-    }
-  },
-  "compliance-management": {
-    "compStructure": [
-      "arrowupbg # BgArrowUpComponent",
-      "dynamiccontent # DynamicParaWithImageComponent",
-      "three-row-card-with-large-card # ThreeRowContentComponent",
-      "horizontal-card-3 # HorizontalCardComponent",
-      "horizontal-card-4 # HorizontalCardComponent"
-    ],
-    "dynamiccontent": {
-      "title": "REASONS TO OPT FOR CARE SYNC EXPERTS",
-      "data": [
-        {
-          "header": "Guidance from Seasoned Professionals for Effortless Compliance",
-          "content": "Our dedicated team provides expert guidance throughout the compliance journey aiding you in understanding and adhering to the complexities of CQC, RQIA, CIW and Ofsted regulations for a successful compliance experience."
-        }
-      ]
-    },
-    "horizontal-card-3": {
-      "darkBlue": {
-        "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
-        "h1": "Still have questions?",
-        "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
-        "button": "GetIn Touch"
-      }
-    },
-    "horizontal-card-4": {
-      "cardContainer": {
-        "card": {
-          "leftSide": {
-            "content": {
-              "h2": "Get Started with CareSync Expert",
-              "p": "If you're ready to enhance your presence reach out to Care Sync Experts for a consultation. Find out how our web development services can take your care agency to the level."
-            }
-          },
-          "rightSide": {
-            "textWhite": {
-              "p": [
-                "Phone: 0333 577 0877",
-                "Email: hello@caresyncexperts.co.uk"
-              ],
-              "button": "Contact us"
-            }
-          }
-        }
-      }
-    },
-    "three-row-card-with-large-card": {
-      "contentWrapper": {
-        "sectionHeaderWrap": {
-          "heading": "COMPLIANCE WITH CQC AND OFSTED REGULATIONS: INTRODUCTION OF THE NEW REGULATORY FRAMEWORK",
-          "headingUnderline": true
-        },
-        "image": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png",
-        "subSections": [
-          {
-            "size": "33%",
-            "height": "500px",
-            "sectionHeaderWrap": {
-              "heading": "Grasping the New CQC Assessment Framework"
-            },
-            "cards": [
-              {
-                "cardDetails": {
-                  "title": "",
-                  "description": "The updated CQC single assessment framework incorporates 'We' statements to outline provider duties and 'I' statements to capture the viewpoints of patients and service users. This innovative approach underscores care and the significance of listening to people's stories in shaping judgments. The framework centres on five inquiries; safety, effectiveness, compassion, responsiveness and leadership quality with the goal of offering a systematic and uniform evaluation of care standards.",
-                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
-                }
-              }
-            ]
-          },
-          {
-            "size": "33%",
-            "height": "500px",
-            "sectionHeaderWrap": {
-              "heading": "Significance of 'I' Statements in CQC Oversight"
-            },
-            "cards": [
-              {
-                "cardDetails": {
-                  "title": "",
-                  "description": "'I' statements hold a pivotal role in the recent assessment framework introduced by CQC by ensuring that the voices of service users are not only heard but also acted upon. These statements facilitate the collection of evidence and aid in understanding what constitutes a positive care encounter from the perspective of service.",
-                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
-                }
-              }
-            ]
-          },
-          {
-            "size": "33%",
-            "height": "500px",
-            "sectionHeaderWrap": {
-              "heading": "Promoting Exceptional Care and Educational Services"
-            },
-            "cards": [
-              {
-                "cardDetails": {
-                  "title": "",
-                  "description": "Our methodology guarantees that your establishment adheres to the core principles encompassing safety, effectiveness, compassion, responsiveness and leadership excellence. To excel in providing quality care services and achieving results it is essential to adhere to these core principles.",
-                  "icon": "https://caresyncexperts.co.uk/images/icons/double-check.svg"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    "arrowupbg": {
-      "masterbg": "../../../assets/our-services/arrowup.png",
-      "mastertitle": "COMPREHENSIVE COMPLIANCE MANAGEMENT",
-      "mastersubtitle": "ACHIEVING EXCELLENCE IN CQC AND OFSTED COMPLIANCE THROUGH COMPREHENSIVE COMPLIANCE MANAGEMENT AT CARE SYNC EXPERTS",
-      "mastercontent": "Successfully navigating the intricacies of meeting CQC (Care Quality Commission), RQIA (The Regulation & Quality Improvement Authority), CIW (care inspectorate wales), and Ofsted compliance standards is crucial for any care agency or educational service. At Care Sync Experts we offer compliance management services tailored to assist your organisation in meeting and surpassing expectations ultimately ensuring top notch care and education quality.",
-      "rightimage": "../../../assets/our-services/nurse-sit.png",
-      "rightimagecontent": "Here at Care Sync Experts we recognise the obstacles faced in care sector marketing.",
-      "rightbgcolorimage": "../../../assets/our-services/archer.png",
-      "rightbgcolortitle": "WE Offer;",
-      "rightbgcolorcontent": "Tailored solutions to assist you in attracting clients, boosting your online visibility and expanding your business while effectively reaching your target audience."
     }
   }
 }

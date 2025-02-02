@@ -40,23 +40,36 @@
   </p>
 </ng-template> -->
 
-
-
-
-<div [style.height]="true ? '750px' : 'max-content'" class="overall-home-container">
-
+<div
+  [style.height]="true ? '750px' : 'max-content'"
+  class="overall-home-container"
+>
   <div class="swiper-container relative">
     <div class="swiper-wrapper">
       <div class="swiper-slide relative" *ngFor="let image of data">
-        <div class="image-container" [style.background-image]="'url(' + image?.image + ')'">
+        <div
+          class="image-container"
+          [style.background-image]="'url(' + image?.image + ')'"
+        >
           <figure>
             <figcaption>
-              <h2>{{image?.title}}</h2>
-              <h6>{{image?.description}}</h6>
-              <div class="rounded-corner-div">
-                <span><img src="https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-197.png"></span> Over
-                {{currentCount()}}
-                client
+              <h2>{{ image?.title }}</h2>
+              <h6>{{ image?.description }}</h6>
+              <div class="flex items-center mt-[10px]">
+                <div class="rounded-corner-div">
+                  <span
+                    ><img
+                      src="https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-197.png"
+                  /></span>
+                  Over
+                  {{ currentCount() }}
+                  client
+                </div>
+                <div
+                  class="bg-primary h-[44px] w-[115px] rounded-[45px] flex justify-center items-center contact-btn ml-2"
+                >
+                  <div class="text-whitenormal font-semikanit">Contact Us</div>
+                </div>
               </div>
             </figcaption>
           </figure>
@@ -64,17 +77,32 @@
           <ng-container>
             <div class="card flex">
               <div class="w-2/3 p-[2rem]">
-                <h2 class="custom-heading">At Care Sync
-                  Experts:</h2>
+                <h2 class="custom-heading">At Care Sync Experts:</h2>
                 <ng-container
-                  *ngTemplateOutlet="contentTemplate; context: { content: 'We provide services to healthcare companies guiding them through seamless CQC, RQIA, CIW, and Ofsted registration, successful CQC, RQIA, CIW, and Ofsted interviews, and comprehensive care strategies.' }"></ng-container>
+                  *ngTemplateOutlet="
+                    contentTemplate;
+                    context: {
+                      content:
+                        'We provide services to healthcare companies guiding them through seamless CQC, RQIA, CIW, and Ofsted registration, successful CQC, RQIA, CIW, and Ofsted interviews, and comprehensive care strategies.'
+                    }
+                  "
+                ></ng-container>
                 <ng-container
-                  *ngTemplateOutlet="contentTemplate; context: { content: 'Our proficiency ranges from establishing supported living services to acquiring registration. Count on us as your partner in meeting standards and delivering top notch care.' }"></ng-container>
+                  *ngTemplateOutlet="
+                    contentTemplate;
+                    context: {
+                      content:
+                        'Our proficiency ranges from establishing supported living services to acquiring registration. Count on us as your partner in meeting standards and delivering top notch care.'
+                    }
+                  "
+                ></ng-container>
               </div>
-              <div class="w-1/3   relative">
+              <div class="w-1/3 relative">
                 <img
                   src="https://caresyncexperts.com/wp-content/uploads/2024/12/cheerful-ethnic-doctor-with-arms-crossed-1.png"
-                  alt="Doctor" class="object-contain rounded-lg" />
+                  alt="Doctor"
+                  class="object-contain rounded-lg"
+                />
               </div>
             </div>
           </ng-container>
@@ -82,11 +110,10 @@
       </div>
     </div>
   </div>
-
 </div>
 
 <ng-template #contentTemplate let-content="content">
-  <p class="custom-paragraph" style="color: white;">
+  <p class="custom-paragraph" style="color: white">
     {{ content }}
   </p>
 </ng-template>

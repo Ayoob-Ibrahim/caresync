@@ -7,6 +7,13 @@ import { DynamicParaWithImageComponent } from '../../widgets/dynamic-para-with-i
 import { FreequentlyAskedComponent } from '../../widgets/freequently-asked/freequently-asked.component';
 import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
 import { StepCardComponent } from '../../widgets/step-card/step-card.component';
+import { TenderFifthPartComponent } from '../../widgets/tender-fifth-part/tender-fifth-part.component';
+import { TenderFourthPartComponent } from '../../widgets/tender-fourth-part/tender-fourth-part.component';
+import { TenderReadyComponent } from '../../widgets/tender-ready/tender-ready.component';
+import { TenderSeventhPartComponent } from '../../widgets/tender-seventh-part/tender-seventh-part.component';
+import { TenderSixthPartComponent } from '../../widgets/tender-sixth-part/tender-sixth-part.component';
+import { TenderThirdPartComponent } from '../../widgets/tender-third-part/tender-third-part.component';
+import { TenderWringHeaderComponent } from '../../widgets/tender-wring-header/tender-wring-header.component';
 
 export const list_service_comp = {
   'cqc-registration': [
@@ -35,12 +42,15 @@ export const list_service_comp = {
     HorizontalCardComponent,
   ],
   'tender-writing': [
-    BgArrowUpComponent,
-    DynamicParaWithImageComponent,
-    ListVerticalCardsInServiceComponent,
-    ThreeRowContentComponent,
-    ClientCardComponent,
+    TenderWringHeaderComponent,
+    TenderReadyComponent,
+    TenderThirdPartComponent,
+    TenderFourthPartComponent,
+    TenderFifthPartComponent,
+    TenderSixthPartComponent,
+    TenderSeventhPartComponent,
     HorizontalCardComponent,
+    FreequentlyAskedComponent,
     HorizontalCardComponent,
   ],
   'ofsted-related-services': [
@@ -57,14 +67,16 @@ export const list_service_comp = {
     HorizontalCardComponent,
     HorizontalCardComponent,
   ],
-  'compliance-management': [
-    BgArrowUpComponent,
-    DynamicParaWithImageComponent,
+
+  'business-setup': [
+    ServiceInitialPageWithImageComponent,
+    ListVerticalCardsInServiceComponent,
     ThreeRowContentComponent,
+    FreequentlyAskedComponent,
     HorizontalCardComponent,
     HorizontalCardComponent,
   ],
-  'business-setup': [
+  'compliance-management': [
     ServiceInitialPageWithImageComponent,
     ListVerticalCardsInServiceComponent,
     ThreeRowContentComponent,

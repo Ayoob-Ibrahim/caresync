@@ -32,18 +32,20 @@
       alt=""
     />
     <div
-      class="rounded-[20px] bg-[#002A36] sm:left-0 sm:right-0 lg:w-[50%] sm:w-[100%] md:w-[100%] mt-2 md:bottom-[20px] md:left-[20px] lg:bottom-[5%] lg:left-[20px] lg:absolute"
-      style="
-  background-image: url('{{ dataProperty.rightbgcolorimage }}');
-  background-repeat: no-repeat;
-background-size: 200px 200px  ;
-background-position: 100% 10%;
- 
-"
+      class="rounded-[20px] overflow-hidden bg-[#002A36] sm:left-0 sm:right-0 lg:w-[50%] sm:w-[100%] md:w-[100%] mt-2 md:bottom-[20px] md:left-[20px] lg:bottom-[5%] lg:left-[20px] lg:absolute"
     >
-      <div class="p-5 w-[70%]">
+      <!-- <div class="relative h-full w-full">
+      
+      </div> -->
+
+      <div class="p-5 w-[70%] relative">
         <h4 class="font-semikanit text-[20px] text-whitenormal">
           {{ dataProperty.rightbgcolortitle }}
+          <img
+            class="absolute h-[149px] w-[202px] bottom-[-23px] right-[-50%]"
+            src="{{ dataProperty.rightbgcolorimage }}"
+            alt=""
+          />
         </h4>
 
         <p class="font-regular text-whitenormal">

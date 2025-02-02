@@ -1,40 +1,40 @@
 <!-- child.component.html -->
 <ng-container *ngIf="dataProperty?.cardContainer">
-    <div class="card-container">
-        <div class="card">
-            <div class="left-side">
-                <div class="content">
-                    <h2>{{ dataProperty.cardContainer.card.leftSide.content.h2 }}</h2>
-                    <p>{{ dataProperty.cardContainer.card.leftSide.content.p }}</p>
-                </div>
-            </div>
-
-            <div class="right-side">
-                <div class="text-white">
-                    <p>{{ dataProperty.cardContainer.card.rightSide.textWhite.p[0] }}</p>
-                    <p>{{ dataProperty.cardContainer.card.rightSide.textWhite.p[1] }}</p>
-                    <button>{{ dataProperty.cardContainer.card.rightSide.textWhite.button }}</button>
-                </div>
-            </div>
+  <div class="card-container">
+    <div class="card">
+      <div class="left-side">
+        <div class="content">
+          <p>{{ dataProperty?.cardContainer?.card?.leftSide?.content?.p1 }}</p>
+          <h2>{{ dataProperty.cardContainer.card.leftSide.content.h2 }}</h2>
+          <p>{{ dataProperty.cardContainer.card.leftSide.content.p }}</p>
         </div>
+      </div>
+
+      <div class="right-side">
+        <div class="text-white">
+          <p>{{ dataProperty.cardContainer.card.rightSide.textWhite.p[0] }}</p>
+          <p>{{ dataProperty.cardContainer.card.rightSide.textWhite.p[1] }}</p>
+          <button>
+            {{ dataProperty.cardContainer.card.rightSide.textWhite.button }}
+          </button>
+        </div>
+      </div>
     </div>
+  </div>
 </ng-container>
-
-
 
 <ng-container *ngIf="dataProperty?.darkBlue">
-    <div class="dark-blue-container">
-        <img [src]="dataProperty?.darkBlue?.img" alt="">
-        <h1>{{dataProperty?.darkBlue?.h1}}</h1>
-        <p>{{dataProperty?.darkBlue?.p}}</p>
-        <button>{{dataProperty?.darkBlue?.button }}</button>
-    </div>
+  <div class="dark-blue-container">
+    <img [src]="dataProperty?.darkBlue?.img" alt="" />
+    <h1>{{ dataProperty?.darkBlue?.h1 }}</h1>
+    <p>{{ dataProperty?.darkBlue?.p }}</p>
+    <button>{{ dataProperty?.darkBlue?.button }}</button>
+  </div>
 </ng-container>
 
-
 <ng-container *ngIf="dataProperty?.liteblue">
-    <div class="lite-blue-container">
-        <h1 *ngIf="dataProperty?.liteblue?.h1">{{dataProperty?.liteblue?.h1}}</h1>
-        <p [innerHTML]="dataProperty?.liteblue?.p" class="custom-paragraph"></p>
-    </div>
+  <div class="lite-blue-container">
+    <h1 *ngIf="dataProperty?.liteblue?.h1">{{ dataProperty?.liteblue?.h1 }}</h1>
+    <p [innerHTML]="dataProperty?.liteblue?.p" class="custom-paragraph"></p>
+  </div>
 </ng-container>

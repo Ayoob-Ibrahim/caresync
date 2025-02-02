@@ -9,6 +9,7 @@ import { GrowCareBuisnessComponent } from '../../component/grow-care-buisness/gr
 import { ImageCarouselComponent } from '../../component/image-carousel/image-carousel.component';
 import { InfiniteCarouselComponent } from '../../component/infinite-carousel/infinite-carousel.component';
 import { FooterComponent } from '../../component/footer/footer.component';
+import infinite_carousel from '../../json-data/infinite-carousel.json';
 @Component({
   selector: 'app-home',
   imports: [
@@ -30,4 +31,5 @@ export class HomeComponent implements AfterViewInit {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+  data = infinite_carousel;
 }

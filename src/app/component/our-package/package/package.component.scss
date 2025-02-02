@@ -100,13 +100,18 @@
 
     .figcaption {
         position: absolute;
-        bottom: 3%;
+        bottom: 5%;
         font-family: bold;
         font-size: 1.8rem;
-        left: 2%;
-        width: 80%;
+        /* left: auto; */
+        /* width: 100%; */
         color: rgba(255, 255, 255, 0.699);
         z-index: 10;
+        /* right: auto; */
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        text-align: center;
     }
 
 }

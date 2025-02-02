@@ -1,52 +1,75 @@
 <div class="nav-container">
-    <div
-        class="h-[30px] w-[100%] bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal  nav-title">
-        <small class="text-[14px]">
-            Partner with Care Sync Experts for Unmatched Success - Call us today on 0333 577 0877 <span
-                class="ml-5 font-Elightkanit text-[#aeffef]">We are here to help 24/7.</span>
-        </small>
-
-    </div>
-    <nav [class.fixed]="isSticky">
-
-        <img class="h-[44px] w-[128px]" src="../../../assets/toolbar/image 14.png" alt="Logo">
-        <ul>
-            <ng-container *ngFor="let data of menu">
-                <li [ngClass]="{'list-parent-collapse': data.children}">
-                    <a [routerLink]="data.url" routerLinkActive="active" [ngClass]="{'no-hover-effect': data.children}">
-                        {{data.title }}
-                        <ng-container *ngIf="data.children">
-                            <i class="bi bi-chevron-down arrow-icon text-[12px] font-bold  "></i>
-                        </ng-container>
-                    </a>
-                    <ng-container *ngIf="data.children">
-                        <div class="collapse-menu" aria-haspopup="true">
-                            <div class="grid grid-cols-2  ">
-                                <ng-container *ngFor="let child of data.children">
-                                    <div class="flex items-center   h-[60px]   w-[100%] child-hover relative group"
-                                        (click)="menuChanger(child,data)">
-                                        <img class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]" [src]="child.img"
-                                            alt="">
-                                        <span class="flex items-center"
-                                            style="color: #129693; font-size: 14px; font-family: medium;">
-                                            {{ child.title }}
-                                            <i
-                                                class="ps-2 bi bi-chevron-right arrow-icon-right text-[12px] transform -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out">
-                                            </i>
-                                        </span>
-                                    </div>
-                                </ng-container>
-                            </div>
-                        </div>
-                    </ng-container>
-                </li>
-
-
+  <div
+    class="h-[30px] w-[100%] bg-backgroundcolor font-regular flex justify-center items-center text-whitenormal nav-title"
+  >
+    <small class="text-[14px]">
+      Partner with Care Sync Experts for Unmatched Success - Call us today on
+      0333 577 0877
+      <span class="ml-5 font-Elightkanit text-[#aeffef]"
+        >We are here to help 24/7.</span
+      >
+    </small>
+  </div>
+  <nav [class.fixed]="isSticky">
+    <img
+      class="h-[44px] w-[128px]"
+      src="../../../assets/toolbar/image 14.png"
+      alt="Logo"
+    />
+    <ul>
+      <ng-container *ngFor="let data of menu">
+        <li [ngClass]="{ 'list-parent-collapse': data.children }">
+          <a
+            [routerLink]="data.url"
+            routerLinkActive="active"
+            [ngClass]="{ 'no-hover-effect': data.children }"
+          >
+            {{ data.title }}
+            <ng-container *ngIf="data.children">
+              <i
+                class="bi bi-chevron-down arrow-icon text-[12px] font-bold"
+              ></i>
             </ng-container>
-        </ul>
-        <div class="bg-primary h-[44px] w-[115px] rounded-[45px]	flex justify-center items-center contact-btn">
-            <div class="text-whitenormal font-semikanit "> Contact Us</div>
-        </div>
-
-    </nav>
+          </a>
+          <ng-container *ngIf="data.children">
+            <div class="collapse-menu" aria-haspopup="true">
+              <div class="grid grid-cols-2">
+                <ng-container *ngFor="let child of data.children">
+                  <div
+                    class="flex items-center h-[60px] w-[100%] child-hover relative group"
+                    (click)="menuChanger(child, data)"
+                  >
+                    <img
+                      class="h-[35px] ml-[5px] w-[35px] me-2 ms-[1.5rem]"
+                      [src]="child.img"
+                      alt=""
+                    />
+                    <span
+                      class="flex items-center"
+                      style="
+                        color: #129693;
+                        font-size: 14px;
+                        font-family: medium;
+                      "
+                    >
+                      {{ child.title }}
+                      <i
+                        class="ps-2 bi bi-chevron-right arrow-icon-right text-[12px] transform -translate-x-2 opacity-0 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-in-out"
+                      >
+                      </i>
+                    </span>
+                  </div>
+                </ng-container>
+              </div>
+            </div>
+          </ng-container>
+        </li>
+      </ng-container>
+    </ul>
+    <div
+      class="bg-primary h-[44px] w-[115px] rounded-[45px] flex justify-center items-center contact-btn"
+    >
+      <div class="text-whitenormal font-semikanit">Login</div>
+    </div>
+  </nav>
 </div>
