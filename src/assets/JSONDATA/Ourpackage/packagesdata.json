@@ -4518,20 +4518,17 @@
         {
           "title": "Statement of Purpose Preparation",
           "icon": "file",
-          "content": "We help create a statement of purpose that outlines your service goals, objectives, and the range of services you plan to offer. This document plays a role in showing the CQC your agency's dedication to delivering top-notch care."
+          "content": "We help create a statement of purpose that outlines your service goals, objectives and the range of services you plan to offer. This document plays a role in showing the CIW your agency's dedication to delivering top notch care."
         },
         {
           "title": "Reviewing CVs for Compliance",
           "icon": "flash",
-          "content": "We carefully assess the CVs of your Registered Manager and Nominated Individual to ensure they align with CQC standards. This involves verifying their credentials, experience, and suitability for their roles within your agency."
+          "content": "We carefully assess the CVs of your Registered Manager and Nominated Individual to ensure they align with CIW standards. This involves verifying their credentials, experience and suitability for their roles within your agency"
         },
         {
-          "title": "Liaison with CQC",
+          "title": "Liaison with CIW",
           "icon": "file",
-          "url": "https://www.cqc.org.uk/",
-          "urltext": "Care Quality Commission (CQC)",
-          "content1": "Our team engages directly with the",
-          "content2": "on your behalf, handling any requirements and providing supporting documents. We manage all communication to ensure a smooth registration process."
+         "content": "Our team engages directly with the CIW on your behalf handling any requirements and providing supporting documents. We manage all communication to ensure a registration process."
         }
       ]
     },
@@ -5623,20 +5620,17 @@
         {
           "title": "Statement of Purpose Preparation",
           "icon": "file",
-          "content": "We help create a statement of purpose that outlines your service goals, objectives, and the range of services you plan to offer. This document plays a role in showing the CQC your agency's dedication to delivering top-notch care."
+          "content": "We help create a statement of purpose that outlines your service goals, objectives and the range of services you plan to offer. This document plays a role in showing the RQIA your agency's dedication to delivering top notch care."
         },
         {
           "title": "Reviewing CVs for Compliance",
           "icon": "flash",
-          "content": "We carefully assess the CVs of your Registered Manager and Nominated Individual to ensure they align with CQC standards. This involves verifying their credentials, experience, and suitability for their roles within your agency."
+          "content": "We carefully assess the CVs of your Registered Manager and Nominated Individual to ensure they align with RQIA standards. This involves verifying their credentials, experience and suitability for their roles within your agency."
         },
         {
-          "title": "Liaison with CQC",
+          "title": "Liaison with RQIA",
           "icon": "file",
-          "url": "https://www.cqc.org.uk/",
-          "urltext": "Care Quality Commission (CQC)",
-          "content1": "Our team engages directly with the",
-          "content2": "on your behalf, handling any requirements and providing supporting documents. We manage all communication to ensure a smooth registration process."
+          "content": "Our team engages directly with the RQIA on your behalf handling any requirements and providing supporting documents. We manage all communication to ensure a registration process."
         }
       ]
     },
