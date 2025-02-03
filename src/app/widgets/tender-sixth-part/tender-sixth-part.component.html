@@ -12,12 +12,15 @@
   <div class="w-[100%]">
     <div class="flex gap-4 sm:px-[4.5rem] flex-wrap pb-3 pt-4 bg-[#FAFDF9]">
       <div
-        class="lg:basis-[47%] sm:basis-[100%] md:basis-[100%] flex flex-col items-start justify-center"
+        class="lg:basis-[47%] sm:basis-[100%] md:basis-[100%] flex flex-col items-start justify-between"
       >
         <div *ngFor="let a of data.data" class="w-full">
-          <div class="flex py-3 items-start w-full" *ngIf="a.for == 'normal'">
+          <div
+            class="flex justify-between py-3 items-start w-full"
+            *ngIf="a.for == 'normal'"
+          >
             <div
-              class="bg-[#E1F3F3] sm:basis-[6%] basis-[7.5%] font-semikanit rounded-[30px] h-[30px] w-[20px] text-[#129693] flex items-center justify-center text-center"
+              class="bg-[#E1F3F3] font-semikanit rounded-[30px] h-[30px] w-[30px] text-[#129693] flex items-center justify-center text-center"
             >
               {{ a.item }}
             </div>
@@ -40,11 +43,11 @@
         <div>
           <img class="rounded-lg" src="{{ data.data1 }}" alt="" />
         </div>
-        <div class="sm:flex-col flex-col-reverse">
+        <div class="sm:flex-col w-full flex-col-reverse">
           <div *ngFor="let a of data.data2" class="w-full">
             <div class="flex items-start py-3 w-full" *ngIf="a.for == 'normal'">
               <div
-                class="bg-[#E1F3F3] sm:basis-[6%] basis-[7.5%] font-semikanit h-[30px] w-[20px] rounded-[30px] text-[#129693] flex justify-center items-center text-center"
+                class="bg-[#E1F3F3] font-semikanit h-[30px] w-[30px] rounded-[30px] text-[#129693] flex justify-center items-center text-center"
               >
                 {{ a.item }}
               </div>

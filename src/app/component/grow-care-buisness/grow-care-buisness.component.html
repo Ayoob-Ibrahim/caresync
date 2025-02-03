@@ -1,39 +1,59 @@
 <div class="grow-buisness">
-    <h2 class="header">
-        Grow Your Care Business
-    </h2>
-    <div class="header-content">
-        <div class="header-data">
-            <ng-container *ngTemplateOutlet="contentTemplate; context: { 
-              title: 'Boost Your Client Base and Revenue', 
-              description: 'We provide strategies to help you expand your customer base, enhance efficiency and increase profits using proven methods.',
-              image: 'https://caresyncexperts.com/wp-content/uploads/2024/12/Featured-icon.svg'
-            }">
-            </ng-container>
-        </div>
-        <div class="header-data">
-            <ng-container *ngTemplateOutlet="contentTemplate; context: { 
-              title: 'Proven Track Record', 
-              description: 'Benefit from our expertise and track record of success in supporting businesses like yours to grow.',
-              image: 'https://caresyncexperts.com/wp-content/uploads/2024/12/Featured-icon-1.svg'
-            }">
-            </ng-container>
-        </div>
-        <div class="grow-image">
-            <img src="https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png" alt="">
-        </div>
+  <h2 class="header">Grow Your Care Business</h2>
+  <div class="header-content">
+    <div class="header-data">
+      <ng-container
+        *ngTemplateOutlet="
+          contentTemplate;
+          context: {
+            title: 'Boost Your Client Base and Revenue',
+            description:
+              'We provide strategies to help you expand your customer base, enhance efficiency and increase profits using proven methods.',
+            image:
+              'https://caresyncexperts.com/wp-content/uploads/2024/12/Featured-icon.svg'
+          }
+        "
+      >
+      </ng-container>
     </div>
+    <div class="header-data">
+      <ng-container
+        *ngTemplateOutlet="
+          contentTemplate;
+          context: {
+            title: 'Proven Track Record',
+            description:
+              'Benefit from our expertise and track record of success in supporting businesses like yours to grow.',
+            image:
+              'https://caresyncexperts.com/wp-content/uploads/2024/12/Featured-icon-1.svg'
+          }
+        "
+      >
+      </ng-container>
+    </div>
+    <div class="grow-image">
+      <img
+        class="w-[100%]"
+        src="https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869762.png"
+        alt=""
+      />
+    </div>
+  </div>
 </div>
 
-
-<ng-template #contentTemplate let-title="title" let-description="description" let-image="image">
-    <div class="flex items-center">
-        <img [src]="image" alt="Icon" class="w-8 h-8 mr-2" />
-        <h5 class="text-medium">
-            {{ title }}
-        </h5>
-    </div>
-    <p class="text-regular">
-        {{ description }}
-    </p>
+<ng-template
+  #contentTemplate
+  let-title="title"
+  let-description="description"
+  let-image="image"
+>
+  <div class="flex items-center">
+    <img [src]="image" alt="Icon" class="w-8 h-8 mr-2" />
+    <h5 class="text-medium">
+      {{ title }}
+    </h5>
+  </div>
+  <p class="text-regular">
+    {{ description }}
+  </p>
 </ng-template>

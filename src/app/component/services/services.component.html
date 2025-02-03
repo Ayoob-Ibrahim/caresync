@@ -1,21 +1,19 @@
 <div class="our-service-container">
-    <h1 class="service-hd-main text-primary">
-        Our Services
-    </h1>
-    <h5 class="service-hd-sub">
-        Unlock Your Healthcare Business's Full Potential
-    </h5>
-    <p class="service-content">
-        Discover the potential of your healthcare business through our state of the art solutions. Care Sync Experts
-        integrate knowledge, advanced technology and tailored assistance to enhance your procedures guarantee adherence
-        to regulations and foster steady expansion.
-    </p>
-    <div class="scrollable-container">
-        <ng-container *ngTemplateOutlet="service_card">
-        </ng-container>
-    </div>
+  <h1 class="service-hd-main text-primary">Our Services</h1>
+  <h5 class="service-hd-sub">
+    Unlock Your Healthcare Business's Full Potential
+  </h5>
+  <p class="service-content">
+    Discover the potential of your healthcare business through our state of the
+    art solutions. Care Sync Experts integrate knowledge, advanced technology
+    and tailored assistance to enhance your procedures guarantee adherence to
+    regulations and foster steady expansion.
+  </p>
+  <div class="scrollable-container flex justify-center">
+    <ng-container *ngTemplateOutlet="service_card"> </ng-container>
+  </div>
 </div>
 
 <ng-template #service_card>
-    <app-service-cards></app-service-cards>
+  <app-service-cards></app-service-cards>
 </ng-template>
