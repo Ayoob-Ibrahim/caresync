@@ -125,7 +125,14 @@ a span {
   color: #004558 !important;
 }
 
-a:hover span{
+a:hover span {
   color: #0e7a74 !important;
   text-decoration: underline !important;
+}
+
+.container-stretch {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+
 }
