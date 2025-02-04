@@ -23,6 +23,7 @@
 .card-data-container {
     width: 85%;
     margin: 4rem auto;
+    max-width: 1200px;
 
     p {
         font-size: 1.8rem;
@@ -176,6 +177,7 @@
     align-items: flex-end;
     justify-content: space-between !important;
     width: 95% !important;
+    max-width: 1200px;
 
     div {
         width: 100%;
