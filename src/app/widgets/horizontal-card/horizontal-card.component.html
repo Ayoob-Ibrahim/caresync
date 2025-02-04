@@ -1,6 +1,6 @@
 <!-- child.component.html -->
 <ng-container *ngIf="dataProperty?.cardContainer">
-  <div class="card-container">
+  <div class="card-container container-stretch">
     <div class="card">
       <div class="left-side">
         <div class="content">
@@ -24,7 +24,7 @@
 </ng-container>
 
 <ng-container *ngIf="dataProperty?.darkBlue">
-  <div class="dark-blue-container">
+  <div class="dark-blue-container container-stretch">
     <img [src]="dataProperty?.darkBlue?.img" alt="" />
     <h1>{{ dataProperty?.darkBlue?.h1 }}</h1>
     <p class="text-center">{{ dataProperty?.darkBlue?.p }}</p>
@@ -33,7 +33,7 @@
 </ng-container>
 
 <ng-container *ngIf="dataProperty?.liteblue">
-  <div class="lite-blue-container">
+  <div class="lite-blue-container container-stretch">
     <h1 *ngIf="dataProperty?.liteblue?.h1">{{ dataProperty?.liteblue?.h1 }}</h1>
     <p [innerHTML]="dataProperty?.liteblue?.p" class="custom-paragraph"></p>
   </div>
