@@ -177,7 +177,8 @@ main .bg-image p {
 
 
 .six_card_blue_border {
-    padding: 4rem;
+   padding-top: 4rem;
+   padding-bottom: 4rem;
 
     header {
         border-bottom: 2px solid rgba(0, 0, 0, 0.245);
@@ -306,8 +307,8 @@ main .bg-image p {
 }
 
 .our_team {
-    padding: 4rem;
-
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     header {
 
         display: flex;

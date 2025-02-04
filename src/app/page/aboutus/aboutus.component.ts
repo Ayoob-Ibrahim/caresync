@@ -4,7 +4,7 @@ import { InfiniteCarouselComponent } from '../../component/infinite-carousel/inf
 import { ThreeRowContentComponent } from '../../service-widgets/three-row-content/three-row-content.component';
 import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-
+import infinite_carousel from '../../json-data/infinite-carousel.json';
 @Component({
   selector: 'app-aboutus',
   imports: [CommonModule, InfiniteCarouselComponent, ThreeRowContentComponent, HorizontalCardComponent],
@@ -12,6 +12,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   styleUrl: './aboutus.component.scss'
 })
 export class AboutusComponent implements AfterViewInit {
+  data = infinite_carousel;
   ngAfterViewInit(): void {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }

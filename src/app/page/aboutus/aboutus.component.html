@@ -25,11 +25,11 @@
 
 
 <ng-template #carousel_comp>
-    <app-infinite-carousel></app-infinite-carousel>
+    <app-infinite-carousel [carousel]="data"></app-infinite-carousel>
 </ng-template>
 
 <ng-template #three_card_with_image_center>
-    <div class="three_card_with_image_center">
+    <div class="three_card_with_image_center container-stretch">
         <article>
             <h2>
                 Our Vision
@@ -114,7 +114,7 @@
 
 
 <ng-template #six_card_blue_border>
-    <div class="six_card_blue_border">
+    <div class="six_card_blue_border container-stretch">
         <header>
             <h2>Our Core Values</h2>
             <button class="common-button">Contact Us</button>
@@ -136,7 +136,7 @@
 
 
 <ng-template #two_ladies_template>
-    <section class="two_ladies_template">
+    <section class="two_ladies_template container-stretch">
         <div class="content-ladies">
             <h1>At CareSync Experts;</h1>
             <p>We are dedicated to supporting your journey towards success in the healthcare field. Whether you're
@@ -147,10 +147,10 @@
 </ng-template>
 
 <ng-template #our_team>
-    <div class="our_team">
+    <div class="our_team container-stretch">
         <header>
             <h2>Our Team</h2>
-            <button class="common-button" >Contact Us</button>
+            <button class="common-button">Contact Us</button>
         </header>
         <h3>
             The individuals in our <span style="color: #37a6a4;">Team are experienced experts</span> who are
