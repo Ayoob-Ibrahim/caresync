@@ -65,7 +65,7 @@
 
         button {
           background-color: #aeffef;
-          color: #004558!important;
+          color: #004558 !important;
           padding: 6px 14px;
           border-radius: 1.3rem;
           font-family: regular;
@@ -155,7 +155,8 @@
   background-color: #edfaf7;
   justify-content: center;
   align-items: center;
-  padding: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
 
   .header {
@@ -166,12 +167,13 @@
     border-radius: .3rem;
 
     // background-color: #f9f9f9;
-  
+
   }
 
   h2 {
     font-size: 2rem;
     font-family: semikanit;
+
     .highlight {
       color: #129693 !important;
     }
