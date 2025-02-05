@@ -1,67 +1,63 @@
-<div class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
-    <div >
-    <h2 class="lg:text-[2rem] md:text-[2rem] text-[1.5rem]  text-primary font-semikanit ">
-       {{dataProperty.mastertitle}}
-
-
+<div
+  class="p-[1.2rem] lg:px-[0.5rem] !max-w-[1200px] mr-auto ml-auto md:p-[3rem] w-[90%] m-[auto]"
+>
+  <div>
+    <h2
+      class="lg:text-[2rem] md:text-[2rem] text-[1.5rem] text-primary font-semikanit"
+    >
+      {{ dataProperty.mastertitle }}
     </h2>
-    
-    <p class="p-[.3rem 0] m-[0px] text-[1rem]  font-regular">
-        {{dataProperty.mastercontent}}
+
+    <p class="p-[.3rem 0] m-[0px] text-[1rem] font-regular">
+      {{ dataProperty.mastercontent }}
     </p>
-     
 
     <h3 class="text-[1.37rem] font-semikanit py-3">
-        {{dataProperty.imagetitle}}
-
+      {{ dataProperty.imagetitle }}
     </h3>
-   
-    </div>
-  
+  </div>
 
-    <div class="mt-[3rem] flex flex-wrap gap-y-[2] justify-between">
-     
+  <div class="mt-[3rem] flex flex-wrap gap-y-[2] justify-between">
     <div class="lg:basis-[48%] md:basis-[100%] sm:basis-[100%]">
-        <img [src]="dataProperty.imagecontentlinkurl" alt="">
+      <img [src]="dataProperty.imagecontentlinkurl" alt="" />
     </div>
-     
+
     <div class="lg:basis-[48%] md:basis-[100%] sm:basis-[100%] pt-3 lg:pt-0">
-        <div class="flex justify-between  flex-wrap items-stretch  rounded-[12px]  ">
-            <div class="lg:basis-[100%] sm:basis-[100%] md:basis-[100%]" *ngFor="let a of dataProperty.subcard" >
-                 
-                <div class="flex mb-[2rem] justify-start items-start">
-                 
-                 <div class="bg-[#c6e8e1] w-[48px] h-[48px] overflow-hidden rounded-[50%] flex justify-center items-center p-[.8rem] ">
-                     <img class="w-[100%] max-w-[100%] h-auto align-middle" src="../../../assets/emailfeature/{{a.icon}}.svg" alt="">
-                    </div>
-                    <div class="ml-[1rem] grow-[1] basis-[90%]   ">
-                        <h3 class="font-semikanit text-[1.37rem]">
-                            {{a.title}}
-                           
-                        </h3>
-                        <p class=" leading-[1.6] p-[.3rem 0] text-[1rem] text-toolbarprimary font-regular ">
-                            {{a.content}}
-                           </p>
-                     
-                     
-                       
-                       
-                     </div>
-                </div>
-                 </div>
+      <div class="flex justify-between flex-wrap items-stretch rounded-[12px]">
+        <div
+          class="lg:basis-[100%] sm:basis-[100%] md:basis-[100%]"
+          *ngFor="let a of dataProperty.subcard"
+        >
+          <div class="flex mb-[2rem] justify-start items-start">
+            <div
+              class="bg-[#c6e8e1] w-[48px] h-[48px] overflow-hidden rounded-[50%] flex justify-center items-center p-[.8rem]"
+            >
+              <img
+                class="w-[100%] max-w-[100%] h-auto align-middle"
+                src="../../../assets/emailfeature/{{ a.icon }}.svg"
+                alt=""
+              />
             </div>
-    </div>
-
-    </div>
-    
-
-        <div class="bg-[#129693] p-4 text-white! text-left rounded-lg w-[90%] mx-auto mt-4" style="color: white;font-family: regular;">
-            
-            {{dataProperty.footer}}
-
-
+            <div class="ml-[1rem] grow-[1] basis-[90%]">
+              <h3 class="font-semikanit text-[1.37rem]">
+                {{ a.title }}
+              </h3>
+              <p
+                class="leading-[1.6] p-[.3rem 0] text-[1rem] text-toolbarprimary font-regular"
+              >
+                {{ a.content }}
+              </p>
+            </div>
           </div>
-          
+        </div>
+      </div>
+    </div>
+  </div>
 
-
+  <div
+    class="bg-[#129693] p-4 text-white! text-left rounded-lg w-[90%] mx-auto mt-4"
+    style="color: white; font-family: regular"
+  >
+    {{ dataProperty.footer }}
+  </div>
 </div>

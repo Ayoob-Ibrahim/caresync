@@ -1,4 +1,4 @@
-main {
+.main {
     display: flex;
     padding: 2rem 2rem 4rem 2rem;
     justify-content: space-between;
@@ -7,7 +7,7 @@ main {
     position: relative;
     height: 70dvh;
 
-    section {
+    .section {
         width: 40%;
         margin: 2rem auto;
 
@@ -37,6 +37,7 @@ main {
 .main-container {
     position: relative;
     height: calc(70dvh + 500px);
+    
 }
 
 
@@ -89,12 +90,12 @@ figure {
 
 
 @media (max-width: 1024px) {
-    main {
+    .main {
         padding: 1rem 10px 1.5rem 10px;
         flex-direction: column;
         justify-content: space-around;
 
-        section {
+        .section {
             width: 100%;
         }
 
@@ -121,7 +122,7 @@ figure {
         padding: 10px 8px 1.5rem 8px;
         flex-direction: column;
 
-        section {
+        .section {
             width: 100%;
 
             h1 {

@@ -1,47 +1,49 @@
 <div class="main-container">
-  <h2>
-    {{ dataProperty?.maintitle }}
-  </h2>
-  <main>
-    <ng-container *ngFor="let item of dataProperty?.listdata">
-      <ng-container *ngIf="item?.contentWrapper; else image_block_else">
-        <div
-          class="card"
-          [ngStyle]="{
-            width: item?.contentWrapper.size,
-            height: item?.contentWrapper.height
-          }"
-        >
-          <span class="dot">{{
-            item?.contentWrapper?.sectionContentWrapper?.sectionNumberWrap
-              ?.sectionNumber
-          }}</span>
-          <h3>
-            {{
-              item?.contentWrapper?.sectionContentWrapper?.sectionHeaderWrap
-                ?.heading
-            }}
-          </h3>
+  <div class="!max-w-[1200px] mr-auto ml-auto">
+    <h2>
+      {{ dataProperty?.maintitle }}
+    </h2>
+    <main>
+      <ng-container *ngFor="let item of dataProperty?.listdata">
+        <ng-container *ngIf="item?.contentWrapper; else image_block_else">
+          <div
+            class="card"
+            [ngStyle]="{
+              width: item?.contentWrapper.size,
+              height: item?.contentWrapper.height
+            }"
+          >
+            <span class="dot">{{
+              item?.contentWrapper?.sectionContentWrapper?.sectionNumberWrap
+                ?.sectionNumber
+            }}</span>
+            <h3>
+              {{
+                item?.contentWrapper?.sectionContentWrapper?.sectionHeaderWrap
+                  ?.heading
+              }}
+            </h3>
+            <ng-container
+              *ngTemplateOutlet="
+                card_data;
+                context: {
+                  cards: item?.contentWrapper?.sectionContentWrapper?.cards
+                }
+              "
+            ></ng-container>
+          </div>
+        </ng-container>
+        <ng-template #image_block_else>
           <ng-container
             *ngTemplateOutlet="
-              card_data;
-              context: {
-                cards: item?.contentWrapper?.sectionContentWrapper?.cards
-              }
+              image_block;
+              context: { image: item?.imageWrapper }
             "
           ></ng-container>
-        </div>
+        </ng-template>
       </ng-container>
-      <ng-template #image_block_else>
-        <ng-container
-          *ngTemplateOutlet="
-            image_block;
-            context: { image: item?.imageWrapper }
-          "
-        ></ng-container>
-      </ng-template>
-    </ng-container>
-  </main>
+    </main>
+  </div>
 </div>
 
 <ng-template #card_data let-cards="cards">

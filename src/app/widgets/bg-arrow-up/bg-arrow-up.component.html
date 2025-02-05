@@ -7,46 +7,52 @@
   filter: brightness(94%);"
   class="p-[7%] bg-cover h-max bg-no-repeat"
 >
-  <div class="flex justify-around flex-wrap items-start">
-    <div class="lg:basis-[50%] md:basis-[100%] sm:basis-[100%] justify-start">
-      <h3 class="font-semikanit text-primary text-[30px]">
-        {{ dataProperty.mastertitle }}
-      </h3>
-      <p class="font-regular text-[28px]">
-        {{ dataProperty.mastersubtitle }}
+  <div class="!max-w-[1200px] mr-auto ml-auto">
+    <div class="flex justify-around flex-wrap items-start">
+      <div class="lg:basis-[50%] md:basis-[100%] sm:basis-[100%] justify-start">
+        <h3 class="font-semikanit text-primary text-[30px]">
+          {{ dataProperty.mastertitle }}
+        </h3>
+        <p class="font-regular text-[28px]">
+          {{ dataProperty.mastersubtitle }}
+        </p>
+
+        <button class="common-button mt-3">Contact Us</button>
+      </div>
+
+      <p
+        class="lg:basis-[50%] md:basis-[100%] sm:basis-[100%] font-regular text-toolbarprimary text-[16px] flex items-center pt-2"
+      >
+        {{ dataProperty.mastercontent }}
       </p>
-
-      <button class="common-button mt-3">Contact Us</button>
     </div>
-
-    <p
-      class="lg:basis-[50%] md:basis-[100%] sm:basis-[100%] font-regular text-toolbarprimary text-[16px] flex items-center pt-2"
-    >
-      {{ dataProperty.mastercontent }}
-    </p>
-  </div>
-  <div class="w-[100%] h-full pt-7 relative">
-    <img class="w-full rounded-[15px]" [src]="dataProperty.rightimage" alt="" />
-    <div
-      class="rounded-[20px] overflow-hidden bg-[#002A36] sm:left-0 sm:right-0 lg:w-[50%] sm:w-[100%] md:w-[100%] mt-2 md:bottom-[20px] md:left-[20px] lg:bottom-[5%] lg:left-[20px] lg:absolute"
-    >
-      <!-- <div class="relative h-full w-full">
+    <div class="w-[100%] h-full pt-7 relative">
+      <img
+        class="w-full rounded-[15px]"
+        [src]="dataProperty.rightimage"
+        alt=""
+      />
+      <div
+        class="rounded-[20px] overflow-hidden bg-[#002A36] sm:left-0 sm:right-0 lg:w-[50%] sm:w-[100%] md:w-[100%] mt-2 md:bottom-[20px] md:left-[20px] lg:bottom-[5%] lg:left-[20px] lg:absolute"
+      >
+        <!-- <div class="relative h-full w-full">
       
       </div> -->
 
-      <div class="p-5 w-[70%] relative">
-        <h4 class="font-semikanit text-[20px] text-whitenormal">
-          {{ dataProperty.rightbgcolortitle }}
-          <img
-            class="absolute h-[149px] w-[202px] bottom-[-23px] right-[-50%]"
-            src="{{ dataProperty.rightbgcolorimage }}"
-            alt=""
-          />
-        </h4>
+        <div class="p-5 w-[70%] relative">
+          <h4 class="font-semikanit text-[20px] text-whitenormal">
+            {{ dataProperty.rightbgcolortitle }}
+            <img
+              class="absolute h-[149px] w-[202px] bottom-[-23px] right-[-50%]"
+              src="{{ dataProperty.rightbgcolorimage }}"
+              alt=""
+            />
+          </h4>
 
-        <p class="font-regular text-whitenormal">
-          {{ dataProperty.rightbgcolorcontent }}
-        </p>
+          <p class="font-regular text-whitenormal">
+            {{ dataProperty.rightbgcolorcontent }}
+          </p>
+        </div>
       </div>
     </div>
   </div>

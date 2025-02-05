@@ -1,31 +1,44 @@
 <div class="main-container">
-  <main *ngIf="dataProperty?.mainContainer?.main">
-    <section *ngIf="dataProperty?.mainContainer.main.sections[0]">
-      <h1 class="leading-[40px]">
-        {{ dataProperty?.mainContainer.main.sections[0]?.heading }}
-      </h1>
-      <h4 class="leading-[35px]">
-        {{ dataProperty?.mainContainer.main.sections[0]?.subHeading }}
-      </h4>
-      <button class="common-button">
-        {{ dataProperty?.mainContainer.main.sections[0]?.buttonText }}
-      </button>
-    </section>
-    <section *ngIf="dataProperty?.mainContainer.main.sections[1]">
-      <p>
-        {{ dataProperty?.mainContainer.main.sections[1]?.content }}
-      </p>
-    </section>
-  </main>
-  <figure *ngIf="dataProperty?.mainContainer?.figure">
-    <div>
-      <img
-        [src]="dataProperty?.mainContainer.figure.image?.src"
-        [alt]="dataProperty?.mainContainer.figure.image?.alt"
-      />
-      <figcaption>
-        {{ dataProperty?.mainContainer.figure?.figcaption }}
-      </figcaption>
-    </div>
-  </figure>
+  <div class="w-full">
+    <main class="w-full bg-[#f2f9f9]" *ngIf="dataProperty?.mainContainer?.main">
+      <div class="!max-w-[1200px] mr-auto ml-auto main">
+        <section
+          class="section"
+          *ngIf="dataProperty?.mainContainer.main.sections[0]"
+        >
+          <h1 class="leading-[40px]">
+            {{ dataProperty?.mainContainer.main.sections[0]?.heading }}
+          </h1>
+          <h4 class="leading-[35px]">
+            {{ dataProperty?.mainContainer.main.sections[0]?.subHeading }}
+          </h4>
+          <button class="common-button">
+            {{ dataProperty?.mainContainer.main.sections[0]?.buttonText }}
+          </button>
+        </section>
+        <section
+          class="section"
+          *ngIf="dataProperty?.mainContainer.main.sections[1]"
+        >
+          <p class="!max-w-[1200px] mr-auto ml-auto">
+            {{ dataProperty?.mainContainer.main.sections[1]?.content }}
+          </p>
+        </section>
+      </div>
+    </main>
+    <figure
+      class="!max-w-[1200px] mr-auto ml-auto"
+      *ngIf="dataProperty?.mainContainer?.figure"
+    >
+      <div>
+        <img
+          [src]="dataProperty?.mainContainer.figure.image?.src"
+          [alt]="dataProperty?.mainContainer.figure.image?.alt"
+        />
+        <figcaption>
+          {{ dataProperty?.mainContainer.figure?.figcaption }}
+        </figcaption>
+      </div>
+    </figure>
+  </div>
 </div>

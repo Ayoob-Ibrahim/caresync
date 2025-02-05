@@ -1,61 +1,72 @@
 <ng-container *ngIf="!dataProperty?.headerontop; else headerontop_templ">
-    <div [style.height]="dataProperty?.card ? '100vh' : 'max-content'">
-        <div class="main-container" [style.background-image]="'url(' + dataProperty?.img + ')'">
-            <figure *ngIf="!dataProperty?.isFullContent else full_container_content">
-                <figcaption>
-                    <h2>{{dataProperty?.title}}</h2>
-                    <h6>{{dataProperty?.sub}}</h6>
-                    <p>
-                        {{dataProperty?.content}}
-                    </p>
-                </figcaption>
-            </figure>
+  <div [style.height]="dataProperty?.card ? '100vh' : 'max-content'">
+    <div
+      class="main-container"
+      [style.background-image]="'url(' + dataProperty?.img + ')'"
+    >
+      <figure *ngIf="!dataProperty?.isFullContent; else full_container_content">
+        <figcaption>
+          <h2>{{ dataProperty?.title }}</h2>
+          <h6>{{ dataProperty?.sub }}</h6>
+          <p>
+            {{ dataProperty?.content }}
+          </p>
+        </figcaption>
+      </figure>
 
-            <ng-container *ngIf="dataProperty?.card">
-                <div class="flex justify-center">
-                    <div class="bottom-card"
-                        [ngStyle]="dataProperty?.bgclr && {'background-color': dataProperty?.bgclr}">
-                        <h3 [ngStyle]="dataProperty?.txtclr && {'color': dataProperty?.txtclr}">
-                            {{dataProperty?.card?.title}}
-                        </h3>
-                        <p [ngStyle]="dataProperty?.txtclr1 && {'color': dataProperty?.txtclr1}">
-                            {{dataProperty?.card?.content1}}
-                        </p>
-                        <p>
-                            {{dataProperty?.card?.content2}}
-                        </p>
-
-                    </div>
-                </div>
-            </ng-container>
+      <ng-container *ngIf="dataProperty?.card">
+        <div class="flex justify-center">
+          <div
+            class="bottom-card"
+            [ngStyle]="
+              dataProperty?.bgclr && { 'background-color': dataProperty?.bgclr }
+            "
+          >
+            <h3
+              [ngStyle]="
+                dataProperty?.txtclr && { color: dataProperty?.txtclr }
+              "
+            >
+              {{ dataProperty?.card?.title }}
+            </h3>
+            <p
+              [ngStyle]="
+                dataProperty?.txtclr1 && { color: dataProperty?.txtclr1 }
+              "
+            >
+              {{ dataProperty?.card?.content1 }}
+            </p>
+            <p>
+              {{ dataProperty?.card?.content2 }}
+            </p>
+          </div>
         </div>
+      </ng-container>
     </div>
+  </div>
 </ng-container>
 
 <ng-template #headerontop_templ>
-    <div class="headerontop_templ">
-        <article>
-            <p>
-                {{dataProperty?.content}}
-            </p>
-            <h2>{{dataProperty?.title}}</h2>
-            <h6>{{dataProperty?.sub}}</h6>
-        </article>
-        <section>
-
-            <div [style.background-image]="'url(' + dataProperty?.img + ')'">
-
-            </div>
-        </section>
-    </div>
+  <div class="headerontop_templ">
+    <article>
+      <p>
+        {{ dataProperty?.content }}
+      </p>
+      <h2>{{ dataProperty?.title }}</h2>
+      <h6>{{ dataProperty?.sub }}</h6>
+    </article>
+    <section>
+      <div [style.background-image]="'url(' + dataProperty?.img + ')'"></div>
+    </section>
+  </div>
 </ng-template>
 
 <ng-template #full_container_content>
-    <article class="full-container">
-        <h2>{{dataProperty?.title}}</h2>
-        <h6 [innerHTML]="dataProperty?.sub"> </h6>
-        <p>
-            {{dataProperty?.content}}
-        </p>
-    </article>
+  <article class="full-container !max-w-[1200px] mr-auto ml-auto">
+    <h2>{{ dataProperty?.title }}</h2>
+    <h6 [innerHTML]="dataProperty?.sub"></h6>
+    <p>
+      {{ dataProperty?.content }}
+    </p>
+  </article>
 </ng-template>

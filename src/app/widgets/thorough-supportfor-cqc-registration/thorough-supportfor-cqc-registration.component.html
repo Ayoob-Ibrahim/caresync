@@ -1,32 +1,38 @@
-<div class="p-[1.2rem] lg:px-[0.5rem]  md:p-[3rem] w-[90%] m-[auto]">
-<div >
-<h2 class="text-[2rem]  text-primary font-semikanit">
-   {{dataProperty.mastertitle}}
-</h2>
+<div
+  class="p-[1.2rem] lg:px-[0.5rem] md:p-[3rem] w-[90%] m-[auto] !max-w-[1200px] mr-auto ml-auto"
+>
+  <div>
+    <h2 class="text-[2rem] text-primary font-semikanit">
+      {{ dataProperty.mastertitle }}
+    </h2>
 
-<p class="p-[.3rem 0] m-[0px] text-[1rem]  text-toolbarprimary font-regular">
- {{dataProperty.mastercontent}}
-
-
-</p>
-<h3 class="font-semikanit text-[1.3rem] mt-2 ">
-   {{dataProperty.imagetitle}}
-</h3>
-<p class="p-[.3rem 0] m-[0px] text-[1rem]  text-toolbarprimary font-regular">
-    {{dataProperty.imagecontent1}} <a [href]="dataProperty.imagecontentlinkurl" class="text-primary hover:text-[#024349]" target="_blank" rel="noopener noreferrer">{{dataProperty.linktext}}</a> {{dataProperty.imagecontent2}}
-</p>
-<figure class="mt-[1rem]">
-    <img class="rounded-[12px] w-[100%] h-auto align-middle" src="../../../assets/our-packages/DomiciliaryCare/througoutsupport.jpg" alt="">
-</figure>
-</div>
-<div>
-  
-
-  
-        <app-lightgreen-grid-box [dataProperty]="dataProperty">
-        
-        </app-lightgreen-grid-box>
-        
-       
-</div>
+    <p class="p-[.3rem 0] m-[0px] text-[1rem] text-toolbarprimary font-regular">
+      {{ dataProperty.mastercontent }}
+    </p>
+    <h3 class="font-semikanit text-[1.3rem] mt-2">
+      {{ dataProperty.imagetitle }}
+    </h3>
+    <p class="p-[.3rem 0] m-[0px] text-[1rem] text-toolbarprimary font-regular">
+      {{ dataProperty.imagecontent1 }}
+      <a
+        [href]="dataProperty.imagecontentlinkurl"
+        class="text-primary hover:text-[#024349]"
+        target="_blank"
+        rel="noopener noreferrer"
+        >{{ dataProperty.linktext }}</a
+      >
+      {{ dataProperty.imagecontent2 }}
+    </p>
+    <figure class="mt-[1rem]">
+      <img
+        class="rounded-[12px] w-[100%] h-auto align-middle"
+        src="../../../assets/our-packages/DomiciliaryCare/througoutsupport.jpg"
+        alt=""
+      />
+    </figure>
+  </div>
+  <div>
+    <app-lightgreen-grid-box [dataProperty]="dataProperty">
+    </app-lightgreen-grid-box>
+  </div>
 </div>
