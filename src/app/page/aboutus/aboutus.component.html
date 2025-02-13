@@ -59,22 +59,25 @@
 
 <ng-template #ash_clr_container>
     <div class="ash_clr_container">
-        <h2>
-            Our Commitment
-        </h2>
-        <section>
-            <aside class="container-1">
-                <img src="../../../assets/aboutus/about-us-aside.jpeg" alt="">
-            </aside>
-            <aside class="container-2">
-                <h4>
-                    Come Be Part Of Our Mission to Revolutionize Health Care
-                </h4>
-            </aside>
-            <div class="absolute-cards">
-                <ng-container *ngTemplateOutlet="three_cards"></ng-container>
-            </div>
-        </section>
+        <div class="container-stretch">
+            <h2>
+                Our Commitment
+            </h2>
+            <section>
+                <aside class="container-1">
+                    <img src="../../../assets/aboutus/about-us-aside.jpeg" alt="">
+                </aside>
+                <aside class="container-2">
+                    <h4>
+                        Come Be Part Of Our Mission to Revolutionize Health Care
+                    </h4>
+                </aside>
+                <div class="absolute-cards">
+                    <ng-container *ngTemplateOutlet="three_cards"></ng-container>
+                </div>
+            </section>
+        </div>
+
     </div>
 </ng-template>
 

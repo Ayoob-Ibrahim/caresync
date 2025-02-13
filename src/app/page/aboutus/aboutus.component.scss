@@ -85,7 +85,8 @@ main .bg-image p {
 .ash_clr_container {
     padding: 4rem;
     background-color: #f0f5f5;
-    position: relative;
+    padding-bottom: 8rem;
+    // position: relative;
 
     h2 {
         font-family: medium;
@@ -104,7 +105,7 @@ main .bg-image p {
     aside {
         font-family: regular;
         font-size: 3rem;
-        width: 48%;
+        width: 50%;
     }
 }
 
@@ -114,8 +115,8 @@ main .bg-image p {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    bottom: -4%;
-    right: 4%;
+    top: 58%;
+    right: 0%;
 
     .card {
         width: 270px;
@@ -177,8 +178,8 @@ main .bg-image p {
 
 
 .six_card_blue_border {
-   padding-top: 4rem;
-   padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 
     header {
         border-bottom: 2px solid rgba(0, 0, 0, 0.245);
@@ -309,6 +310,7 @@ main .bg-image p {
 .our_team {
     padding-top: 4rem;
     padding-bottom: 4rem;
+
     header {
 
         display: flex;
