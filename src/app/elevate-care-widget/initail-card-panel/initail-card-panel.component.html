@@ -1,0 +1,26 @@
+<main [class]="dataProperty?.main?.class">
+    <section *ngFor="let section of dataProperty?.main?.sections">
+        <h6 *ngIf="section?.headingSmall" [innerHTML]="section?.headingSmall"></h6>
+        <h1 *ngIf="section?.headingLarge" [innerHTML]="section?.headingLarge"></h1>
+        <p *ngIf="section?.description" [innerHTML]="section?.description"></p>
+        <img *ngIf="section?.image?.src" [src]="section?.image?.src" [alt]="section?.image?.alt">
+    </section>
+
+    <div [class]="dataProperty?.main?.card?.class">
+        <ng-container *ngFor="let item of dataProperty?.main?.card?.items">
+            <ng-container *ngTemplateOutlet="card_section; context: { $implicit: item }"></ng-container>
+        </ng-container>
+    </div>
+</main>
+
+<ng-template #card_section let-data>
+    <div class="card-section">
+        <div class="hero-footer-item-icon">
+            <img [src]="data?.icon" alt="{{ data?.title }} Icon">
+        </div>
+        <div>
+            <h3>{{ data?.title }}</h3>
+            <small>{{ data?.subtitle }}</small>
+        </div>
+    </div>
+</ng-template>
