@@ -1,2 +1,37 @@
 <app-initail-card-panel [dataProperty]="initialData"></app-initail-card-panel>
 <app-lite-blue-panel></app-lite-blue-panel>
+<ng-container *ngFor="let item of websiteDesign">
+    <ng-container *ngTemplateOutlet="three_card_headers;context: { $implicit: item }"></ng-container>
+</ng-container>
+
+
+
+
+<ng-template #three_card_headers let-dataset>
+    <section class="three_card_headers container-stretch">
+        <h3>
+           {{dataset.content.heading.text}}
+        </h3>
+        <p> {{dataset.content.description.text}} </p>
+        <button class="common-button"> {{dataset.content.button.text}}</button>
+        <div class="card-wrapper-container">
+            <ng-container *ngFor="let item of dataset.content.columns.items">
+                <ng-container *ngTemplateOutlet="card_data ;context: { $implicit: item }"></ng-container>
+            </ng-container>
+        </div>
+    </section>
+</ng-template>
+
+<ng-template #card_data let-data>
+    <div class="card">
+        <div class="img-wrap">
+            <img [src]="data.image.src" alt="">
+        </div>
+        <div>
+            <h4>
+                {{data.heading.text}}
+            </h4>
+            <p> {{data.description.text}}</p>
+        </div>
+    </div>
+</ng-template>

@@ -87,3 +87,55 @@ main {
 
 
 }
+
+
+
+@media (max-width: 1024px) {
+    main {
+        .card-container {
+            .card {
+                width: 95% !important;
+
+                .image-wrapper {
+                    margin: auto;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    main {
+        article {
+            text-align: center;
+
+
+            h2 {
+                font-family: medium;
+                font-size: 1.8rem;
+                padding: 0 10px;
+
+            }
+
+            p {
+                font-family: regular;
+                color: rgba(0, 0, 0, 0.59);
+            }
+        }
+
+
+        .card-container {
+            .card {
+                flex-direction: column !important;
+                gap: 2rem;
+
+                .image-wrapper {
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
