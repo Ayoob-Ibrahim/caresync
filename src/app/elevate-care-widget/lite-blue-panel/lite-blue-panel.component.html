@@ -1,3 +1,37 @@
-<main>
-    
+<main class="container-stretch">
+    <article>
+        <h2>
+            Why a Professional Website is Essential
+            for Healthcare Providers
+        </h2>
+        <p>In today’s digital age, having a professionally designed website is vital for:</p>
+    </article>
+    <section>
+        <ng-container *ngTemplateOutlet="card_container"></ng-container>
+    </section>
 </main>
+
+<ng-template #card_container>
+    <div class="card-container">
+        <ng-container *ngFor="let item of dataProperty.websiteBenefits">
+            <ng-container *ngTemplateOutlet="card_wrapper; context: { $implicit: item }"></ng-container>
+        </ng-container>
+    </div>
+</ng-template>
+
+<ng-template #card_wrapper let-data>
+    <div class="card" [style.width]="data.details.width" [style.flex-direction]="data.details.direction">
+        <div class="content-wrapper" [style.flex-basis]="data.details.flexbasis" >
+            <div>
+                <h2>{{ data.details.text.heading.text }}</h2>
+                <p>{{ data.details.text.description }}</p>
+            </div>
+            <button class="button-wrapper" [routerLink]="data.details.button.link">
+                {{ data.details.button.text }}
+            </button>
+        </div>
+        <div class="image-wrapper" *ngIf="data.image">
+            <img [src]="data.image.src" [alt]="data.image.alt" [style.padding]="data?.image?.padding">
+        </div>
+    </div>
+</ng-template>

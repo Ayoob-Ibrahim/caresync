@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { InitailCardPanelComponent } from '../../../elevate-care-widget/initail-card-panel/initail-card-panel.component';
+import { LiteBluePanelComponent } from '../../../elevate-care-widget/lite-blue-panel/lite-blue-panel.component';
 
 @Component({
   selector: 'app-website-development',
-  imports: [InitailCardPanelComponent],
+  imports: [InitailCardPanelComponent, LiteBluePanelComponent],
   templateUrl: './website-development.component.html',
   styleUrl: './website-development.component.scss'
 })
