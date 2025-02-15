@@ -4,13 +4,13 @@
     <ng-container *ngTemplateOutlet="three_card_headers;context: { $implicit: item }"></ng-container>
 </ng-container>
 
-
+<ng-template *ngTemplateOutlet="horizontal_card"></ng-template>
 
 
 <ng-template #three_card_headers let-dataset>
     <section class="three_card_headers container-stretch">
         <h3>
-           {{dataset.content.heading.text}}
+            {{dataset.content.heading.text}}
         </h3>
         <p> {{dataset.content.description.text}} </p>
         <button class="common-button"> {{dataset.content.button.text}}</button>
@@ -32,6 +32,17 @@
                 {{data.heading.text}}
             </h4>
             <p> {{data.description.text}}</p>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #horizontal_card>
+    <div class="web-dev-process-section-header-wrapper container-stretch">
+        <div class="web-dev-process-section-header-details">
+            <h2 class="web-dev-process-section-heading lg-txt">Our Website Development Process</h2>
+            <p>We adopt a data driven approach to ensure your website is not only aesthetically pleasing but also
+                delivers measurable results. Our strategies are designed to create user focused, conversion optimised,
+                and fully functional websites that meet the healthcare industry's high standards.</p>
         </div>
     </div>
 </ng-template>

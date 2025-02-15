@@ -45,12 +45,59 @@
 
 
 
+.web-dev-process-section-header-wrapper {
+    background: linear-gradient(to right, rgba(24, 24, 24, 0.7), rgba(24, 24, 24, 0.7)), url(https://caresyncexperts.co.uk/images/packages/package-tagline.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin-bottom: 2rem;
+    height: 260px;
+    border-radius: .9rem;
+    display: flex;
+
+    .web-dev-process-section-header-details {
+        text-align: center;
+        width: 75%;
+        margin: auto;
+
+
+        h2 {
+            font-size: 2rem;
+            color: #adffeb;
+            font-family: medium;
+        }
+
+        p {
+            padding: .3rem 0;
+            margin: 0;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            font-family: regular;
+            color: white;
+        }
+    }
+}
+
+
+
+
 @media (max-width: 1024px) {
     .three_card_headers {
         .card-wrapper-container .card {
-            width: 80% ;
+            width: 80%;
             margin: auto;
         }
+    }
+
+    .web-dev-process-section-header-wrapper {
+
+
+        .web-dev-process-section-header-details {
+            text-align: center;
+            width: 90%;
+            margin: auto;
+        }
+
     }
 }
 
@@ -58,8 +105,26 @@
 @media (max-width: 768px) {
     .three_card_headers {
         .card-wrapper-container .card {
-            width: 98% ;
+            width: 98%;
             margin: auto;
         }
+    }
+
+
+    .web-dev-process-section-header-wrapper {
+        height: auto;
+        padding: 1.65rem 10px;
+
+        .web-dev-process-section-header-details {
+            text-align: center;
+            width: 98%;
+            margin: auto;
+
+            h2 {
+                font-size: 1.4rem;
+               
+            }
+        }
+
     }
 }
