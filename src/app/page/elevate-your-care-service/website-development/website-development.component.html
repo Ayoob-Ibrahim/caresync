@@ -1,10 +1,10 @@
-<!-- <app-initail-card-panel [dataProperty]="initialData"></app-initail-card-panel>
+<app-initail-card-panel [dataProperty]="initialData"></app-initail-card-panel>
 <app-lite-blue-panel></app-lite-blue-panel>
 <ng-container *ngFor="let item of websiteDesign">
     <ng-container *ngTemplateOutlet="three_card_headers;context: { $implicit: item }"></ng-container>
 </ng-container>
 <ng-template *ngTemplateOutlet="horizontal_card"></ng-template>
-<app-vertical-tabs></app-vertical-tabs> -->
+<app-vertical-tabs></app-vertical-tabs>
 <ng-container *ngTemplateOutlet="case_studies"></ng-container>
 
 
@@ -57,9 +57,9 @@
         <h3 class="text-[#323433] text-[1.4rem] font-semikanit">Case Studies</h3>
 
         <div class="flex pt-4 flex-row w-full flex-wrap justify-between">
-            <div class="flex lg:basis-[27%] sm:basis-[100%] md:basis-[27%] w-full justify-start"
+            <div class="flex lg:basis-[27%] sm:basis-[100%] md:basis-[27%] w-full justify-start  "
                 *ngFor="let a of datacasestudies">
-                <div class="py-6" style="text-align: center;">
+                <div class="py-6" style="text-align: center;margin: auto;">
                     <div class="box b" (click)="visitWeb( a.url)">
                         <img class="rounded-md case-studies-img" src="{{ a.image }}" alt="" />
                     </div>

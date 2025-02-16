@@ -147,6 +147,10 @@
         }
 
     }
+
+    .box:hover {
+        animation: none;
+    }
 }
 
 
@@ -174,5 +178,9 @@
             }
         }
 
+    }
+
+    div.ml-auto h3.font-semikanit {
+        padding-left: 10px;
     }
 }
