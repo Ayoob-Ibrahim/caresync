@@ -1,15 +1,17 @@
-<app-initail-card-panel [dataProperty]="initialData"></app-initail-card-panel>
+<app-initail-card-panel [dataProperty]="website_dev.initialData"></app-initail-card-panel>
 <app-lite-blue-panel></app-lite-blue-panel>
-<ng-container *ngFor="let item of websiteDesign">
+<ng-container *ngFor="let item of website_dev.websiteDesign">
     <ng-container *ngTemplateOutlet="three_card_headers;context: { $implicit: item }"></ng-container>
 </ng-container>
 <ng-template *ngTemplateOutlet="horizontal_card"></ng-template>
 <app-vertical-tabs></app-vertical-tabs>
 <ng-container *ngTemplateOutlet="case_studies"></ng-container>
 <ng-container *ngTemplateOutlet="colaborate"></ng-container>
-<ng-container *ngTemplateOutlet="horizontal_card_2;context: { $implicit: horizontal_card_data_2.data }"></ng-container>
+<ng-container
+    *ngTemplateOutlet="horizontal_card_2;context: { $implicit: website_dev.horizontal_card_data_2.data }"></ng-container>
 <ng-container *ngTemplateOutlet="faq"></ng-container>
-<ng-container *ngTemplateOutlet="horizontal_card_2;context: { $implicit: horizontal_card_3 }"></ng-container>
+<ng-container
+    *ngTemplateOutlet="horizontal_card_2;context: { $implicit:website_dev.horizontal_card_3 }"></ng-container>
 
 
 <ng-template #three_card_headers let-dataset>
@@ -58,7 +60,7 @@
 
         <div class="flex pt-4 flex-row w-full flex-wrap justify-between">
             <div class="flex lg:basis-[27%] sm:basis-[100%] md:basis-[27%] w-full justify-start  "
-                *ngFor="let a of datacasestudies">
+                *ngFor="let a of website_dev.datacasestudies">
                 <div class="py-6" style="text-align: center;margin: auto;">
                     <div class="box b" (click)="visitWeb( a.url)">
                         <img class="rounded-md case-studies-img" src="{{ a.image }}" alt="" />
@@ -74,7 +76,8 @@
 
 <ng-template #colaborate>
     <div style="background-color:#edfaf7;padding: 4rem 0">
-        <app-dynamic-para-with-image [dataProperty]="dynamicPara.dynamiccontent"></app-dynamic-para-with-image>
+        <app-dynamic-para-with-image
+            [dataProperty]="website_dev.dynamicPara.dynamiccontent"></app-dynamic-para-with-image>
     </div>
 </ng-template>
 
@@ -87,9 +90,10 @@
     <div class="faq">
         <div class="p-[1.2rem] lg:px-[0.5rem] md:p-[3rem] w-[90%] !max-w-[1200px] mr-auto ml-auto">
             <h2 class="text-center mb-2 text-[2rem] font-semikanit">
-                {{ faq_ques.faq_section?.title }}
+                {{ website_dev. faq_ques.faq_section?.title }}
             </h2>
-            <div (click)="selectIndex(i, $event)" *ngFor="let a of faq_ques.faq_section.questions; let i = index" class="rounded-[12px] p-[1rem] mb-[1rem] item {{
+            <div (click)="selectIndex(i, $event)"
+                *ngFor="let a of website_dev. faq_ques.faq_section.questions; let i = index" class="rounded-[12px] p-[1rem] mb-[1rem] item {{
       selecteData() == i ? 'bg' : ''
     }}">
                 <div class="header">
