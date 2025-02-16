@@ -129,6 +129,33 @@
 
 
 
+
+.faq {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: .5rem;
+        cursor: pointer;
+        color: #181818;
+    }
+
+    .item:hover {
+        background-color: #edfaf7;
+    }
+
+    .bg {
+        background-color: #edfaf7;
+    }
+
+    ul li {
+        color: rgb(4, 113, 122);
+        font-family: medium, sans-serif !important;
+        margin: 0px;
+
+    }
+}
+
 @media (max-width: 1024px) {
     .three_card_headers {
         .card-wrapper-container .card {

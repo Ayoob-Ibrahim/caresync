@@ -1,14 +1,19 @@
-import { Component, inject } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
 import { InitailCardPanelComponent } from '../../../elevate-care-widget/initail-card-panel/initail-card-panel.component';
 import { LiteBluePanelComponent } from '../../../elevate-care-widget/lite-blue-panel/lite-blue-panel.component';
 import { CommonModule } from '@angular/common';
 import { VerticalTabsComponent } from '../../../elevate-care-widget/vertical-tabs/vertical-tabs.component';
 import { Router } from '@angular/router';
+import { DynamicParaWithImageComponent } from '../../../widgets/dynamic-para-with-image/dynamic-para-with-image.component';
+import { HorizontalCardComponent } from '../../../widgets/horizontal-card/horizontal-card.component';
+
 
 
 @Component({
   selector: 'app-website-development',
-  imports: [InitailCardPanelComponent, LiteBluePanelComponent, CommonModule, VerticalTabsComponent],
+  imports: [InitailCardPanelComponent, LiteBluePanelComponent, CommonModule, VerticalTabsComponent, DynamicParaWithImageComponent,
+    HorizontalCardComponent,
+  ],
   templateUrl: './website-development.component.html',
   styleUrl: './website-development.component.scss'
 })
@@ -264,7 +269,185 @@ export class WebsiteDevelopmentComponent {
   ]
 
 
+
+  dynamicPara = {
+    "dynamiccontent": {
+      "title": "Why Choose Care Sync Experts?",
+      "data": [
+        {
+          "header": "Experienced Healthcare Web Developers",
+          "content": "We specialise in healthcare website development, ensuring that your website meets industry standards while offering all the functionality your clients need."
+        },
+        {
+          "header": "Tailored Solutions for Every Client",
+          "content": "Each website is customised to align with your brand identity and business goals, offering a truly personalised online experience for your clients."
+        },
+        {
+          "header": "Ongoing Support and Maintenance",
+          "content": "We provide continuous support and maintenance to ensure that your website evolves with your business, including regular updates, security checks, and performance monitoring."
+        },
+        {
+          "header": "SEO and Mobile-First Approach",
+          "content": "Our designs are mobile-responsive and SEO-optimised, ensuring that your website performs well on all devices and ranks higher on search engines, driving more traffic to your site."
+        }
+      ]
+    }
+  }
+
+
+  horizontal_card_data_2 = {
+    "data": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Contact Us Today for Your Healthcare Website",
+              "p": "Ready to take your healthcare website to the next level?"
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Contact Care Sync Experts for a free consultation today:",
+                `Email: hello@caresyncexperts.co.uk`,
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
+      }
+    }
+  }
+
+  faq_ques = {
+    "faq_section": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "question": "1. What key components make a healthcare website successful?",
+          "answer": "To create a healthcare website it is essential to include important components:",
+          "details": [
+            {
+              "title": "Design Focused on Users",
+              "description": "Make sure the design is user friendly, easy to navigate and accessible to everyone, including those with disabilities. Adhere to the Web Content Accessibility Guidelines (WCAG) for an user experience."
+            },
+            {
+              "title": "SEO Optimisation",
+              "description": "Incorporate SEO strategies for search engine visibility. This includes using keywords optimising tags and creating valuable content that addresses the common inquiries of your target audience."
+            },
+            {
+              "title": "Prioritising Mobile Design",
+              "description": "Given the rise in mobile device usage ensure your website is mobile responsive. Utilise design techniques that allow adaptation to screen sizes."
+            },
+            {
+              "title": "Security and Compliance",
+              "description": "Ensure compliance with regulations such as GDPR in the UK and HIPAA in the US concerning data protection and secure user authentication. Regular security assessments and updates are crucial for maintaining compliance."
+            }
+          ]
+        },
+        {
+          "question": "2. What are some ways SEO can enhance the exposure of a healthcare site?",
+          "answer": "Improving a healthcare website's visibility is boosted through Search Engine Optimization (SEO) by enhancing its position on search engine results pages (SERPs). Successful SEO tactics encompass:",
+          "details": [
+            {
+              "title": "Keyword Research and Usage",
+              "description": "Utilising the keywords is crucial for healthcare services websites. Make sure to include terms like 'healthcare website development' 'SEO for healthcare' and 'telehealth services' naturally in your content."
+            },
+            {
+              "title": "Quality Content Creation",
+              "description": "Creating high quality content is key. Produce blog posts, articles and videos that address questions and concerns of your audience. This does not boost your search engine ranking. Also establishes your agency as an authority in the field."
+            },
+            {
+              "title": "Technical SEO",
+              "description": "For SEO performance ensure your website has an organised URL structure, quick loading times and no broken links. Use tags and alt texts for images to improve search engine visibility and indexing of your site."
+            }
+          ]
+        },
+        {
+          "question": "3. How important is user experience (UX) in the development of healthcare websites?",
+          "answer": "Creating an user experience (UX) is essential in the development of healthcare websites since it significantly influences how individuals engage with your platform. Important elements of UX encompass:",
+          "details": [
+            {
+              "title": "Easy Navigation",
+              "description": "Establish an user friendly layout that allows users to locate information swiftly. This involves having menus, search functionalities and well structured content."
+            },
+            {
+              "title": "Captivating Visual Elements",
+              "description": "Utilise top notch images, videos and infographics to elevate the appeal of the website. Visual content can effectively convey details. Boost user comprehension."
+            },
+            {
+              "title": "Client Portals and Online Services",
+              "description": "Integrate functionalities such as secure client portals for accessing health related data, scheduling appointments and utilising telehealth services. These offerings enrich user interaction and satisfaction by providing services."
+            }
+          ]
+        },
+        {
+          "question": "4. How can Care Sync Experts assist with the creation of a healthcare website?",
+          "answer": "Healthcare website development services offered by Care Sync Experts are customised to meet your needs.",
+          "details": [
+            {
+              "title": "Custom Website Design",
+              "description": "Develop attractive and user websites tailored specifically for healthcare institutions. Prioritise user experience and make sure the site is fully operational and compliant with industry regulations."
+            },
+            {
+              "title": "SEO and Digital Marketing",
+              "description": "Utilise SEO tactics to enhance visibility, drive traffic and offer marketing solutions such as PPC advertising, social media management and content marketing to attract and engage your desired audience."
+            },
+            {
+              "title": "Ongoing Support and Maintenance",
+              "description": "Deliver assistance for website expansion and adaptation, to evolving requirements. Regular updates, security checks and performance monitoring guarantee the website's effectiveness and security."
+            }
+          ]
+        },
+        {
+          "question": "5. What advantages come with having a crafted healthcare website managed by professionals?",
+          "answer": "A crafted healthcare platform provides a range of advantages such as:",
+          "details": [
+            {
+              "title": "Increased Client Acquisition",
+              "description": "Having a structured website plays a role in gaining new clients as it serves as the initial interaction point for potential customers. By offering information and convenient access to services it helps in attracting and retaining clients effectively."
+            },
+            {
+              "title": "Enhanced Credibility and Trust",
+              "description": "A designed website contributes to establishing trust and credibility in the services provided which holds importance within the healthcare sector. This credibility is essential for building relationships with clients."
+            },
+            {
+              "title": "Improved Online Presence",
+              "description": "The content on your website is optimised for search engines (SEO) it ensures that your site ranks well in search results. This increased visibility not only enhances your presence but also drives more traffic to your website."
+            }
+          ]
+        }
+      ]
+    }
+  }
+
+
+  horizontal_card_3 = {
+    "darkBlue": {
+      "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+      "h1": "Still have questions?",
+      "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+      "button": "GetIn Touch"
+    }
+  }
+
   visitWeb(url: string) {
     this.router.navigate([url]);
+  }
+
+
+  selecteData: any = signal(null);
+  selectIndex(index, event) {
+    console.log(index, 'asas');
+    //  setTimeout(()=>{
+    if (index == this.selecteData()) {
+      this.selecteData.set(null);
+    } else {
+      this.selecteData.set(index);
+    }
+
+    //  },500)
+    // console.log(index,this.accordData.selectedIndex(),"after")
   }
 }

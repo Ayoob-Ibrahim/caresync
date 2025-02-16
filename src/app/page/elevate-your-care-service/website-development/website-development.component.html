@@ -6,7 +6,10 @@
 <ng-template *ngTemplateOutlet="horizontal_card"></ng-template>
 <app-vertical-tabs></app-vertical-tabs>
 <ng-container *ngTemplateOutlet="case_studies"></ng-container>
-
+<ng-container *ngTemplateOutlet="colaborate"></ng-container>
+<ng-container *ngTemplateOutlet="horizontal_card_2;context: { $implicit: horizontal_card_data_2.data }"></ng-container>
+<ng-container *ngTemplateOutlet="faq"></ng-container>
+<ng-container *ngTemplateOutlet="horizontal_card_2;context: { $implicit: horizontal_card_3 }"></ng-container>
 
 
 <ng-template #three_card_headers let-dataset>
@@ -49,9 +52,6 @@
     </div>
 </ng-template>
 
-
-
-
 <ng-template #case_studies>
     <div class=" w-[100%] !max-w-[1200px] mr-auto ml-auto">
         <h3 class="text-[#323433] text-[1.4rem] font-semikanit">Case Studies</h3>
@@ -69,5 +69,55 @@
                 </div>
             </div>
         </div>
+    </div>
+</ng-template>
+
+<ng-template #colaborate>
+    <div style="background-color:#edfaf7;padding: 4rem 0">
+        <app-dynamic-para-with-image [dataProperty]="dynamicPara.dynamiccontent"></app-dynamic-para-with-image>
+    </div>
+</ng-template>
+
+<ng-template #horizontal_card_2 let-data>
+    <app-horizontal-card [dataProperty]="data"></app-horizontal-card>
+</ng-template>
+
+<ng-template #faq>
+
+    <div class="faq">
+        <div class="p-[1.2rem] lg:px-[0.5rem] md:p-[3rem] w-[90%] !max-w-[1200px] mr-auto ml-auto">
+            <h2 class="text-center mb-2 text-[2rem] font-semikanit">
+                {{ faq_ques.faq_section?.title }}
+            </h2>
+            <div (click)="selectIndex(i, $event)" *ngFor="let a of faq_ques.faq_section.questions; let i = index" class="rounded-[12px] p-[1rem] mb-[1rem] item {{
+      selecteData() == i ? 'bg' : ''
+    }}">
+                <div class="header">
+                    <h3 class="text-[1.37rem] font-regular">
+                        {{ a.question }}
+                    </h3>
+                    <i class="bi bi-{{
+          selecteData() == i ? 'dash-circle' : 'plus-circle'
+        }} text-[25px]"></i>
+                </div>
+                <div *ngIf="i == selecteData()" class="content  font-regular text-[1.05rem] mt-[10px]">
+                    <p class=" text-toolbarprimary">
+                        {{ a.answer }}
+                    </p>
+                    <ng-container *ngFor="let b of a.details">
+                        <ul class="py-3">
+                            <li class="py-2">
+                                <i class="text-[12px] bi bi-circle-fill "></i>
+                                {{ b.title }}
+                            </li>
+                        </ul>
+                        <p class=" text-toolbarprimary">
+                            {{ b?.description }}
+                        </p>
+                    </ng-container>
+                </div>
+            </div>
+        </div>
+
     </div>
 </ng-template>
