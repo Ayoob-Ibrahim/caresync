@@ -1,4 +1,4 @@
-import { Component, inject, signal } from '@angular/core';
+import { Component, ElementRef, inject, signal, ViewChild } from '@angular/core';
 import { InitailCardPanelComponent } from '../../../elevate-care-widget/initail-card-panel/initail-card-panel.component';
 import { LiteBluePanelComponent } from '../../../elevate-care-widget/lite-blue-panel/lite-blue-panel.component';
 import { CommonModule } from '@angular/common';
@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
 import { DynamicParaWithImageComponent } from '../../../widgets/dynamic-para-with-image/dynamic-para-with-image.component';
 import { HorizontalCardComponent } from '../../../widgets/horizontal-card/horizontal-card.component';
 import web_dev from '../../../json-data/website-development.json'
-
+declare var $: any;
 
 @Component({
   selector: 'app-website-development',
@@ -35,5 +35,31 @@ export class WebsiteDevelopmentComponent {
       this.selecteData.set(index);
     }
 
+  }
+
+
+  @ViewChild('owlCarousel', { static: false }) owlCarousel!: ElementRef;
+  ngAfterViewInit(): void {
+    $(this.owlCarousel.nativeElement).owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      autoplayTimeout: 1500,
+      autoplayHoverPause: true,
+      smartSpeed: 1800,
+      dots: false,
+      responsive: {
+        0: {
+          items: 1,
+        },
+        600: {
+          items: 3,
+        },
+        1000: {
+          items: 4,
+        },
+      },
+    });
   }
 }

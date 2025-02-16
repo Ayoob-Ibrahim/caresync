@@ -5,13 +5,13 @@
 </ng-container>
 <ng-template *ngTemplateOutlet="horizontal_card"></ng-template>
 <app-vertical-tabs></app-vertical-tabs>
+<ng-container *ngTemplateOutlet="carousel"></ng-container>
 <ng-container *ngTemplateOutlet="case_studies"></ng-container>
 <ng-container *ngTemplateOutlet="colaborate"></ng-container>
 <ng-container
     *ngTemplateOutlet="horizontal_card_2;context: { $implicit: website_dev.horizontal_card_data_2.data }"></ng-container>
 <ng-container *ngTemplateOutlet="faq"></ng-container>
-<ng-container
-    *ngTemplateOutlet="horizontal_card_2;context: { $implicit:website_dev.horizontal_card_3 }"></ng-container>
+<ng-container *ngTemplateOutlet="horizontal_card_2;context: { $implicit:website_dev.horizontal_card_3 }"></ng-container>
 
 
 <ng-template #three_card_headers let-dataset>
@@ -123,5 +123,32 @@
             </div>
         </div>
 
+    </div>
+</ng-template>
+
+
+<ng-template #carousel>
+    <div class="carousel">
+        <div class=" container-stretch">
+            <h2>
+                Our Work
+            </h2>
+            <h3>We have developed highly functional websites for healthcare providers across the UK. Explore a few of
+                our
+                recent projects:</h3>
+
+            <div>
+                <div #owlCarousel class="owl-carousel owl-theme container-stretch">
+                    <ng-container *ngFor="let item of website_dev.carousel">
+                        <div class="item">
+                            <img [src]="item.image" alt="">
+                            <h4>{{ item.title }}</h4>
+                            <a [href]="item.url" target="_blank" class="button secondary-outline-button">Visit
+                                Website</a>
+                        </div>
+                    </ng-container>
+                </div>
+            </div>
+        </div>
     </div>
 </ng-template>

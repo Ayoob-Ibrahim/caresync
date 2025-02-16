@@ -156,6 +156,127 @@
     }
 }
 
+.carousel {
+    background-color: #04495b;
+    margin-bottom: 1rem;
+    padding: 4rem 0;
+
+    h2 {
+        font-family: medium, sans-serif !important;
+        color: #adffeb;
+        margin: 0;
+        font-size: 1.37rem;
+        line-height: 1.3;
+    }
+
+    h3 {
+        font-size: 1.725rem;
+        line-height: 1.3;
+        font-family: medium, sans-serif !important;
+        margin: 0;
+        color: #fff;
+    }
+
+    h4 {
+        display: block;
+        unicode-bidi: isolate;
+        color: #fff;
+        font-family: regular, sans-serif !important;
+        margin: 0;
+        font-size: 1.1rem;
+        line-height: 1.4;
+        margin-top: 10px;
+    }
+
+
+    .secondary-outline-button {
+        border: 1px solid#129693;
+        color: #adffeb !important;
+        background: none;
+    }
+
+    .button {
+        border: 1px solid #129693;
+        border-radius: 20px;
+        padding: 6px 1.5rem;
+        font-family: Kanit, sans-serif !important;
+        font-size: 1.1em;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 10px;
+        transition: all .3s ease;
+    }
+
+    a {
+        text-decoration: none;
+        color: #129693;
+    }
+
+
+    .owl-theme .owl-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .owl-carousel {
+        margin: 3rem auto 0rem;
+        width: 98% !important;
+    }
+
+    .owl-theme .owl-nav [class*='owl-'] {
+        background: #ddd;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .item {
+        height: max-content;
+        width: 250px;
+
+
+        img {
+            height: 90%;
+            width: 90%;
+            cursor: grab;
+            border-radius: 6px;
+        }
+    }
+
+    @media screen and (max-width: 560px) {
+
+        h3 {
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .owl-theme .owl-nav {
+            display: flex;
+            justify-content: center;
+        }
+
+        .owl-carousel {
+            margin: 5px auto 0rem;
+            width: 100%;
+        }
+
+        .item {
+            height: max-content;
+            width: 270px;
+            margin: auto;
+
+            img {
+                height: 100%;
+                width: 100%;
+                cursor: grab;
+            }
+        }
+    }
+
+}
+
 @media (max-width: 1024px) {
     .three_card_headers {
         .card-wrapper-container .card {

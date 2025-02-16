@@ -394,5 +394,37 @@
             "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
             "button": "Get In Touch"
         }
-    }
+    },
+    "carousel": [
+        {
+            "title": "Zoe Life Care",
+            "image": "https://caresyncexperts.co.uk/images/success-stories/zoe-life-web-dev.jpg",
+            "url": "https://zoelifecare.co.uk"
+        },
+        {
+            "title": "Highlands Care",
+            "image": "https://caresyncexperts.co.uk/images/success-stories/highlands-care-web-dev.jpg",
+            "url": "https://highlandscare.co.uk"
+        },
+        {
+            "title": "Hallowed Care",
+            "image": "https://caresyncexperts.co.uk/images/success-stories/hallowed-care-web-dev.jpg",
+            "url": "https://hallowedcare.com"
+        },
+        {
+            "title": "EveBlue Homes",
+            "image": "https://caresyncexperts.co.uk/images/success-stories/eve-blue-web-dev.jpg",
+            "url": "https://evebluehomes.co.uk"
+        },
+        {
+            "title": "Living Plus Care",
+            "image": "https://caresyncexperts.co.uk/images/success-stories/lpc-web-dev.jpg",
+            "url": "https://livingpluscare.co.uk"
+        },
+        {
+            "title": "Care And Grace",
+            "image": "https://caresyncexperts.co.uk/images/success-stories/care-grace-web-dev.jpg",
+            "url": "https://careandgrace.co.uk"
+        }
+    ]
 }
