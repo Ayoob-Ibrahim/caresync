@@ -78,6 +78,54 @@
     }
 }
 
+.case-studies-img {
+    height: 250px;
+    width: 250px;
+    border: 2px solid #edfaf7;
+    padding: 20px;
+}
+
+.box {
+    --border-angle: 0deg;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid transparent;
+    position: relative;
+    transition: border 0.3s ease-in-out;
+
+
+}
+
+.box:hover {
+    cursor: pointer;
+
+    &.b {
+        background: linear-gradient(white, white) padding-box,
+            conic-gradient(from var(--border-angle),
+                #004558 50%,
+                #129693) border-box;
+    }
+
+    animation: border-angle-rotate 2s infinite linear;
+}
+
+@keyframes border-angle-rotate {
+    from {
+        --border-angle: 0deg;
+    }
+
+    to {
+        --border-angle: 360deg;
+    }
+}
+
+@property --border-angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
 
 
 
@@ -122,7 +170,7 @@
 
             h2 {
                 font-size: 1.4rem;
-               
+
             }
         }
 

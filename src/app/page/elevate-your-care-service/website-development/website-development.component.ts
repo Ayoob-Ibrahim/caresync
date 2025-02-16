@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { InitailCardPanelComponent } from '../../../elevate-care-widget/initail-card-panel/initail-card-panel.component';
 import { LiteBluePanelComponent } from '../../../elevate-care-widget/lite-blue-panel/lite-blue-panel.component';
 import { CommonModule } from '@angular/common';
 import { VerticalTabsComponent } from '../../../elevate-care-widget/vertical-tabs/vertical-tabs.component';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-website-development',
@@ -11,6 +13,7 @@ import { VerticalTabsComponent } from '../../../elevate-care-widget/vertical-tab
   styleUrl: './website-development.component.scss'
 })
 export class WebsiteDevelopmentComponent {
+  private router: Router = inject(Router)
   initialData = {
     main: {
       class: "container-stretch",
@@ -221,6 +224,47 @@ export class WebsiteDevelopmentComponent {
   ]
 
 
+  datacasestudies = [
+
+    {
+      "name": "Highlands Care Ltd",
+      "image": "https://caresyncexperts.co.uk/images/clients/highlands-care-logo.png",
+      "alt_text": "Highlands Care Case Study",
+      "url": "https://caresyncexperts.co.uk/success-stories/highlands-care"
+    },
+    {
+      "name": "Hallowed Care",
+      "image": "https://caresyncexperts.co.uk/images/clients/hallowed-care-logo.png",
+      "alt_text": "Hallowed Care Case Study",
+      "url": "https://caresyncexperts.co.uk/success-stories/hallowed-care"
+    },
+    {
+      "name": "EveBlue Homes",
+      "image": "https://caresyncexperts.co.uk/images/clients/eve-blue-logo.jpg",
+      "alt_text": "EveBlue Homes Case Study",
+      "url": "https://caresyncexperts.co.uk/success-stories/eve-blue"
+    }, {
+      "name": "Living Plus Care Services",
+      "image": "https://caresyncexperts.co.uk/images/clients/living-plus-care-logo.png",
+      "alt_text": "Living Plus Care Case Study",
+      "url": "https://caresyncexperts.co.uk/success-stories/living-plus-care"
+    },
+    {
+      "name": "Care And Grace Ltd",
+      "image": "https://caresyncexperts.co.uk/images/clients/care-grace-logo.png",
+      "alt_text": "Care And Grace Case Study",
+      "url": "https://caresyncexperts.co.uk/success-stories/care-and-grace"
+    },
+    {
+      "name": "Zoe Life Care",
+      "image": "https://caresyncexperts.co.uk/images/clients/zoe-life-care-logo.svg",
+      "alt_text": "Zoe Life Care Case Study",
+      "url": "https://caresyncexperts.co.uk/success-stories/zoe-life-care"
+    },
+  ]
 
 
+  visitWeb(url: string) {
+    this.router.navigate([url]);
+  }
 }

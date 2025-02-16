@@ -1,10 +1,13 @@
-<app-initail-card-panel [dataProperty]="initialData"></app-initail-card-panel>
+<!-- <app-initail-card-panel [dataProperty]="initialData"></app-initail-card-panel>
 <app-lite-blue-panel></app-lite-blue-panel>
 <ng-container *ngFor="let item of websiteDesign">
     <ng-container *ngTemplateOutlet="three_card_headers;context: { $implicit: item }"></ng-container>
 </ng-container>
 <ng-template *ngTemplateOutlet="horizontal_card"></ng-template>
-<app-vertical-tabs></app-vertical-tabs>
+<app-vertical-tabs></app-vertical-tabs> -->
+<ng-container *ngTemplateOutlet="case_studies"></ng-container>
+
+
 
 <ng-template #three_card_headers let-dataset>
     <section class="three_card_headers container-stretch">
@@ -42,6 +45,29 @@
             <p>We adopt a data driven approach to ensure your website is not only aesthetically pleasing but also
                 delivers measurable results. Our strategies are designed to create user focused, conversion optimised,
                 and fully functional websites that meet the healthcare industry's high standards.</p>
+        </div>
+    </div>
+</ng-template>
+
+
+
+
+<ng-template #case_studies>
+    <div class=" w-[100%] !max-w-[1200px] mr-auto ml-auto">
+        <h3 class="text-[#323433] text-[1.4rem] font-semikanit">Case Studies</h3>
+
+        <div class="flex pt-4 flex-row w-full flex-wrap justify-between">
+            <div class="flex lg:basis-[27%] sm:basis-[100%] md:basis-[27%] w-full justify-start"
+                *ngFor="let a of datacasestudies">
+                <div class="py-6" style="text-align: center;">
+                    <div class="box b" (click)="visitWeb( a.url)">
+                        <img class="rounded-md case-studies-img" src="{{ a.image }}" alt="" />
+                    </div>
+                    <p class="font-regular text-[#323433] text-[19px]">{{ a.name }}</p>
+                    <a href="{{ a.url }}" class="text-[#129693] text-[15px] font-regular underline">Visit
+                        Website</a>
+                </div>
+            </div>
         </div>
     </div>
 </ng-template>
