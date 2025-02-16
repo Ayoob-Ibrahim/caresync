@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { InitailCardPanelComponent } from '../../../elevate-care-widget/initail-card-panel/initail-card-panel.component';
 import { LiteBluePanelComponent } from '../../../elevate-care-widget/lite-blue-panel/lite-blue-panel.component';
 import { CommonModule } from '@angular/common';
+import { VerticalTabsComponent } from '../../../elevate-care-widget/vertical-tabs/vertical-tabs.component';
 
 @Component({
   selector: 'app-website-development',
-  imports: [InitailCardPanelComponent, LiteBluePanelComponent, CommonModule],
+  imports: [InitailCardPanelComponent, LiteBluePanelComponent, CommonModule, VerticalTabsComponent],
   templateUrl: './website-development.component.html',
   styleUrl: './website-development.component.scss'
 })

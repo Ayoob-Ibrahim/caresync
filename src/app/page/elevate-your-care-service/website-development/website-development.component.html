@@ -1,11 +1,10 @@
-<app-initail-card-panel [dataProperty]="initialData"></app-initail-card-panel>
+<!-- <app-initail-card-panel [dataProperty]="initialData"></app-initail-card-panel>
 <app-lite-blue-panel></app-lite-blue-panel>
 <ng-container *ngFor="let item of websiteDesign">
     <ng-container *ngTemplateOutlet="three_card_headers;context: { $implicit: item }"></ng-container>
 </ng-container>
-
-<ng-template *ngTemplateOutlet="horizontal_card"></ng-template>
-
+<ng-template *ngTemplateOutlet="horizontal_card"></ng-template> -->
+<app-vertical-tabs></app-vertical-tabs>
 
 <ng-template #three_card_headers let-dataset>
     <section class="three_card_headers container-stretch">

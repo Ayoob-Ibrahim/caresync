@@ -39,3 +39,8 @@ export interface Testimonial {
     testimonial: string;
     asset: string;
 }
+
+export interface verticalTab {
+    data: any,
+    index: number
+}
