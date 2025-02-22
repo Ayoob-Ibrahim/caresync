@@ -1,0 +1,129 @@
+@mixin heading-style {
+    font-family: medium;
+    color: #181818;
+    font-size: 1.225rem;
+    line-height: 1.4;
+}
+
+@mixin paragraph-style {
+    font-family: regular;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    padding: .3rem 0;
+    margin: 0;
+    color: #667085;
+}
+
+
+
+.two_grid_card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .card-context-guidance {
+        flex-basis: 48%;
+        margin-bottom: 2rem;
+
+        h2 {
+            @include heading-style;
+        }
+
+        p {
+            @include paragraph-style;
+        }
+
+        a {
+            border: 1px solid #129693;
+            color: #129693;
+            background: none;
+            border-radius: 20px;
+            padding: 7px 1.5rem;
+            font-size: 1.1em;
+            display: inline-block;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 1rem;
+            transition: all .5s ease;
+        }
+
+        a:hover {
+            background-color: #129693;
+            color: white;
+        }
+    }
+}
+
+.img_card_panel {
+    section {
+        color: #129693;
+        font-family: medium, sans-serif !important;
+        font-size: 1.725rem;
+        line-height: 1.3;
+        margin: 0;
+        margin-bottom: 3rem;
+        padding: 4rem 0;
+
+        .txt-dark-mid-gray {
+            color: #667085;
+            padding: .3rem 0;
+            margin: 0;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            font-family: regular;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 3rem 0;
+
+            h2 {
+                @include heading-style;
+            }
+
+            p {
+                @include paragraph-style;
+            }
+
+            div {
+                width: 48%;
+
+            }
+
+            div:nth-child(1) {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+
+                .learn-more {
+                    width: 167px !important;
+                    font-size: 1rem;
+                }
+            }
+
+            div:nth-child(2) {
+                height: 100%;
+                object-fit: cover;
+                img{
+                    border-radius: 9px;
+                }
+            }
+
+        }
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .two_grid_card .card-context-guidance {
+        flex-basis: 99%;
+        margin-bottom: 1rem
+    }
+
+}
+
+
+@media (max-width: 768px) {}

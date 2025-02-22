@@ -1,0 +1,72 @@
+<app-initail-card-panel [dataProperty]="guidance.initialData"></app-initail-card-panel>
+<ng-container *ngTemplateOutlet="two_grid_card"></ng-container>
+<ng-container *ngTemplateOutlet="cyan_blue_panel_data"></ng-container>
+<ng-container *ngTemplateOutlet="white_panel_data"></ng-container>
+
+<ng-template #two_grid_card let>
+    <div class="two_grid_card container-stretch">
+        <ng-container *ngFor="let item of guidance.cards_data">
+            <div class="card-context-guidance">
+                <h2>{{item?.title}}</h2>
+                <p>{{item?.description}}</p>
+                <a href="{{ item?.url }}" class="text-[#129693] text-[15px] font-regular"> Learn More</a>
+            </div>''
+        </ng-container>
+    </div>
+</ng-template>
+
+<ng-template #cyan_blue_panel_data>
+    <div class="img_card_panel bg-[#edfaf7]">
+        <section class="container-stretch">
+            <h2>
+                Compliance Excellence and CQC Inspection Mastery
+            </h2>
+            <p class="txt-dark-mid-gray">
+                In order to uphold healthcare standards it is necessary to adhere to the guidelines set by the Care
+                Quality Commission (CQC). We assist you in setting up a system of self assessment framework to guarantee
+                that your service stays compliant and ready for inspections consistently.
+            </p>
+            <main>
+                <div>
+                    <ng-container *ngFor="let item of guidance?.cyan_blue_data">
+                        <h2>{{item?.title}}</h2>
+                        <p>{{item?.description}}</p>
+                    </ng-container>
+                    <button class="common-button learn-more">Learn More</button>
+                </div>
+                <div>
+                    <img src="https://caresyncexperts.co.uk/images/elevate/business-setup-support.jpg"
+                        alt="Compliance Excellence and CQC Inspection Mastery" class="col-image">
+                </div>
+            </main>
+        </section>
+    </div>
+</ng-template>
+
+<ng-template #white_panel_data>
+    <div class="img_card_panel">
+        <section class="container-stretch">
+            <h2>
+                Elevating Healthcare Through Targeted Training Solutions
+            </h2>
+            <p class="txt-dark-mid-gray">
+                It's crucial to ensure your team stays informed about the regulatory updates and industry best practices
+                to uphold quality care standards effectively. Our workshops focus on changes in legislation. Help
+                prepare for CQC inspections along with other relevant topics.
+            </p>
+            <main class="flex-row-reverse">
+                <div>
+                    <ng-container *ngFor="let item of guidance?.white_data?.content">
+                        <h2>{{item?.title}}</h2>
+                        <p>{{item?.description}}</p>
+                    </ng-container>
+                    <button class="common-button learn-more">Learn More</button>
+                </div>
+                <div>
+                    <img [src]="guidance?.white_data?.image?.src" [alt]="guidance?.white_data?.image?.src"
+                        class="col-image">
+                </div>
+            </main>
+        </section>
+    </div>
+</ng-template>

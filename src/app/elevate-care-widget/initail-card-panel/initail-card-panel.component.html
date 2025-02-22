@@ -6,7 +6,7 @@
         <img *ngIf="section?.image?.src" [src]="section?.image?.src" [alt]="section?.image?.alt">
     </section>
 
-    <div [class]="dataProperty?.main?.card?.class">
+    <div [class]="dataProperty?.main?.card?.class" *ngIf="dataProperty?.main?.card">
         <ng-container *ngFor="let item of dataProperty?.main?.card?.items">
             <ng-container *ngTemplateOutlet="card_section; context: { $implicit: item }"></ng-container>
         </ng-container>

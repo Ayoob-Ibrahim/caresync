@@ -45,6 +45,11 @@ export const routes: Routes = [
                         loadComponent: () =>
                             import('./page/elevate-your-care-service/website-development/website-development.component').then(m => m.WebsiteDevelopmentComponent),
                     },
+                    {
+                        path: 'guidance',
+                        loadComponent: () =>
+                            import('./page/elevate-your-care-service/guidance/guidance.component').then(m => m.GuidanceComponent),
+                    },
                 ]
             }
 
