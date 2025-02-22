@@ -154,11 +154,11 @@
   },
   {
     "title": "Resources",
-    "url": "/tender",
+    "parent": "/resources",
     "children": [
       {
         "title": "Brochures",
-        "url": "",
+        "url": "brouchers",
         "img": "https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618873328.svg",
         "topics": "Living plus caring services ltd successfully secured six out of seven tenders"
       },

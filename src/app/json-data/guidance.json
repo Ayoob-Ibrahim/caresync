@@ -4,8 +4,8 @@
             "class": "container-stretch",
             "sections": [
                 {
-                    "headingSmall": "<span class=\"txt-dark-secondary\">Website Development</span>",
-                    "headingLarge": "Healthcare Guidance and Expert Solutions",
+                   
+                    "headingLarge": "<span class=\"txt-dark-secondary\">Healthcare Guidance and Expert Solutions</span>",
                     "description": "We offer a variety of services designed specifically for healthcare organisations to address their requirements including bid management and crisis management as well as recruitment and compliance, with standards set by the Care Quality Commission (CQC).<br> Our services are aimed at helping your healthcare business stay in line with regulations while enhancing efficiency and readiness for expansion opportunities."
                 },
                 {
