@@ -106,7 +106,8 @@
             div:nth-child(2) {
                 height: 100%;
                 object-fit: cover;
-                img{
+
+                img {
                     border-radius: 9px;
                 }
             }
@@ -115,12 +116,23 @@
     }
 }
 
+ 
+
 
 
 @media (max-width: 1024px) {
     .two_grid_card .card-context-guidance {
         flex-basis: 99%;
         margin-bottom: 1rem
+    }
+
+    .img_card_panel section main div {
+        width: 99%;
+
+        button,
+        img {
+            margin-top: 1.5rem;
+        }
     }
 
 }

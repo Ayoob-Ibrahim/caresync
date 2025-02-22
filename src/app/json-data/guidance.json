@@ -98,5 +98,62 @@
             "src": "https://caresyncexperts.co.uk/images/elevate/guidance-targeted-training.jpg",
             "alt": "Elevating Healthcare Through Targeted Training Solutions"
         }
+    },
+    "horizontal_card_data_2": {
+        "data": {
+            "cardContainer": {
+                "card": {
+                    "leftSide": {
+                        "content": {
+                            "h2": "Contact Care Sync Experts Today",
+                            "p": "For expert advice on elevating your healthcare operations, contact Care Sync Experts today:"
+                        }
+                    },
+                    "rightSide": {
+                        "textWhite": {
+                            "p": [
+                                "Reach out to us today",
+                                "Email: hello@caresyncexperts.co.uk",
+                                "Phone: 0333 577 0877"
+                            ],
+                            "button": "Get Started"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "freequentlyasked": {
+        "mastertitle": "Frequently Asked Questions",
+        "data": [
+            {
+                "title": "1. Why is effective bid management crucial for healthcare providers?",
+                "headercontent": "Bid management plays a role in helping healthcare providers secure contracts for their service delivery and growth needs by optimising resources effectively and increasing their success rates while also ensuring adherence to CQC and Ofsted regulations."
+            },
+            {
+                "title": "2. How can healthcare organisations improve business operations?",
+                "headercontent": "Healthcare organisations have the opportunity to enhance their operations by examining workflows and implementing automation, for tasks while making decisions based on data analysis methods to them along the way. Integrating technologies such as health records (EHR) and telehealth platforms can help simplify duties and enhance service provision while ensuring adherence to regulatory standards"
+            },
+            {
+                "title": "3. What is safeguarding, and why is it important in healthcare?",
+                "headercontent": "Safeguarding in healthcare is about protecting vulnerable individuals from abuse or negligence while adhering to standards set by bodies, like CQC, RQIA and CIW.This helps in promoting the welfare of service users and maintaining a safe environment."
+            },
+            {
+                "title": "4. What is a CQC mock inspection, and how does it help healthcare providers?",
+                "headercontent": "During a CQC mock inspection healthcare organisations can simulate an inspection to evaluate their preparedness effectively and spot areas needing improvement in advance of a visit, by the CQC regulatory body to ensure better results and compliance."
+            },
+            {
+                "title": "5. How can healthcare organisations effectively manage crises?",
+                "headercontent": "Managing crises requires evaluating risks and making changes while adhering to regulations set by organisations such as CQC (Care Quality Commission). It's crucial for businesses to frequently revise crisis plans and provide staff with training to manage disruptions effectively and maintain both care continuity and regulatory compliance."
+            }
+        ]
+    },
+    "horizontal_card_3": {
+        "darkBlue": {
+            "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+            "h1": "Still have questions?",
+            "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+            "button": "Get In Touch"
+        }
     }
 }

@@ -2,7 +2,10 @@
 <ng-container *ngTemplateOutlet="two_grid_card"></ng-container>
 <ng-container *ngTemplateOutlet="cyan_blue_panel_data"></ng-container>
 <ng-container *ngTemplateOutlet="white_panel_data"></ng-container>
-
+<ng-container
+    *ngTemplateOutlet="horizontal_card_2;context: { $implicit: guidance?.horizontal_card_data_2.data }"></ng-container>
+<ng-container *ngTemplateOutlet="faq"></ng-container>
+<ng-container *ngTemplateOutlet="horizontal_card_2;context: { $implicit: guidance?.horizontal_card_3 }"></ng-container>
 <ng-template #two_grid_card let>
     <div class="two_grid_card container-stretch">
         <ng-container *ngFor="let item of guidance.cards_data">
@@ -69,4 +72,13 @@
             </main>
         </section>
     </div>
+</ng-template>
+
+
+<ng-template #horizontal_card_2 let-data>
+    <app-horizontal-card [dataProperty]="data"></app-horizontal-card>
+</ng-template>
+
+<ng-template #faq>
+    <app-freequently-asked [dataProperty]="guidance?.freequentlyasked"></app-freequently-asked>
 </ng-template>
