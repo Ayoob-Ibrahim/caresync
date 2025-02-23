@@ -1,1 +1,27 @@
-<p>brouchers works!</p>
+<section>
+    <div class="container-stretch bg-image">
+        <div class="inner-content-text">
+            <h2>DOWNLOAD OUR BROCHURE</h2>
+            <p>Explore our exclusive brochures to learn valuable insights about our business setup packages, Make
+                informed
+                decisions with the information you need right at your fingertips.</p>
+        </div>
+    </div>
+</section>
+<main class="container-stretch">
+    <ng-container *ngFor="let item of brouchers.resource_brochures.brochures">
+        <div class="custom-card">
+            <div class="custom-card-img-wrapper">
+                <img [src]="item.image" alt="Card Image" class="custom-card-img">
+            </div>
+            <div class="custom-card-content">
+                <h3 class="custom-card-title">{{item.title}}</h3>
+                <p class="custom-card-text">{{item.description}}</p>
+                <button class="common-button">Download Now</button>
+            </div>
+        </div>
+    </ng-container>
+</main>
+<footer>
+    <app-horizontal-card [dataProperty]=" brouchers.resource_broucher_cards.data"></app-horizontal-card>
+</footer>
