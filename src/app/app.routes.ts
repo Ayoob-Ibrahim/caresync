@@ -61,7 +61,22 @@ export const routes: Routes = [
                         path: 'brouchers',
                         loadComponent: () =>
                             import('./page/resource/brouchers/brouchers.component').then(m => m.BrouchersComponent),
+                    },
+                    {
+                        path: 'ebooks',
+                        children: [
+                            {
+                                path: '',
+                                loadComponent: () => import('./page/resource/e-books-home/e-book-initial-page/e-book-initial-page.component').then(m => m.EBookInitialPageComponent),
+                            },
+                            {
+                                path: 'detailed-view',
+                                loadComponent: () => import('./page/resource/e-books-home/e-book-detailed-view/e-book-detailed-view.component').then(m => m.EBookDetailedViewComponent),
+                            },
+
+                        ]
                     }
+
                 ]
             }
 
