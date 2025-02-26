@@ -1,5 +1,6 @@
 .section-initial {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 3rem 0;
 
@@ -165,8 +166,28 @@
 }
 
 @media (max-width: 1024px) {
-    section {
+    .section-initial {
         margin: 3rem auto;
+
+        aside {
+            width: 98%;
+            margin-bottom: 1rem;
+        }
+
+
+        .left {
+
+
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                margin-bottom: 1.5rem;
+            }
+
+            padding-bottom: 1rem;
+        }
     }
 
     main {
@@ -178,6 +199,19 @@
 
 
 @media (max-width: 768px) {
+    .section-initial .left .input-data-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding-bottom: 2rem;
+
+        .input-alter {
+            flex-basis: 100%;
+            height: 68%;
+        }
+
+        // flex-direction: column;
+    }
 
     main {
         .custom-card {
