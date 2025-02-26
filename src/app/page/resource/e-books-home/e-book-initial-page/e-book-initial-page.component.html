@@ -1,10 +1,53 @@
 <main>
-    <section class="section-initial">
-        <aside>
-
+    <section class="section-initial container-stretch">
+        <aside class="left">
+            <h1>
+                Our eBooks
+            </h1>
+            <p>
+                Gain expert insights with our collection of ebooks, designed to help healthcare businesses grow, stay
+                compliant, and operate efficiently.
+            </p>
+            <div class="input-data-container">
+                <div class="input-alter">
+                    <input type="text">
+                </div>
+                <button class="common-button">send to my email</button>
+            </div>
         </aside>
         <aside>
-            
+            <img src="https://s3-alpha-sig.figma.com/img/cb9a/f2db/cf415be143e0cc1263f6117eac819c05?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lYFTpPXWaEleE1vI2t3VvO4UH~PoKoeQf8291H3uXkUNeY9FQ2apu05rsDo-v1n8l-pXpu-~TsXKA8OQ~OjE5OOEiHKLwU2MRatN~6-sDIOg2SN1MeRokh~aAzN7cWGTiFvqNFw~G6oNyVfrToIS4VyEgnRUhfOzAU4IIQJcH490vOydGC1c3hOT~RNDxVjEsqW4RFM4vvw0PKtje4YqwhZxwmUUpy7dF7x41ePhLZvxLBpk4Ap~W~z057JO6hnyHU-FLvymUAT-~4On0myBXGLh9ue7aH8MlM~JfjtqqgkBPw~rItbGBQzBkjf5ZLaLjcj5hNF4f1RqeofkkuHdOg__"
+                alt="">
         </aside>
     </section>
 </main>
+
+
+
+
+<main class="container-stretch card-container-wrapper">
+    <ng-container *ngFor="let item of brouchers.e_books.e_boooks_card">
+        <div class="custom-card" (click)="goToDetailedView()">
+            <div class="custom-card-img-wrapper">
+                <img [src]="item.image" alt="Card Image" class="custom-card-img">
+            </div>
+            <div class="custom-card-content">
+                <h3 class="custom-card-title">{{item.title}}</h3>
+                <p class="custom-card-text">{{item.description}}</p>
+                <div class="custom-container-date">
+                    <small>
+                        <i class="bi bi-calendar-date"></i>
+                        24th Feb 2024
+                    </small>
+                    <button class="common-button">Download Book</button>
+                </div>
+
+            </div>
+        </div>
+    </ng-container>
+</main>
+
+
+<footer>
+    <app-horizontal-card [dataProperty]=" brouchers.ebook_cards_horixontal.data"></app-horizontal-card>
+</footer>

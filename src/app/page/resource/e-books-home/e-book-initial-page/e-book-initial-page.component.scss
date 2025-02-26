@@ -1,4 +1,187 @@
 .section-initial {
     display: flex;
     justify-content: space-between;
+    margin: 3rem 0;
+
+    aside {
+        width: 49%;
+        border-radius: 10px;
+
+        img {
+            border-radius: 10px;
+        }
+    }
+
+    .left {
+
+        background: rgba(230, 241, 241, 1);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: left;
+        padding-left: 2rem;
+
+        h1 {
+            font-family: medium;
+            font-size: 64px;
+            line-height: 95.68px;
+            letter-spacing: -0.41px;
+            color: rgba(18, 150, 147, 1);
+        }
+
+        p {
+            font-family: regular;
+            color: rgba(0, 0, 0, 0.551);
+        }
+
+        .input-data-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            .input-alter {
+                flex-basis: 60%;
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                border-radius: 2rem;
+
+                input {
+                    width: 90%;
+                    border: none;
+                    outline: none;
+                    font-size: 16px;
+                    font-family: regular;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
+
+.card-container-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    .custom-card {
+        width: 30%;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+        transition: transform 0.3s ease;
+        padding: 15px;
+        margin-bottom: 1rem;
+
+    }
+
+    .custom-card:hover {
+        transform: translateY(-5px);
+        background-color: #f5fbfa;
+        cursor: pointer;
+    }
+
+    .custom-card-img-wrapper {
+        width: 100%;
+        border-radius: 10px;
+        padding: 5px;
+        height: 180px;
+
+        img {
+            border-radius: 12px;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+
+    .custom-card-content {
+        padding: 15px;
+        text-align: left;
+
+
+        h3 {
+            font-family: medium;
+            font-size: 20px;
+            line-height: 28px;
+            letter-spacing: -0.41px;
+        }
+
+        p {
+            color: #667085;
+            padding: .3rem 0;
+            margin: 10px 0;
+            font-size: 1.05rem;
+            line-height: 1.6;
+            font-family: regular;
+        }
+
+        .custom-container-date {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: regular;
+
+            small {
+                font-size: 15px;
+            }
+        }
+
+    }
+
+    .custom-card-content p {
+        color: #667085;
+        padding: 0.3rem 0;
+        margin: 10px 0;
+        font-size: 1.05rem;
+        line-height: 1.6;
+        font-family: regular;
+
+        /* Truncate text after 2 lines */
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        /* Limits to 2 lines */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+
+
+
+
+}
+
+@media (max-width: 1024px) {
+    section {
+        margin: 3rem auto;
+    }
+
+    main {
+        .custom-card {
+            flex-basis: 45%;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    main {
+        .custom-card {
+            flex-basis: 98%;
+        }
+    }
 }
