@@ -1,1 +1,102 @@
-<p>e-book-detailed-view works!</p>
+<main class="initial">
+    <section class="main-ebook-container container-stretch">
+        <aside class="book-content">
+            <button class="common-button-white"
+                style="width: 110px;border-radius: 5px;color: #129693 !important;">eBook</button>
+            <h3>
+                Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know
+            </h3>
+            <h6>
+                With the UK’s population over 65 set to increase by 24% by 2041, the demand for domiciliary care—a
+                service that enables individuals to receive assistance while remaining in their own homes—is growing
+                significantly.
+            </h6>
+            <button class="common-button" style="width: 160px;">
+                Get this ebook
+            </button>
+        </aside>
+        <aside>
+            <img src="https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=YAFy7vre3FrYSe5t4QrkF3uIl6iFlmx0D58xYQIRRA0ukTxuCj-CdUvrM-imKDQRPwBf1grIi9lCxe4v6aXhDJYyfeAGZCtvXIuRij07hzTp1XKItHECBrpxQioWlbYqBav~wEQI-6seZQiqjrQO4M1WGV6YSjMTdb81g9GU~pSQCHS~P~q~8B2TR8eOaJQwgzepa5c0R~bUtk89SHocXWOaGakl0Na71uiwS1fbRtWllkMkyfZ3Ooycm1LHFYHQR6qHKvoNSBkgehR2ftAdsL1ahkaiYqfmzDtIGk3Tu46YMgI~3LqlGeuQZWLCh-9oh4xsVoKrR3Scq89UE4SsAA__"
+                alt="">
+        </aside>
+    </section>
+</main>
+
+
+
+<section class="content-wrapper container-stretch">
+    <aside class="text-wrapper">
+        <ng-container *ngTemplateOutlet="template_content"></ng-container>
+    </aside>
+    <aside class="form-wrapper">
+        <ng-container *ngTemplateOutlet="template_form"></ng-container>
+    </aside>
+</section>
+
+
+<ng-template #template_content>
+    <div class="content-container">
+        <h2>
+            Introduction
+        </h2>
+        <p>
+            With the UK’s population over 65 set to increase by 24% by 2041, the demand for domiciliary care—a service
+            that enables individuals to receive assistance while remaining in their own homes—is growing significantly.
+            Starting a domiciliary care agency now provides both a rewarding career and substantial business potential.
+            Navigating the intricacies of regulations, financial planning, and operational setup can be complex, which
+            is where Care Sync Experts comes in. We provide end-to-end support for new domiciliary care agencies,
+            covering everything from compliance to business growth. Discover how we can help you succeed.
+        </p>
+    </div>
+    <div class="content-container">
+        <h2>
+            What to expect
+        </h2>
+        <p>
+            1. Starting a domiciliary care agency is a meaningful venture that requires planning, compliance, and
+            dedication to quality. Care Sync Experts supports new agencies with comprehensive services, from business
+            planning and CQC registration to marketing and client acquisition strategies.<br><br>
+            2. Starting a domiciliary care agency is a meaningful venture that requires planning, compliance, and
+            dedication to quality. Care Sync Experts supports new agencies with comprehensive services, from business
+            planning and CQC registration to marketing and client acquisition strategies.<br><br>
+            3. Starting a domiciliary care agency is a meaningful venture that requires planning, compliance, and
+            dedication to quality. Care Sync Experts supports new agencies with comprehensive services, from business
+            planning and CQC registration to marketing and client acquisition strategies.<br><br>
+            4. Starting a domiciliary care agency is a meaningful venture that requires planning, compliance, and
+            dedication to quality. Care Sync Experts supports new agencies with comprehensive services, from business
+            planning and CQC registration to marketing and client acquisition strategies.
+        </p>
+        <button class="common-button mt-[1rem]">Get this eBooks</button>
+    </div>
+</ng-template>
+
+
+<ng-template #template_form>
+    <small>
+        Subscribe to our eBook
+    </small>
+    <h1>
+        Share your information to receive updates on our latest eBooks.
+    </h1>
+    <ng-container *ngFor="let field of formJson">
+        <div class="form-container">
+            <label>{{field.formName}}</label>
+            <div class="input-wrapper">
+                <i [ngClass]="field.icon"></i><input type="text">
+            </div>
+        </div>
+    </ng-container>
+
+    <div class="flex items-center mt-[1rem]">
+        <input id="link-checkbox" type="checkbox" value=""
+            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+        <label for="link-checkbox" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 cursor-pointer">I
+            agree to Caresync
+            <span class="text-blue-600 dark:text-blue-500 hover:underline"
+                style="color:  rgba(18, 150, 147, 1) ;">privacy
+                Policy <span style="color: black;">&</span> Terms of use</span>.</label>
+
+    </div>
+
+    <button class="common-button w-[100%] mt-[1rem]">Subscribe</button>
+</ng-template>

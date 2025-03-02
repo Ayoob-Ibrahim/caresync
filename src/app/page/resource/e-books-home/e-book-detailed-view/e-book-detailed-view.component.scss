@@ -1,0 +1,127 @@
+main.initial {
+    background-color: #004558;
+}
+
+.main-ebook-container {
+    padding: 4rem 0;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    aside {
+        flex-basis: 48%;
+    }
+
+    .book-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+        h3 {
+            font-family: medium;
+            font-size: 36px;
+            line-height: 50.8px;
+            letter-spacing: -0.41px;
+        }
+
+        h6 {
+            font-family: regular;
+            font-size: 16px;
+            line-height: 25px;
+            letter-spacing: 0%;
+            color: #f9f9f9;
+
+        }
+    }
+
+
+}
+
+.content-wrapper {
+    margin: 4rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .text-wrapper {
+        flex-basis: 44%;
+    }
+
+    .content-container {
+        margin-top: 1rem;
+
+        h2 {
+            font-family: medium;
+            color: black;
+            font-size: 24px;
+            line-height: 35.88px;
+            letter-spacing: -0.41px;
+        }
+
+        p {
+            font-family: regular;
+            line-height: 32px;
+            letter-spacing: 0%;
+            color: rgba(0, 0, 0, 0.551);
+        }
+
+    }
+
+    .form-wrapper {
+        flex-basis: 44%;
+
+        small {
+            font-family: regular;
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: -0.41px;
+        }
+
+        h1 {
+            font-family: medium;
+            font-size: 32px;
+            line-height: 42px;
+            letter-spacing: -0.41px;
+        }
+    }
+
+    .form-container {
+        margin-top: 1rem;
+
+        label {
+            font-family: regular;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: -0.41px;
+        }
+
+        .input-wrapper {
+            width: 100%;
+            background-color: #f3f3f3;
+            border-radius: 6px;
+            position: relative;
+
+            i {
+                position: absolute;
+                font-size: 1.4rem;
+                left: 2%;
+                top: 18%;
+                color: grey;
+            }
+
+            input {
+                width: 90%;
+                background-color: transparent;
+                padding: 6px;
+                outline: none;
+                margin-left: 3rem;
+            }
+
+
+        }
+
+        
+    }
+
+}
