@@ -38,10 +38,10 @@
         .input-data-container {
             display: flex;
             justify-content: space-around;
-            flex-wrap: wrap;
+
 
             .input-alter {
-                flex-basis: 60%;
+                width: 60%;
                 background-color: white;
                 display: flex;
                 justify-content: center;
@@ -187,6 +187,12 @@
             }
 
             padding-bottom: 1rem;
+
+            .input-data-container {
+                .input-alter {
+                    width: 60%;
+                }
+            }
         }
     }
 
@@ -202,12 +208,18 @@
     .section-initial .left .input-data-container {
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 1rem;
         padding-bottom: 2rem;
 
         .input-alter {
-            flex-basis: 100%;
+            width: 90%;
             height: 68%;
+            padding: 7px;
+        }
+
+        button {
+            width: 90%;
         }
 
         // flex-direction: column;
