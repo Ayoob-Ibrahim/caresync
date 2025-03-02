@@ -121,7 +121,56 @@ main.initial {
 
         }
 
-        
+
     }
 
+}
+
+
+
+@media (max-width: 1024px) {
+    .main-ebook-container {
+
+        aside {
+            flex-basis: 98%;
+            margin-bottom: 1rem;
+
+
+            h6,
+            button {
+                margin-bottom: 1rem;
+            }
+
+            img {
+                border-radius: 6px;
+            }
+        }
+    }
+
+    .content-wrapper {
+
+        .form-wrapper,
+        .text-wrapper {
+            flex-basis: 98%;
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main-ebook-container .book-content {
+        h3 {
+            font-size: 32px;
+        }
+    }
+
+    .content-wrapper {
+
+        .form-wrapper {
+            h1 {
+                font-size: 26px;
+            }
+        }
+    }
 }
