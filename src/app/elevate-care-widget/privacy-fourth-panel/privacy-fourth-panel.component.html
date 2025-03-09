@@ -1,0 +1,35 @@
+<main class="w-full h-max mr-auto ml-auto">
+  <div class="!max-w-[1200px] mr-auto ml-auto flex flex-wrap px-[7%]">
+    <div
+      style="
+        background-position: 20px;
+        background-image: url(../../../assets/our-services/op.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+      "
+      class="text-center p-[4%]"
+    >
+      <p class="text-[27px] font-semikanit text-[#323433]">
+        Explore the <a class="text-primary">Benefits</a> of the Care Management
+        Hub
+      </p>
+
+      <p class="font-regular text-toolbarprimary">
+        {{ data.subtitle }}
+      </p>
+    </div>
+
+    <div class="flex flex-wrap justify-between pt-7">
+      <div
+        class="lg:basis-[48%] md:basis-[48%] basis-[98%] my-4 p-4 border border-[#129693] rounded-[15px] flex flex-col justify-around"
+        *ngFor="let a of data.grid"
+      >
+        <img [src]="a.url" class="h-[40px] w-[40px]" alt="" />
+        <p class="font-semikanit text-[20px]">{{ a.title }}</p>
+        <p class="font-regular text-toolbarprimary text-[16px]">
+          {{ a.content }}
+        </p>
+      </div>
+    </div>
+  </div>
+</main>

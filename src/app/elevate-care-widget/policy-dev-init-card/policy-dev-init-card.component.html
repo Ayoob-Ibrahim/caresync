@@ -1,0 +1,31 @@
+<main class="h-max w-full">
+  <div
+    class="!max-w-[1200px] flex-wrap mr-auto ml-auto flex justify-between p-[7%]"
+  >
+    <div class="lg:basis-[48%] sm:basis-[98%]">
+      <h2 class="font-semikanit text-[30px]">
+        {{ guidance.masterTitle }}
+      </h2>
+      <p class="font-regular text-[16px] text-toolbarprimary">
+        {{ guidance.subTitle }}
+      </p>
+    </div>
+
+    <div class="lg:basis-[48%] sm:basis-[98%] border-l-backgroundcolor pt-4">
+      <p
+        class="font-regular text-[16px] text-[#667085] pl-[7px] border-l-4 border-indigo-500"
+      >
+        {{ guidance.rightpanelTitle }}
+      </p>
+    </div>
+
+    <div class="!max-w-[1200px] relative pt-[10%]">
+      <img [src]="guidance.imageUrl" class="rounded-lg" alt="" />
+      <p
+        class="lg:text-whitenormal md:text-whitenormal text-[#667085] sm:block font-regular lg:absolute md:absolute bottom-0 lg:p-5 md:p-5 pt-6 text-[14px]"
+      >
+        {{ guidance.imageText }}
+      </p>
+    </div>
+  </div>
+</main>

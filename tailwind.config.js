@@ -26,7 +26,12 @@ module.exports = {
       normaltext: '#323433',
       whitenormal: '#ffffff',
       toolbarbg:'#FAFDF9'
-    }
+    },
+    // safelist: [
+    //   {
+    //     pattern: /basis-\[(\d+)%?\]/, // Allow basis-[25%], basis-[100px], etc.
+    //   }
+    // ]
     
   },
   plugins: [],

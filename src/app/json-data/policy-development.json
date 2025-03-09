@@ -1,0 +1,242 @@
+{
+  "policyinit": {
+    "masterTitle": "Policy Development and Management Solutions",
+    "subTitle": "Ensure Compliance and Maintain Quality with Care Sync Experts' Policy Hub",
+    "rightpanelTitle": "Our solutions ensure your care agency operates smoothly, remains compliant with regulatory bodies like CQC, CIW, and RQIA, and delivers safe, effective care.",
+    "imageUrl": "../../assets/elevatecare/personwithmask.png",
+    "imageText": "In today’s evolving healthcare landscape, well structured policies and procedures are essential for maintaining consistency, meeting regulatory demands, and delivering top quality care. We specialise in developing, implementing, and monitoring customised policies for healthcare providers through our innovative Care Management Hub."
+  },
+  "greencard": {
+    "title": "What Are Policies and Procedures?",
+    "content": " Running a healthcare organisation effectively requires following guidelines laid out in policies and procedures to maintain consistency and quality of service while adhering to regulations set by bodies, like CQC, RQIA and CIW. These documents cover aspects such as service delivery, staff responsibilities and operational practices to ensure compliance."
+  },
+  "thirdCard": {
+    "masterTitle": "Key Offerings by Care Sync Experts",
+
+    "data": [
+      {
+        "left": true,
+        "class1": "basis-[30%]",
+        "class2": "basis-[65%]",
+        "topContents": {
+          "title": "CQC Domiciliary Care Policies and Procedures",
+          "content": "<p class=\"font-regular text-[15px] text-[#667085]\"> Ensuring compliance with CQC (Care Quality Commission) standards is critical for domiciliary care providers in England. Our tailored policies address key CQC requirements, ensuring your agency operates effectively while delivering safe, high-quality care. </p>"
+        },
+        "key": "Key Policies Include",
+        "img": "../../assets/elevatecare/privacy1.png",
+        "bottomContents": [
+          {
+            "title": "Safeguarding",
+            "content": " Ensuring the protection of vulnerable adults and children from abuse or neglect."
+          },
+          {
+            "title": "Staff Recruitment and Training:",
+            "content": " Ensuring all staff are qualified, trained, and compliant with CQC standards."
+          },
+          {
+            "title": "Medication Management",
+            "content": "Comprehensive procedures for the safe administration, storage, and handling of medications."
+          },
+          {
+            "title": "Quality Assurance",
+            "content": "Regular internal audits, feedback systems, and continuous improvement strategies to maintain high standards."
+          }
+        ]
+      },
+      {
+        "left": true,
+        "class1": "basis-[39%]",
+        "class2": "basis-[56%]",
+        "topContents": {
+          "title": "RQIA Domiciliary Care Policies and Procedures",
+          "content": "<p class=\"font-regular text-[15px] text-[#667085]\">For domiciliary care providers in Northern Ireland, adherence to <a class=\"text-[#004558]\">RQIA (Regulation and Quality Improvement Authority)</a>standards is vital. We offer a comprehensive range of policies covering everything from <a class=\"text-[#004558]\">incident management</a> to <a class=\"text-[#004558]\"> infection control,</a>ensuring that your service meets RQIA’s rigorous standards of safety and quality.</p>"
+        },
+        "key": "Key Policies Include",
+        "img": "../../assets/elevatecare/privacy2.png",
+        "bottomContents": [
+          {
+            "title": "Incident Reporting and Management",
+            "content": " Comprehensive guidelines for reporting and handling incidents to improve transparency"
+          },
+          {
+            "title": "Complaints Handling",
+            "content": " A structured process to receive, address, and resolve complaints from clients and staff."
+          },
+          {
+            "title": "Infection Control",
+            "content": " Clear infection prevention and management strategies to safeguard clients and staff."
+          },
+          {
+            "title": "Data Protection and Confidentiality",
+            "content": " Ensuring compliance with GDPR to protect sensitive client information."
+          }
+        ]
+      },
+      {
+        "class1": "basis-[30%]",
+        "class2": "basis-[65%]",
+        "left": true,
+        "topContents": {
+          "title": "CIW Domiciliary Care Policies (Wales)",
+          "content": "<p class=\"font-regular text-[15px] text-[#667085]\">Domiciliary care agencies operating in Wales must adhere to <a class=\"text-[#004558]\">CIW (Care Inspectorate Wales) guidelines, especially under the Social Services and Well-being (Wales) Act 2014.</a>Our customised policies ensure your organisation meets all CIW requirements while providing the highest level of care. </p>"
+        },
+        "key": "Key Policies Include",
+        "img": "../../assets/elevatecare/privacy3.png",
+        "bottomContents": [
+          {
+            "title": "Health & Safety Protocols ",
+            "content": "Guidelines on obtaining and documenting consent for care and treatment."
+          },
+          {
+            "title": "Client Consent",
+            "content": " A structured process to receive, address, and resolve complaints from clients and staff."
+          },
+          {
+            "title": "Risk Management",
+            "content": "Comprehensive strategies for identifying and mitigating risks."
+          },
+          {
+            "title": "Staff Development and Training",
+            "content": "Ensuring continuous professional development and compliance with CIW regulations."
+          }
+        ]
+      },
+      {
+        "class1": "basis-[30%]",
+        "class2": "basis-[65%]",
+        "left": false,
+        "topContents": {
+          "title": "Supported Living Policies",
+          "content": "<p class=\"font-regular text-[15px] text-[#667085]\">Supported living services require specific policies to ensure the safety, dignity, and well-being of residents. Our tailored policies align with CQC and Ofsted guidelines to ensure compliance, creating a safe and caring environment for service users.</p>"
+        },
+        "key": "Key Policies Include",
+        "img": "../../assets/elevatecare/privacy4.png",
+        "bottomContents": [
+          {
+            "title": "Accessibility ",
+            "content": "Ensuring that services and facilities are easily accessible for all individuals, including those with disabilities."
+          },
+          {
+            "title": "Positive Behaviour Support",
+            "content": "Approaches to managing challenging behaviours in a supportive and proactive manner."
+          },
+          {
+            "title": "Consent to Care and Treatment",
+            "content": "Guidelines on how to obtain and document informed consent."
+          },
+          {
+            "title": "Food and Nutrition Standards",
+            "content": "Ensuring clients receive balanced, healthy meals tailored to their dietary needs and preferences."
+          }
+        ]
+      }
+    ]
+  },
+  "fourthpanel": {
+    "title": "",
+    "subtitle": "Our innovative Care Management Hub streamlines the entire process of developing, managing, and updating your organisation’s policies. Whether you are a domiciliary care provider, supported living service, or any other healthcare organisation, the Hub ensures that your policies remain compliant, relevant, and easily accessible.",
+    "grid": [
+      {
+        "url": "../../assets/elevatecare/giff 1.png",
+        "title": "Tailored Policy Development:",
+        "content": "We provide fully customised policies that match your agency’s unique needs, aligning with CQC, RQIA, and CIW standards."
+      },
+      {
+        "url": "../../assets/elevatecare/giff 2.png",
+        "title": "Regulatory Adherence:",
+        "content": "Our team ensures that your policies meet regulatory requirements for safety, dignity, and compliance with local laws."
+      },
+      {
+        "url": "../../assets/elevatecare/giff 3.png",
+        "title": "Regular Updates:",
+        "content": "We keep your policies up to date with routine assessments and real time adjustments to meet evolving regulations."
+      },
+      {
+        "url": "../../assets/elevatecare/giff 4.png",
+        "title": "User Friendly Access:",
+        "content": "Your staff can access policies via our Care Management Hub, ensuring everyone stays informed with the latest versions."
+      }
+    ]
+  },
+  "dynamiccontent": {
+    "title": "Why Choose Care Sync Experts?",
+    "data": [
+      {
+        "header": "Regulatory Knowledge and Expertise",
+        "content": "We stay ahead of regulatory updates, ensuring your policies always comply with CQC, CIW, and RQIA standards."
+      },
+      {
+        "header": "Tailored Solutions for Every Care Setting",
+        "content": "Our team crafts bespoke policies based on the needs of your agency. Whether you provide domiciliary care or supported living services, our policies fit seamlessly into your operations."
+      },
+      {
+        "header": " Ongoing Support and Training",
+        "content": "We don’t just develop policies, we offer training and continuous support to ensure your team implements them correctly and effectively."
+      },
+      {
+        "header": " Proven Track Record",
+        "content": "With a history of successful compliance across healthcare sectors, our clients have achieved higher CQC ratings, smoother operations, and reduced regulatory risks."
+      }
+    ]
+  },
+  "horizontalcard": {
+    "cardContainer": {
+      "card": {
+        "leftSide": {
+          "content": {
+            "h2": "Contact Us Today for Your Healthcare Website",
+            "p": "Ready to elevate your healthcare services with bespoke policies and streamlined compliance management?"
+          }
+        },
+        "rightSide": {
+          "textWhite": {
+            "p": [
+              "Get in touch with our team at Care Sync Experts today for a consultation.",
+              "Email: hello@caresyncexperts.co.uk",
+              "Phone: 0333 577 0877"
+            ],
+            "button": "Contact us"
+          }
+        }
+      }
+    }
+  },
+  "freequentlyasked": {
+    "mastertitle": "Frequently Asked Questions",
+    "data": [
+      {
+        "title": "1. What are the essential steps to start a domiciliary care agency in the UK?",
+        "headercontent": "Key policies for compliance include Safeguarding Adults and Children, Health & Safety, Data Protection, Medication Management, and Complaints Handling. These ensure client safety and align with standards from CQC, CIW, and RQIA."
+      },
+      {
+        "title": "2. How can healthcare organisations ensure their policies are up to date?",
+        "headercontent": "Use tools like the Care Management Hub to automate updates and ensure policies are always in line with the latest regulations. Schedule regular reviews, audits, and training sessions to stay compliant."
+      },
+      {
+        "title": "3. Why is it important to customise policies for different regulatory bodies?",
+        "headercontent": "Customisation is crucial because each body such as CQC, CIW, and RQIA has specific requirements. For example, CQC focuses on person-centred care, while CIW mandates compliance with the Social Services and Well-being Act (Wales). Tailoring policies helps avoid penalties and ensures high quality care."
+      },
+      {
+        "title": "4. How can Care Sync Experts help with policy compliance?",
+        "headercontent": "We provide end to end support, from creating policies that comply with CQC, CIW, and RQIA standards to offering training and audit support. Our team ensures your care agency is always compliant and prepared for inspections."
+      },
+      {
+        "title": "5. What are the advantages of using a digital platform for managing policies?",
+        "headercontent": "A platform like the Care Management Hub offers:",
+        "maincontent": [
+          "Centralised Access: Easy access for all staff to the latest policies.",
+          "Automated Updates: Ensures policies stay current with regulatory changes.",
+          "Improved Compliance Tracking: Simplifies the process of monitoring and auditing compliance."
+        ]
+      }
+    ]
+  },
+  "horizontalcard1": {
+    "darkBlue": {
+      "img": "https://caresyncexperts.co.uk/images/packages/package-cta-avatar-group.png",
+      "h1": "Still have questions?",
+      "p": "Can’t find the answer you’re looking for? Please chat to our friendly team.",
+      "button": "GetIn Touch"
+    }
+  }
+}
