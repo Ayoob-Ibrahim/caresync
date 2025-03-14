@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   templateUrl: './e-book-detailed-view.component.html',
   styleUrl: './e-book-detailed-view.component.scss'
 })
-export class EBookDetailedViewComponent {
+export class EBookDetailedViewComponent implements OnInit, AfterViewInit {
   formJson = [
     { formName: 'Your name/Company’s Name', icon: 'bi bi-person-lines-fill' },
     { formName: 'Email address', icon: 'bi bi-envelope' },
@@ -17,6 +17,9 @@ export class EBookDetailedViewComponent {
     { formName: 'How many care recipients (clients) do you have?', icon: 'bi bi-people-fill' },
   ]
   constructor(private router: Router) { }
+  ngAfterViewInit(): void {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
   receivedData: any;
 
   ngOnInit() {
