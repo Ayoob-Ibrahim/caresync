@@ -26,4 +26,9 @@ export class EBookDetailedViewComponent implements OnInit, AfterViewInit {
     this.receivedData = history.state.detailData;
     if (!this.receivedData) this.router.navigate(['ebooks', 'detailed-view']);
   }
+
+
+  download(link: string) {
+    window.open(link, "_blank");
+  }
 }
