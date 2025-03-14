@@ -60,64 +60,162 @@
     "e_books": {
         "e_boooks_card": [
             {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Create a distinct, memorable logo that reflects your healthcare brand’s core values.",
-                "image": "https://s3-alpha-sig.figma.com/img/f544/33fa/fcfefdb64417f14896b3827abccc3c64?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dFcFa0~gFqnrT2bpZzOYZlesl6s~bhV6i~~AZDHfOsk7bT6nm6kH1IPhbZ95aN9Rjwmd25dWquZ8oUJIvNNTRvd5JxtSznk-xrgX3KZPc92gxeiGghew5uUTvafrS~1UBzJppP9SxZLCsNTdAukKkfeeFVCDC2I2V~1pU-Um-xr2FNw25Wuq7X04Yp6LR68yihsL-UqnWNq0xdjYBE4Q30J1fG77iL8nBUBqla1Tk0wg6n-ZFjilMmbU9CjTCGYol~2ccX17XpiMoEfKAbSq2camembBQ-6kjYk~U~IE2RW1TqM1fSDUcZLt129afAIGgJ~mYlHJVb1bOgtrhLwx6Q__"
+                "title": "Navigating CQC Compliance eBook",
+                "description": "Get a practical, step by step guide to mastering CQC compliance, from registration to inspection readiness. This essential handbook equips care providers with expert insights, templates, and compliance strategies to meet regulatory standards with confidence",
+                "image": "https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=isOFq98JO4K4SxXST9kapgyZgYkLDZBommEB3han38lfCLRU0-IYKLNxJKnkTcWZWXryHvbVSNwfNpaPDaQnuqqA7bRtFaRmLmpkSONhZ9bSH3C8QJc53uU1BrufOgW5xjO6vPm9SeV-WrAqzLSI0vxjjPWeKnDDAsbNtykuNSjv92t77b~f1-190ruyptYbyvc-2saOcV2DqSXQAhO7-wu3FA2f2~54zU36d6t3GDGpxGSIj5VtRdt0IvEJEj3aLXeioa1Ww7iIhTziKHWKC9u8hkAf1cDHM4L~IhDvbDO6znYrWm56RGxGPKs~4qusNBjESwKwDm7O5VVfo00gTQ__",
+                "data": {
+                    "title": "Navigating CQC Compliance eBook",
+                    "subtitle": "Get a practical, step-by-step guide to mastering CQC compliance, from registration to inspection readiness. This essential handbook equips care providers with expert insights, templates, and compliance strategies to meet regulatory standards with confidence.",
+                    "description": "Navigating CQC Compliance: A Practical Handbook for Care Providers",
+                    "content": {
+                        "introduction": "Meeting Care Quality Commission (CQC) compliance is more than just a regulatory requirement, it’s the foundation for delivering safe, high-quality, and person-centred care. With ever-evolving standards and rigorous inspections, care providers must ensure their services not only meet expectations but exceed them.",
+                        "overview": "This comprehensive handbook is your go-to resource for navigating the complexities of CQC registration, inspection readiness, and ongoing compliance. Whether you’re setting up a new care service or refining existing processes, this guide offers clear, actionable insights to help you achieve excellence."
+                    },
+                    "sections": [
+                        {
+                            "question": "Mastering CQC Compliance: Comprehensive Evidence Collection for Excellence in Care",
+                            "answers": [
+                                "Ensuring compliance with the Care Quality Commission (CQC) is essential for delivering safe, effective, and high-quality care services. However, with evolving regulations and a risk based inspection approach, care providers must go beyond simply meeting standards, they must actively demonstrate their commitment to excellence.",
+                                "This comprehensive eBook serves as a step-by-step guide to collecting, organising, and presenting evidence that not only prepares you for CQC inspections but also fosters continuous improvement within your organisation."
+                            ]
+                        },
+                        {
+                            "question": "What You’ll Gain?",
+                            "answers": [
+                                "A step-by-step guide to CQC registration, policies, and documentation requirements.",
+                                "Expert strategies for preparing for inspections, conducting internal audits, and ensuring compliance.",
+                                "Insights into CQC’s Key Lines of Enquiry (KLOEs) and how to align your service with the latest standards.",
+                                "Best practices for risk management, leadership, and quality improvement.",
+                                "Access to templates, checklists, and digital tools to streamline compliance."
+                            ]
+                        },
+                        {
+                            "question": "Who Should Read This?",
+                            "answers": [
+                                "This eBook is designed for care home providers, domiciliary care agencies, supported living, registered managers, and healthcare professionals looking to strengthen their CQC compliance strategies and build a reputation for excellence."
+                            ]
+                        }
+                    ]
+                }
             },
             {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Communicate complex medical information in easy-to-understand formats.",
-                "image": "https://s3-alpha-sig.figma.com/img/a639/0e05/68a030407657adbc9ee3de533d1daa2c?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JR3Oe3Oc16HXPnQY8q6-fv4W24oPQCzKkcFWOy-UuFb~KBAUnV1kYhNZcsQqgvr3KfwqRWCGa7~K0NIsPeyKy81XbXYIimtYg0gwpnvMoybbmvg-aHvxcOh2flgqCM0V0M5pZ4YTF4P~oaEW99stUajOmr4WbMZDYZ8UVbk5JRo7ElSAmEiYFCWwPUaxQBhxT6RzUe0H32oXMWN1N4liJpjd~tl2OEHoCANBoCxpETf4x4YJ~8JQnQnuBE~-RfCKG7vWHRKhcFQTZUk301IRkygoI0cZIo2FbMfOp2y~xbLOMS2AyXlNleYfnotP71i1ZIlJvGzIzxAdyCr6QEBi0g__"
+                "title": "Navigating the New CQC Assessment Framework eBook",
+                "description": "Stay ahead of CQC changes with this comprehensive guide to the new Quality Statements, evidence categories, and inspection process. Learn how to demonstrate compliance, improve scores, and stay inspection ready.",
+                "image": "https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=isOFq98JO4K4SxXST9kapgyZgYkLDZBommEB3han38lfCLRU0-IYKLNxJKnkTcWZWXryHvbVSNwfNpaPDaQnuqqA7bRtFaRmLmpkSONhZ9bSH3C8QJc53uU1BrufOgW5xjO6vPm9SeV-WrAqzLSI0vxjjPWeKnDDAsbNtykuNSjv92t77b~f1-190ruyptYbyvc-2saOcV2DqSXQAhO7-wu3FA2f2~54zU36d6t3GDGpxGSIj5VtRdt0IvEJEj3aLXeioa1Ww7iIhTziKHWKC9u8hkAf1cDHM4L~IhDvbDO6znYrWm56RGxGPKs~4qusNBjESwKwDm7O5VVfo00gTQ__",
+                "data": {
+                    "title": "Navigating the New CQC Assessment Framework eBook",
+                    "subtitle": "Stay ahead of CQC changes with this comprehensive guide to the new Quality Statements, evidence categories, and inspection process. Learn how to demonstrate compliance, improve scores, and stay inspection ready.",
+                    "description": "Navigating the New CQC Assessment Framework: A Complete Guide to Excellence in Compliance",
+                    "content": {
+                        "introduction": "The Care Quality Commission (CQC) has introduced a new assessment framework, shifting the focus from rigid processes to client-centred outcomes. With the replacement of Key Lines of Enquiry (KLOEs) with Quality Statements and a more data-driven inspection approach, healthcare providers must adapt to new methods of evidence collection and compliance demonstration.",
+                        "overview": "This comprehensive eBook is your ultimate guide to understanding and implementing the latest CQC standards, ensuring your organisation is always inspection ready and aligned with the new regulatory expectations."
+                    },
+                    "sections": [
+                        {
+                            "question": "A Complete Guide to Excellence in Compliance",
+                            "answers": [
+                                "The Care Quality Commission (CQC) has introduced a new assessment framework, shifting the focus from rigid processes to client-centred outcomes. With the replacement of Key Lines of Enquiry (KLOEs) with Quality Statements and a more data-driven inspection approach, healthcare providers must adapt to new methods of evidence collection and compliance demonstration.",
+                                "This comprehensive eBook is your ultimate guide to understanding and implementing the latest CQC standards, ensuring your organisation is always inspection ready and aligned with the new regulatory expectations."
+                            ]
+                        },
+                        {
+                            "question": "What You’ll Gain?",
+                            "answers": [
+                                "Clear explanations of Quality Statements and Evidence Categories – Learn how the new framework evaluates care quality and client experience.",
+                                "Best practices for evidence collection and documentation – Ensure your service meets CQC’s updated standards with structured record keeping.",
+                                "Practical self-assessment tools and checklists – Identify gaps, improve compliance, and enhance care quality.",
+                                "Inspection readiness strategies – Prepare your team with mock inspections, staff training, and technology-driven compliance solutions.",
+                                "Scoring and improvement strategies – Understand the new CQC rating system and how to boost your scores through proactive quality management."
+                            ]
+                        },
+                        {
+                            "question": "Who Should Read This?",
+                            "answers": [
+                                "This eBook is designed for care home providers, domiciliary care agencies, registered managers, and healthcare professionals who want to stay ahead of CQC compliance and deliver exceptional care."
+                            ]
+                        }
+                    ]
+                }
             },
             {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Create a distinct, memorable logo that reflects your healthcare brand’s core values.",
-                "image": "https://s3-alpha-sig.figma.com/img/843b/7c5a/412247e7c6e7e36077cc0e760c3d85bb?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WcRs7ej13~-SlMu2V2sMgKObvLiUCCZUSxMang2FLM0uJREzxa8HGZRDTEF-2eRzBK3oeOeWBpsiwLn1x5Unw69Sf2CEwONKCyjfOgn6fA1CqBMxMIM8xXsfrW~Z3rE2HibWTBOapm4Cw2AaU5EaYBjncniZvblpEg~EWlVEEuZoeGafI~arTmnO9iazKkgU5sLcNQkpz0QNl5U3dNypg56KLc9PLshZRhOuLluDGpolfw3c2dHRnDtIOYHdqc5rFi05vqqLvisVqjjBL6XfHZndgaZa2PaUORtW7bpHJfeExjCyAz~I9FhIMhabaxvVUYx8WIaiodSVoQKag-m3iQ__"
+                "title": "The Home Care Startup Guide eBook",
+                "description": "Thinking of starting a home care business? This comprehensive guide covers everything from market trends and compliance to staffing, marketing, and financial planning. Get the expert insights you need to launch, grow, and sustain a successful home care agency.",
+                "image": "https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=isOFq98JO4K4SxXST9kapgyZgYkLDZBommEB3han38lfCLRU0-IYKLNxJKnkTcWZWXryHvbVSNwfNpaPDaQnuqqA7bRtFaRmLmpkSONhZ9bSH3C8QJc53uU1BrufOgW5xjO6vPm9SeV-WrAqzLSI0vxjjPWeKnDDAsbNtykuNSjv92t77b~f1-190ruyptYbyvc-2saOcV2DqSXQAhO7-wu3FA2f2~54zU36d6t3GDGpxGSIj5VtRdt0IvEJEj3aLXeioa1Ww7iIhTziKHWKC9u8hkAf1cDHM4L~IhDvbDO6znYrWm56RGxGPKs~4qusNBjESwKwDm7O5VVfo00gTQ__",
+                "data": {
+                    "title": "The Home Care Startup Guide eBook",
+                    "subtitle": "Thinking of starting a home care business? This comprehensive guide covers everything from market trends and compliance to staffing, marketing, and financial planning. Get the expert insights you need to launch, grow, and sustain a successful home care agency.",
+                    "description": "The Home Care Startup Guide: Your Path to Success",
+                    "content": {
+                        "introduction": "The demand for home care services is at an all-time high, making it a prime opportunity for entrepreneurs and healthcare professionals looking to start a successful agency. However, navigating the complexities of regulations, staffing, marketing, and financial sustainability can be challenging.",
+                        "overview": "This comprehensive eBook is designed to provide step-by-step guidance on launching and growing a profitable and compliant home care business. Whether you’re starting from scratch or refining an existing agency, this guide equips you with expert insights, strategies, and practical tools to build a client-centred and sustainable service."
+                    },
+                    "sections": [
+                        {
+                            "question": "Your Complete Roadmap to Launching and Growing a Thriving Home Care Business",
+                            "answers": [
+                                "The demand for home care services is at an all time high, making it a prime opportunity for entrepreneurs and healthcare professionals looking to start a successful agency. However, navigating the complexities of regulations, staffing, marketing, and financial sustainability can be challenging.",
+                                "This comprehensive eBook is designed to provide step by step guidance on launching and growing a profitable and compliant home care business. Whether you’re starting from scratch or refining an existing agency, this guide equips you with expert insights, strategies, and practical tools to build a client-centred and sustainable service."
+                            ]
+                        },
+                        {
+                            "question": "What You’ll Learn?",
+                            "answers": [
+                                "Understanding the Home Care Market – Industry trends, key demographics, and emerging opportunities.",
+                                "Choosing the Right Business Model – Start from scratch, buy a franchise, or acquire an existing agency.",
+                                "Navigating Compliance & Regulations – CQC registration, quality standards, and legal requirements.",
+                                "Building a Skilled & Compassionate Team – Recruitment, training, and staff retention strategies.",
+                                "Marketing & Branding for Growth – Positioning your agency, digital marketing, and referral networks.",
+                                "Financial Planning & Revenue Strategies – Budgeting, managing cash flow, and maximising profitability.",
+                                "Long Term Success & Scaling Your Business – Adapting to industry trends and sustainable growth strategies."
+                            ]
+                        },
+                        {
+                            "question": "Who Should Read This?",
+                            "answers": [
+                                 "This eBook is perfect for aspiring business owners, care home managers, healthcare entrepreneurs, and social care professionals looking to establish and grow a home care agency with confidence and success."
+                            ]
+                        }
+                    ]
+                }
             },
             {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Promote events, services, or healthcare initiatives with eye-catching designs.",
-                "image": "https://s3-alpha-sig.figma.com/img/f9ab/f69e/9f26ed6778486f38e0b907ef44344705?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LlRH08oQOpN6fGfl3yfIa9BHwmhpR6qIs~mIXe1OrMHer6CEil0w~iRXqJbqMXq2uWAxiOlEtI~5JKp4CNRUjFAr-8vqbDPH-xvKHJtnZThJySP9SFBCT5IWz-ahFLK-76IK~jni9l8DG0au~OTPKjPMagDJ7vARE1yU1gQxmLrjmcszT~F4ZapMxphiQ16AEjrMR~HalhVmtvod2GS-JjEhlGsWOg~mGg0clTmIbukUb0q~5vz-Q-MqlK3bkGyYRtvp0arglK9yZVKl5NNJJqDEqg5R1~Laio-U9zwrq-3i26ryWefYLF3ce~NjzY-lEVZrqQb-mgiViBaSKxDybg__"
-            },
-            {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Communicate complex medical information in easy-to-understand formats.",
-                "image": "https://s3-alpha-sig.figma.com/img/dfd8/c6e4/77ddc3498bbfde72e93d10e774a6a9c5?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=L4TfageTV5rgD2g~H32inL~DpUoLPXY7-lLaaSgcal2agdt2TRXGU-3VTB7GVOFdKRVV5lq-h6R~m3cwvFiAFqD1b6lQZW-GUxRXgp3QxAuVgIKL4ihnjvpbKK5~ANmpZv~MJT2wzWAtsR~LtU6oIFYruqS6VVjBCZv3FU8MFF41Q9Ex-bhHtFZ0zVP9Q8gyUdvXQYhgybgW5WP-JZl0u1j-BF21mygXPFk4rq4~6OEM6bjszhE1yQAXkLxgMRYhcthnKXd2k4Cbfmb5662-yMFFIGwbSQ-iuQx3mPEJ2y21ls3p4bzudWhtU~v~CvlSs5ao9Ow6o8gy-U56zFdhmQ__"
-            },
-            {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Promote events, services, or healthcare initiatives with eye-catching designs.",
-                "image": "https://s3-alpha-sig.figma.com/img/9445/4005/aefe3046cb0c1be5c731d0be7507a2de?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Uypapddeh2yfvTJNxX-krqaNN4oFPqbrHI0uQrve1iQGyRslgGgFjWv63vwa2CZc33ZeETi~s8VWWAL17nbyPbXiNq3~DSRhWoc7NcOei~2J6hprpvPQAkPJJTA17wjX4e8DdVKn8lQ8P6n7X07nmbA~rgeg6HWP0hLyhmQ2Oubkws4xf2EpWza1CIXMLRpZx~F1x59G2zJmpEh1rYzhhm6mInx2tzUWzNF5XBFpwIxpxOCJ0Nx4tV2IA5BCZuxB2fAFlhI8BXEZ9TXWQe3tCnkBMs8HoYZ~PBFjDpwoKEy0Mu75Ba7WSPxCphwTHNdq521X-~b9PK2imdcuKl-33w__"
-            },
-            {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Create a distinct, memorable logo that reflects your healthcare brand’s core values.",
-                "image": "https://s3-alpha-sig.figma.com/img/f544/33fa/fcfefdb64417f14896b3827abccc3c64?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dFcFa0~gFqnrT2bpZzOYZlesl6s~bhV6i~~AZDHfOsk7bT6nm6kH1IPhbZ95aN9Rjwmd25dWquZ8oUJIvNNTRvd5JxtSznk-xrgX3KZPc92gxeiGghew5uUTvafrS~1UBzJppP9SxZLCsNTdAukKkfeeFVCDC2I2V~1pU-Um-xr2FNw25Wuq7X04Yp6LR68yihsL-UqnWNq0xdjYBE4Q30J1fG77iL8nBUBqla1Tk0wg6n-ZFjilMmbU9CjTCGYol~2ccX17XpiMoEfKAbSq2camembBQ-6kjYk~U~IE2RW1TqM1fSDUcZLt129afAIGgJ~mYlHJVb1bOgtrhLwx6Q__"
-            },
-            {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Communicate complex medical information in easy-to-understand formats.",
-                "image": "https://s3-alpha-sig.figma.com/img/a639/0e05/68a030407657adbc9ee3de533d1daa2c?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=JR3Oe3Oc16HXPnQY8q6-fv4W24oPQCzKkcFWOy-UuFb~KBAUnV1kYhNZcsQqgvr3KfwqRWCGa7~K0NIsPeyKy81XbXYIimtYg0gwpnvMoybbmvg-aHvxcOh2flgqCM0V0M5pZ4YTF4P~oaEW99stUajOmr4WbMZDYZ8UVbk5JRo7ElSAmEiYFCWwPUaxQBhxT6RzUe0H32oXMWN1N4liJpjd~tl2OEHoCANBoCxpETf4x4YJ~8JQnQnuBE~-RfCKG7vWHRKhcFQTZUk301IRkygoI0cZIo2FbMfOp2y~xbLOMS2AyXlNleYfnotP71i1ZIlJvGzIzxAdyCr6QEBi0g__"
-            },
-            {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Create a distinct, memorable logo that reflects your healthcare brand’s core values.",
-                "image": "https://s3-alpha-sig.figma.com/img/843b/7c5a/412247e7c6e7e36077cc0e760c3d85bb?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=WcRs7ej13~-SlMu2V2sMgKObvLiUCCZUSxMang2FLM0uJREzxa8HGZRDTEF-2eRzBK3oeOeWBpsiwLn1x5Unw69Sf2CEwONKCyjfOgn6fA1CqBMxMIM8xXsfrW~Z3rE2HibWTBOapm4Cw2AaU5EaYBjncniZvblpEg~EWlVEEuZoeGafI~arTmnO9iazKkgU5sLcNQkpz0QNl5U3dNypg56KLc9PLshZRhOuLluDGpolfw3c2dHRnDtIOYHdqc5rFi05vqqLvisVqjjBL6XfHZndgaZa2PaUORtW7bpHJfeExjCyAz~I9FhIMhabaxvVUYx8WIaiodSVoQKag-m3iQ__"
-            },
-            {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Promote events, services, or healthcare initiatives with eye-catching designs.",
-                "image": "https://s3-alpha-sig.figma.com/img/f9ab/f69e/9f26ed6778486f38e0b907ef44344705?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=LlRH08oQOpN6fGfl3yfIa9BHwmhpR6qIs~mIXe1OrMHer6CEil0w~iRXqJbqMXq2uWAxiOlEtI~5JKp4CNRUjFAr-8vqbDPH-xvKHJtnZThJySP9SFBCT5IWz-ahFLK-76IK~jni9l8DG0au~OTPKjPMagDJ7vARE1yU1gQxmLrjmcszT~F4ZapMxphiQ16AEjrMR~HalhVmtvod2GS-JjEhlGsWOg~mGg0clTmIbukUb0q~5vz-Q-MqlK3bkGyYRtvp0arglK9yZVKl5NNJJqDEqg5R1~Laio-U9zwrq-3i26ryWefYLF3ce~NjzY-lEVZrqQb-mgiViBaSKxDybg__"
-            },
-            {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Communicate complex medical information in easy-to-understand formats.",
-                "image": "https://s3-alpha-sig.figma.com/img/dfd8/c6e4/77ddc3498bbfde72e93d10e774a6a9c5?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=L4TfageTV5rgD2g~H32inL~DpUoLPXY7-lLaaSgcal2agdt2TRXGU-3VTB7GVOFdKRVV5lq-h6R~m3cwvFiAFqD1b6lQZW-GUxRXgp3QxAuVgIKL4ihnjvpbKK5~ANmpZv~MJT2wzWAtsR~LtU6oIFYruqS6VVjBCZv3FU8MFF41Q9Ex-bhHtFZ0zVP9Q8gyUdvXQYhgybgW5WP-JZl0u1j-BF21mygXPFk4rq4~6OEM6bjszhE1yQAXkLxgMRYhcthnKXd2k4Cbfmb5662-yMFFIGwbSQ-iuQx3mPEJ2y21ls3p4bzudWhtU~v~CvlSs5ao9Ow6o8gy-U56zFdhmQ__"
-            },
-            {
-                "title": "Setting Up a Domiciliary Care Agency in the UK: Everything You Need to Know",
-                "description": "Promote events, services, or healthcare initiatives with eye-catching designs.",
-                "image": "https://s3-alpha-sig.figma.com/img/9445/4005/aefe3046cb0c1be5c731d0be7507a2de?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Uypapddeh2yfvTJNxX-krqaNN4oFPqbrHI0uQrve1iQGyRslgGgFjWv63vwa2CZc33ZeETi~s8VWWAL17nbyPbXiNq3~DSRhWoc7NcOei~2J6hprpvPQAkPJJTA17wjX4e8DdVKn8lQ8P6n7X07nmbA~rgeg6HWP0hLyhmQ2Oubkws4xf2EpWza1CIXMLRpZx~F1x59G2zJmpEh1rYzhhm6mInx2tzUWzNF5XBFpwIxpxOCJ0Nx4tV2IA5BCZuxB2fAFlhI8BXEZ9TXWQe3tCnkBMs8HoYZ~PBFjDpwoKEy0Mu75Ba7WSPxCphwTHNdq521X-~b9PK2imdcuKl-33w__"
+                "title": "Mastering CQC Compliance eBook",
+                "description": "Stay inspection ready with this essential guide to CQC evidence collection. Learn how to demonstrate compliance, mitigate risks, and foster a culture of excellence in care.",
+                "image": "https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=isOFq98JO4K4SxXST9kapgyZgYkLDZBommEB3han38lfCLRU0-IYKLNxJKnkTcWZWXryHvbVSNwfNpaPDaQnuqqA7bRtFaRmLmpkSONhZ9bSH3C8QJc53uU1BrufOgW5xjO6vPm9SeV-WrAqzLSI0vxjjPWeKnDDAsbNtykuNSjv92t77b~f1-190ruyptYbyvc-2saOcV2DqSXQAhO7-wu3FA2f2~54zU36d6t3GDGpxGSIj5VtRdt0IvEJEj3aLXeioa1Ww7iIhTziKHWKC9u8hkAf1cDHM4L~IhDvbDO6znYrWm56RGxGPKs~4qusNBjESwKwDm7O5VVfo00gTQ__",
+                "data": {
+                    "title": "Mastering CQC Compliance eBook",
+                    "subtitle": "Stay inspection ready with this essential guide to CQC evidence collection. Learn how to demonstrate compliance, mitigate risks, and foster a culture of excellence in care.",
+                    "description": "Mastering CQC Compliance: Comprehensive Evidence Collection for Excellence in Care",
+                    "content": {
+                        "introduction": "Ensuring compliance with the Care Quality Commission (CQC) is essential for delivering safe, effective, and high-quality care services. However, with evolving regulations and a risk-based inspection approach, care providers must go beyond simply meeting standards, they must actively demonstrate their commitment to excellence.",
+                        "overview": "This comprehensive eBook serves as a step-by-step guide to collecting, organising, and presenting evidence that not only prepares you for CQC inspections but also fosters continuous improvement within your organisation."
+                    },
+                    "sections": [
+                        {
+                            "question": "Mastering CQC Compliance: Comprehensive Evidence Collection for Excellence in Care",
+                            "answers": [
+                                "Ensuring compliance with the Care Quality Commission (CQC) is essential for delivering safe, effective, and high-quality care services. However, with evolving regulations and a risk based inspection approach, care providers must go beyond simply meeting standards, they must actively demonstrate their commitment to excellence.",
+                                "This comprehensive eBook serves as a step-by-step guide to collecting, organising, and presenting evidence that not only prepares you for CQC inspections but also fosters continuous improvement within your organisation."
+                            ]
+                        },
+                        {
+                            "question": "What You’ll Gain?",
+                            "answers": [
+                                "A structured approach to CQC evidence collection across all five key domains: Safe, Effective, Caring, Responsive, and Well-Led.",
+                                "Strategies for mitigating risk, ensuring transparency, and strengthening compliance.",
+                                "Best practices for data accuracy, accessibility, and reliability to streamline inspections.",
+                                "Insights on leveraging technology and digital tools to enhance evidence management.",
+                                "Actionable tips to embed a culture of continuous improvement in your care setting."
+                            ]
+                        },
+                        {
+                            "question": "Who Should Read This?",
+                            "answers": [
+                                "This eBook is designed for care home providers, domiciliary care agencies, registered managers, and healthcare professionals seeking to strengthen their CQC compliance strategies and ensure their services meet the highest standards."
+                            ]
+                        }
+                    ]
+                }
             }
         ]
     },

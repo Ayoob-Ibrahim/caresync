@@ -17,7 +17,11 @@ export class EBookInitialPageComponent {
 
   constructor(private router: Router, private activatedRoute: ActivatedRoute) { }
 
-  goToDetailedView() {
-    this.router.navigate(['detailed-view'], { relativeTo: this.activatedRoute });
+  goToDetailedView(data: any) {
+    this.router.navigate(['detailed-view'], {
+      relativeTo: this.activatedRoute,
+      state: { detailData: data }  
+    });
   }
+
 }

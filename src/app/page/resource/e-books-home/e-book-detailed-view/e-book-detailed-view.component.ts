@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-e-book-detailed-view',
@@ -15,4 +16,11 @@ export class EBookDetailedViewComponent {
     { formName: 'Company’s address', icon: 'bi bi-geo-alt-fill' },
     { formName: 'How many care recipients (clients) do you have?', icon: 'bi bi-people-fill' },
   ]
+  constructor(private router: Router) { }
+  receivedData: any;
+
+  ngOnInit() {
+    this.receivedData = history.state.detailData;
+    if (!this.receivedData) this.router.navigate(['ebooks', 'detailed-view']);
+  }
 }

@@ -16,7 +16,7 @@
             </div>
         </aside>
         <aside>
-            <img src="https://s3-alpha-sig.figma.com/img/cb9a/f2db/cf415be143e0cc1263f6117eac819c05?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=lYFTpPXWaEleE1vI2t3VvO4UH~PoKoeQf8291H3uXkUNeY9FQ2apu05rsDo-v1n8l-pXpu-~TsXKA8OQ~OjE5OOEiHKLwU2MRatN~6-sDIOg2SN1MeRokh~aAzN7cWGTiFvqNFw~G6oNyVfrToIS4VyEgnRUhfOzAU4IIQJcH490vOydGC1c3hOT~RNDxVjEsqW4RFM4vvw0PKtje4YqwhZxwmUUpy7dF7x41ePhLZvxLBpk4Ap~W~z057JO6hnyHU-FLvymUAT-~4On0myBXGLh9ue7aH8MlM~JfjtqqgkBPw~rItbGBQzBkjf5ZLaLjcj5hNF4f1RqeofkkuHdOg__"
+            <img src="https://s3-alpha-sig.figma.com/img/cb9a/f2db/cf415be143e0cc1263f6117eac819c05?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=NtZFOhX0LSIwRcrFaNY-aOUa0oVgwIi9njGg9zRxUUcaiudN7fCyZnV~pYO~6zU2J9aMw0WQwEFx9tcAZUvi7Nu5Rc8aMwA1wYSKv7kyrsgMCcgLqDBfgXf8Lu74DI0UMWEfLOH6kf6~3Ud9iLT4GaRvKQzp35iz9TwTxsJRr5FZJtd2TeLOoJsr9XWqdsQrVMJVQSFzmHHlCtYzqDlF-sGiNvlw6VxvhvuM0nQM-5VTYIkf-v9d9znDsGcKE7m3e5BjGMlXdW7o1F1guN5QNDbDCz9nxDOLrL4E7mXFnr5pMtG-YSITCE87EBJKeR~PypWDPYLvzBWICeUV9cC5cg__"
                 alt="">
         </aside>
     </section>
@@ -27,7 +27,7 @@
 
 <main class="container-stretch card-container-wrapper">
     <ng-container *ngFor="let item of brouchers.e_books.e_boooks_card">
-        <div class="custom-card" (click)="goToDetailedView()">
+        <div class="custom-card">
             <div class="custom-card-img-wrapper">
                 <img [src]="item.image" alt="Card Image" class="custom-card-img">
             </div>
@@ -39,7 +39,7 @@
                         <i class="bi bi-calendar-date"></i>
                         24th Feb 2024
                     </small>
-                    <button class="common-button">Download Book</button>
+                    <button class="common-button" (click)="goToDetailedView(item)">Download Book</button>
                 </div>
 
             </div>
