@@ -1,0 +1,193 @@
+@mixin custom-background($height: 160px, $bg-size: 100% 219px, $radius: 7px) {
+    height: $height;
+    background-position: center;
+    background-size: $bg-size;
+    background-repeat: no-repeat;
+    border-radius: $radius;
+    margin: .2rem 0;
+}
+
+
+.intial-container {
+    background: rgba(245, 251, 250, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 3rem auto;
+
+    aside.content-wrapper {
+        flex-basis: 34%;
+
+    }
+
+    aside.aside-image {
+        flex-basis: 61%;
+        margin-right: auto;
+    }
+
+
+    aside:nth-of-type(1) {
+        margin: auto;
+
+        p {
+            font-family: regular;
+            letter-spacing: -0.41px;
+            color: rgba(102, 112, 133, 1);
+            font-size: 18px;
+        }
+
+        h3,
+        h4 {
+            font-family: medium;
+            font-size: 2.5rem;
+            line-height: 3rem;
+            letter-spacing: -0.41px;
+            color: #129693;
+        }
+
+        h4 {
+            color: black;
+        }
+
+        small {
+            font-family: LKanit;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: -0.41px;
+            color: rgba(102, 112, 133, 1);
+        }
+
+    }
+
+
+}
+
+.intial-container aside:nth-of-type(2) .client-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    figure {
+
+
+        .image-one {
+            @include custom-background(160px, cover, 7px);
+            background-image: url('../../../../assets/success-stories/success-ol.jpeg');
+        }
+
+        .image-four {
+            @include custom-background(160px, cover, 7px);
+            background-image: url('../../../../assets/success-stories/success-with-ladie.jpeg');
+        }
+
+        .image-two {
+            background-image: url('../../../../assets/success-stories/suceess-three-grann.jpeg');
+            @include custom-background(160px, cover, 7px);
+            width: 49%;
+        }
+
+        .image-three {
+            background-image: url('../../../../assets/success-stories/success-with-docto.jpeg');
+            @include custom-background(160px, cover, 7px);
+            width: 49%;
+        }
+
+    }
+
+
+
+    .side {
+        flex-basis: 34%;
+        width: 100%;
+        background-image: url('../../../../assets/success-stories/suceess-uncle.jpg');
+        @include custom-background(490px, cover, 7px);
+    }
+
+    .main {
+        flex-basis: 65%;
+    }
+
+
+}
+
+//second container
+
+
+.solution-provider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem;
+
+    p {
+        font-family: regular;
+        letter-spacing: -0.41px;
+        color: rgba(102, 112, 133, 1);
+        font-size: 18px;
+    }
+
+    .content-wrap {
+        flex-basis: 52%;
+
+        h3 {
+            font-size: 2rem;
+            color: black;
+            font-family: medium
+        }
+
+    }
+
+    .content-wrap-content {
+        flex-basis: 44%;
+        border-left: .5rem solid #129693;
+        padding-left: 1rem;
+        height: max-content;
+    }
+
+    .image-wrap {
+        flex-basis: 99%;
+        background-image: url('../../../../assets/success-stories/ladywithbobyb.jpeg');
+        height: 400px;
+        border-radius: 7px;
+        margin-top: 10px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .intial-container {
+        aside {
+            flex-basis: 95% !important;
+            margin: auto;
+        }
+
+        .content-wrapper {
+            margin-top: 1rem !important;
+        }
+    }
+
+    .solution-provider {
+
+        .content-wrap,
+        .content-wrap-content {
+            flex-basis: 99%;
+            margin: 1rem 0;
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .intial-container aside.aside-image .client-image-container figure {
+        flex-basis: 99% !important;
+    }
+
+}

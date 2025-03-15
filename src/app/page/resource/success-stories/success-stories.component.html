@@ -1,0 +1,46 @@
+<section class="container-stretch intial-container">
+    <aside class="content-wrapper">
+        <ng-container *ngTemplateOutlet="client_overview"></ng-container>
+    </aside>
+    <aside class="aside-image">
+        <ng-container *ngTemplateOutlet="client_image"></ng-container>
+    </aside>
+</section>
+
+<ng-template #client_overview>
+    <p>Client Overview</p>
+    <h3>Success Story :</h3>
+    <h4>Living Plus Care Services Ltd</h4>
+    <small>Living Plus Care Services Ltd specialises in providing supported living services to vulnerable adults and
+        children, focusing on delivering personalised care to individuals with complex needs across various
+        regions.</small>
+</ng-template>
+
+<ng-template #client_image>
+    <div class="client-image-container mt-[2rem] mb-[2rem]">
+        <figure class="main">
+            <div class="image-one"></div>
+            <div style="display: flex;justify-content: space-between;">
+                <div class="image-two"></div>
+                <div class="image-three"></div>
+            </div>
+            <div class="image-four"></div>
+        </figure>
+        <figure class="side">
+            <div class="side-one"></div>
+        </figure>
+    </div>
+</ng-template>
+
+<section class="container-stretch solution-provider">
+    <div class="content-wrap">
+        <h3>Solution Provided</h3>
+        <p>Care Sync Experts collaborated with Living Plus Care Services Ltd to assist them in bidding for seven
+            critical tenders.</p>
+    </div>
+    <div class="content-wrap-content">
+        <p>Our expert tender writing services were tailored to meet the specific requirements of each tender, ensuring
+            that the bids were competitive and aligned with all necessary criteria.</p>
+    </div>
+    <div class="image-wrap"></div>
+</section>

@@ -80,6 +80,13 @@ export const routes: Routes = [
               ),
           },
           {
+            path: 'success-stories',
+            loadComponent: () =>
+              import('./page/resource/success-stories/success-stories.component').then(
+                (m) => m.SuccessStoriesComponent
+              ),
+          },
+          {
             path: 'ebooks',
             children: [
               {
