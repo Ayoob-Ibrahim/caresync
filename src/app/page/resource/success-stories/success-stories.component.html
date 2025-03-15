@@ -44,3 +44,23 @@
     </div>
     <div class="image-wrap"></div>
 </section>
+
+
+<section class="container-stretch card-list">
+    <ng-container *ngFor="let item of tenderList.tenders">
+        <div class="card-content">
+            <div class="card-header">
+                <h5>{{item.tender_number}}</h5>
+                <p>{{item.title}}</p>
+            </div>
+            <div class="card-wrapper">
+                <h6>
+                    Result
+                </h6>
+                <small>
+                    {{item.description}}
+                </small>
+            </div>
+        </div>
+    </ng-container>
+</section>
