@@ -210,6 +210,49 @@
 }
 
 
+
+.result-achieved {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem;
+    justify-content: space-between;
+
+    figure {
+        flex-basis: 48%;
+        background-image: url('../../../../assets/success-stories/resultachiedco.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 350px;
+        border-radius: 7px;
+    }
+
+    article {
+        flex-basis: 48%;
+
+        h2 {
+            font-family: medium;
+            font-size: 40px;
+            line-height: 100%;
+            letter-spacing: -0.41px;
+            color: rgba(0, 69, 88, 1);
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-family: regular;
+            letter-spacing: -0.41px;
+            color: rgba(102, 112, 133, 1);
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+
+
+
 @media (max-width: 1024px) {
     .intial-container {
         aside {
@@ -235,6 +278,18 @@
         flex-basis: 45%;
     }
 
+    .result-achieved {
+
+        article,
+        figure {
+            flex-basis: 99%;
+
+            h2 {
+                margin-top: 2rem;
+            }
+        }
+    }
+
 }
 
 
@@ -249,4 +304,38 @@
         margin: 10px;
     }
 
+}
+
+.proof-success {
+    span.curve {
+        font-family: regular;
+        color: #129693;
+        background-color: #e7f5f4;
+        padding: 10px 2rem;
+        border-radius: 1.7rem;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+
+    h2 {
+        font-family: medium;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: -0.41px;
+        color: rgba(0, 69, 88, 1);
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-family: regular;
+        letter-spacing: -0.41px;
+        color: rgba(102, 112, 133, 1);
+        font-size: 18px;
+    }
+
+    span{
+        font-family: regular;
+        color: #129693;
+    }
 }
