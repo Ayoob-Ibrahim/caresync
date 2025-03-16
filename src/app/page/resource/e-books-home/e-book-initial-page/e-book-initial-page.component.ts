@@ -5,7 +5,7 @@ import resources from '../../../../json-data/resources.json'
 import { HorizontalCardComponent } from "../../../../widgets/horizontal-card/horizontal-card.component";
 @Component({
   selector: 'app-e-book-initial-page',
-  imports: [RouterLink, RouterLinkActive, CommonModule, HorizontalCardComponent],
+  imports: [CommonModule, HorizontalCardComponent],
   templateUrl: './e-book-initial-page.component.html',
   styleUrl: './e-book-initial-page.component.scss'
 })
@@ -20,7 +20,7 @@ export class EBookInitialPageComponent {
   goToDetailedView(data: any) {
     this.router.navigate(['detailed-view'], {
       relativeTo: this.activatedRoute,
-      state: { detailData: data }  
+      state: { detailData: data }
     });
   }
 

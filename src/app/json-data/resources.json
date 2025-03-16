@@ -62,7 +62,8 @@
             {
                 "title": "Navigating CQC Compliance eBook",
                 "description": "Get a practical, step by step guide to mastering CQC compliance, from registration to inspection readiness. This essential handbook equips care providers with expert insights, templates, and compliance strategies to meet regulatory standards with confidence",
-                "image": "https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=isOFq98JO4K4SxXST9kapgyZgYkLDZBommEB3han38lfCLRU0-IYKLNxJKnkTcWZWXryHvbVSNwfNpaPDaQnuqqA7bRtFaRmLmpkSONhZ9bSH3C8QJc53uU1BrufOgW5xjO6vPm9SeV-WrAqzLSI0vxjjPWeKnDDAsbNtykuNSjv92t77b~f1-190ruyptYbyvc-2saOcV2DqSXQAhO7-wu3FA2f2~54zU36d6t3GDGpxGSIj5VtRdt0IvEJEj3aLXeioa1Ww7iIhTziKHWKC9u8hkAf1cDHM4L~IhDvbDO6znYrWm56RGxGPKs~4qusNBjESwKwDm7O5VVfo00gTQ__",
+                "image": "../../../../../assets/ebooks-data/NavigatingCQCCompliance.jpeg",
+                "download": "assets/ebooks-data/NavigatingCQCComplianceAPractical.pdf",
                 "data": {
                     "title": "Navigating CQC Compliance eBook",
                     "subtitle": "Get a practical, step-by-step guide to mastering CQC compliance, from registration to inspection readiness. This essential handbook equips care providers with expert insights, templates, and compliance strategies to meet regulatory standards with confidence.",
@@ -101,7 +102,8 @@
             {
                 "title": "Navigating the New CQC Assessment Framework eBook",
                 "description": "Stay ahead of CQC changes with this comprehensive guide to the new Quality Statements, evidence categories, and inspection process. Learn how to demonstrate compliance, improve scores, and stay inspection ready.",
-                "image": "https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=isOFq98JO4K4SxXST9kapgyZgYkLDZBommEB3han38lfCLRU0-IYKLNxJKnkTcWZWXryHvbVSNwfNpaPDaQnuqqA7bRtFaRmLmpkSONhZ9bSH3C8QJc53uU1BrufOgW5xjO6vPm9SeV-WrAqzLSI0vxjjPWeKnDDAsbNtykuNSjv92t77b~f1-190ruyptYbyvc-2saOcV2DqSXQAhO7-wu3FA2f2~54zU36d6t3GDGpxGSIj5VtRdt0IvEJEj3aLXeioa1Ww7iIhTziKHWKC9u8hkAf1cDHM4L~IhDvbDO6znYrWm56RGxGPKs~4qusNBjESwKwDm7O5VVfo00gTQ__",
+                "image": "../../../../../assets/ebooks-data/NTCQCN.jpeg",
+                "download": "assets/ebooks-data/NavigatingtheNew.pdf",
                 "data": {
                     "title": "Navigating the New CQC Assessment Framework eBook",
                     "subtitle": "Stay ahead of CQC changes with this comprehensive guide to the new Quality Statements, evidence categories, and inspection process. Learn how to demonstrate compliance, improve scores, and stay inspection ready.",
@@ -140,7 +142,8 @@
             {
                 "title": "The Home Care Startup Guide eBook",
                 "description": "Thinking of starting a home care business? This comprehensive guide covers everything from market trends and compliance to staffing, marketing, and financial planning. Get the expert insights you need to launch, grow, and sustain a successful home care agency.",
-                "image": "https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=isOFq98JO4K4SxXST9kapgyZgYkLDZBommEB3han38lfCLRU0-IYKLNxJKnkTcWZWXryHvbVSNwfNpaPDaQnuqqA7bRtFaRmLmpkSONhZ9bSH3C8QJc53uU1BrufOgW5xjO6vPm9SeV-WrAqzLSI0vxjjPWeKnDDAsbNtykuNSjv92t77b~f1-190ruyptYbyvc-2saOcV2DqSXQAhO7-wu3FA2f2~54zU36d6t3GDGpxGSIj5VtRdt0IvEJEj3aLXeioa1Ww7iIhTziKHWKC9u8hkAf1cDHM4L~IhDvbDO6znYrWm56RGxGPKs~4qusNBjESwKwDm7O5VVfo00gTQ__",
+                "image": "../../../../../assets/ebooks-data/TheHCSG.jpeg",
+                "download": "assets/ebooks-data/TheHomeCareStartupGuide.pdf",
                 "data": {
                     "title": "The Home Care Startup Guide eBook",
                     "subtitle": "Thinking of starting a home care business? This comprehensive guide covers everything from market trends and compliance to staffing, marketing, and financial planning. Get the expert insights you need to launch, grow, and sustain a successful home care agency.",
@@ -172,7 +175,7 @@
                         {
                             "question": "Who Should Read This?",
                             "answers": [
-                                 "This eBook is perfect for aspiring business owners, care home managers, healthcare entrepreneurs, and social care professionals looking to establish and grow a home care agency with confidence and success."
+                                "This eBook is perfect for aspiring business owners, care home managers, healthcare entrepreneurs, and social care professionals looking to establish and grow a home care agency with confidence and success."
                             ]
                         }
                     ]
@@ -181,7 +184,8 @@
             {
                 "title": "Mastering CQC Compliance eBook",
                 "description": "Stay inspection ready with this essential guide to CQC evidence collection. Learn how to demonstrate compliance, mitigate risks, and foster a culture of excellence in care.",
-                "image": "https://s3-alpha-sig.figma.com/img/de07/f6b8/4be1ecd76351127882a2393929deac1a?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=isOFq98JO4K4SxXST9kapgyZgYkLDZBommEB3han38lfCLRU0-IYKLNxJKnkTcWZWXryHvbVSNwfNpaPDaQnuqqA7bRtFaRmLmpkSONhZ9bSH3C8QJc53uU1BrufOgW5xjO6vPm9SeV-WrAqzLSI0vxjjPWeKnDDAsbNtykuNSjv92t77b~f1-190ruyptYbyvc-2saOcV2DqSXQAhO7-wu3FA2f2~54zU36d6t3GDGpxGSIj5VtRdt0IvEJEj3aLXeioa1Ww7iIhTziKHWKC9u8hkAf1cDHM4L~IhDvbDO6znYrWm56RGxGPKs~4qusNBjESwKwDm7O5VVfo00gTQ__",
+                "image": "../../../../../assets/ebooks-data/MasteringCQCComplianc.jpeg",
+                "download": "assets/ebooks-data/MasteringCQCCompliance.pdf",
                 "data": {
                     "title": "Mastering CQC Compliance eBook",
                     "subtitle": "Stay inspection ready with this essential guide to CQC evidence collection. Learn how to demonstrate compliance, mitigate risks, and foster a culture of excellence in care.",

@@ -28,7 +28,11 @@ export class EBookDetailedViewComponent implements OnInit, AfterViewInit {
   }
 
 
-  download(link: string) {
-    window.open(link, "_blank");
+  download(link_: string) {
+    const pdfUrl = link_;
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = link_.split('/')[2];
+    link.click();
   }
 }

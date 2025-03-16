@@ -9,13 +9,12 @@
             <h6>
                 {{receivedData?.data?.subtitle}}
             </h6>
-            <button class="common-button" style="width: 160px;" (click)="download('')">
+            <button class="common-button" style="width: 160px;" (click)="download(receivedData?.download)">
                 Get this ebook
             </button>
         </aside>
         <aside>
-            <img [src]="receivedData?.image"
-                alt="">
+            <img [src]="receivedData?.image" alt="">
         </aside>
     </section>
 </main>
