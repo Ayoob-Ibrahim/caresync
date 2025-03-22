@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { PdfDocument } from '../../../interface/common.interface';
+import { HorizontalCardComponent } from "../../../widgets/horizontal-card/horizontal-card.component";
 
 @Component({
   selector: 'app-success-stories',
-  imports: [CommonModule],
+  imports: [CommonModule, HorizontalCardComponent],
   templateUrl: './success-stories.component.html',
   styleUrl: './success-stories.component.scss'
 })
@@ -66,7 +67,25 @@ export class SuccessStoriesComponent {
     { name: 'HCC2012603', pdf: 'HCC2012603.pdf' },
     { name: 'LivingPlus', pdf: 'Care.pdf' },
     { name: 'LivingPlusOutcome', pdf: 'Light.pdf' }
-  ];;
+  ];
+
+
+
+  data = {
+    "cardContainer": {
+      "card": {
+        "leftSide": {
+          "content": {
+            "h2": "Why Choose CareSync Experts?",
+            "p": "At Care Sync Experts, we specialise in crafting successful tender bids that help businesses like Living Plus Care Services Ltd secure critical contracts and achieve substantial growth. Our proven track record of success stories showcases our commitment to delivering results that drive your business forward."
+          }
+        }
+      }
+    }
+  }
+
+
+
 
   download(link_: string): void {
     let append: string = '../../../../assets/success-stories/successpdf/';
