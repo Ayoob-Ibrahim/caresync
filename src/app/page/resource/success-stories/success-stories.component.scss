@@ -315,6 +315,45 @@
 
 }
 
+.five-star {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+    margin: 3rem;
+
+    figure,
+    article {
+        width: 45%;
+
+        .bi-star-fill {
+            color: rgba(254, 200, 75, 1);
+        }
+
+        img {
+            height: 80%;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            font-family: medium;
+            margin: 2rem 0;
+        }
+
+        h6 {
+            font-family: medium;
+            color: #129693;
+        }
+
+        small {
+            font-family: regular;
+            color: rgba(102, 112, 133, 1);
+        }
+    }
+
+
+}
 
 
 
@@ -362,6 +401,14 @@
 
     .proof-success .image-wrapper-container .image-card {
         width: calc(33.3% - 20px);
+    }
+
+    .five-star {
+
+        figure,
+        article {
+            width: 97%;
+        }
     }
 
 }
