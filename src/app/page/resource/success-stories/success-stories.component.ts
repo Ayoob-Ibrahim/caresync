@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { PdfDocument } from '../../../interface/common.interface';
 
 @Component({
   selector: 'app-success-stories',
@@ -55,4 +56,27 @@ export class SuccessStoriesComponent {
     ]
   }
 
+
+  proof: PdfDocument[] = [
+    { name: 'LivingPlusOutcome', pdf: 'LivingPlusOutcome.pdf' },
+    { name: 'LivingPlus', pdf: 'LivingPlus.pdf' },
+    { name: 'DN668543', pdf: 'DN668543.pdf' },
+    { name: 'AwardDecision', pdf: 'AwardDecision.pdf' },
+    { name: 'Living', pdf: 'Living.pdf' },
+    { name: 'HCC2012603', pdf: 'HCC2012603.pdf' },
+    { name: 'LivingPlus', pdf: 'Care.pdf' },
+    { name: 'LivingPlusOutcome', pdf: 'Light.pdf' }
+  ];;
+
+  download(link_: string): void {
+    let append: string = '../../../../assets/success-stories/successpdf/';
+    const pdfUrl = append + link_ + '.pdf';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = link_ + '.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+  }
 }

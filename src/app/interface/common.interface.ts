@@ -44,3 +44,8 @@ export interface verticalTab {
     data: any,
     index: number
 }
+
+export interface PdfDocument {
+    name: string;
+    pdf: string;
+}

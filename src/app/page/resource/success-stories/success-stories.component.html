@@ -86,7 +86,12 @@
         bids. These documents serve as clear evidence of the positive outcomes our tender writing services can achieve.
     </p>
     <span>Below is the award letter confirming their success:</span>
-    <div class="mt-[1rem]">
-
+    <div class="mt-[1rem] image-wrapper-container">
+        <ng-container *ngFor="let item of proof">
+            <div class="image-card" (click)="download(item.name)">
+                <img [src]="'../../../../assets/success-stories/successscreenshots/'+item.name+'.png'" alt="Card Image"
+                    class="image">
+            </div>
+        </ng-container>
     </div>
 </section>

@@ -155,7 +155,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-         
+
     }
 }
 
@@ -251,6 +251,75 @@
 
 
 
+.proof-success {
+    span.curve {
+        font-family: regular;
+        color: #129693;
+        background-color: #e7f5f4;
+        padding: 10px 2rem;
+        border-radius: 1.7rem;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+
+    h2 {
+        font-family: medium;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: -0.41px;
+        color: rgba(0, 69, 88, 1);
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-family: regular;
+        letter-spacing: -0.41px;
+        color: rgba(102, 112, 133, 1);
+        font-size: 18px;
+    }
+
+    span {
+        font-family: regular;
+        color: #129693;
+    }
+
+    .image-wrapper-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        cursor: pointer;
+        margin-bottom: 3rem;
+
+        .image-card {
+            width: calc(24% - 20px);
+            max-width: 300px;
+            height: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-card:hover {
+            transform: scale(1.05);
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+}
+
+
+
+
+
+
 
 
 
@@ -291,6 +360,10 @@
         }
     }
 
+    .proof-success .image-wrapper-container .image-card {
+        width: calc(33.3% - 20px);
+    }
+
 }
 
 
@@ -305,38 +378,9 @@
         margin: 10px;
     }
 
-}
 
-.proof-success {
-    span.curve {
-        font-family: regular;
-        color: #129693;
-        background-color: #e7f5f4;
-        padding: 10px 2rem;
-        border-radius: 1.7rem;
-        font-size: 20px;
-        margin-bottom: 1rem;
-        display: inline-block;
-    }
-
-    h2 {
-        font-family: medium;
-        font-size: 40px;
-        line-height: 100%;
-        letter-spacing: -0.41px;
-        color: rgba(0, 69, 88, 1);
-        margin-bottom: 1rem;
-    }
-
-    p {
-        font-family: regular;
-        letter-spacing: -0.41px;
-        color: rgba(102, 112, 133, 1);
-        font-size: 18px;
-    }
-
-    span{
-        font-family: regular;
-        color: #129693;
+    .proof-success .image-wrapper-container .image-card {
+        width: 98%;
+        margin: auto;
     }
 }
