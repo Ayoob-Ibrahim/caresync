@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
 import { LayoutComponent } from './structure-layout/layout/layout.component';
-import { inject, PLATFORM_ID } from '@angular/core';
-import { isPlatformBrowser } from '@angular/common';
+
 
 export const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
@@ -50,18 +49,26 @@ export const routes: Routes = [
               ).then((m) => m.WebsiteDevelopmentComponent),
           },
           {
-            path: 'guidance',
-            loadComponent: () =>
-              import(
-                './page/elevate-your-care-service/guidance/guidance.component'
-              ).then((m) => m.GuidanceComponent),
-          },
-          {
             path: 'policy-development',
             loadComponent: () =>
               import(
                 './page/elevate-your-care-service/policy-dev/policy-dev.component'
               ).then((m) => m.PolicyDevComponent),
+          },
+          {
+            path: 'guidance',
+            loadComponent: () =>
+              import(
+                './page/elevate-your-care-service/guidance/guidance-parent/guidance.component'
+              ).then((m) => m.GuidanceComponent),
+            children: [
+              {
+                path: ':id', loadComponent: () =>
+                  import(
+                    './page/elevate-your-care-service/guidance/guidance-child/guidance-child.component'
+                  ).then((m) => m.GuidanceChildComponent),
+              },
+            ]
           },
         ],
       },
