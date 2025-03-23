@@ -1,0 +1,65 @@
+<main class="bg-backgroundcolor">
+  <div class="!max-w-[1200px] mx-auto p-12">
+    <p class="font-regular text-whitenormal">FAQ</p>
+    <div class="flex justify-between flex-wrap">
+      <h4
+        class="font-semikanit text-[25px] text-whitenormal lg:basis-[48%] sm:basis-[100%] md:basis-[100%] mt-2"
+      >
+        Top questions about CareSync
+      </h4>
+      <p
+        class="font-regular text-[15px] text-whitenormal lg:basis-[48%] sm:basis-[100%] md:basis-[100%] mt-2"
+      >
+        Need something cleared up? Here are our most frequently asked questions.
+      </p>
+    </div>
+  </div>
+</main>
+
+<app-freequently-asked
+  [dataProperty]="resources.freequentlyasked"
+></app-freequently-asked>
+
+<main>
+  <div class="bg-[#F5FBFA] !max-w-[1200px] mx-auto p-8">
+    <div class="flex w-full justify-center">
+      <div class="w-[80%]">
+        <p class="font-semikanit border-b-[1px] mt-3 border-[#E2E2E2] pb-2">
+          Still have questions?
+        </p>
+        <div>
+          <div>
+            <p class="py-4">
+              <i class="bi bi-envelope text-[#000000]"></i
+              ><input
+                class="placeholder:text-[#868FA0] placeholder:font-thin placeholder:text-[15px] ml-2 outline-none"
+                placeholder="Enter your email"
+                type="text"
+              />
+            </p>
+            <p>
+              <i class="bi bi-file-earmark-text-fill text-[#000000]"></i
+              ><input
+                class="placeholder:text-[#868FA0] placeholder:font-thin placeholder:text-[15px] ml-2 outline-none"
+                placeholder="Enter your question here"
+                type="text"
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="w-[20%] flex justify-end items-end">
+        <div
+          class="bg-primary h-[44px] p-4 rounded-[45px] flex justify-center items-center contact-btn"
+        >
+          <div class="text-whitenormal font-semikanit">Submit Question</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<app-horizontal-card
+  [dataProperty]="resources.horizontalcard"
+></app-horizontal-card>

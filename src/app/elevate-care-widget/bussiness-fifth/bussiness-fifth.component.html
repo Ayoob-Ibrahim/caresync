@@ -1,0 +1,60 @@
+<main class="w-full flex justify-center">
+  <!-- "Title": "Why Start Your Healthcare Business with Care Sync Experts?",
+    "url": "../../../assets/elevatecare/mask.png",
+    "content1": "The healthcare industry in the UK is experiencing significant growth due to an ageing population and increasing demand for home care services. Starting your healthcare business now positions you to meet this growing demand while building a profitable and sustainable enterprise.",
+    "content2": "We offer assistance that extends beyond training. Whether you're starting up or expanding your operations we provide expert advice and strategies to help your healthcare business succeed in this challenging industry.",
+    "title1": "Tailored Solutions",
+    "bottom1": "Each healthcare business has its needs and characteristics; therefore our training programs are personalised to meet your individual objectives and hurdles. ",
+    "title2": "Ongoing Support",
+    "bottom2" -->
+  <div class="!max-w-[1200px]">
+    <h3 class="text-[25px] p-4 py-2 font-semikanit text-[#323433]">
+      {{ data.Title }}
+    </h3>
+    <div class="relative p-4">
+      <img class="rounded-[12px]" [src]="data.url" alt="" />
+      <div
+        class="absolute bottom-6 p-5 font-regular text-[#fff] lg:block hidden"
+      >
+        <p class="py-2">
+          {{ data.content1 }}
+        </p>
+        <p class="py-2">
+          {{ data.content2 }}
+        </p>
+      </div>
+    </div>
+    <div
+      class="bottom-6 p-5 flex font-regular flex-wrap text-[#323433] sm:block lg:hidden md:hidden"
+    >
+      <p class="py-2 lg:basis-[48%] sm:basis-[100%]">
+        {{ data.content1 }}
+      </p>
+      <p class="py-2 lg:basis-[48%] sm:basis-[100%]">
+        {{ data.content2 }}
+      </p>
+    </div>
+    <div class="px-3 flex p-9 flex-wrap justify-between">
+      <div
+        class="lg:basis-[48%] sm:basis-[100%] border-l-4 mt-3 border-[#129693] p-3"
+      >
+        <p class="font-semikanit text-[15px] text-[#129693]">
+          {{ data.title1 }}
+        </p>
+        <p class="font-regular text-[15px] text-[#667085]">
+          {{ data.bottom1 }}
+        </p>
+      </div>
+      <div
+        class="lg:basis-[48%] sm:basis-[100%] border-l-4 border-[#129693] p-3 mt-3"
+      >
+        <p class="font-semikanit text-[15px] text-[#129693]">
+          {{ data.title2 }}
+        </p>
+        <p class="font-regular text-[15px] text-[#667085]">
+          {{ data.bottom2 }}
+        </p>
+      </div>
+    </div>
+  </div>
+</main>

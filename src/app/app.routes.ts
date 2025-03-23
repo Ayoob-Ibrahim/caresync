@@ -63,6 +63,13 @@ export const routes: Routes = [
                 './page/elevate-your-care-service/policy-dev/policy-dev.component'
               ).then((m) => m.PolicyDevComponent),
           },
+          {
+            path: 'business-traing',
+            loadComponent: () =>
+              import(
+                './page/elevate-your-care-service/business-training/business-training.component'
+              ).then((m) => m.BusinessTrainingComponent),
+          },
         ],
       },
       {
@@ -82,8 +89,15 @@ export const routes: Routes = [
           {
             path: 'success-stories',
             loadComponent: () =>
-              import('./page/resource/success-stories/success-stories.component').then(
-                (m) => m.SuccessStoriesComponent
+              import(
+                './page/resource/success-stories/success-stories.component'
+              ).then((m) => m.SuccessStoriesComponent),
+          },
+          {
+            path: 'faq',
+            loadComponent: () =>
+              import('./page/resource/faq/faq.component').then(
+                (m) => m.FaqComponent
               ),
           },
           {

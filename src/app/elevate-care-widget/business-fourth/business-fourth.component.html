@@ -1,0 +1,70 @@
+<div class="min-h-screen lg:px-[5rem] px-8">
+  <!-- Header Section -->
+  <div class="!max-w-[1200px] mx-auto">
+    <h1 class="text-[25px] font-semikanit text-white mb-4 md:mb-6">
+      {{ data.title }}
+    </h1>
+
+    <p class="text-[#667085] font-regular mb-6 md:mb-8 text-sm md:text-base">
+      {{ data.sub }}
+    </p>
+
+    <!-- Insights Section -->
+    <div class="mb-8 md:mb-12">
+      <h2 class="text-[19px] font-regular text-[#129693] mb-4">
+        {{ data.group1.title }}
+      </h2>
+      <ul class="space-y-3">
+        <li *ngFor="let item of data.group1.data" class="flex items-start">
+          <i class="bi bi-check2-circle p-[0.3rem] text-[#129693]"></i>
+          <span class="text-[#667085] font-regular text-sm md:text-base">{{
+            item.text
+          }}</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Main Card -->
+    <div class="bg-[#002A36] text-white rounded-lg p-6 md:p-8">
+      <h2
+        class="text-xl text-[#FAFDF9] font-semikanit md:text-2xl font-bold mb-4"
+      >
+        {{ data.group2.title1 }}
+      </h2>
+
+      <p
+        class="mb-6 text-[#FAFDF9] md:mb-8 font-regular text-text-light text-sm md:text-base"
+      >
+        {{ data.group2.sub1 }}
+      </p>
+
+      <h3
+        class="text-lg md:text-xl text-[#FAFDF9] font-semikanit font-semibold mb-4"
+      >
+        {{ data.group2.title2 }}
+      </h3>
+      <p
+        class="mb-6 text-[#FAFDF9] md:mb-8 font-regular text-text-light text-sm md:text-base"
+      >
+        {{ data.group2.sub2 }}
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        <div *ngFor="let item of data.group2.data" class="flex items-start">
+          <i
+            class="bi bi-check2-circle bg-[#004347] rounded-[20px] p-[0.5rem] text-[#E6ECEE]"
+          ></i>
+          <span
+            class="text-text-light pl-5 text-sm text-[#FAFDF9] font-regular md:text-base"
+            >{{ item.text }}</span
+          >
+        </div>
+      </div>
+
+      <div
+        class="bg-primary h-[44px] w-[115px] rounded-[45px] mt-3 flex justify-center items-center contact-btn"
+      >
+        <div class="text-whitenormal font-semikanit">Learn More</div>
+      </div>
+    </div>
+  </div>
+</div>

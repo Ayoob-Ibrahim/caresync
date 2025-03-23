@@ -1,0 +1,54 @@
+{
+  "freequentlyasked": {
+    "mastertitle": "Frequently Asked Questions",
+    "data": [
+      {
+        "title": "1. What are the essential policies for regulatory compliance in healthcare?",
+        "headercontent": "Key policies for compliance include Safeguarding Adults and Children, Health & Safety, Data Protection, Medication Management, and Complaints Handling. These ensure client safety and align with standards from CQC, CIW, and RQIA. "
+      },
+      {
+        "title": "2. How can healthcare organisations ensure their policies are up to date?",
+        "headercontent": "Use tools like the Care Management Hub to automate updates and ensure policies are always in line with the latest regulations. Schedule regular reviews, audits, and training sessions to stay compliant. "
+      },
+      {
+        "title": "3. Why is it important to customise policies for different regulatory bodies?",
+        "headercontent": "Customisation is crucial because each body such as CQC, CIW, and RQIA has specific requirements. For example, CQC focuses on person-centred care, while CIW mandates compliance with the Social Services and Well-being Act (Wales). Tailoring policies helps avoid penalties and ensures high quality care."
+      },
+      {
+        "title": "4. How can Care Sync Experts help with policy compliance?",
+        "headercontent": "We provide end to end support, from creating policies that comply with CQC, CIW, and RQIA standards to offering training and audit support. Our team ensures your care agency is always compliant and prepared for inspections."
+      },
+      {
+        "title": "5. What are the advantages of using a digital platform for managing policies?",
+        "headercontent": "A platform like the Care Management Hub offers: ",
+        "maincontent": [
+          "Centralised Access: Easy access for all staff to the latest policies.",
+          "Automated Updates: Ensures policies stay current with regulatory changes.",
+          "Improved Compliance Tracking: Simplifies the process of monitoring and auditing compliance."
+        ]
+      }
+    ]
+  },
+  "horizontalcard": {
+    "cardContainer": {
+      "card": {
+        "leftSide": {
+          "content": {
+            "h2": "Ready To Progress In Your Care Business Journey",
+            "p": "Reach out to us today for a consultation. Kick Start your path to success, with care sync Expert,"
+          }
+        },
+        "rightSide": {
+          "textWhite": {
+            "p": [
+              "Get in touch with our team at Care Sync Experts today for a consultation. ",
+              "Email: hello@caresyncexperts.co.uk",
+              "Phone: 0333 577 0877"
+            ],
+            "button": "Contact us"
+          }
+        }
+      }
+    }
+  }
+}
