@@ -14,10 +14,8 @@ import { ParentMenuDataHandler } from '../../baseclass/parent-menu-comp';
   templateUrl: './packages-menu.component.html',
   styleUrl: './packages-menu.component.scss',
 })
-export class PackagesMenuComponent extends ParentMenuDataHandler implements AfterViewInit {
-  ngAfterViewInit(): void {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
+export class PackagesMenuComponent extends ParentMenuDataHandler {
+
   componentList = list_comp;
   constructor() {
     super();

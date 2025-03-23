@@ -5,17 +5,16 @@ import { ThreeRowContentComponent } from '../../service-widgets/three-row-conten
 import { HorizontalCardComponent } from '../../widgets/horizontal-card/horizontal-card.component';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import infinite_carousel from '../../json-data/infinite-carousel.json';
+import { WindowScroller } from '../../baseclass/scroll-upper';
 @Component({
   selector: 'app-aboutus',
   imports: [CommonModule, InfiniteCarouselComponent, ThreeRowContentComponent, HorizontalCardComponent],
   templateUrl: './aboutus.component.html',
   styleUrl: './aboutus.component.scss'
 })
-export class AboutusComponent implements AfterViewInit {
+export class AboutusComponent extends WindowScroller {
   data = infinite_carousel;
-  ngAfterViewInit(): void {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
+
   public coreValues = [
     {
       width: '35%',

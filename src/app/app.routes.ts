@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { LayoutComponent } from './structure-layout/layout/layout.component';
 import { GuidanceChildComponent } from './page/elevate-your-care-service/guidance/guidance-child/guidance-child.component';
+import { GuidanceResolver } from './guards/guidance-resolver';
 
 
 export const routes: Routes = [
@@ -72,6 +73,7 @@ export const routes: Routes = [
                   import(
                     './page/elevate-your-care-service/guidance/guidance-child/guidance-child.component'
                   ).then((m) => m.GuidanceChildComponent),
+                resolve: { guidanceData: GuidanceResolver },
               },
             ]
           },

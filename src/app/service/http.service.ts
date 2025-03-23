@@ -37,4 +37,9 @@ export class HttpService {
   private GetJson(dataJson: string): Observable<any> {
     return this.http.get<any>(`assets/JSONDATA/${dataJson}`);
   }
+
+
+  public GuidanceData(): Observable<any> {
+    return this.http.get<any>(`assets/JSONDATA/guidance/data.json`);
+  }
 }

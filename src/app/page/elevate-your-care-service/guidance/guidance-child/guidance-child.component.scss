@@ -1,0 +1,78 @@
+// Variables for reusability
+$primary-bg-color: rgba(1, 29, 32, 0.8);
+$text-light: #fff;
+$text-accent: #adffeb;
+$font-medium: medium;
+$font-regular: regular;
+
+// Mixin for reusable background styles
+@mixin background-style($height: 450px, $radius: 8px, $margin: 3rem 0) {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: top center !important;
+    background-color: $primary-bg-color;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height: $height;
+    border-radius: $radius;
+    margin: $margin;
+}
+
+// Mixin for typography styles
+@mixin text-style($size, $color, $align: center, $weight: normal, $family: $font-regular) {
+    font-size: $size;
+    color: $color;
+    text-align: $align;
+    font-weight: $weight;
+    font-family: $family;
+}
+
+.intial-content {
+    @include background-style;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .content-wrapper {
+        h3 {
+            @include text-style(1.3rem, $text-accent, center, normal, $font-medium);
+        }
+
+        h1 {
+            @include text-style(2.5rem, $text-light, center, 700, $font-medium);
+        }
+
+        p {
+            @include text-style(1.1rem, $text-light);
+            width: 70%;
+            margin: auto;
+        }
+    }
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .intial-content .content-wrapper {
+        h1 {
+            @include text-style(2rem, $text-light, center, 700, $font-medium);
+        }
+
+        p {
+            width: 90%;
+        }
+    }
+}
+
+
+@media (max-width: 768px) {
+    .intial-content {
+        .content-wrapper h1 {
+            @include text-style(1.7rem, $text-light, center, 700, $font-medium);
+        }
+        @include background-style(max-content, 8px, 3rem 0);
+        padding: 4rem 0;
+    }
+}

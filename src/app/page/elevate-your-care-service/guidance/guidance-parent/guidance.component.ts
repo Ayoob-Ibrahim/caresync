@@ -25,7 +25,7 @@ export class GuidanceComponent {
 
 
   public Guidance(url: string): void {
-    this.router.navigate([''], {
+    this.router.navigate([url], {
       relativeTo: this.activatedRoute,
       state: { detailData: url }
     });

@@ -1,18 +1,15 @@
-<section>
-    <div class="guidance-sub__hero-header"
-        style="background: linear-gradient(to right, rgba(1,29,32,0.8), rgba(1,29,32,0.8)), url(https://caresyncexperts.co.uk/images/guidance/bid-management-page-header.jpg); background-repeat: no-repeat; background-size: cover; background-position: top center;">
+<section class="container-stretch">
+    <div class="intial-content" *ngIf="data?.backgroundImage"
+        [style.backgroundImage]="'url(' + data?.backgroundImage + ')'">
+
         <div class="content-wrapper">
-            <div class="guidance-sub__header-content">
-                <div class="guidance-sub__header-text-wrap">
-                    <h3 class="sm-txt txt-center txt-secondary">The Significance of Efficient Bid Management</h3>
-                    <h1 class="guidance-sub__hero-heading lg-txt txt-center">Bid Management for Healthcare Services</h1>
-                    <p class="guidance-sub__hero-details">Efficient bid management plays a role in the healthcare
-                        industry to secure contracts that improve service provision and expansion. An executed bid
-                        management process requires planning, teamwork and compliance with industry regulations like
-                        those established by the Care Quality Commission (CQC) and Ofsted. Overcoming obstacles in bid
-                        management can greatly boost the effectiveness and approval rate of your proposals.</p>
-                </div>
+            <div>
+                <h3 *ngIf="data?.heading">{{ data?.heading }}</h3>
+                <h1 *ngIf="data?.heading1">{{ data?.heading1 }}</h1>
+                <p *ngIf="data?.paragraph" [innerHTML]="data?.paragraph"></p>
+
             </div>
         </div>
     </div>
+
 </section>

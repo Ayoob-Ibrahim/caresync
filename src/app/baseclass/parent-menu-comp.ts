@@ -1,13 +1,15 @@
 import { Directive, effect, inject, OnInit, signal } from "@angular/core";
 import { ActivatedRoute, ParamMap } from "@angular/router";
+import { WindowScroller } from "./scroll-upper";
 
 @Directive()
-export abstract class ParentMenuDataHandler implements OnInit {
+export abstract class ParentMenuDataHandler extends WindowScroller implements OnInit {
     routerDataMenu = signal<string | null>(null);
     customInjector = signal<any>({});
     private route = inject(ActivatedRoute);
 
     constructor() {
+        super();
         effect(() => {
             const id = this.routerDataMenu();
             if (id) {
