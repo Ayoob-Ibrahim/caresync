@@ -1,0 +1,35 @@
+.gui-card-data {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem 0;
+    justify-content: space-around;
+
+    aside {
+        width: 45%;
+
+        img {
+            border-radius: 9px;
+        }
+    }
+
+    aside.article-data {
+        article {
+            margin-top: 1rem;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            font-family: medium;
+        }
+
+        h6 {
+            font-family: medium;
+            font-size: 1.2rem;
+        }
+
+        p {
+            font-family: regular;
+            color: rgba(0, 0, 0, 0.551);
+        }
+    }
+}

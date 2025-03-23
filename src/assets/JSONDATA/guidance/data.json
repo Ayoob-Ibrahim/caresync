@@ -3,7 +3,25 @@
         "backgroundImage": "https://caresyncexperts.co.uk/images/guidance/bid-management-page-header.jpg",
         "heading": "The Significance of Efficient Bid Management",
         "heading1": "Bid Management for Healthcare Services",
-        "paragraph": "Efficient bid management plays a role in the healthcare industry to secure contracts that improve service provision and expansion. An executed bid management process requires planning, teamwork and compliance with industry regulations like those established by the Care Quality Commission (CQC) and Ofsted. Overcoming obstacles in bid management can greatly boost the effectiveness and approval rate of your proposals."
+        "paragraph": "Efficient bid management plays a role in the healthcare industry to secure contracts that improve service provision and expansion. An executed bid management process requires planning, teamwork and compliance with industry regulations like those established by the Care Quality Commission (CQC) and Ofsted. Overcoming obstacles in bid management can greatly boost the effectiveness and approval rate of your proposals.",
+        "card_1": {
+            "h2": "<span>Common Challenges in Healthcare Bid Management</span>",
+            "img": "https://caresyncexperts.co.uk/images/guidance/bid-management-common-challenges.jpg",
+            "article": [
+                {
+                    "h6": "Resource Constraints",
+                    "p": "There is a shortage of bid managers and writers."
+                },
+                {
+                    "h6": "Interdepartmental Coordination",
+                    "p": "It can be challenging to align inputs from different departments."
+                },
+                {
+                    "h6": "Quality Assurance",
+                    "p": "Upholding standards while dealing with deadlines and limited"
+                }
+            ]
+        }
     },
     "business-operations": {
         "backgroundImage": "https://caresyncexperts.co.uk/images/guidance/business-operations-page-header.jpg",
