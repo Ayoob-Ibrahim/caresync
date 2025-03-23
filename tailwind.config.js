@@ -19,6 +19,7 @@ module.exports = {
       }
     },
     colors:{
+     
       primary: '#129693',
       backgroundcolor:' #004558',
       toolbarprimary: '#667085',

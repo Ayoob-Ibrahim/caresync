@@ -114,6 +114,20 @@ export const routes: Routes = [
               ),
           },
           {
+            path: 'videos',
+            loadComponent: () =>
+              import('./page/resource/videos/videos.component').then(
+                (m) => m.VideosComponent
+              ),
+          },
+          {
+            path: 'blog',
+            loadComponent: () =>
+              import('./page/resource/blog/blog.component').then(
+                (m) => m.BlogComponent
+              ),
+          },
+          {
             path: 'ebooks',
             children: [
               {

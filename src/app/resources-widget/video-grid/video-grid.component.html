@@ -1,0 +1,117 @@
+<main class="flex justify-center">
+  <div>
+    <div *ngIf="filter" class="flex flex-wrap justify-center py-5">
+      <div
+        (click)="setFiltessr(i)"
+        *ngFor="let item of filter; let i = index"
+        class=" {{
+          i == selectedFilter
+            ? 'bg-[#129693] text-whitenormal'
+            : 'text-[#667085] bg-[#E1F3F3]'
+        }}  mx-2 font-regular rounded-[20px] text-[16px] w-max px-9 py-[5px] lg:my-[20px] !my-[12px]"
+      >
+        {{ item }}
+      </div>
+    </div>
+    <div class="flex flex-wrap !max-w-[1200px] gap-1 justify-center p-5">
+      <ng-container>
+        <ng-container *ngFor="let a of currentItems">
+          <ng-container
+            *ngTemplateOutlet="card; context: { datas: a }"
+          ></ng-container>
+        </ng-container>
+      </ng-container>
+    </div>
+    <ng-container *ngTemplateOutlet="pagination"></ng-container>
+  </div>
+</main>
+<ng-template #pagination>
+  <div>
+    <div
+      class="flex items-center justify-between border-t border-gray-200 px-4 py-3 sm:px-6"
+    >
+      <div class="flex flex-1 items-center justify-between flex-wrap">
+        <div class="lg:basis-[50%] md:basis-[50%] sm:basis-[98%]">
+          <p class="text-sm text-[#000] font-regular">
+            Showing
+            <span class="font-regular text-[#129693]">{{ itemsPerPage }}</span>
+            items per page
+          </p>
+        </div>
+        <div
+          class="flex items-center space-x-2 lg:basis-[50%] md:basis-[50%] sm:basis-[98%] lg:mt-3 mt-3"
+        >
+          <button
+            [disabled]="currentPage === 1"
+            (click)="changePage(currentPage - 1)"
+            class="relative inline-flex items-center rounded-md text-[#000] font-regular px-4 py-2 text-sm font-semibold 
+                     {{
+              currentPage === 1
+                ? 'border border-[#e4e4e4] text-primary  font-regular cursor-not-allowed'
+                : 'bg-primary text-whitenormal font-regular hover:text-blue-800'
+            }}"
+          >
+            Prev
+          </button>
+
+          <div class="flex items-center space-x-1">
+            <ng-container *ngFor="let page of pages">
+              <button
+                (click)="changePage(page)"
+                class="relative inline-flex items-center px-4 py-2 text-sm font-semibold 
+                         {{
+                  currentPage === page
+                    ? 'border border-2-[#e4e4e4] font-regular text-[#000]'
+                    : 'text-gray-900 font-regular  border border-[#e4e4e4] hover:bg-gray-50'
+                }} 
+                         rounded-md"
+              >
+                {{ page }}
+              </button>
+            </ng-container>
+          </div>
+
+          <button
+            [disabled]="currentPage === totalPages"
+            (click)="changePage(currentPage + 1)"
+            class="relative inline-flex items-center px-4 py-2 text-sm rounded-md font-semibold 
+                     {{
+              currentPage === totalPages
+                ? 'border border-[#e4e4e4] text-primary  font-regular cursor-not-allowed'
+                : 'bg-primary text-whitenormal font-regular hover:text-blue-800'
+            }}"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</ng-template>
+<ng-template #card let-datas="datas">
+  <div
+    class="bg-gray-100 flex items-center justify-center p-4 lg:basis-[30%] md:basis-[30%] sm:basis-[98%]"
+  >
+    <div
+      class="bg-white rounded-lg border border-[#C9D6D5] p-3 overflow-hidden max-w-sm w-full"
+    >
+      <div class="relative">
+        <img
+          src="../../../assets/resources/image.png"
+          alt="Card image"
+          class="w-full h-48 object-cover rounded-md"
+        />
+      </div>
+      <div class="p-3">
+        <p class="text-black text-[13px] mb-2 font-regular">
+          {{ datas.content }}
+        </p>
+        <button
+          class="w-max px-2 flex items-center hover:bg-[#129693] hover:text-whitenormal text-[#129693] border border-[#D6EFEA] bg-whitenormal text-white py-1 text-[13px] font-regular rounded-[20px]"
+        >
+          Watch Now<i class="bi bi-camera-video ml-2"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</ng-template>

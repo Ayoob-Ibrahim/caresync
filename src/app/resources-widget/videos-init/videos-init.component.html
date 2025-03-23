@@ -1,0 +1,28 @@
+<main>
+  <div
+    class="lg:p-24 p-12 text-center"
+    style="
+      background-image: url('{{ data.url }}');
+      background-repeat: no-repeat;
+      background-size: cover;
+    "
+  >
+    <h2 class="font-semikanit text-whitenormal text-[35px] py-1">
+      {{ data.title }}
+    </h2>
+
+    <p class="font-regular text-whitenormal text-[16px] py-2">
+      {{ data.sub }}
+    </p>
+    <div *ngIf="data.filtermenu1" class="flex flex-wrap justify-center py-2">
+      <div
+        *ngFor="let item of data.filtermenu1; let last = last"
+        class=" {{ last ? 'bg-[#0B5C5A]' : 'bg-[#E1F3F3]' }} mx-2  {{
+          last ? 'text-whitenormal' : 'text-[#323433]'
+        }} font-regular rounded-[20px] text-[16px] w-max px-[7px] py-[5px] lg:my-[20px] !my-[12px]"
+      >
+        {{ item }}
+      </div>
+    </div>
+  </div>
+</main>
