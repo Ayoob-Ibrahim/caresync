@@ -11,10 +11,8 @@ import { list_service_comp } from './service-widgets';
   templateUrl: './serivces-menu.component.html',
   styleUrl: './serivces-menu.component.scss'
 })
-export class SerivcesMenuComponent extends ParentMenuDataHandler implements AfterViewInit {
-  ngAfterViewInit(): void {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
+export class SerivcesMenuComponent extends ParentMenuDataHandler {
+
   componentList = list_service_comp;
   constructor() {
     super();

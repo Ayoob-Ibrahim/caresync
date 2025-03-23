@@ -4,7 +4,6 @@
             "class": "container-stretch",
             "sections": [
                 {
-                   
                     "headingLarge": "<span class=\"txt-dark-secondary\">Healthcare Guidance and Expert Solutions</span>",
                     "description": "We offer a variety of services designed specifically for healthcare organisations to address their requirements including bid management and crisis management as well as recruitment and compliance, with standards set by the Care Quality Commission (CQC).<br> Our services are aimed at helping your healthcare business stay in line with regulations while enhancing efficiency and readiness for expansion opportunities."
                 },
@@ -21,37 +20,44 @@
         {
             "title": "Bid Management for Healthcare Services",
             "description": "Securing contracts in the healthcare sector demands a strategy when managing bids.Our team is here to support you at every stage. From developing proposals to guarantee adherence to both the Care Quality Commission (CQC) and Office for Standards in Education (Ofsted) regulations. Discover how our assistance can simplify your bidding process and lead to results.",
-            "url": "https://caresyncexperts.co.uk/guidance/bid-management"
+            "url": "https://caresyncexperts.co.uk/guidance/bid-management",
+            "url_2": "bid-management"
         },
         {
             "title": "Business Operations for Healthcare Providers",
             "description": "Having business processes is crucial for achieving success in the run. We support healthcare organisations in enhancing their operations by streamlining processes, cutting down expenses, and enhancing performance. Whether through workflow automation, staff development, or operational reviews, our tailored solutions are designed to boost productivity and ensure compliance with CQC standards.",
-            "url": "https://caresyncexperts.co.uk/guidance/business-operations"
+            "url": "https://caresyncexperts.co.uk/guidance/business-operations",
+            "url_2": "business-operations"
         },
         {
             "title": "Comprehensive Safeguarding in Healthcare",
             "description": "Safeguarding vulnerable individuals is a critical responsibility in healthcare. Our customised safeguarding measures are designed to meet the standards set by bodies such as CQC,RQIA and CIW, helping to establish a secure and supportive setting, for clients and staff.",
-            "url": "https://caresyncexperts.co.uk/guidance/safeguarding"
+            "url": "https://caresyncexperts.co.uk/guidance/safeguarding",
+            "url_2": "safeguarding"
         },
         {
             "title": "CQC Mock Inspections",
             "description": "Our simulated CQC mock inspections provide an evaluation of your organisation's preparedness for an inspection by the authorities known as CQC (Care Quality Commission). We simulate a CQC visit to identify strengths and areas for improvement, helping you achieve higher ratings and maintain ongoing compliance.",
-            "url": "https://caresyncexperts.co.uk/guidance/cqc-mock-inspections"
+            "url": "https://caresyncexperts.co.uk/guidance/cqc-mock-inspections",
+            "url_2": "cqc-mock-inspections"
         },
         {
             "title": "Healthcare Crisis Management",
             "description": "Managing crises efficiently is essential for healthcare organisations to handle disruptions and regulatory obstacles effectively.. From risk assessments to financial restructuring, our crisis management services are designed to stabilise and strengthen healthcare operations while adhering to CQC standards.",
-            "url": "https://caresyncexperts.co.uk/guidance/healthcare-crisis-management"
+            "url": "https://caresyncexperts.co.uk/guidance/healthcare-crisis-management",
+            "url_2": "healthcare-crisis-management"
         },
         {
             "title": "Healthcare Marketing Strategies",
             "description": "In the healthcare industry's marketing realm lies the need for a mix of techniques and conventional approaches seamlessly intertwined together to form a cohesive strategy that expands your audience reach while fostering credibility, with customers and fuel growth in your business endeavours.",
-            "url": "https://caresyncexperts.co.uk/guidance/healthcare-marketing-strategies"
+            "url": "https://caresyncexperts.co.uk/guidance/healthcare-marketing-strategies",
+            "url_2": "healthcare-marketing-strategies"
         },
         {
             "title": "Recruitment and Staffing Development",
             "description": "Creating a dependable team is essential for delivering high quality care services. We offer customised recruitment strategies that tackle workforce issues, like scarcity of talent, maintaining staff retention and adhering to standards set by CQC.",
-            "url": "https://caresyncexperts.co.uk/guidance/healthcare-recruitment"
+            "url": "https://caresyncexperts.co.uk/guidance/healthcare-recruitment",
+            "url_2": "healthcare-recruitment"
         }
     ],
     "cyan_blue_data": [

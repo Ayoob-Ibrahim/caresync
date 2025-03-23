@@ -155,7 +155,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-         
+
     }
 }
 
@@ -251,6 +251,162 @@
 
 
 
+.proof-success {
+    span.curve {
+        font-family: regular;
+        color: #129693;
+        background-color: #e7f5f4;
+        padding: 10px 2rem;
+        border-radius: 1.7rem;
+        font-size: 20px;
+        margin-bottom: 1rem;
+        display: inline-block;
+    }
+
+    h2 {
+        font-family: medium;
+        font-size: 40px;
+        line-height: 100%;
+        letter-spacing: -0.41px;
+        color: rgba(0, 69, 88, 1);
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-family: regular;
+        letter-spacing: -0.41px;
+        color: rgba(102, 112, 133, 1);
+        font-size: 18px;
+    }
+
+    span {
+        font-family: regular;
+        color: #129693;
+    }
+
+    .image-wrapper-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        cursor: pointer;
+        margin-bottom: 3rem;
+
+        .image-card {
+            width: calc(24% - 20px);
+            max-width: 300px;
+            height: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-card:hover {
+            transform: scale(1.05);
+        }
+
+        .image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+}
+
+.five-star {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    cursor: pointer;
+    margin: 3rem;
+
+    figure,
+    article {
+        width: 45%;
+
+        .bi-star-fill {
+            color: rgba(254, 200, 75, 1);
+        }
+
+        img {
+            height: 80%;
+        }
+
+        h3 {
+            font-size: 1.6rem;
+            font-family: medium;
+            margin: 2rem 0;
+        }
+
+        h6 {
+            font-family: medium;
+            color: #129693;
+        }
+
+        small {
+            font-family: regular;
+            color: rgba(102, 112, 133, 1);
+        }
+    }
+
+
+}
+
+
+
+
+.card-container {
+    width: 90%;
+    margin: 2rem auto;
+
+    .card {
+        display: flex;
+        background: url('https://caresyncexperts.com/wp-content/uploads/2024/12/Frame-1618869759.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        height: 260px;
+
+
+        .left-side {
+            width: 80%;
+            height: 100%;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 1rem;
+            margin-left: 20px;
+
+            .content {
+                text-align: left;
+                color: white;
+
+                h2 {
+                    font-size: 2rem;
+                    font-family: bold;
+                    margin-bottom: 0.5rem;
+                }
+
+                p {
+                    font-family: regular;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+
+
+
 
 
 
@@ -291,6 +447,18 @@
         }
     }
 
+    .proof-success .image-wrapper-container .image-card {
+        width: calc(33.3% - 20px);
+    }
+
+    .five-star {
+
+        figure,
+        article {
+            width: 97%;
+        }
+    }
+
 }
 
 
@@ -305,38 +473,57 @@
         margin: 10px;
     }
 
-}
 
-.proof-success {
-    span.curve {
-        font-family: regular;
-        color: #129693;
-        background-color: #e7f5f4;
-        padding: 10px 2rem;
-        border-radius: 1.7rem;
-        font-size: 20px;
-        margin-bottom: 1rem;
-        display: inline-block;
+    .proof-success .image-wrapper-container .image-card {
+        width: 98%;
+        margin: auto;
     }
 
-    h2 {
-        font-family: medium;
-        font-size: 40px;
-        line-height: 100%;
-        letter-spacing: -0.41px;
-        color: rgba(0, 69, 88, 1);
-        margin-bottom: 1rem;
-    }
+    .card-container {
+        width: 90%;
+        margin: 2rem auto 5rem;
 
-    p {
-        font-family: regular;
-        letter-spacing: -0.41px;
-        color: rgba(102, 112, 133, 1);
-        font-size: 18px;
-    }
+        .card {
+            display: flex;
+            flex-direction: column;
+            height: max-content;
 
-    span{
-        font-family: regular;
-        color: #129693;
+            .left-side,
+            .right-side {
+                width: 94%;
+                display: flex;
+                align-items: center;
+                justify-content: left;
+                padding: 12px;
+                margin-left: 20px;
+            }
+
+
+            .left-side .content {
+                text-align: left;
+                color: white;
+
+                h2 {
+                    font-size: 1.5rem;
+                    font-family: bold;
+                    margin-bottom: 0.5rem;
+                }
+
+                p {
+                    font-family: regular;
+                    padding-right: 5px;
+                }
+            }
+
+
+            .right-side .text-white {
+                p {
+                    margin-top: 0.5rem;
+                    padding-left: 10px;
+                }
+
+            }
+        }
+
     }
 }

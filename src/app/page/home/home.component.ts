@@ -10,6 +10,7 @@ import { ImageCarouselComponent } from '../../component/image-carousel/image-car
 import { InfiniteCarouselComponent } from '../../component/infinite-carousel/infinite-carousel.component';
 import { FooterComponent } from '../../component/footer/footer.component';
 import infinite_carousel from '../../json-data/infinite-carousel.json';
+import { WindowScroller } from '../../baseclass/scroll-upper';
 @Component({
   selector: 'app-home',
   imports: [
@@ -26,10 +27,6 @@ import infinite_carousel from '../../json-data/infinite-carousel.json';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
 })
-export class HomeComponent implements AfterViewInit {
-  ngAfterViewInit(): void {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-
+export class HomeComponent extends WindowScroller {
   data = infinite_carousel;
 }
