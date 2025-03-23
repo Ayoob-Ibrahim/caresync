@@ -12,7 +12,8 @@
             <div class="card-context-guidance">
                 <h2>{{item?.title}}</h2>
                 <p>{{item?.description}}</p>
-                <a href="{{ item?.url }}" class="text-[#129693] text-[15px] font-regular"> Learn More</a>
+                <!-- href="{{ item?.url }}" -->
+                <a class="text-[#129693] text-[15px] font-regular" (click)="Guidance(item.url_2)"> Learn More</a>
             </div>
         </ng-container>
     </div>
