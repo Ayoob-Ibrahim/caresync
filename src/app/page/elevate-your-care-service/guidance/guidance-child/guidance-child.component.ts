@@ -3,10 +3,11 @@ import { AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { combineLatest, forkJoin, Subject, takeUntil } from 'rxjs';
 import { WindowScroller } from '../../../../baseclass/scroll-upper';
+import { GUIImgDataComponent } from "../../../../guidance-widgets/gui-img-data/gui-img-data.component";
 
 @Component({
   selector: 'app-guidance-child',
-  imports: [CommonModule],
+  imports: [CommonModule, GUIImgDataComponent],
   templateUrl: './guidance-child.component.html',
   styleUrl: './guidance-child.component.scss'
 })
