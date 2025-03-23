@@ -3,7 +3,6 @@ import { LayoutComponent } from './structure-layout/layout/layout.component';
 import { GuidanceChildComponent } from './page/elevate-your-care-service/guidance/guidance-child/guidance-child.component';
 import { GuidanceResolver } from './guards/guidance-resolver';
 
-
 export const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'home' },
   {
@@ -75,7 +74,14 @@ export const routes: Routes = [
                   ).then((m) => m.GuidanceChildComponent),
                 resolve: { guidanceData: GuidanceResolver },
               },
-            ]
+            ],
+          },
+          {
+            path: 'business-traing',
+            loadComponent: () =>
+              import(
+                './page/elevate-your-care-service/business-training/business-training.component'
+              ).then((m) => m.BusinessTrainingComponent),
           },
         ],
       },
@@ -96,8 +102,15 @@ export const routes: Routes = [
           {
             path: 'success-stories',
             loadComponent: () =>
-              import('./page/resource/success-stories/success-stories.component').then(
-                (m) => m.SuccessStoriesComponent
+              import(
+                './page/resource/success-stories/success-stories.component'
+              ).then((m) => m.SuccessStoriesComponent),
+          },
+          {
+            path: 'faq',
+            loadComponent: () =>
+              import('./page/resource/faq/faq.component').then(
+                (m) => m.FaqComponent
               ),
           },
           {
