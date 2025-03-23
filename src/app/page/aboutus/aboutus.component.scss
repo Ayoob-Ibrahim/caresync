@@ -1,9 +1,8 @@
 main .bg-image {
     background-image: url('../../../assets/aboutus/about-us.jpeg') !important;
     background-repeat: no-repeat;
-    // background-attachment: fixed;
     background-size: cover;
-    height: 500px;
+    height: 450px;
     background-color: rgba(18, 150, 148, 0.234);
     background-blend-mode: overlay;
     display: flex;
@@ -12,6 +11,8 @@ main .bg-image {
     text-align: center;
     flex-direction: column;
     gap: 1rem;
+    border-radius: 9px;
+    margin: 3rem 0;
 
     .button-group {
         display: flex;
