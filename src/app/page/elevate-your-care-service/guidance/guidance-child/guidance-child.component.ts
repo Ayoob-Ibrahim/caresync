@@ -4,10 +4,11 @@ import { ActivatedRoute } from '@angular/router';
 import { combineLatest, forkJoin, Subject, takeUntil } from 'rxjs';
 import { WindowScroller } from '../../../../baseclass/scroll-upper';
 import { GUIImgDataComponent } from "../../../../guidance-widgets/gui-img-data/gui-img-data.component";
+import { GuiCardDataComponent } from "../../../../guidance-widgets/gui-card-data/gui-card-data.component";
 
 @Component({
   selector: 'app-guidance-child',
-  imports: [CommonModule, GUIImgDataComponent],
+  imports: [CommonModule, GUIImgDataComponent, GuiCardDataComponent],
   templateUrl: './guidance-child.component.html',
   styleUrl: './guidance-child.component.scss'
 })
