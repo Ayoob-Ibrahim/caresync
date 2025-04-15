@@ -4,24 +4,84 @@
     "heading": "The Significance of Efficient Bid Management",
     "heading1": "Bid Management for Healthcare Services",
     "paragraph": "Efficient bid management plays a role in the healthcare industry to secure contracts that improve service provision and expansion. An executed bid management process requires planning, teamwork and compliance with industry regulations like those established by the Care Quality Commission (CQC) and Ofsted. Overcoming obstacles in bid management can greatly boost the effectiveness and approval rate of your proposals.",
-    "card_1": {
-      "h2": "<span>Common Challenges in Healthcare Bid Management</span>",
-      "img": "https://caresyncexperts.co.uk/images/guidance/bid-management-common-challenges.jpg",
-      "article": [
-        {
-          "h6": "Resource Constraints",
-          "p": "There is a shortage of bid managers and writers."
-        },
-        {
-          "h6": "Interdepartmental Coordination",
-          "p": "It can be challenging to align inputs from different departments."
-        },
-        {
-          "h6": "Quality Assurance",
-          "p": "Upholding standards while dealing with deadlines and limited"
+    "list": [
+      {
+        "type": "image-card",
+        "card": {
+          "h2": "<span>Common Challenges in Healthcare Bid Management</span>",
+          "img": "https://caresyncexperts.co.uk/images/guidance/bid-management-common-challenges.jpg",
+          "article": [
+            {
+              "h6": "Resource Constraints",
+              "p": "There is a shortage of bid managers and writers."
+            },
+            {
+              "h6": "Interdepartmental Coordination",
+              "p": "It can be challenging to align inputs from different departments."
+            },
+            {
+              "h6": "Quality Assurance",
+              "p": "Upholding standards while dealing with deadlines and limited"
+            }
+          ]
         }
-      ]
-    },
+      },
+      {
+        "type": "text-card",
+        "bgcolor": "#dbf5ef",
+        "mainheading":"Strategies for Successful Bid Management",
+        "sections": [
+          {
+            "title": "Initial Evaluation",
+            "content": [
+              "Bid/No Bid Decision: ; Assess if a bid fits well with your company's strengths and long term objectives. Concentrate on projects that resonate with your experience, in domiciliary care, home care agencies or supported living."
+            ]
+          },
+          {
+            "title": "Building a Team",
+            "content": [
+              "Put together the team: Gather a bid director, managers, writers and subject matter experts (SMEs). Clearly define everyone's roles and tasks to guarantee operations and top notch submissions."
+            ]
+          },
+          {
+            "title": "Automation and Organisation",
+            "content": [
+              "Utilise Technology: Make the most of technology by using bid management platforms to simplify tasks, lessen paperwork and gather bid related details in one place, for access."
+            ]
+          },
+          {
+            "title": "Clear Communication",
+            "content": [
+              "Effective Collaboration: Maintaining communication is crucial for collaboration. Ensure that all team members are on the page, by establishing channels of communication and holding regular meetings. Utilise project management tools to monitor progress and coordinate tasks effectively."
+            ]
+          },
+          {
+            "title": "Structured Documentation",
+            "content": [
+              "Comprehensive RFP Documents: Make sure your Request for Proposal (RFP) materials are properly organised, with all details and assessment criteria, for proposals."
+            ]
+          },
+          {
+            "title": "Pre-Bid Engagement",
+            "content": [
+              "Engage with Commissioners: Before submitting your bid make sure to connect with the commissioners. Establish a rapport, with them grasp their requirements and customise your proposals to suit their needs. Ask clarifying questions to collect all the details."
+            ]
+          },
+          {
+            "title": "Evaluation and Feedback",
+            "content": [
+              "Ongoing Improvement: Reflect on proposals to pinpoint areas of excellence and areas needing improvement. Utilise feedback to enhance procedures and elevate entries."
+            ]
+          },
+          {
+            "title": "Compliance and Standards",
+            "content": [
+              "Adhere to CQC and Ofsted Guidelines: Make certain that all proposals meet the standards of the Care Quality Commission (CQC) and the requirements of Ofsted, which include training and specific guidelines, for service delivery."
+            ]
+          }
+        ]
+      }
+    ],
     "freequentlyasked": {
       "mastertitle": "Frequently Asked Questions",
       "data": [

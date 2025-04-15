@@ -1,24 +1,19 @@
 <main class="master-container" [ngStyle]="{'background-color': dataProperty?.bgcolor}">
     <section class="container-stretch">
-        <h1 [style.color]="dataProperty?.titleclr">Strategies for Successful Bid Management</h1>
+        <h1 [style.color]="dataProperty?.titleclr">{{dataProperty?.mainheading}}</h1>
 
         <aside class="card-list">
-            <ng-container *ngFor="let item of [1,2,3,5]">
+            <ng-container *ngFor="let section of dataProperty?.sections">
                 <div class="gui-card">
-                    <h5>Leveraging Modern Tools</h5>
-                    <ng-container *ngFor="let item of [1,2,3,5]">
-                        <article class="flex content-between items-center ">
-                            <i class="bi bi-check-square-fill me-[1rem] text-2xl  text-[#004558]"></i>
-                            <h6>Bid/No Bid Decision: ; Assess if a bid fits well with your company's strengths and long
-                                term
-                                objectives. Concentrate on projects that resonate with your experience, in domiciliary
-                                care,
-                                home care agencies or supported living.</h6>
+                    <h5>{{ section.title }}</h5>
+                    <ng-container *ngFor="let point of section.content">
+                        <article class="flex content-between items-center mb-[.8rem] mt-[.8rem]">
+                            <i class="bi bi-check-square-fill me-[1rem] text-2xl text-[#004558]"></i>
+                            <h6>{{ point }}</h6>
                         </article>
                     </ng-container>
                 </div>
             </ng-container>
         </aside>
-
     </section>
 </main>

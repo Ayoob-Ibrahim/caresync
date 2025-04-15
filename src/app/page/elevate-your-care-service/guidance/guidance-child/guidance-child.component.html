@@ -11,10 +11,14 @@
     </div>
 </section>
 
-<section>
-
-    <app-gui-img-data [dataProperty]="data.card_1"></app-gui-img-data>
-</section>
+<ng-container *ngFor="let item of data.list">
+    <section *ngIf="item.type=='image-card'">
+        <app-gui-img-data [dataProperty]="item.card"></app-gui-img-data>
+    </section>
+    <section *ngIf="item.type=='text-card'">
+        <app-gui-card-data [dataProperty]="item"></app-gui-card-data>
+    </section>
+</ng-container>
 
 
 

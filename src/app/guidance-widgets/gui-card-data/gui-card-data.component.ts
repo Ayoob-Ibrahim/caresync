@@ -9,7 +9,5 @@ import { BaseDataReciever } from '../../baseclass/parent-data-reciever';
   styleUrl: './gui-card-data.component.scss'
 })
 export class GuiCardDataComponent extends BaseDataReciever {
-  override dataProperty: any = {
-    bgcolor: '#dbf5ef'
-  }
+  
 }

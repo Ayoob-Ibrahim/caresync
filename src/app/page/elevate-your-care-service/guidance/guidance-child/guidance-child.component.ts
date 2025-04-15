@@ -10,7 +10,7 @@ import { FreequentlyAskedComponent } from "../../../../widgets/freequently-asked
 
 @Component({
   selector: 'app-guidance-child',
-  imports: [CommonModule, GUIImgDataComponent, FreequentlyAskedComponent],
+  imports: [CommonModule, GUIImgDataComponent, FreequentlyAskedComponent, GuiCardDataComponent],
   templateUrl: './guidance-child.component.html',
   styleUrl: './guidance-child.component.scss',
 })
