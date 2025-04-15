@@ -1,23 +1,25 @@
 <section class="container-stretch">
     <div class="intial-content" *ngIf="data?.backgroundImage"
         [style.backgroundImage]="'url(' + data?.backgroundImage + ')'">
-
         <div class="content-wrapper">
             <div>
                 <h3 *ngIf="data?.heading">{{ data?.heading }}</h3>
                 <h1 *ngIf="data?.heading1">{{ data?.heading1 }}</h1>
                 <p *ngIf="data?.paragraph" [innerHTML]="data?.paragraph"></p>
-
             </div>
         </div>
     </div>
 </section>
 
 <section>
+
     <app-gui-img-data [dataProperty]="data.card_1"></app-gui-img-data>
 </section>
 
 
+
+
+
 <section>
-    <app-gui-card-data></app-gui-card-data>
+    <app-freequently-asked [dataProperty]="data.freequentlyasked"></app-freequently-asked>
 </section>

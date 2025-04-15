@@ -5,15 +5,18 @@ import { combineLatest, forkJoin, Subject, takeUntil } from 'rxjs';
 import { WindowScroller } from '../../../../baseclass/scroll-upper';
 import { GUIImgDataComponent } from "../../../../guidance-widgets/gui-img-data/gui-img-data.component";
 import { GuiCardDataComponent } from "../../../../guidance-widgets/gui-card-data/gui-card-data.component";
+import { FreequentlyAskedComponent } from "../../../../widgets/freequently-asked/freequently-asked.component";
+
 
 @Component({
   selector: 'app-guidance-child',
-  imports: [CommonModule, GUIImgDataComponent, GuiCardDataComponent],
+  imports: [CommonModule, GUIImgDataComponent, FreequentlyAskedComponent],
   templateUrl: './guidance-child.component.html',
-  styleUrl: './guidance-child.component.scss'
+  styleUrl: './guidance-child.component.scss',
 })
-export class GuidanceChildComponent extends WindowScroller implements OnInit, OnDestroy {
-
+export class GuidanceChildComponent
+  extends WindowScroller
+  implements OnInit, OnDestroy {
   private destroy$ = new Subject<void>();
   data: any;
 
@@ -27,18 +30,16 @@ export class GuidanceChildComponent extends WindowScroller implements OnInit, On
       .subscribe({
         next: ([params, data]) => {
           const context = params.get('context');
-          this.data = data['guidanceData'][context]
+          this.data = data['guidanceData'][context];
         },
         error: (err) => {
           console.error('Error:', err);
-        }
+        },
       });
   }
-
 
   ngOnDestroy(): void {
     this.destroy$.next();
     this.destroy$.complete();
   }
-
 }
