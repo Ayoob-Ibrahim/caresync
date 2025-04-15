@@ -1,5 +1,5 @@
 <main [ngStyle]="dataProperty?.bgcolor && {'background-color': dataProperty?.bgcolor}">
-    <section class="gui-card-data container-stretch">
+    <section class="gui-card-data container-stretch" [ngStyle]="{'flex-direction': dataProperty?.flexDirection}">
         <aside *ngIf="dataProperty?.img">
             <img [src]="dataProperty?.img" alt="Why Should You Choose Care Sync Experts?"
                 title="Why Should You Choose Care Sync Experts?">
@@ -22,5 +22,5 @@
         </article>
         <p class="ml-[2.6rem]" *ngIf="item?.p">{{item.p}}</p>
     </ng-container>
-    <p *ngIf="dataProperty?.footer">{{dataProperty?.footer}}</p>
+    <p *ngIf="dataProperty?.footer" class="mt-[1rem]">{{dataProperty?.footer}}</p>
 </ng-template>

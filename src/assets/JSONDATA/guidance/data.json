@@ -29,7 +29,7 @@
       {
         "type": "text-card",
         "bgcolor": "#dbf5ef",
-        "mainheading":"Strategies for Successful Bid Management",
+        "mainheading": "Strategies for Successful Bid Management",
         "sections": [
           {
             "title": "Initial Evaluation",
@@ -80,6 +80,62 @@
             ]
           }
         ]
+      },
+      {
+        "type": "image-card",
+        "card": {
+          "h2": "Our Expertise in Bid Management",
+          "img": "https://www.caresyncexperts.co.uk/images/guidance/bid-management-expertise.jpg",
+          "subTitle": "Here at Care Sync Experts we streamline the bid management procedure making it clear and effective. Our team boasts a wealth of experience in CQC compliance guaranteeing that we showcase the strengths of your service. We have effectively assisted social care providers ranging from startups to large regional and national organisations in various areas such as:",
+          "article": [
+            {
+              "h6": "Domiciliary Care Tenders",
+              "p": ""
+            },
+            {
+              "h6": "Supported Living Tenders",
+              "p": ""
+            },
+            {
+              "h6": "Extra Care Tenders",
+              "p": ""
+            },
+            {
+              "h6": "Learning Disabilities Tenders",
+              "p": ""
+            }
+          ],
+          "footer": "Our significant background in handling NHS and Council bids gives us perspectives and a thorough grasp of the changing dynamics in connected healthcare and social services along with community centred care approaches."
+        }
+      },
+      {
+        "type": "image-card",
+        "card": {
+          "bgcolor": "#dbf5ef",
+          "flexDirection": "row-reverse",
+          "h2": "Benefits of Working with Care Sync Experts",
+          "img": "https://www.caresyncexperts.co.uk/images/guidance/bid-management-benefits.jpg",
+          "subTitle": "",
+          "article": [
+            {
+              "h6": "Expert Guidance",
+              "p": "Receive expert advice on navigating bid requirements and regulatory standards to ensure compliance and competitiveness."
+            },
+            {
+              "h6": "Tailored Strategies",
+              "p": "Create tailored bid management strategies that match your organisation's strengths and market opportunities in domiciliary care, home care agencies and supported living services."
+            },
+            {
+              "h6": "Resource Optimisation",
+              "p": "Leverage tools and methods to optimise resource allocation directing your bid team towards efficient submissions."
+            },
+            {
+              "h6": "Ongoing Support",
+              "p": "Get support and feedback to adjust and improve your bidding strategies, increasing your chances of winning contracts and fostering growth."
+            }
+          ],
+          "footer": ""
+        }
       }
     ],
     "freequentlyasked": {
@@ -133,6 +189,27 @@
           ]
         }
       ]
+    },
+    "horizontal": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Contact Care Sync Experts",
+              "p": "For tailored advice and assistance, with enhancing your healthcare proposal management procedures. Reach out to us at:"
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Email: hello@caresyncexperts.co.uk",
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
+      }
     }
   },
   "business-operations": {

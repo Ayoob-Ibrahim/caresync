@@ -6,11 +6,12 @@ import { WindowScroller } from '../../../../baseclass/scroll-upper';
 import { GUIImgDataComponent } from "../../../../guidance-widgets/gui-img-data/gui-img-data.component";
 import { GuiCardDataComponent } from "../../../../guidance-widgets/gui-card-data/gui-card-data.component";
 import { FreequentlyAskedComponent } from "../../../../widgets/freequently-asked/freequently-asked.component";
+import { HorizontalCardComponent } from "../../../../widgets/horizontal-card/horizontal-card.component";
 
 
 @Component({
   selector: 'app-guidance-child',
-  imports: [CommonModule, GUIImgDataComponent, FreequentlyAskedComponent, GuiCardDataComponent],
+  imports: [CommonModule, GUIImgDataComponent, FreequentlyAskedComponent, GuiCardDataComponent, HorizontalCardComponent],
   templateUrl: './guidance-child.component.html',
   styleUrl: './guidance-child.component.scss',
 })
