@@ -7,11 +7,16 @@ import { GUIImgDataComponent } from "../../../../guidance-widgets/gui-img-data/g
 import { GuiCardDataComponent } from "../../../../guidance-widgets/gui-card-data/gui-card-data.component";
 import { FreequentlyAskedComponent } from "../../../../widgets/freequently-asked/freequently-asked.component";
 import { HorizontalCardComponent } from "../../../../widgets/horizontal-card/horizontal-card.component";
+import { GuiImgWithListCardComponent } from '../../../../guidance-widgets/gui-img-with-list-card/gui-img-with-list-card.component';
+import { GuiCardCustomTitleComponent } from '../../../../guidance-widgets/gui-card-custom-title/gui-card-custom-title.component';
 
 
 @Component({
   selector: 'app-guidance-child',
-  imports: [CommonModule, GUIImgDataComponent, FreequentlyAskedComponent, GuiCardDataComponent, HorizontalCardComponent],
+  imports: [CommonModule, GUIImgDataComponent, FreequentlyAskedComponent,
+    GuiCardDataComponent, HorizontalCardComponent, GuiImgWithListCardComponent,
+    GuiCardCustomTitleComponent
+  ],
   templateUrl: './guidance-child.component.html',
   styleUrl: './guidance-child.component.scss',
 })

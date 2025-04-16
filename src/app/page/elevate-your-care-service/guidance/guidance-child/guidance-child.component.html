@@ -18,6 +18,12 @@
     <section *ngIf="item.type=='text-card'">
         <app-gui-card-data [dataProperty]="item"></app-gui-card-data>
     </section>
+    <section *ngIf="item.type=='img-data-card'">
+        <app-gui-img-with-list-card [dataProperty]="item"></app-gui-img-with-list-card>
+    </section>
+    <section *ngIf="item.type=='custom-title'">
+        <app-gui-card-custom-title [dataProperty]="item"></app-gui-card-custom-title>
+    </section>
 </ng-container>
 
 

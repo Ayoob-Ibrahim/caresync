@@ -1,0 +1,26 @@
+<main class="master-container" [ngStyle]="{'background-color': dataProperty?.bgcolor}">
+    <section class="container-stretch">
+        <h1 [style.color]="dataProperty?.titleclr">{{dataProperty?.mainheading}}</h1>
+
+        <aside class="card-list">
+            <ng-container *ngFor="let section of dataProperty?.sections">
+                <ng-container *ngIf="section?.type; else card_block">
+                    <div class="gui-img">
+                        <img [src]="section?.src" alt="">
+                    </div>
+                </ng-container>
+                <ng-template #card_block>
+                    <div class="gui-card" [ngStyle]="{'height': section?.height}">
+                        <h5>{{ section.title }}</h5>
+                        <ng-container *ngFor="let point of section.content">
+                            <article class="flex content-between items-center mb-[.8rem] mt-[.8rem]">
+                                <i class="bi bi-check-square-fill me-[1rem] text-2xl text-[#004558]"></i>
+                                <h6>{{ point }}</h6>
+                            </article>
+                        </ng-container>
+                    </div>
+                </ng-template>
+            </ng-container>
+        </aside>
+    </section>
+</main>
