@@ -40,3 +40,18 @@
         }
     }
 }
+
+
+@media (max-width: 1024px) {
+    .master-container{
+        .gui-card{
+            flex-basis: 99% !important;
+        }
+    }
+
+}
+
+
+@media (max-width: 768px) {
+ 
+}

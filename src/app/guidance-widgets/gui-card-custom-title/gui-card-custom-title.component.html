@@ -4,10 +4,9 @@
 
         <aside class="card-list">
             <ng-container *ngFor="let section of dataProperty?.sections">
-                <h3 class="card-header-individual" *ngIf="section?.subtitle"
-                    [ngStyle]="{ 'flex-basis': section?.basis }">
+                <h3 class="card-header-individual" *ngIf="section?.subtitle">
                     {{section?.subtitle}}</h3>
-                <div class="gui-card">
+                <div class="gui-card" [ngStyle]="{ 'flex-basis': section?.basis }">
                     <h5>{{ section.title }}</h5>
                     <ng-container *ngFor="let point of section.content">
                         <article class="flex content-between items-center mb-[.8rem] mt-[.8rem]">

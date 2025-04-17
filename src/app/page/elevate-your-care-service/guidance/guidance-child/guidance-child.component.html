@@ -1,39 +1,56 @@
 <section class="container-stretch">
-    <div class="intial-content" *ngIf="data?.backgroundImage"
-        [style.backgroundImage]="'url(' + data?.backgroundImage + ')'">
-        <div class="content-wrapper">
-            <div>
-                <h3 *ngIf="data?.heading">{{ data?.heading }}</h3>
-                <h1 *ngIf="data?.heading1">{{ data?.heading1 }}</h1>
-                <p *ngIf="data?.paragraph" [innerHTML]="data?.paragraph"></p>
-            </div>
-        </div>
+  <div class="intial-content" *ngIf="data?.backgroundImage"
+    [style.backgroundImage]="'url(' + data?.backgroundImage + ')'">
+    <div class="content-wrapper">
+      <div>
+        <h3 *ngIf="data?.heading">{{ data?.heading }}</h3>
+        <h1 *ngIf="data?.heading1">{{ data?.heading1 }}</h1>
+        <p *ngIf="data?.paragraph" [innerHTML]="data?.paragraph"></p>
+      </div>
     </div>
+  </div>
 </section>
 
-<ng-container *ngFor="let item of data.list">
-    <section *ngIf="item.type=='image-card'">
-        <app-gui-img-data [dataProperty]="item.card"></app-gui-img-data>
-    </section>
-    <section *ngIf="item.type=='text-card'">
-        <app-gui-card-data [dataProperty]="item"></app-gui-card-data>
-    </section>
-    <section *ngIf="item.type=='img-data-card'">
-        <app-gui-img-with-list-card [dataProperty]="item"></app-gui-img-with-list-card>
-    </section>
-    <section *ngIf="item.type=='custom-title'">
-        <app-gui-card-custom-title [dataProperty]="item"></app-gui-card-custom-title>
-    </section>
-</ng-container>
+
+@for (item of data.list; track item) {
+@switch (item.type) {
+@case ('image-card') {
+<section>
+  <app-gui-img-data [dataProperty]="item.card"></app-gui-img-data>
+</section>
+}
+@case ('text-card') {
+<section>
+  <app-gui-card-data [dataProperty]="item"></app-gui-card-data>
+</section>
+}
+@case ('img-data-card') {
+<section>
+  <app-gui-img-with-list-card [dataProperty]="item"></app-gui-img-with-list-card>
+</section>
+}
+@case ('custom-title') {
+<section>
+  <app-gui-card-custom-title [dataProperty]="item"></app-gui-card-custom-title>
+</section>
+}
+@default {
+<section>
+  <p>Unknown card type: {{ item.type }}</p>
+</section>
+}
+}
+}
+
 
 
 
 
 
 <section>
-    <app-freequently-asked [dataProperty]="data.freequentlyasked"></app-freequently-asked>
+  <app-freequently-asked [dataProperty]="data.freequentlyasked"></app-freequently-asked>
 </section>
 
 <section>
-    <app-horizontal-card [dataProperty]="data.horizontal"></app-horizontal-card>
+  <app-horizontal-card [dataProperty]="data.horizontal"></app-horizontal-card>
 </section>

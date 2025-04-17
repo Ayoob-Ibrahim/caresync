@@ -560,8 +560,79 @@
             ]
           }
         ]
+      },
+      {
+        "type": "image-card",
+        "card": {
+          "bgcolor": "#ffffff",
+          "flexDirection": "row",
+          "h2": "Our Expertise in Safeguarding",
+          "img": "https://www.caresyncexperts.co.uk/images/guidance/safeguarding-expertise.jpg",
+          "subTitle": "Our team, at Care Sync Experts excels in creating and executing customised safeguarding plans to meet the requirements of your organisation. With our wealth of knowledge and hands on experience, in healthcare we cover a range of areas to ensure protection.",
+          "article": [
+            {
+              "h6": "Domiciliary Care Services",
+              "p": ""
+            },
+            {
+              "h6": "Supported Living Services",
+              "p": ""
+            }
+          ],
+          "footer": "We make sure that your company not only meets but surpasses the safety standards mandated by entities, like the CQC and NHS."
+        }
+      },
+      {
+        "type": "image-card",
+        "card": {
+          "bgcolor": "#f5f5f5",
+          "flexDirection": "row-reverse",
+          "h2": "Benefits of Partnering with Care Sync Experts",
+          "img": "https://www.caresyncexperts.co.uk/images/guidance/safeguarding-benefits.jpg",
+          "subTitle": "",
+          "article": [
+            {
+              "h6": "Expert Guidance",
+              "p": "Get guidance on navigating safeguarding regulations and meeting regulatory standards effectively."
+            },
+            {
+              "h6": "Tailored Strategies",
+              "p": "Create safeguarding plans that match your organisation's capabilities and comply with regulations seamlessly."
+            },
+            {
+              "h6": "Resource Optimisation",
+              "p": "Utilise cutting edge tools and techniques to streamline resource distribution directing your team's efforts, towards enhancing safeguarding in areas."
+            },
+            {
+              "h6": "Continuous Support",
+              "p": "Receive assistance and periodic evaluations to enhance your safeguarding protocols continually promoting progress and adherence to standards."
+            }
+          ],
+          "footer": ""
+        }
       }
-    ]
+    ],
+    "horizontal": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Contact Care Sync Experts",
+              "p": "For tailored advice and assistance, with enhancing your healthcare proposal management procedures. Reach out to us at:"
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Email: hello@caresyncexperts.co.uk",
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
+      }
+    }
   },
   "cqc-mock-inspections": {
     "backgroundImage": "https://caresyncexperts.co.uk/images/guidance/cqc-mock-inspections-page-header.jpg",
@@ -993,8 +1064,87 @@
             ]
           }
         ]
+      },
+      {
+        "type": "custom-title",
+        "bgcolor": "#dbf5ef",
+        "mainheading": "Key Marketing Strategies for Healthcare",
+        "titleclr": "#04717a",
+        "sections": [
+          {
+            "title": "Expanding Reach",
+            "basis": "85%",
+            "subtitle": "Telehealth and Digital Consultations",
+            "content": [
+              "Telehealth Services: Advertise telehealth services via website sections, social media promotions and email campaigns. Emphasise the ease and availability of consultations.",
+              "Virtual Engagement: Employ telehealth to sustain involvement by providing assistance and consultations ultimately improving client contentment and loyalty."
+            ]
+          },
+          {
+            "title": "Customer Relationship Management (CRM)",
+            "subtitle": "Enhancing Client Engagement",
+            "basis": "85%",
+            "content": [
+              "Building Strong Relationships: Utilise CRM software to oversee and customise interactions with clients ensuring personalised and efficient communication.",
+              "Feedback Integration: Gather and implement feedback to enhance services and boost satisfaction."
+            ]
+          },
+          {
+            "title": "Offline Campaigns",
+            "subtitle": "Traditional Marketing Approaches",
+            "basis": "85%",
+            "content": [
+              "Print Media: Utilise flyers, brochures and local newspapers to engage with an audience.",
+              "Community Events: Organise events and workshops to establish connections with customers and demonstrate your knowledge."
+            ]
+          },
+          {
+            "title": "Artificial Intelligence",
+            "subtitle": "Leveraging AI and Personalisation",
+            "basis": "85%",
+            "content": [
+              "Personalised Marketing: Harness the power of AI to analyse information and craft customised marketing communications that connect with target groups boosting involvement and loyalty."
+            ]
+          },
+          {
+            "title": "Leveraging Modern Tools",
+            "subtitle": "Advanced Digital Marketing Techniques",
+            "content": [
+              "Search Engine Optimisation (SEO): Boost your website's visibility by focusing on keywords and optimising content attracting visitors and improving your search rankings.",
+              "Social Media Marketing: Connect with your audience on popular platforms, like Facebook, Twitter and LinkedIn by sharing valuable content and fostering a community around your healthcare offerings."
+            ]
+          },
+          {
+            "title": "Content Marketing",
+            "content": [
+              "Informative Content: Develop engaging material that caters to the needs of your target demographic including blog posts, articles and videos. Informative content helps showcase your expertise and nurture trust.",
+              "Client Focused Videos: Utilise video resources to simplify health topics in a manner enhancing client comprehension and retention."
+            ]
+          }
+        ]
       }
-    ]
+    ],
+    "horizontal": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Contact Care Sync Experts",
+              "p": "For tailored advice and assistance, with enhancing your healthcare proposal management procedures. Reach out to us at:"
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Email: hello@caresyncexperts.co.uk",
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
+      }
+    }
   },
   "healthcare-recruitment": {
     "backgroundImage": "https://caresyncexperts.co.uk/images/guidance/healthcare-recruitment-page-header.jpg",
@@ -1147,7 +1297,80 @@
             ]
           }
         ]
+      },
+      {
+        "type": "custom-title",
+        "bgcolor": "#dbf5ef",
+        "mainheading": "Key Recruitment and Staffing Strategies",
+        "titleclr": "#04717a",
+        "sections": [
+          {
+            "title": "Optimising Workflows",
+            "subtitle": "Streamlined Recruitment Processes",
+            "content": [
+              "Workflow Analysis: Review recruitment processes to identify any bottlenecks or inefficiencies. Introduce measurements to monitor progress and performance, for enhancements.",
+              "Automation Tools: Utilise automated systems for posting job openings, tracking applicants, and communication to simplify recruitment activities and lessen administrative tasks."
+            ]
+          },
+          {
+            "title": "Enhanced Selection Methods",
+            "content": [
+              "Robust Screening: Establish screening and interview procedures to ensure the selection of top tier candidates. Include skills assessments and personality evaluations for a candidate assessment.",
+              "Diversity and Inclusion: Advocate for diversity in recruitment practices to cultivate a diverse and inclusive workforce. This enhances the organisation's competence and service excellence."
+            ]
+          },
+          {
+            "title": "Onboarding Programmes",
+            "subtitle": "Staff Retention and Development",
+            "content": [
+              "Comprehensive Training: Offer onboarding and training programs for hires to equip them effectively for their roles. Effective onboarding contributes to employee satisfaction and retention rates.",
+              "Mentorship Opportunities: Implement mentorship programs to assist employees in integrating into the team, fostering a work environment."
+            ]
+          },
+          {
+            "title": "Continuous Development",
+            "content": [
+              "Professional Growth: Provide opportunities and career development initiatives to retain employees and foster their professional growth. This supports building a skilled workforce.",
+              "Employee Engagement: Create a work environment by encouraging interaction and happiness, among employees, through feedback, acknowledgment and team bonding events."
+            ]
+          },
+          {
+            "title": "Ensuring Compliance",
+            "subtitle": "Regulatory Compliance and Standards",
+            "content": [
+              "CQC Standards: Make sure that recruitment procedures adhere to the standards set by the Care Quality Commission (CQC) and other regulatory mandates like those specified in Regulation 18 and Regulation 19. This guarantees top notch care quality and legal conformity.",
+              "Mandatory Training: Offer training sessions to fulfil requirements and uphold superior care standards. Regular training updates help staff stay informed about protocols."
+            ]
+          },
+          {
+            "title": "Performance Monitoring",
+            "content": [
+              "Regular Audits: Carry out audits of recruitment processes and staffing procedures to maintain ongoing compliance and pinpoint areas for enhancement. By taking a stance we uphold standards and address potential issues promptly."
+            ]
+          }
+        ]
       }
-    ]
+    ],
+    "horizontal": {
+      "cardContainer": {
+        "card": {
+          "leftSide": {
+            "content": {
+              "h2": "Contact Care Sync Experts",
+              "p": "For tailored advice and assistance, with enhancing your healthcare proposal management procedures. Reach out to us at:"
+            }
+          },
+          "rightSide": {
+            "textWhite": {
+              "p": [
+                "Email: hello@caresyncexperts.co.uk",
+                "Phone: 0333 577 0877"
+              ],
+              "button": "Get Started"
+            }
+          }
+        }
+      }
+    }
   }
 }
