@@ -9,7 +9,9 @@ import { HttpClient, HttpEventType, HttpHeaders } from '@angular/common/http';
 })
 export class TenderApiService {
   private httpClient: HttpClient = inject(HttpClient);
-  constructor() { }
+  constructor() { 
+    // this.httpClient.get('https://caresynctender-backend.vercel.app/api/tender/retrieve/filters').subscribe();
+  }
 
   intialFetch(body: any) {
     const httpRequest = new HttpRequest();

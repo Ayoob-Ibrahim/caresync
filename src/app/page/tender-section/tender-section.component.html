@@ -117,6 +117,9 @@
 <ng-template #tender_opportunites>
     <section class="container-stretch tender_opportunites">
         <h2> Current Tender Opportunities </h2>
+        <jqxComboBox [width]="'300px'" [height]="'30px'" [source]="comboData" [selectedIndex]="0"
+            [autoDropDownHeight]="true">
+        </jqxComboBox>
         <div class="card-container">
             <ng-container *ngFor="let item of tenders">
                 <div class="card">

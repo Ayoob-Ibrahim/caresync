@@ -2,10 +2,10 @@ import { CommonModule } from '@angular/common';
 import { Component, inject, OnInit } from '@angular/core';
 import { TenderApiService } from '../../tender-api/tender-api.service';
 import { HttpService } from '../../service/http.service';
-
+import { jqxComboBoxModule } from 'jqwidgets-ng/jqxcombobox';
 @Component({
   selector: 'app-tender-section',
-  imports: [CommonModule],
+  imports: [CommonModule, jqxComboBoxModule],
   templateUrl: './tender-section.component.html',
   styleUrl: './tender-section.component.scss'
 })
@@ -18,12 +18,12 @@ export class TenderSectionComponent implements OnInit {
     "bid_standout": "We know navigating the tender process and meeting regulatory requirements can be challenging. That's why <span class=\"txt-dark-secondary\">Care Sync Expert is here to help:</span>"
   }
 
- 
+
 
   ngOnInit(): void {
     this.GetData();
   }
-
+  comboData = ['Option 1', 'Option 2', 'Option 3'];
 
   GetData(): void {
     this.tenderapi.intialFetch(this.httpService.apiBody()).subscribe({
