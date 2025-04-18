@@ -39,7 +39,14 @@
               "node_modules/owl.carousel/dist/assets/owl.theme.default.css",
               "node_modules/swiper/swiper-bundle.min.css",
               "src/styles.scss",
-              "node_modules/jqwidgets-scripts/jqwidgets/styles/jqx.base.css"
+              "node_modules/jqwidgets-scripts/jqwidgets/styles/jqx.base.css",
+              "./node_modules/jqwidgets-ng/jqwidgets/styles/jqx.dark.css",
+              "./node_modules/jqwidgets-ng/jqwidgets/styles/jqx.blackberry.css",
+              "./node_modules/jqwidgets-ng/jqwidgets/styles/jqx.energyblue.css",
+              "./node_modules/jqwidgets-ng/jqwidgets/styles/jqx.classic.css",
+              "./node_modules/jqwidgets-ng/jqwidgets/styles/jqx.orange.css",
+              "./node_modules/jqwidgets-ng/jqwidgets/styles/jqx.office.css",
+              "./node_modules/jqwidgets-ng/jqwidgets/styles/jqx.material.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",

@@ -239,20 +239,32 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
-        align-items: center;
+        align-items: stretch;
         flex-direction: row;
 
         .card {
-            flex-basis: 31%;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
             padding: 1rem;
-            max-width: 400px;
             margin: 1rem auto 1rem 0;
+            margin-right: 20px;
             border: 1px solid #E6E8EB;
             padding: .8rem;
             border-radius: 8px;
 
+            display: flex;
+            flex-direction: column;
+            flex-basis: 31%;
+
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+
             &-body {
+
+                display: flex;
+                flex-direction: column;
+                flex-grow: 1;
+                justify-content: space-between;
+
                 button {
                     all: unset;
                     background-color: #dbf5ef;
@@ -276,6 +288,7 @@
                 }
 
                 .button-container {
+                    margin-top: auto;
                     display: flex;
                     flex-wrap: wrap;
 
@@ -312,13 +325,16 @@
                 }
 
                 .data-container {
+
                     article {
                         display: flex;
                         font-family: medium;
+                        flex-wrap: wrap;
                         color: rgba(0, 0, 0, 0.551);
 
                         h6 {
                             margin-right: 10px;
+                            flex-basis: 31%;
                         }
 
                         h4 {
@@ -330,6 +346,16 @@
             }
 
         }
+    }
+}
+
+.filter_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    div {
+        flex-basis: 20%;
     }
 }
 

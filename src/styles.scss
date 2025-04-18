@@ -1,4 +1,15 @@
 @import 'swiper/swiper-bundle.min.css';
+@import "jqwidgets-ng/jqwidgets/styles/jqx.dark.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.base.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.dark.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.blackberry.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.energyblue.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.classic.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.orange.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.office.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.office.css";
+@import "jqwidgets-ng/jqwidgets/styles/jqx.material.css";
+ 
 
 @font-face {
   font-family: "Kanit-bold";
@@ -141,5 +152,13 @@ a:hover span {
 .txt-dark-secondary {
   color: #129693;
 }
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
