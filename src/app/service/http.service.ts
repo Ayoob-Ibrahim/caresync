@@ -42,4 +42,19 @@ export class HttpService {
   public GuidanceData(): Observable<any> {
     return this.http.get<any>(`assets/JSONDATA/guidance/data.json`);
   }
+
+  public apiBody(
+    page: number = 1, desc: string = '',
+    title: string[] = [], region: string[] = [], contract: [] = []
+  ): object {
+    return {
+      "page": page,
+      "description": desc,
+      "title": title,
+      "regions": region,
+      "contracts": contract
+    }
+  }
+
+
 }

@@ -22,6 +22,13 @@ export const routes: Routes = [
           ),
       },
       {
+        path: 'tender',
+        loadComponent: () =>
+          import('./page/tender-section/tender-section.component').then(
+            (m) => m.TenderSectionComponent
+          ),
+      },
+      {
         path: 'packages/:id',
         loadComponent: () =>
           import('./page/packages-menu/packages-menu.component').then(

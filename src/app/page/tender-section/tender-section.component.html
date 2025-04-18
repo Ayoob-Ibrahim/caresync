@@ -1,0 +1,160 @@
+<main class="mt-[3rem]">
+    <ng-container *ngTemplateOutlet="automatic_carousel"></ng-container>
+    <ng-container *ngTemplateOutlet="tender_opportunites"></ng-container>
+    <ng-container *ngTemplateOutlet="bid_stand_out"></ng-container>
+    <ng-container *ngTemplateOutlet="unlock_opportunities"></ng-container>
+</main>
+
+
+
+<ng-template #automatic_carousel>
+    <section class="container-stretch animated-img-container">
+        <aside>
+            <h1 [innerHTML]="initialcontainer.header"> </h1>
+            <p>Find tailored tenders across the UK healthcare industry. Whether you specialise in domiciliary care,
+                supported living, or nursing services, our Tender Feed connects you with contracts that match your
+                expertise. Stay compliant with key regulations like CQC, OFSTED, RQIA, and CIW as you bid with
+                confidence.</p>
+        </aside>
+        <ng-container *ngTemplateOutlet="image_keyframes"></ng-container>
+    </section>
+</ng-template>
+
+<ng-template #image_keyframes>
+    <aside class="image_keyframes">
+        <div class="slider-wrapper">
+            <div class="slider">
+                <img src="../../../assets/tender-slidder/image1-CyhPUlLn_11zon.jpg" alt="">
+                <img src="../../../assets/tender-slidder/image2-B3rsmwQn_11zon.jpg" alt="">
+                <img src="../../../assets/tender-slidder/image3-B-kDIsE9_11zon.jpg" alt="">
+            </div>
+            <div class="slider-two ">
+                <img src="../../../assets/tender-slidder/image4-24fzayux_11zon.jpg" alt="">
+                <img src="../../../assets/tender-slidder/image5-CqjNiEAf_11zon.jpg" alt="">
+                <img src="../../../assets/tender-slidder/image6-DIdJk6V5_11zon.jpg" alt="">
+            </div>
+        </div>
+    </aside>
+</ng-template>
+
+<ng-template #bid_stand_out>
+    <section class="container-stretch bid_stand_out">
+        <article>
+            <h1>
+                Make Your Bid Stand Out
+            </h1>
+            <p [innerHTML]="initialcontainer.bid_standout"></p>
+        </article>
+        <picture>
+            <figure>
+                <img src="https://www.caresyncexperts.co.uk/images/tenders/tender-bid-writing.jpg" alt="">
+                <figcaption>
+                    <h3>
+                        Bid Writing Services
+                    </h3>
+                    <p>
+                        Request professional support to craft a winning bid.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://www.caresyncexperts.co.uk/images/tenders/tender-compliance-checks.jpg" alt="">
+                <figcaption>
+                    <h3>
+                        Expert Compliance Checks
+                    </h3>
+                    <p>
+                        Ensure your proposal meets CQC, OFSTED, RQIA, or CIW standards.
+                    </p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="https://www.caresyncexperts.co.uk/images/tenders/tender-one-click-support.jpg" alt="">
+                <figcaption>
+                    <h3>
+                        One Click Support
+                    </h3>
+                    <p>
+                        Need assistance? Reach out directly from our feed
+                    </p>
+                </figcaption>
+            </figure>
+
+        </picture>
+
+
+
+    </section>
+</ng-template>
+
+<ng-template #unlock_opportunities>
+    <section class="container-stretch unlock_opportunities">
+        <figure>
+            <img src="https://www.caresyncexperts.co.uk/images/tenders/tender-cta.png" alt="">
+        </figure>
+        <article>
+            <div>
+                <ng-container *ngFor="let item of [1,2,3,4,5]">
+                    <i class="bi bi-star-fill me-[10px]"></i>
+                </ng-container>
+                <h2>
+                    Unlock Opportunities Today
+                </h2>
+                <ng-container>
+                    <p>Explore new tenders across the healthcare industry.</p>
+                    <p>Save tenders to your personalised dashboard for quick follow up.</p>
+                    <p>Stay notified with real time alerts about new opportunities.</p>
+                </ng-container>
+                <div class="blue-container">
+                    <p>Ready to find your next tender?</p>
+                    <button>Start Exploring<i class="bi bi-box-arrow-up-right"></i></button>
+                </div>
+            </div>
+        </article>
+    </section>
+</ng-template>
+
+<ng-template #tender_opportunites>
+    <section class="container-stretch tender_opportunites">
+        <h2> Current Tender Opportunities </h2>
+        <div class="card-container">
+            <ng-container *ngFor="let item of tenders">
+                <div class="card">
+                    <div class="card-body">
+                        <button>
+                            {{item?.cpvTitle}}
+                        </button>
+                        <h1>
+                            {{item?.title}}
+                        </h1>
+                        <div class="data-container">
+                            <ng-container>
+                                <article class="mt-[1rem]">
+                                    <h6><i class="bi bi-geo-alt-fill mr-[5px]"></i>Region :</h6>
+                                    <h4>{{item?.region}}</h4>
+                                </article>
+                                <article class="mt-[1rem]">
+                                    <h6><i class="bi bi-person-lines-fill mr-[5px]"></i>Contractor :</h6>
+                                    <h4>{{item?.contactDetails?.town}}</h4>
+                                </article>
+                                <article class="mt-[1rem]">
+                                    <h6><i class="bi bi-stopwatch-fill mr-[5px]"></i>Closes In :</h6>
+                                    <h4>{{ item?.deadlineDate | date: 'd MMMM y' }}
+                                    </h4>
+                                </article>
+                                <article class="mt-[1rem]">
+                                    <h6><i class="bi bi-currency-exchange mr-[5px]"></i>Value From :</h6>
+                                    <h4>{{ item?.valueLow | currency:'EUR':'symbol':'1.0-0' }}</h4>
+                                </article>
+                            </ng-container>
+                            <div class="button-container">
+                                <button>Show Interest</button>
+                                <button class="white-btn">More Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </section>
+</ng-template>
