@@ -163,23 +163,96 @@
 <ng-template #filter_list>
     <div class="filter_list">
         <div>
-            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="comboData" [selectedIndex]="0"
-                [autoDropDownHeight]="true" [checkboxes]="true" [theme]="'office'">
+            <ng-container *ngTemplateOutlet="search_box"></ng-container>
+        </div>
+        <div>
+            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.title" [selectedIndex]="0"
+                [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
+                (onCheckChange)="CheckChange($event,'title')">
             </jqxComboBox>
         </div>
         <div>
-            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="comboData" [selectedIndex]="0"
-                [autoDropDownHeight]="true" [checkboxes]="true" [theme]="'office'">
+            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.regions" [selectedIndex]="0"
+                [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
+                (onCheckChange)="CheckChange($event,'regions')">
             </jqxComboBox>
         </div>
         <div>
-            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="comboData" [selectedIndex]="0"
-                [autoDropDownHeight]="true" [checkboxes]="true" [theme]="'office'">
+            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.contracts" [selectedIndex]="0"
+                [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
+                (onCheckChange)="CheckChange($event,'contracts')">
             </jqxComboBox>
         </div>
-        <div>
-            
+        <div style="display: flex;justify-content: space-evenly;flex-basis: 10%;">
+            <ng-container *ngTemplateOutlet="grid_view"></ng-container>
+            <ng-container *ngTemplateOutlet="list_view"></ng-container>
         </div>
 
     </div>
+</ng-template>
+
+
+<ng-template #search_box>
+    <div class="search-input-container">
+        <div class="input-container">
+            <input type="text" class="search-input">
+            <i class="bi bi-search"></i>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #grid_view>
+    <svg width="34px" height="34px" viewBox="-8.4 -8.4 40.80 40.80" xmlns="http://www.w3.org/2000/svg" fill="#000000"
+        stroke="#000000">
+        <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect x="-8.4" y="-8.4" width="40.80" height="40.80" rx="20.4" fill="#129693" strokewidth="0">
+            </rect>
+        </g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+            <title></title>
+            <g id="Complete">
+                <g id="grid">
+                    <g>
+                        <rect fill="none" height="7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.392" width="7" x="14.5" y="2.5"></rect>
+                        <rect fill="none" height="7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.392" width="7" x="14.5" y="14.5"></rect>
+                        <rect fill="none" height="7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.392" width="7" x="2.5" y="2.5"></rect>
+                        <rect fill="none" height="7" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.392" width="7" x="2.5" y="14.5"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>
+</ng-template>
+
+
+<ng-template #list_view>
+    <svg width="34px" height="34px" viewBox="-6 -6 36.00 36.00" xmlns="http://www.w3.org/2000/svg" fill="#000000"
+        stroke="#000000">
+        <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect x="-6" y="-6" width="36.00" height="36.00" rx="18" fill="#129693" strokewidth="0"></rect>
+        </g>
+        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+        <g id="SVGRepo_iconCarrier">
+            <title></title>
+            <g id="Complete">
+                <g id="align-left">
+                    <g>
+                        <polygon fill="#fffffffffff" points="12.9 18 4.1 18 4.1 18 12.9 18 12.9 18" stroke="#ffffff"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.272"></polygon>
+                        <polygon fill="#fffffffffff" points="20 14 4 14 4 14 20 14 20 14" stroke="#ffffff"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.272"></polygon>
+                        <polygon fill="#fffffffffff" points="12.9 10 4.1 10 4.1 10 12.9 10 12.9 10" stroke="#ffffff"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.272"></polygon>
+                        <polygon fill="#fffffffffff" points="20 6 4 6 4 6 20 6 20 6" stroke="#ffffff"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.272"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </svg>
 </ng-template>

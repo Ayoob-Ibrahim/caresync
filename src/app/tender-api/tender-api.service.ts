@@ -9,7 +9,7 @@ import { HttpClient, HttpEventType, HttpHeaders } from '@angular/common/http';
 })
 export class TenderApiService {
   private httpClient: HttpClient = inject(HttpClient);
-  constructor() { 
+  constructor() {
     // this.httpClient.get('https://caresynctender-backend.vercel.app/api/tender/retrieve/filters').subscribe();
   }
 
@@ -20,6 +20,15 @@ export class TenderApiService {
     httpRequest.addHeaderParamter('Content-Type', 'application/json; charset=utf-8');
     httpRequest.setAuthTokenRequired(false);
     httpRequest.setBody(body);
+    return this.apiInvoking(httpRequest);
+  }
+
+
+  FilterFetch() {
+    const httpRequest = new HttpRequest();
+    httpRequest.setMethod('GET');
+    httpRequest.setResource('/api/tender/retrieve/filters');
+    httpRequest.addHeaderParamter('Content-Type', 'application/json; charset=utf-8');
     return this.apiInvoking(httpRequest);
   }
 

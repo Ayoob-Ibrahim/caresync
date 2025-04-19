@@ -49,3 +49,10 @@ export interface PdfDocument {
     name: string;
     pdf: string;
 }
+
+export interface FilterData {
+    title: string[];
+    regions: string[];
+    contracts: string[];
+    category: string[];
+}

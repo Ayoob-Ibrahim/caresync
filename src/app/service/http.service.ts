@@ -45,7 +45,7 @@ export class HttpService {
 
   public apiBody(
     page: number = 1, desc: string = '',
-    title: string[] = [], region: string[] = [], contract: [] = []
+    title: string[] = [], region: string[] = [], contract: string[] = []
   ): object {
     return {
       "page": page,
