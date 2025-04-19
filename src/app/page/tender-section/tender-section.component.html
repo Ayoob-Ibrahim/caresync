@@ -196,11 +196,11 @@
             </jqxComboBox>
         </div>
         <div style="display: flex;justify-content: space-evenly;flex-basis: 10%;">
-            <div (click)="viewType('grid')" class="cursor-pointer" [ngClass]="{ 'circle-border': cardType !== 'grid' }">
+            <div (click)="viewType('grid')" class="cursor-pointer" [ngClass]="{ 'circle-border': cardType === 'grid' }">
                 <ng-container *ngTemplateOutlet="grid_view"></ng-container>
             </div>
 
-            <div (click)="viewType('list')" class="cursor-pointer" [ngClass]="{ 'circle-border': cardType !== 'list' }">
+            <div (click)="viewType('list')" class="cursor-pointer" [ngClass]="{ 'circle-border': cardType === 'list' }">
                 <ng-container *ngTemplateOutlet="list_view"></ng-container>
             </div>
 
