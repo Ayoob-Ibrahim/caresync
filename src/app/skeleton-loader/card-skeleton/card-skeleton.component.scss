@@ -1,0 +1,104 @@
+.skelton-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+
+
+
+
+.container {
+    position: relative;
+    height: fit-content;
+    flex-basis: 31%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 1rem auto 1rem 0;
+    margin-right: 20px;
+    background: #FDFEFE;
+    border: 1px solid rgba(128, 128, 128, 0.329);
+    // box-shadow: 10px 10px 0px -1px rgba(0,0,0,.23);
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row~.column {
+    margin-top: 20px;
+}
+
+.row:nth-child(3) {
+    margin-top: 35px;
+}
+
+.circle {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.line {
+    margin-top: 15px;
+    height: 20px;
+    width: 300px;
+    border-radius: 50px;
+}
+
+.line1 {
+    width: 200px;
+    margin-top: 0;
+}
+
+.line3 {
+    width: 80%;
+}
+
+.line4 {
+    width: 100%;
+}
+
+.line5 {
+    width: 55%;
+}
+
+.box {
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.loading-animation {
+    overflow: hidden;
+    background: #D0D0D0;
+}
+
+.loading-animation::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    animation: loading 1s infinite;
+    background: linear-gradient(to right, transparent, #D9D9D9, transparent);
+}
+
+@keyframes loading {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
