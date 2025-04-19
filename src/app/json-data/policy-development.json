@@ -20,7 +20,7 @@
         "class2": "basis-[65%]",
         "topContents": {
           "title": "CQC Domiciliary Care Policies and Procedures",
-          "content": "<p class=\"font-regular text-[15px] text-[#667085]\"> Ensuring compliance with CQC (Care Quality Commission) standards is critical for domiciliary care providers in England. Our tailored policies address key CQC requirements, ensuring your agency operates effectively while delivering safe, high-quality care. </p>"
+          "content": "<p class=\"font-regular  text-[#667085]\"> Ensuring compliance with CQC (Care Quality Commission) standards is critical for domiciliary care providers in England. Our tailored policies address key CQC requirements, ensuring your agency operates effectively while delivering safe, high-quality care. </p>"
         },
         "key": "Key Policies Include",
         "img": "../../assets/elevatecare/privacy1.png",
@@ -49,7 +49,7 @@
         "class2": "basis-[56%]",
         "topContents": {
           "title": "RQIA Domiciliary Care Policies and Procedures",
-          "content": "<p class=\"font-regular text-[15px] text-[#667085]\">For domiciliary care providers in Northern Ireland, adherence to <a class=\"text-[#004558]\">RQIA (Regulation and Quality Improvement Authority)</a>standards is vital. We offer a comprehensive range of policies covering everything from <a class=\"text-[#004558]\">incident management</a> to <a class=\"text-[#004558]\"> infection control,</a>ensuring that your service meets RQIA’s rigorous standards of safety and quality.</p>"
+          "content": "<p class=\"font-regular  text-[#667085]\">For domiciliary care providers in Northern Ireland, adherence to <a class=\"text-[#004558]\">RQIA (Regulation and Quality Improvement Authority)</a>standards is vital. We offer a comprehensive range of policies covering everything from <a class=\"text-[#004558]\">incident management</a> to <a class=\"text-[#004558]\"> infection control,</a>ensuring that your service meets RQIA’s rigorous standards of safety and quality.</p>"
         },
         "key": "Key Policies Include",
         "img": "../../assets/elevatecare/privacy2.png",
@@ -78,7 +78,7 @@
         "left": true,
         "topContents": {
           "title": "CIW Domiciliary Care Policies (Wales)",
-          "content": "<p class=\"font-regular text-[15px] text-[#667085]\">Domiciliary care agencies operating in Wales must adhere to <a class=\"text-[#004558]\">CIW (Care Inspectorate Wales) guidelines, especially under the Social Services and Well-being (Wales) Act 2014.</a>Our customised policies ensure your organisation meets all CIW requirements while providing the highest level of care. </p>"
+          "content": "<p class=\"font-regular  text-[#667085]\">Domiciliary care agencies operating in Wales must adhere to <a class=\"text-[#004558]\">CIW (Care Inspectorate Wales) guidelines, especially under the Social Services and Well-being (Wales) Act 2014.</a>Our customised policies ensure your organisation meets all CIW requirements while providing the highest level of care. </p>"
         },
         "key": "Key Policies Include",
         "img": "../../assets/elevatecare/privacy3.png",
@@ -107,7 +107,7 @@
         "left": false,
         "topContents": {
           "title": "Supported Living Policies",
-          "content": "<p class=\"font-regular text-[15px] text-[#667085]\">Supported living services require specific policies to ensure the safety, dignity, and well-being of residents. Our tailored policies align with CQC and Ofsted guidelines to ensure compliance, creating a safe and caring environment for service users.</p>"
+          "content": "<p class=\"font-regular text-[#667085]\">Supported living services require specific policies to ensure the safety, dignity, and well-being of residents. Our tailored policies align with CQC and Ofsted guidelines to ensure compliance, creating a safe and caring environment for service users.</p>"
         },
         "key": "Key Policies Include",
         "img": "../../assets/elevatecare/privacy4.png",

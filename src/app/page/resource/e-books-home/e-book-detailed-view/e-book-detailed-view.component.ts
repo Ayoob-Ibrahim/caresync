@@ -2,22 +2,35 @@ import { CommonModule } from '@angular/common';
 import { AfterViewInit, Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { WindowScroller } from '../../../../baseclass/scroll-upper';
+import { FormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-e-book-detailed-view',
-  imports: [CommonModule],
+  imports: [CommonModule, FormsModule],
   templateUrl: './e-book-detailed-view.component.html',
-  styleUrl: './e-book-detailed-view.component.scss'
+  styleUrl: './e-book-detailed-view.component.scss',
 })
-export class EBookDetailedViewComponent extends WindowScroller implements OnInit, AfterViewInit {
+export class EBookDetailedViewComponent
+  extends WindowScroller
+  implements OnInit, AfterViewInit
+{
   formJson = [
-    { formName: 'Your name/Company’s Name', icon: 'bi bi-person-lines-fill' },
-    { formName: 'Email address', icon: 'bi bi-envelope' },
-    { formName: 'Contact number', icon: 'bi bi-phone-vibrate' },
-    { formName: 'Company’s address', icon: 'bi bi-geo-alt-fill' },
-    { formName: 'How many care recipients (clients) do you have?', icon: 'bi bi-people-fill' },
-  ]
-  constructor(private router: Router) {
+    {
+      formName: 'Your name/Company’s Name',
+      icon: 'bi bi-person-lines-fill',
+      value: '',
+    },
+    { formName: 'Email address', icon: 'bi bi-envelope', value: '' },
+    { formName: 'Contact number', icon: 'bi bi-phone-vibrate', value: '' },
+    { formName: 'Company’s address', icon: 'bi bi-geo-alt-fill', value: '' },
+    {
+      formName: 'How many care recipients (clients) do you have?',
+      icon: 'bi bi-people-fill',
+      value: '',
+    },
+  ];
+  constructor(private router: Router, private http: HttpClient) {
     super();
   }
 
@@ -28,12 +41,28 @@ export class EBookDetailedViewComponent extends WindowScroller implements OnInit
     if (!this.receivedData) this.router.navigate(['ebooks', 'detailed-view']);
   }
 
-
   download(link_: string) {
     const pdfUrl = link_;
     const link = document.createElement('a');
     link.href = pdfUrl;
     link.download = link_.split('/')[2];
     link.click();
+  }
+  senMail() {
+    if (this.formJson[1].value != '') {
+      let data = {
+        email: this.formJson[1].value,
+        name: this.formJson[0].value,
+        phone: this.formJson[2].value,
+        address: this.formJson[3].value,
+        clients: this.formJson[4].value,
+      };
+
+      this.http
+        .post('http://mailer-six-alpha.vercel.app/send-email', data)
+        .subscribe((res) => {
+          alert('Subscribed Successfully');
+        });
+    }
   }
 }

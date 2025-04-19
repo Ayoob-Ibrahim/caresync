@@ -1,79 +1,89 @@
 <main class="initial">
-    <section class="main-ebook-container container-stretch">
-        <aside class="book-content">
-            <button class="common-button-white"
-                style="width: 110px;border-radius: 5px;color: #129693 !important;">eBook</button>
-            <h3>
-                {{receivedData?.data?.description}}
-            </h3>
-            <h6>
-                {{receivedData?.data?.subtitle}}
-            </h6>
-            <button class="common-button" style="width: 160px;" (click)="download(receivedData?.download)">
-                Get this ebook
-            </button>
-        </aside>
-        <aside>
-            <img [src]="receivedData?.image" alt="">
-        </aside>
-    </section>
+  <section class="main-ebook-container container-stretch">
+    <aside class="book-content">
+      <button
+        class="common-button-white"
+        style="width: 110px; border-radius: 5px; color: #129693 !important"
+      >
+        eBook
+      </button>
+      <h3>
+        {{ receivedData?.data?.description }}
+      </h3>
+      <h6>
+        {{ receivedData?.data?.subtitle }}
+      </h6>
+      <button
+        class="common-button"
+        style="width: 160px"
+        (click)="download(receivedData?.download)"
+      >
+        Get this ebook
+      </button>
+    </aside>
+    <aside>
+      <img [src]="receivedData?.image" alt="" />
+    </aside>
+  </section>
 </main>
 
-
-
 <section class="content-wrapper container-stretch">
-    <aside class="text-wrapper">
-        <ng-container *ngTemplateOutlet="template_content"></ng-container>
-    </aside>
-    <aside class="form-wrapper">
-        <ng-container *ngTemplateOutlet="template_form"></ng-container>
-    </aside>
+  <aside class="text-wrapper">
+    <ng-container *ngTemplateOutlet="template_content"></ng-container>
+  </aside>
+  <aside class="form-wrapper">
+    <ng-container *ngTemplateOutlet="template_form"></ng-container>
+  </aside>
 </section>
 
-
 <ng-template #template_content>
-    <ng-container *ngFor="let item of receivedData?.data?.sections">
-        <div class="content-container">
-            <h2>
-                {{item.question}}
-            </h2>
-            <ng-container *ngFor="let data of item?.answers">
-                <p>
-                    {{data}}
-                </p>
-            </ng-container>
-        </div>
-    </ng-container>
-
+  <ng-container *ngFor="let item of receivedData?.data?.sections">
+    <div class="content-container">
+      <h2>
+        {{ item.question }}
+      </h2>
+      <ng-container *ngFor="let data of item?.answers">
+        <p>
+          {{ data }}
+        </p>
+      </ng-container>
+    </div>
+  </ng-container>
 </ng-template>
 
-
 <ng-template #template_form>
-    <small>
-        Subscribe to our eBook
-    </small>
-    <h1>
-        Share your information to receive updates on our latest eBooks.
-    </h1>
-    <ng-container *ngFor="let field of formJson">
-        <div class="form-container">
-            <label>{{field.formName}}</label>
-            <div class="input-wrapper">
-                <i [ngClass]="field.icon"></i><input type="text">
-            </div>
-        </div>
-    </ng-container>
-
-    <div class="flex items-center mt-[1rem]">
-        <input id="link-checkbox" type="checkbox" value=""
-            class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
-        <label for="link-checkbox" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 cursor-pointer">I
-            agree to Caresync
-            <span class="text-blue-600 dark:text-blue-500 hover:underline"
-                style="color:  rgba(18, 150, 147, 1) ;">privacy
-                Policy <span style="color: black;">&</span> Terms of use</span>.</label>
-
+  <small> Subscribe to our eBook </small>
+  <h1>Share your information to receive updates on our latest eBooks.</h1>
+  <ng-container *ngFor="let field of formJson">
+    <div class="form-container">
+      <label>{{ field.formName }}</label>
+      <div class="input-wrapper">
+        <i [ngClass]="field.icon"></i
+        ><input [(ngModel)]="field.value" type="text" />
+      </div>
     </div>
+  </ng-container>
 
-    <button class="common-button w-[100%] mt-[1rem]">Subscribe</button>
+  <div class="flex items-center mt-[1rem]">
+    <input
+      id="link-checkbox"
+      type="checkbox"
+      value=""
+      class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+    />
+    <label
+      for="link-checkbox"
+      class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300 cursor-pointer"
+      >I agree to Caresync
+      <span
+        class="text-blue-600 dark:text-blue-500 hover:underline"
+        style="color: rgba(18, 150, 147, 1)"
+        >privacy Policy <span style="color: black">&</span> Terms of use</span
+      >.</label
+    >
+  </div>
+
+  <button (click)="senMail()" class="common-button w-[100%] mt-[1rem]">
+    Subscribe
+  </button>
 </ng-template>
