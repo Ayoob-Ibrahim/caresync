@@ -17,7 +17,8 @@ import { FormControl, ReactiveFormsModule } from '@angular/forms';
 export class TenderSectionComponent implements OnInit, AfterViewInit {
   private tenderapi: TenderApiService = inject(TenderApiService);
   private httpService: HttpService = inject(HttpService)
-  tenders: any[] | undefined
+  tenders: any[] | undefined;
+  cardType: 'grid' | 'list' = 'grid';
   filter: FilterData = { title: [], regions: [], category: [], contracts: [] };
   filterQuery = signal<FilterData>({ title: [], regions: [], category: [], contracts: [], description: '' });
   initialcontainer = {
@@ -105,6 +106,9 @@ export class TenderSectionComponent implements OnInit, AfterViewInit {
   }
 
 
+  viewType(type: 'grid' | 'list'): void {
+    this.cardType = type;
+  }
 
 }
 
