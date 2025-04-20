@@ -40,7 +40,7 @@
         "class2": "basis-[65%]",
         "topContents": {
           "title": "CQC Compliance Training",
-          "content": "<p class=\"font-regular text-[15px] text-[#667085]\"> Ensuring compliance with CQC regulations is crucial for the operations of a healthcare organisation's success. Our thorough training program equips you with the knowledge and tools needed to adhere to the standards set by the Care Quality Commission ( CQC). This involves integrating Key Lines of Enquiry ( KLOEs ) into your workflow keeping records and being prepared for regulatory assessments.</p>"
+          "content": "<p class=\"font-regular  text-[#667085]\"> Ensuring compliance with CQC regulations is crucial for the operations of a healthcare organisation's success. Our thorough training program equips you with the knowledge and tools needed to adhere to the standards set by the Care Quality Commission ( CQC). This involves integrating Key Lines of Enquiry ( KLOEs ) into your workflow keeping records and being prepared for regulatory assessments.</p>"
         },
         "key": "What you will gain insights into:",
         "img": "../../assets/elevatecare/privacy1.png",
@@ -108,7 +108,7 @@
         "class2": "basis-[65%]",
         "topContents": {
           "title": "Healthcare Marketing Mastery",
-          "content": "<p class=\"font-regular text-[15px] text-[#667085]\"> Establishing a presence plays a crucial role in expanding your healthcare enterprises reach and impact. Our Healthcare Marketing Mastery program provides insights on crafting marketing plans to enhance visibility and draw in clientele for the sustained growth of your brand.</p>"
+          "content": "<p class=\"font-regular  text-[#667085]\"> Establishing a presence plays a crucial role in expanding your healthcare enterprises reach and impact. Our Healthcare Marketing Mastery program provides insights on crafting marketing plans to enhance visibility and draw in clientele for the sustained growth of your brand.</p>"
         },
         "key": "What you will gain insights into:",
         "img": "../../assets/elevatecare/marketing.png",
@@ -162,7 +162,7 @@
         "left": false,
         "topContents": {
           "title": "Healthcare Business Startup Support",
-          "content": "<p class=\"font-regular text-[15px] text-[#667085]\">Starting a healthcare business can be quite challenging, with the assistance in place you can begin with assurance​. Our startup assistance program offers detailed guidance through various stages including market analysis and strategic planning while also ensuring adherence, to regulations and financial stability​</p>"
+          "content": "<p class=\"font-regular  text-[#667085]\">Starting a healthcare business can be quite challenging, with the assistance in place you can begin with assurance​. Our startup assistance program offers detailed guidance through various stages including market analysis and strategic planning while also ensuring adherence, to regulations and financial stability​</p>"
         },
         "key": "What you will gain insights into:",
         "img": "../../assets/elevatecare/guys.png",
