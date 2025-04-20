@@ -4,7 +4,7 @@ import { TenderApiService } from '../../tender-api/tender-api.service';
 import { HttpService } from '../../service/http.service';
 import { jqxComboBoxModule } from 'jqwidgets-ng/jqxcombobox';
 import { debounceTime, distinctUntilChanged, forkJoin, fromEvent, map } from 'rxjs';
-import { FilterData } from '../../interface/common.interface';
+import { FilterData, Pagination } from '../../interface/common.interface';
 import { CardSkeletonComponent } from '../../skeleton-loader/card-skeleton/card-skeleton.component';
 import { DataUnavailabiltyComponent } from "../../data-unavailabilty/data-unavailabilty.component";
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
@@ -18,6 +18,7 @@ export class TenderSectionComponent implements OnInit, AfterViewInit {
   private tenderapi: TenderApiService = inject(TenderApiService);
   private httpService: HttpService = inject(HttpService)
   tenders: any[] | undefined;
+  pagination: Pagination;
   cardType: 'grid' | 'list' = 'grid';
   filter: FilterData = { title: [], regions: [], category: [], contracts: [] };
   filterQuery = signal<FilterData>({ title: [], regions: [], category: [], contracts: [], description: '' });
@@ -52,6 +53,7 @@ export class TenderSectionComponent implements OnInit, AfterViewInit {
               }
             } = res;
             this.tenders = tenders;
+            this.pagination = pagination;
           }
         }
       )
@@ -108,6 +110,16 @@ export class TenderSectionComponent implements OnInit, AfterViewInit {
 
   viewType(type: 'grid' | 'list'): void {
     this.cardType = type;
+  }
+
+  changePage(page: number): void {
+    if (page >= 1 && page <= this.pagination?.totalPages) {
+      this.pagination.page = page;
+    }
+  }
+
+  get pages() {
+    return Array.from({ length: this.pagination?.totalPages }, (_, i) => i + 1);
   }
 
 }

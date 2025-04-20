@@ -167,8 +167,8 @@
             </div>
             }
 
-
         </div>
+        <ng-template *ngTemplateOutlet="pagination_"> </ng-template>
     </section>
 </ng-template>
 
@@ -195,7 +195,7 @@
                 (onCheckChange)="CheckChange($event,'contracts')">
             </jqxComboBox>
         </div>
-        <div style="display: flex;justify-content: space-evenly;flex-basis: 10%;">
+        <div style="display: flex;justify-content: space-evenly;flex-basis: 10%;" class="type-switch">
             <div (click)="viewType('grid')" class="cursor-pointer" [ngClass]="{ 'circle-border': cardType === 'grid' }">
                 <ng-container *ngTemplateOutlet="grid_view"></ng-container>
             </div>
@@ -274,4 +274,56 @@
             </g>
         </g>
     </svg>
+</ng-template>
+
+
+
+<ng-template #pagination_>
+    <div>
+        <div class="flex items-center justify-between border-t border-gray-200 px-4 py-3 sm:px-6">
+            <div class="flex flex-1 items-center justify-between flex-wrap">
+                <div class="lg:basis-[50%] md:basis-[50%] sm:basis-[98%]">
+                    <p class="text-sm text-[#000] font-regular">
+                        Showing
+                        <span class="font-regular text-[#129693]">{{ pagination?.pageSize }}</span>
+                        items per page
+                    </p>
+                </div>
+                <div class="flex items-center space-x-2 lg:basis-[50%] md:basis-[50%] sm:basis-[98%] lg:mt-3 mt-3">
+                    <button [disabled]="pagination?.page === 1" (click)="changePage(pagination?.page - 1)" class="relative inline-flex items-center rounded-md text-[#000] font-regular px-4 py-2 text-sm font-semibold 
+                       {{
+                pagination?.page === 1
+                  ? 'border border-[#e4e4e4] text-primary  font-regular cursor-not-allowed'
+                  : 'bg-primary text-whitenormal font-regular hover:text-blue-800'
+              }}">
+                        Prev
+                    </button>
+
+                    <div class="flex items-center space-x-1">
+                        <ng-container *ngFor="let page of pages">
+                            <button (click)="changePage(page)" class="relative inline-flex items-center px-4 py-2 text-sm font-semibold 
+                           {{
+                    pagination?.page === page
+                      ? 'border border-2-[#e4e4e4] font-regular text-[#000]'
+                      : 'text-gray-900 font-regular  border border-[#e4e4e4] hover:bg-gray-50'
+                  }} 
+                           rounded-md">
+                                {{ page }}
+                            </button>
+                        </ng-container>
+                    </div>
+
+                    <button [disabled]=" pagination?.page === pagination?.totalPages"
+                        (click)="changePage(pagination?.page)" class="relative inline-flex items-center px-4 py-2 text-sm rounded-md font-semibold 
+                       {{
+                pagination?.page === pagination?.totalPages
+                  ? 'border border-[#e4e4e4] text-primary  font-regular cursor-not-allowed'
+                  : 'bg-primary text-whitenormal font-regular hover:text-blue-800'
+              }}">
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </ng-template>

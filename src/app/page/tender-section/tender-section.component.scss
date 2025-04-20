@@ -375,7 +375,7 @@
         padding-left: 15px;
         padding-right: 15px;
         border: 1px solid #ccc;
-        z-index: 5000;
+        z-index: 10;
 
         .search-input {
             width: 100%;
@@ -400,7 +400,64 @@
     color: #dbf5ef;
 }
 
-@media (max-width: 1024px) {}
+@media (max-width: 1024px) {
+    .animated-img-container aside {
+        flex-basis: 99%;
+    }
+
+    .tender_opportunites .card-container .card {
+        flex-basis: 99% !important;
+    }
+
+    .filter_list {
+        div {
+            flex-basis: 45%;
+            margin-bottom: 10px;
+        }
+
+        .type-switch {
+            display: none !important;
+        }
+    }
+
+    .bid_stand_out picture figure {
+        flex-basis: 40%;
+    }
+
+    .unlock_opportunities {
+
+        figure,
+        article {
+            flex-basis: 80%;
+            margin: 0 auto 2rem;
+        }
 
 
-@media (max-width: 768px) {}
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .filter_list {
+        div {
+            flex-basis: 99%;
+            margin-top: 10px;
+        }
+    }
+
+    .bid_stand_out picture figure {
+        flex-basis: 99%;
+    }
+    .unlock_opportunities {
+
+        figure,
+        article {
+            flex-basis: 98%;
+            margin: 0 auto 2rem;
+        }
+
+
+    }
+}

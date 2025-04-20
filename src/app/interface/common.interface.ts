@@ -54,5 +54,12 @@ export interface FilterData {
     regions: string[];
     contracts: string[];
     category: string[];
-    description?: string;  
-  }
+    description?: string;
+}
+
+export interface Pagination {
+    pageSize: number;
+    page: number;
+    totalResult: number;
+    totalPages: number;
+}
