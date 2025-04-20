@@ -21,7 +21,7 @@ export class TenderSectionComponent implements OnInit, AfterViewInit {
   pagination: Pagination;
   cardType: 'grid' | 'list' = 'grid';
   filter: FilterData = { title: [], regions: [], category: [], contracts: [] };
-  filterQuery = signal<FilterData>({ title: [], regions: [], category: [], contracts: [], description: '' });
+  filterQuery = signal<FilterData>({ title: [], regions: [], category: [], contracts: [], description: '', page: 1 });
   initialcontainer = {
     header: "<span >Discover <span class='txt-dark-secondary'>Healthcare Tender Opportunities:</span> Your Gateway to Growth in the Healthcare Sector</span>",
     "bid_standout": "We know navigating the tender process and meeting regulatory requirements can be challenging. That's why <span class=\"txt-dark-secondary\">Care Sync Expert is here to help:</span>"
@@ -42,9 +42,9 @@ export class TenderSectionComponent implements OnInit, AfterViewInit {
 
   TriggerEffects() {
     effect(() => {
-      const { category, contracts, regions, title, description } = this.filterQuery();
+      const { category, contracts, regions, title, description, page } = this.filterQuery();
       this.tenders = undefined
-      this.tenderapi.intialFetch(this.httpService.apiBody(1, description, title, regions, contracts)).subscribe(
+      this.tenderapi.intialFetch(this.httpService.apiBody(page, description, title, regions, contracts)).subscribe(
         {
           next: res => {
             const {
@@ -115,6 +115,10 @@ export class TenderSectionComponent implements OnInit, AfterViewInit {
   changePage(page: number): void {
     if (page >= 1 && page <= this.pagination?.totalPages) {
       this.pagination.page = page;
+      this.filterQuery.update(prev => ({
+        ...prev,
+        page
+      }));
     }
   }
 

@@ -54,6 +54,7 @@ export interface FilterData {
     regions: string[];
     contracts: string[];
     category: string[];
+    page?: number;
     description?: string;
 }
 
