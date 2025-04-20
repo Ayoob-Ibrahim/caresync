@@ -19,15 +19,15 @@ export class EBookDetailedViewComponent
     {
       formName: 'Your name/Company’s Name',
       icon: 'bi bi-person-lines-fill',
-      value: '',
+      value: 'dsddsd',
     },
-    { formName: 'Email address', icon: 'bi bi-envelope', value: '' },
-    { formName: 'Contact number', icon: 'bi bi-phone-vibrate', value: '' },
-    { formName: 'Company’s address', icon: 'bi bi-geo-alt-fill', value: '' },
+    { formName: 'Email address', icon: 'bi bi-envelope', value: 'riyaskhan7973@gmail.com' },
+    { formName: 'Contact number', icon: 'bi bi-phone-vibrate', value: 'asasas' },
+    { formName: 'Company’s address', icon: 'bi bi-geo-alt-fill', value: 'asasas' },
     {
       formName: 'How many care recipients (clients) do you have?',
       icon: 'bi bi-people-fill',
-      value: '',
+      value: 'asasa',
     },
   ];
   constructor(private router: Router, private http: HttpClient) {
@@ -49,20 +49,36 @@ export class EBookDetailedViewComponent
     link.click();
   }
   senMail() {
-    if (this.formJson[1].value != '') {
-      let data = {
-        email: this.formJson[1].value,
-        name: this.formJson[0].value,
-        phone: this.formJson[2].value,
-        address: this.formJson[3].value,
-        clients: this.formJson[4].value,
-      };
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
-      this.http
-        .post('http://mailer-six-alpha.vercel.app/send-email', data)
-        .subscribe((res) => {
-          alert('Subscribed Successfully');
-        });
+    // Check if any required field is empty
+    for (let i = 0; i < this.formJson.length; i++) {
+      const field = this.formJson[i];
+      if (!field.value || field.value.trim() === '') {
+        alert(`Please fill out the "${field.formName}" field.`);
+        return;
+      }
     }
+
+    // Email format validation
+    const email = this.formJson[1].value;
+    if (!emailRegex.test(email)) {
+      alert('Please enter a valid email address.');
+      return;
+    }
+
+    const data = {
+      email: email,
+      name: this.formJson[0].value,
+      phone: this.formJson[2].value,
+      address: this.formJson[3].value,
+      clients: this.formJson[4].value,
+    };
+
+    this.http
+      .post('http://mailer-six-alpha.vercel.app/send-email', data)
+      .subscribe((res) => {
+        alert('Subscribed Successfully');
+      });
   }
 }
