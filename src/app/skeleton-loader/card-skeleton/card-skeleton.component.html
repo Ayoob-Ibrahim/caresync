@@ -1,6 +1,10 @@
 <div class="skelton-container">
-    <ng-container *ngFor="let item of [1,2,3,4,6,7]">
-        <div class="container">
+    <ng-container *ngFor="let item of  dataProperty === 'grid' ? [1,2,3,4,6,7] :[1]">
+        <div class="container" [ngStyle]="{
+            'flex-basis': dataProperty === 'grid' ? '31%' : '80%',
+            'border-left': dataProperty !== 'grid' ? '4px solid #04717a' : 'null',
+                       'margin': dataProperty === 'grid' ? '1rem 12px 1rem 0' : '1rem auto'
+          }">
             <div class="row">
 
                 <div class="column">
@@ -13,7 +17,7 @@
                 <div class="line line4 loading-animation"></div>
                 <div class="line line5 loading-animation"></div>
             </div>
-            <div class="column">
+            <div class="column" *ngIf="dataProperty === 'grid'">
                 <div class="line line3 loading-animation"></div>
                 <div class="line line4 loading-animation"></div>
                 <div class="line line5 loading-animation"></div>

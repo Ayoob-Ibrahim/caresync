@@ -159,7 +159,7 @@
             } @empty {
             <div class="text-center w-full py-4 text-gray-500">
                 @if(tenders==undefined){
-                <app-card-skeleton></app-card-skeleton>
+                <app-card-skeleton [dataProperty]="cardType"></app-card-skeleton>
                 }@else {
                 <app-data-unavailabilty [dataProperty]="'no-data'"></app-data-unavailabilty>
                 No Tender Available
@@ -280,7 +280,7 @@
 
 <ng-template #pagination_>
     <div>
-        <div class="flex items-center justify-between border-t border-gray-200 px-4 py-3 sm:px-6">
+        <div class="flex items-center justify-between border-t border-gray-500 px-4 py-3 sm:px-6">
             <div class="flex flex-1 items-center justify-between flex-wrap">
                 <div class="lg:basis-[50%] md:basis-[50%] sm:basis-[98%]">
                     <p class="text-sm text-[#000] font-regular">
