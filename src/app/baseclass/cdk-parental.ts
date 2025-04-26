@@ -9,6 +9,7 @@ export abstract class CDKBASE implements OnInit, ControlValueAccessor, OnDestroy
     selectedIndex = input<number>(0);
     checkboxes = input<boolean>(false);
     placeholder = input<string>('select ...');
+    NoData = input<string>('No data Found');
     dropDownHeight = input<string>('150px');
     height = input<string>('50px');
     searchControl = new FormControl('');
