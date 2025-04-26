@@ -11,7 +11,7 @@ import { SearchDropdownPipe } from '../../pipe/search-drop-down-pipe';
 @Component({
   selector: 'app-searchable-drop-down',
   imports: [CommonModule, CdkListbox, CdkOption,
-    ReactiveFormsModule, DropdownComponent,SearchDropdownPipe,
+    ReactiveFormsModule, DropdownComponent, SearchDropdownPipe,
     DropdownTriggerForDirective],
   templateUrl: './searchable-drop-down.component.html',
   styleUrl: './searchable-drop-down.component.scss',
@@ -28,6 +28,8 @@ export class SearchableDropDownComponent extends CDKBASE {
   @ViewChild('inputData') inputData!: ElementRef<HTMLInputElement>;
   @ViewChild(DropdownComponent) dropdown!: DropdownComponent;
   languageCtrl = new FormControl([]);
+  @ViewChild('toggleData_title', { read: DropdownTriggerForDirective })
+  toggleData_title!: DropdownTriggerForDirective;
   private inputSubscription!: Subscription;
 
 

@@ -1,35 +1,36 @@
 <div class="searchable-drop-down">
-    <button [ngStyle]="{ 'height': height() }" (click)="toggleOpen()" [dropdownTriggerFor]="dropdown">
-        <p class="ml-[15px] text-sm">{{placeholder()}}</p>
-        <i class="bi bi-caret-down-fill text-xl mr-[10px]" [ngClass]="
-        { 'rotate-up':isOpen$ | async, 
-            'rotate-down': !(isOpen$ | async) }"></i>
-    </button>
+  <button [ngStyle]="{ 'height': height() }" (click)="toggleOpen()" [dropdownTriggerFor]="dropdown"
+    #toggleData_title="toggleOpener">
+    <p class="ml-[15px] text-sm">{{placeholder()}}</p>
+    <i class="bi bi-caret-down-fill text-xl mr-[10px]" [ngClass]="
+        { 'rotate-up':toggleData_title.isDropdownOpen, 
+            'rotate-down': !toggleData_title.isDropdownOpen }"></i>
+  </button>
 
 
-    <app-dropdown #dropdown>
-        <section class="list-container">
-          <div class="input-container">
-            <input [formControl]="searchControl" placeholder="Search...">
-          </div>
-      
-          <ul cdkListbox cdkListboxMultiple cdkListboxUseActiveDescendant aria-labelledby="example-spatula-label"
-              class="example-listbox" (cdkListboxValueChange)="CheckChange($event)"
-              [ngStyle]="{ 'max-height': dropDownHeight() }">
-            
-            @for (item of localSource() | searchDropdown : searchControl.value; track item) {
-              <li [cdkOption]="item" class="example-option">
-                {{ item }}
-              </li>
-            } @empty {
-              <div class="example-option">
-              {{NoData()}}
-              </div>
-            }
-            
-          </ul>
-        </section>
-      </app-dropdown>
-      
+  <app-dropdown #dropdown>
+    <section class="list-container">
+      <div class="input-container">
+        <input [formControl]="searchControl" placeholder="Search...">
+      </div>
+
+      <ul cdkListbox cdkListboxMultiple cdkListboxUseActiveDescendant aria-labelledby="example-spatula-label"
+        class="example-listbox" (cdkListboxValueChange)="CheckChange($event)"
+        [ngStyle]="{ 'max-height': dropDownHeight() }">
+
+        @for (item of localSource() | searchDropdown : searchControl.value; track item) {
+        <li [cdkOption]="item" class="example-option">
+          {{ item }}
+        </li>
+        } @empty {
+        <div class="example-option">
+          {{NoData()}}
+        </div>
+        }
+
+      </ul>
+    </section>
+  </app-dropdown>
+
 
 </div>
