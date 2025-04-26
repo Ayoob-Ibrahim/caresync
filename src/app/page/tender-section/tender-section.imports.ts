@@ -23,5 +23,5 @@ export const TenderArray: any[] = [
     ReactiveFormsModule,
     OverlayModule,
     A11yModule,
-    SearchableDropDownComponent
+    SearchableDropDownComponent, ReactiveFormsModule
 ]

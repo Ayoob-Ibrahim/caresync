@@ -1,0 +1,80 @@
+.custom-filter-container {
+    position: relative;
+
+    .button {
+        width: 100%;
+        color: rgba(0, 0, 0, 0.450);
+        background-color: white;
+        border-radius: 6px;
+        border: 1px solid rgba(64, 64, 64, 0.15);
+        font-family: regular;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        border-radius: 25px;
+        padding: 6px 0;
+
+    }
+
+    button:hover,
+    button:focus {
+        background-color: #f3f4f5;
+    }
+
+    .rotate-up {
+        transform: rotate(180deg);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .rotate-down {
+        transform: rotate(0deg);
+        transition: transform 0.3s ease-in-out;
+    }
+ 
+}
+
+.example-listbox-container {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.492);
+    border-radius: 8px;
+    font-family: regular;
+    font-size: 12px;
+
+    .example-listbox {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        .no-results {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+        }
+    }
+
+    .example-option {
+        position: relative;
+        padding: 5px 5px 5px 25px;
+    }
+
+    .example-option[aria-selected='true']::before {
+        content: '';
+        display: block;
+        width: 20px;
+        height: 20px;
+        background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="m9.55 18-5.7-5.7 1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4Z"/></svg>');
+        /* stylelint-disable-line */
+        background-size: cover;
+        position: absolute;
+        left: 2px;
+    }
+
+    .example-listbox:focus .cdk-option-active {
+        background: rgba(0, 0, 0, 0.2);
+    }
+}
+
+

@@ -1,0 +1,31 @@
+<div>
+    <div class="custom-filter-container">
+        <div class="inner-context-filter">
+            <button [dropdownTriggerFor]="dropdown" class="button" #toggleData_title="toggleOpener">
+                <p class="ml-[15px]  text-sm">Select Type...
+                </p>
+                <i class="bi bi-caret-down-fill text-xl mr-[10px]" [ngClass]="
+                { 'rotate-up':toggleData_title.isDropdownOpen, 
+                    'rotate-down': !toggleData_title.isDropdownOpen }"></i>
+            </button>
+        </div>
+
+        <app-dropdown #dropdown>
+            <div class="example-listbox-container">
+                <ul cdkListbox cdkListboxMultiple cdkListboxUseActiveDescendant
+                    (cdkListboxValueChange)="CheckChange($event)" aria-labelledby="example-spatula-label"
+                    class="example-listbox">
+                    @for (feature of source(); track feature) {
+                    <li [cdkOption]="feature" class="example-option">{{feature}}</li>
+                    } @empty {
+                    <div class="example-option">
+                        No Type found.
+                    </div>
+                    }
+                </ul>
+            </div>
+        </app-dropdown>
+
+    </div>
+
+</div>

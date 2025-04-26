@@ -11,9 +11,10 @@ import { FocusMonitor } from '@angular/cdk/a11y';
 import { CdkConnectedOverlay, ConnectedPosition } from '@angular/cdk/overlay';
 import { ESCAPE } from '@angular/cdk/keycodes'
 import { DropdownTriggerForDirective } from '../../directive/dropdown-trigger.directive';
+import { MultiSelectComponent } from "../../custom-cdk/multi-select/multi-select.component";
 @Component({
   selector: 'app-tender-section',
-  imports: [...TenderArray],
+  imports: [...TenderArray, MultiSelectComponent],
   templateUrl: './tender-section.component.html',
   styleUrl: './tender-section.component.scss'
 })
@@ -127,110 +128,7 @@ export class TenderSectionComponent implements OnInit, AfterViewInit {
     return Array.from({ length: this.pagination?.totalPages }, (_, i) => i + 1);
   }
 
-
-  // testdataa
-  states: any[] = [
-    {
-      name: 'Vienna',
-      population: '1.897M',
-      flag:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Vienna.svg/800px-Flag_of_Vienna.svg.png',
-    },
-    {
-      name: 'Salzburg',
-      population: '152.367K',
-      flag:
-        'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Flag_of_Salzburg_%28state%29.svg/1280px-Flag_of_Salzburg_%28state%29.svg.png',
-    },
-    {
-      name: 'Kiev',
-      population: '2.884M',
-      flag:
-        'https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Kyiv_Kurovskyi.svg',
-    },
-    {
-      name: 'Novopskov',
-      population: '9,891K',
-      flag:
-        '//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flag_of_Novopskovskiy_Raion_in_Luhansk_Oblast.png/100px-Flag_of_Novopskovskiy_Raion_in_Luhansk_Oblast.png',
-    },
-
-  ];
-
-
-
-
-
-  private escPresses$: Observable<KeyboardEvent>;
-  private isPanelVisible$: Observable<boolean>;
-  private isPanelHidden$: Observable<boolean>;
-  showPanel$: Observable<boolean>;
-  private focusMonitor: FocusMonitor = inject(FocusMonitor);
-  public positions: ConnectedPosition[] = [{
-    originX: 'center',
-    originY: 'bottom',
-    overlayX: 'center',
-    overlayY: 'top',
-
-  }, {
-    originX: 'center',
-    originY: 'top',
-    overlayX: 'center',
-    overlayY: 'bottom',
-    panelClass: 'no-enogh-space-at-bottom',
-  },];
-  isCaseSensitive: boolean = false;
-  @ViewChild('inputBox', { read: ElementRef, static: true }) private inputEl: ElementRef;
-
-
-  @ViewChild(CdkConnectedOverlay, { static: true, read : CdkConnectedOverlay }) private connectedOverlay: CdkConnectedOverlay;
-
-  filteredStates$: Observable<any[]>;
-  stateCtrl = new FormControl();
-
-
-  testdata() {
-
-    this.escPresses$ = this.connectedOverlay?.overlayKeydown.pipe(
-      filter(({ keyCode }) => keyCode === ESCAPE)
-    )
-
-
-
-
-    this.isPanelHidden$ = merge(
-      // this.escPresses$, // demonstrtaion purpose using the cdk key codes
-      this.connectedOverlay?.detach,
-      this.connectedOverlay?.backdropClick).pipe(mapTo(false))
-
-    this.isPanelVisible$ = this.focusMonitor.monitor(this.inputEl).pipe(
-      filter((focused) => !!focused),
-      mapTo(true)
-    );
-
-    this.showPanel$ = merge(this.isPanelHidden$, this.isPanelVisible$);
-
-
-    this.filteredStates$ = this.stateCtrl.valueChanges.pipe(
-      startWith(''),
-      map((state) => (state ? this._filterStates(state) : this.states.slice()))
-    )
-  }
-
-
-  private _filterStates(value: any): any[] {
-    const filterValue = this.caseCheck(value);
-
-    return this.states.filter(
-      (state) => this.caseCheck(state.name).indexOf(filterValue) === 0
-    );
-  }
-
-  private caseCheck(value: string) {
-    return this.isCaseSensitive ? value : value.toLowerCase();
-  }
-
-
+ 
 
 }
 

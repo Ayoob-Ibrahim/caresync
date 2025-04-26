@@ -1,0 +1,136 @@
+@mixin rotate($angle: 180deg) {
+    transform: rotate($angle);
+    transition: transform 0.3s ease-in-out;
+}
+
+@mixin scrollbar {
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #dbf5ef;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #04717a;
+        border-radius: 10px;
+
+        &:hover {
+            background: #555;
+        }
+    }
+}
+
+@mixin button-style {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.450);
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid rgba(64, 64, 64, 0.15);
+    font-family: regular;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+        background-color: #f3f4f5;
+    }
+}
+
+
+
+.searchable-drop-down {
+    width: 100%;
+    position: relative;
+
+    button {
+        @include button-style;
+
+        .rotate-up {
+            @include rotate(180deg);
+        }
+
+        .rotate-down {
+            @include rotate(0deg);
+        }
+    }
+
+
+}
+
+.list-container ul {
+    text-align: left;
+    font-family: regular;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.58);
+    overflow: auto;
+
+
+    .example-listbox {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        min-height: max-content;
+
+        .no-results {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40px;
+        }
+    }
+
+    .example-option {
+        position: relative;
+        padding: 5px 5px 5px 25px;
+
+        &[aria-selected='true']::before {
+            content: '';
+            display: block;
+            width: 20px;
+            height: 20px;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="m9.55 18-5.7-5.7 1.425-1.425L9.55 15.15l9.175-9.175L20.15 7.4Z"/></svg>');
+            background-size: cover;
+            position: absolute;
+            left: 2px;
+
+            &:hover {
+                background-color: #04717a;
+            }
+        }
+    }
+
+    .example-listbox:focus .cdk-option-active {
+        background-color: #dbf5ef !important;
+        color: #129693;
+    }
+}
+
+@include scrollbar;
+
+
+.list-container {
+    width: 250px;
+    border: 1px solid #dbf5ef;
+    border-radius: 5px;
+    background-color: white;
+    z-index: 50;
+    .input-container {
+        width: 100%;
+        
+        input {
+            width: 100%;
+            border: none;
+            outline: none;
+            font-family: regular;
+            font-size: 13px;
+            padding: 10px 20px 5px 15px;
+            border-bottom: 1px solid #dbf5ef;
+        }
+    }
+}
+
+ 

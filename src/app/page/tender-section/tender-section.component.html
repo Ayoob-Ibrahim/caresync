@@ -1,11 +1,11 @@
 <main class="mt-[3rem]">
     <!-- <ng-container *ngTemplateOutlet="automatic_carousel"></ng-container> -->
-    <!-- <ng-container *ngTemplateOutlet="tender_opportunites"></ng-container> -->
+    <ng-container *ngTemplateOutlet="tender_opportunites"></ng-container>
     <!-- <ng-container *ngTemplateOutlet="bid_stand_out"></ng-container> -->
     <!-- <ng-container *ngTemplateOutlet="unlock_opportunities"></ng-container> -->
 
     <!-- <ng-container *ngTemplateOutlet="contract_filter"></ng-container> -->
-    <ng-container [ngTemplateOutlet]="summa"></ng-container>
+
 </main>
 
 
@@ -180,12 +180,7 @@
         <ng-container *ngTemplateOutlet="search_box"></ng-container>
         <ng-container *ngTemplateOutlet="title_filter"></ng-container>
         <ng-container *ngTemplateOutlet="region_filter"></ng-container>
-        <div>
-            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.contracts" [selectedIndex]="0"
-                [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
-                (onCheckChange)="CheckChange($event,'contracts')">
-            </jqxComboBox>
-        </div>
+        <ng-container *ngTemplateOutlet="contract_filter"></ng-container>
         <div style="display: flex;justify-content: space-evenly;flex-basis: 10%;" class="type-switch">
             <div (click)="viewType('grid')" class="cursor-pointer" [ngClass]="{ 'circle-border': cardType === 'grid' }">
                 <ng-container *ngTemplateOutlet="grid_view"></ng-container>
@@ -356,48 +351,24 @@
 </ng-template>
 
 <ng-template #contract_filter>
-    <!-- <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.contracts" [selectedIndex]="0" [checkboxes]="true"
-        [theme]="'office'" [dropDownHeight]="'170px'" (onCheckChange)="CheckChange($event,'contracts')">
-    </jqxComboBox> -->
 
-
-    <!-- <ng-container *ngTemplateOutlet="overlayTemplate; context: { origin: originOverlay }"></ng-container> -->
-
+    <div>
+        <app-searchable-drop-down [source]="filter.contracts" [selectedIndex]="0" [checkboxes]="true"
+            [placeholder]="'Select Contracts'" [dropDownHeight]="'170px'" [height]="'36px'"
+            (outputData)="CheckChange($event,'contracts')"
+            [initialData]="filterQuery().regions"></app-searchable-drop-down>
+        <!-- <app-multi-select [source]="filter.contracts"></app-multi-select> -->
+    </div>
 
 </ng-template>
 
 
 <ng-template #region_filter>
-    <!-- <div>
-        <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.regions" [selectedIndex]="0"
-            [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
-            (onCheckChange)="CheckChange($event,'regions')">
-        </jqxComboBox>
-    </div> -->
-    <app-searchable-drop-down></app-searchable-drop-down>
-</ng-template>
 
-
-<ng-template #summa>
-    <div class="search-box-container">
-        <div class="input-container" cdkOverlayOrigin #originOverlay="cdkOverlayOrigin">
-            <input type="text" class="search-input" placeholder="Search..." #inputBox [formControl]="stateCtrl" />
-        </div>
-        <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="originOverlay"
-            [cdkConnectedOverlayOpen]="showPanel$|async" cdkConnectedOverlayHasBackdrop
-            cdkConnectedOverlayBackdropClass="cdk-overlay-transparent-backdrop" [cdkConnectedOverlayPositions]="positions">
-            <div class="example-listbox-container">
-                <ul cdkListbox cdkListboxMultiple cdkListboxUseActiveDescendant aria-labelledby="example-spatula-label"
-                    class="example-listbox">
-                    @for (feature of filteredStates$ | async; track feature) {
-                    <li [cdkOption]="feature.name" class="example-option">{{feature.name}}</li>
-                    } @empty {
-                    <div class="no-results">
-                        No states found.
-                    </div>
-                    }
-                </ul>
-            </div>
-        </ng-template>
+    <div>
+        <app-searchable-drop-down [source]="filter.regions" [selectedIndex]="0" [checkboxes]="true"
+            [placeholder]="'Select Region'" [dropDownHeight]="'170px'" [height]="'36px'"
+            (outputData)="CheckChange($event,'regions')"
+            [initialData]="filterQuery().regions"></app-searchable-drop-down>
     </div>
 </ng-template>
