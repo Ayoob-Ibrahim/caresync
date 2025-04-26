@@ -1,3 +1,5 @@
+import { EventEmitter, TemplateRef } from "@angular/core";
+
 export interface serviceCardData {
     url: string;
     title: string;
@@ -64,3 +66,9 @@ export interface Pagination {
     totalResult: number;
     totalPages: number;
 }
+
+export interface DropdownPanel {
+    templateRef: TemplateRef<any>;
+    readonly closed: EventEmitter<void>;
+  }
+  

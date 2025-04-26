@@ -1,8 +1,11 @@
 <main class="mt-[3rem]">
-    <ng-container *ngTemplateOutlet="automatic_carousel"></ng-container>
-    <ng-container *ngTemplateOutlet="tender_opportunites"></ng-container>
-    <ng-container *ngTemplateOutlet="bid_stand_out"></ng-container>
-    <ng-container *ngTemplateOutlet="unlock_opportunities"></ng-container>
+    <!-- <ng-container *ngTemplateOutlet="automatic_carousel"></ng-container> -->
+    <!-- <ng-container *ngTemplateOutlet="tender_opportunites"></ng-container> -->
+    <!-- <ng-container *ngTemplateOutlet="bid_stand_out"></ng-container> -->
+    <!-- <ng-container *ngTemplateOutlet="unlock_opportunities"></ng-container> -->
+
+    <!-- <ng-container *ngTemplateOutlet="contract_filter"></ng-container> -->
+    <ng-container [ngTemplateOutlet]="summa"></ng-container>
 </main>
 
 
@@ -174,21 +177,9 @@
 
 <ng-template #filter_list>
     <div class="filter_list">
-        <div>
-            <ng-container *ngTemplateOutlet="search_box"></ng-container>
-        </div>
-        <div>
-            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.title" [selectedIndex]="0"
-                [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
-                (onCheckChange)="CheckChange($event,'title')">
-            </jqxComboBox>
-        </div>
-        <div>
-            <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.regions" [selectedIndex]="0"
-                [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
-                (onCheckChange)="CheckChange($event,'regions')">
-            </jqxComboBox>
-        </div>
+        <ng-container *ngTemplateOutlet="search_box"></ng-container>
+        <ng-container *ngTemplateOutlet="title_filter"></ng-container>
+        <ng-container *ngTemplateOutlet="region_filter"></ng-container>
         <div>
             <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.contracts" [selectedIndex]="0"
                 [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
@@ -212,10 +203,12 @@
 
 
 <ng-template #search_box>
-    <div class="search-input-container">
-        <div class="input-container">
-            <input type="text" class="search-input" [formControl]="searchControl" placeholder="Search..." />
-            <i class="bi bi-search"></i>
+    <div>
+        <div class="search-input-container">
+            <div class="input-container text-sm">
+                <input type="text" class="search-input" [formControl]="searchControl" placeholder="Search..." />
+                <i class="bi bi-search"></i>
+            </div>
         </div>
     </div>
 </ng-template>
@@ -325,5 +318,86 @@
                 </div>
             </div>
         </div>
+    </div>
+</ng-template>
+
+<ng-template #title_filter>
+    <div>
+        <div class="custom-filter-container">
+            <div class="inner-context-filter">
+                <button [dropdownTriggerFor]="dropdown" class="button" #toggleData_title="toggleOpener">
+                    <p class="ml-[15px]  text-sm">Select Type...
+                    </p>
+                    <i class="bi bi-caret-down-fill text-xl mr-[10px]" [ngClass]="
+                    { 'rotate-up':toggleData_title.isDropdownOpen, 
+                        'rotate-down': !toggleData_title.isDropdownOpen }"></i>
+                </button>
+            </div>
+
+            <app-dropdown #dropdown>
+                <div class="example-listbox-container">
+                    <ul cdkListbox cdkListboxMultiple cdkListboxUseActiveDescendant
+                        (cdkListboxValueChange)="CheckChange($event,'title')" aria-labelledby="example-spatula-label"
+                        class="example-listbox">
+                        @for (feature of filter.title; track feature) {
+                        <li [cdkOption]="feature" class="example-option">{{feature}}</li>
+                        } @empty {
+                        <div class="example-option">
+                            No Type found.
+                        </div>
+                        }
+                    </ul>
+                </div>
+            </app-dropdown>
+
+        </div>
+
+    </div>
+</ng-template>
+
+<ng-template #contract_filter>
+    <!-- <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.contracts" [selectedIndex]="0" [checkboxes]="true"
+        [theme]="'office'" [dropDownHeight]="'170px'" (onCheckChange)="CheckChange($event,'contracts')">
+    </jqxComboBox> -->
+
+
+    <!-- <ng-container *ngTemplateOutlet="overlayTemplate; context: { origin: originOverlay }"></ng-container> -->
+
+
+</ng-template>
+
+
+<ng-template #region_filter>
+    <!-- <div>
+        <jqxComboBox [width]="'100%'" [height]="'30px'" [source]="filter.regions" [selectedIndex]="0"
+            [checkboxes]="true" [theme]="'office'" [dropDownHeight]="'170px'"
+            (onCheckChange)="CheckChange($event,'regions')">
+        </jqxComboBox>
+    </div> -->
+    <app-searchable-drop-down></app-searchable-drop-down>
+</ng-template>
+
+
+<ng-template #summa>
+    <div class="search-box-container">
+        <div class="input-container" cdkOverlayOrigin #originOverlay="cdkOverlayOrigin">
+            <input type="text" class="search-input" placeholder="Search..." #inputBox [formControl]="stateCtrl" />
+        </div>
+        <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="originOverlay"
+            [cdkConnectedOverlayOpen]="showPanel$|async" cdkConnectedOverlayHasBackdrop
+            cdkConnectedOverlayBackdropClass="cdk-overlay-transparent-backdrop" [cdkConnectedOverlayPositions]="positions">
+            <div class="example-listbox-container">
+                <ul cdkListbox cdkListboxMultiple cdkListboxUseActiveDescendant aria-labelledby="example-spatula-label"
+                    class="example-listbox">
+                    @for (feature of filteredStates$ | async; track feature) {
+                    <li [cdkOption]="feature.name" class="example-option">{{feature.name}}</li>
+                    } @empty {
+                    <div class="no-results">
+                        No states found.
+                    </div>
+                    }
+                </ul>
+            </div>
+        </ng-template>
     </div>
 </ng-template>
